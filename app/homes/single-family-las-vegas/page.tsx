@@ -7,17 +7,11 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'Single Family Homes Las Vegas | New Construction | Century Communities',
-  description: 'Find new construction single-family homes in Las Vegas. Century Communities offers spacious single-family homes with modern designs, premium finishes, and expert buyer representation.',
-  keywords: [
-    'single family homes Las Vegas',
-    'new construction single family',
-    'detached homes Las Vegas',
-    'Century Communities single family',
-    'new homes Las Vegas',
-    'Las Vegas single family homes',
-    'new construction homes',
-  ],
+  title: 'Single Family Homes Las Vegas | New Construction',
+  description: 'Find new construction single-family homes in Las Vegas. Spacious homes with modern designs and premium finishes. Expert buyer representation. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/homes/single-family-las-vegas',
+  },
 }
 
 export default function SingleFamilyHomesPage() {

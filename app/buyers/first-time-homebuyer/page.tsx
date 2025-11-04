@@ -7,18 +7,11 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'First-Time Homebuyer Guide Las Vegas | Century Communities | Dr. Jan Duffy',
-  description: 'Complete guide for first-time homebuyers in Las Vegas. Learn about down payment assistance, financing options, and the homebuying process with expert guidance from Dr. Jan Duffy.',
-  keywords: [
-    'first-time homebuyer Las Vegas',
-    'first-time buyer guide',
-    'down payment assistance Nevada',
-    'Nevada first-time buyer',
-    'Las Vegas homebuying',
-    'first-time buyer programs',
-    'homebuyer assistance',
-    'Century Communities first-time buyer',
-  ],
+  title: 'First-Time Homebuyer Guide Las Vegas | Century Communities',
+  description: 'Complete guide for first-time homebuyers in Las Vegas. Learn about down payment assistance, financing, and the homebuying process. Expert guidance from Dr. Jan Duffy.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/buyers/first-time-homebuyer',
+  },
 }
 
 export default function FirstTimeHomebuyerPage() {

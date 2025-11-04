@@ -8,17 +8,11 @@ import Link from 'next/link'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Homes Under $400k Las Vegas | Affordable New Construction | Century Communities',
-  description: 'Find new construction homes under $400k in Las Vegas. Discover affordable Century Communities homes perfect for first-time buyers and budget-conscious homebuyers.',
-  keywords: [
-    'homes under 400k Las Vegas',
-    'affordable homes Las Vegas',
-    'homes under 400000',
-    'budget homes Las Vegas',
-    'first-time buyer homes',
-    'affordable new construction',
-    'Century Communities affordable',
-  ],
+  title: 'Homes Under $400k Las Vegas | Affordable New Construction',
+  description: 'Find new construction homes under $400k in Las Vegas. Affordable Century Communities homes perfect for first-time buyers. Expert guidance. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/homes/under-400k',
+  },
 }
 
 export default function Under400kPage() {

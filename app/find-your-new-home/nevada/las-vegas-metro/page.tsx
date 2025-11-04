@@ -11,6 +11,9 @@ import PageSchemas from '../../../components/page-schemas'
 export const metadata: Metadata = {
   title: 'Find Your New Home in Las Vegas Metro | Century Communities',
   description: 'Discover new homes and communities in Las Vegas Metro, Nevada. Browse available homes, floor plans, and communities from Century Communities.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/find-your-new-home/nevada/las-vegas-metro',
+  },
 }
 
 export default function LasVegasMetroPage() {

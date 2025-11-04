@@ -8,19 +8,11 @@ import PageSchemas from '../../components/page-schemas'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'New Home Inventory is 2x the Normal | Why It\'s Time to Buy New | Century Communities',
-  description: 'With low resale inventory and 2x the normal new home inventory, builders are buying down mortgage rates, lowering prices, and offering promotions and incentives. It\'s time to buy new!',
-  keywords: [
-    'new home inventory',
-    'Las Vegas new homes',
-    'builder incentives',
-    'mortgage rate buy down',
-    'new construction Las Vegas',
-    'Century Communities',
-    'buy new home',
-    'builder promotions',
-    'low resale inventory',
-  ],
+  title: 'New Home Inventory 2x Normal | Why Buy Now',
+  description: 'With 2x the normal new home inventory, builders are buying down mortgage rates and offering incentives. Expert guidance from Dr. Jan Duffy. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/blog/new-home-inventory-2x',
+  },
 }
 
 export default function NewHomeInventoryPage() {

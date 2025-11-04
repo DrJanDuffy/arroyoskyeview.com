@@ -7,17 +7,11 @@ import DrJanContactCard from '../components/dr-jan-contact-card'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Frequently Asked Questions About New Homes | Century Communities FAQ',
-  description: 'Get answers to common questions about buying new construction homes in Las Vegas. Learn about the homebuying process, builder incentives, warranties, and more.',
-  keywords: [
-    'new home FAQ',
-    'Century Communities FAQ',
-    'new construction questions',
-    'homebuying FAQ',
-    'builder warranty',
-    'new home buying process',
-    'Las Vegas homebuying questions',
-  ],
+  title: 'FAQ | Century Communities New Homes Las Vegas',
+  description: 'Get answers to common questions about buying new construction homes in Las Vegas. Learn about the homebuying process, builder incentives, and warranties.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/faq',
+  },
 }
 
 const faqs = [

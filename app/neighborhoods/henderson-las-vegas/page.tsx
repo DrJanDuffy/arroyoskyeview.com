@@ -7,19 +7,11 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'New Homes in Henderson Las Vegas | Century Communities | Dr. Jan Duffy',
-  description: 'Discover new construction homes in Henderson, Nevada. Find Century Communities new homes with expert buyer representation from Dr. Jan Duffy. Construction monitoring and insider knowledge included.',
-  keywords: [
-    'new homes Henderson',
-    'Henderson Las Vegas',
-    'new construction Henderson',
-    'Century Communities Henderson',
-    'homes for sale Henderson',
-    'Las Vegas new homes',
-    'Henderson real estate',
-    'new homes Nevada',
-    'The Townes at Union Village',
-  ],
+  title: 'New Homes in Henderson Las Vegas | Century Communities',
+  description: 'Discover new construction homes in Henderson, Nevada. Expert buyer representation with Dr. Jan Duffy. Construction monitoring included. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/neighborhoods/henderson-las-vegas',
+  },
 }
 
 export default function HendersonPage() {

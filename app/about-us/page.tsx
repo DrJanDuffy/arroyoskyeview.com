@@ -16,8 +16,11 @@ import InformationalPageContent from '../components/informational-page-content'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'About Us | Century Communities',
+  title: 'About Century Communities | Las Vegas New Home Builder',
   description: 'Learn about Century Communities - one company, two homebuilders built on trust. Building dream homes in 16+ states and 45+ markets across the country.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/about-us',
+  },
 }
 
 export default function AboutUsPage() {
@@ -26,7 +29,7 @@ export default function AboutUsPage() {
       <PageSchemas
         pageType="about"
         url="/about-us"
-        title="About Us | Century Communities"
+        title="About Century Communities | Las Vegas New Home Builder"
         description="Learn about Century Communities - one company, two homebuilders built on trust. Building dream homes in 16+ states and 45+ markets across the country."
         breadcrumbs={[
           { name: 'About Century', url: '/about-us' },

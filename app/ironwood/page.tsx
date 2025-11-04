@@ -13,15 +13,11 @@ import CommunityContentExpansion from '../components/community-content-expansion
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Ironwood by Century Communities | New Homes in Las Vegas, NV',
-  description: 'Ironwood is a residential community by Century Communities in Las Vegas, Nevada. Discover new homes and floor plans.',
-  keywords: [
-    'Ironwood by Century Communities',
-    'Ironwood Las Vegas',
-    'Century Communities Ironwood',
-    'new homes Las Vegas',
-    'Las Vegas new construction',
-  ],
+  title: 'Ironwood | New Homes by Century Communities Las Vegas',
+  description: 'Ironwood offers new construction homes in Las Vegas by Century Communities. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/ironwood',
+  },
 }
 
 export default function IronwoodPage() {

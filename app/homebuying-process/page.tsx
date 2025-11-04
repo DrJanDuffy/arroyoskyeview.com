@@ -12,8 +12,11 @@ import GetInTouch from '../components/get-in-touch'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Homebuying Process | Century Communities',
-  description: 'Explore the homebuying process with Century Communities. Learn about prequalification, house hunting, contracting, and closing on your new home.',
+  title: 'Homebuying Process | Century Communities Las Vegas',
+  description: 'Learn the new home buying process with Century Communities. From prequalification to closing, Dr. Jan Duffy guides you every step. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/homebuying-process',
+  },
 }
 
 export default function HomebuyingProcessPage() {

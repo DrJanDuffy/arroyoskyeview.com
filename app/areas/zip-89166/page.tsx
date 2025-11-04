@@ -7,16 +7,11 @@ import InformationalPageContent from '../../components/informational-page-conten
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'New Homes in Zip Code 89166 | Skye Canyon Las Vegas | Century Communities',
-  description: 'Discover new construction homes in zip code 89166, Skye Canyon, Las Vegas. Explore Century Communities developments including Arroyo at Skyeview, Sierra at Skyeview, and Terra at Skyeview.',
-  keywords: [
-    'zip code 89166',
-    'Skye Canyon new homes',
-    '89166 real estate',
-    'new construction 89166',
-    'Century Communities 89166',
-    'Las Vegas zip code 89166',
-  ],
+  title: 'New Homes in Zip Code 89166 | Skye Canyon Las Vegas',
+  description: 'Discover new construction homes in zip code 89166, Skye Canyon, Las Vegas. Explore Century Communities developments including Arroyo at Skyeview, Sierra, and Terra.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/areas/zip-89166',
+  },
 }
 
 export default function Zip89166Page() {

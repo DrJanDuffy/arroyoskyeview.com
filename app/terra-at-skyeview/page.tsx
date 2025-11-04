@@ -13,16 +13,11 @@ import CommunityContentExpansion from '../components/community-content-expansion
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Terra at Skyeview by Century Communities | New Homes in Las Vegas, NV',
-  description: 'Terra at Skyeview is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new homes and floor plans from Century Communities.',
-  keywords: [
-    'Terra at Skyeview',
-    'Terra at Skyview',
-    'Century Communities Terra',
-    'Skyeview Las Vegas',
-    'new homes Skye Canyon',
-    'Las Vegas new construction',
-  ],
+  title: 'Terra at Skyeview | New Homes in Skye Canyon Las Vegas',
+  description: 'Terra at Skyeview offers new construction townhomes in Skye Canyon, Las Vegas. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/terra-at-skyeview',
+  },
 }
 
 export default function TerraAtSkyeviewPage() {

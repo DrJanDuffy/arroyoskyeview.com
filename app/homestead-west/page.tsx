@@ -13,15 +13,11 @@ import CommunityContentExpansion from '../components/community-content-expansion
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Homestead West by Century Communities | New Homes in Las Vegas, NV',
-  description: 'Homestead West is a residential community by Century Communities in Las Vegas, Nevada. Discover new homes and floor plans.',
-  keywords: [
-    'Homestead West',
-    'Homestead West by Century Communities',
-    'Century Communities Homestead',
-    'new homes Las Vegas',
-    'Las Vegas new construction',
-  ],
+  title: 'Homestead West | New Homes by Century Communities Las Vegas',
+  description: 'Homestead West offers new construction homes in Las Vegas by Century Communities. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/homestead-west',
+  },
 }
 
 export default function HomesteadWestPage() {

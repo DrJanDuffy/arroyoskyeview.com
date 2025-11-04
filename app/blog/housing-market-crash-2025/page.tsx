@@ -7,16 +7,11 @@ import Image from 'next/image'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Is the Housing Market Going To Crash? Here\'s What Experts Say | Century Communities',
-  description: 'Expert forecasts show home prices are expected to rise nationally, not fall, over the next 5 years. Learn what the data says about the housing market outlook.',
-  keywords: [
-    'housing market crash',
-    'home prices forecast',
-    'real estate market 2025',
-    'housing market predictions',
-    'home values',
-    'Fannie Mae forecast',
-  ],
+  title: 'Housing Market Crash 2025? Expert Forecasts',
+  description: 'Expert forecasts show home prices expected to rise nationally, not fall, over the next 5 years. Learn what the data says about the housing market outlook.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/blog/housing-market-crash-2025',
+  },
 }
 
 export default function HousingMarketCrashPage() {

@@ -13,16 +13,11 @@ import CommunityContentExpansion from '../components/community-content-expansion
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Sierra at Skyeview by Century Communities | New Homes in Las Vegas, NV',
-  description: 'Sierra at Skyeview is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new homes and floor plans from Century Communities.',
-  keywords: [
-    'Sierra at Skyeview',
-    'Sierra at Skyview',
-    'Century Communities Sierra',
-    'Skyeview Las Vegas',
-    'new homes Skye Canyon',
-    'Las Vegas new construction',
-  ],
+  title: 'Sierra at Skyeview | New Homes in Skye Canyon Las Vegas',
+  description: 'Sierra at Skyeview offers new construction townhomes in Skye Canyon, Las Vegas. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/sierra-at-skyeview',
+  },
 }
 
 export default function SierraAtSkyeviewPage() {

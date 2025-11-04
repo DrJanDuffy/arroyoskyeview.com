@@ -6,17 +6,11 @@ import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'How To Make Sure Your Sale Crosses the Finish Line | Century Communities',
+  title: 'How To Make Sure Your Sale Crosses Finish Line',
   description: 'Learn how pre-listing inspections can help prevent buyers from backing out. Get expert advice on avoiding common deal breakers and ensuring a smooth home sale.',
-  keywords: [
-    'pre-listing inspection',
-    'home sale tips',
-    'avoiding deal breakers',
-    'home inspection',
-    'selling your home',
-    'real estate tips',
-    'home sale process',
-  ],
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/blog/sale-crosses-finish-line',
+  },
 }
 
 export default function SaleCrossesFinishLinePage() {

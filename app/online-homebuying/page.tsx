@@ -10,8 +10,11 @@ import AvailableHomesOnline from '../components/available-homes-online'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Online Homebuying | Century Communities',
-  description: 'Purchase your new home completely online with Century Communities. Industry-first "Buy Now" option allows you to buy your dream home online from start to finish.',
+  title: 'Online Homebuying | Buy New Home Online Las Vegas',
+  description: 'Buy your Century Communities home completely online. Industry-first Buy Now option. Expert guidance from Dr. Jan Duffy. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/online-homebuying',
+  },
 }
 
 export default function OnlineHomebuyingPage() {

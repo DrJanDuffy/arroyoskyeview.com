@@ -11,8 +11,11 @@ import ContactMethods from '../components/contact-methods'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Century Communities',
-  description: 'Get in touch with Century Communities. Contact our new home specialists for questions about homes, communities, financing, or to schedule a tour.',
+  title: 'Contact Us | Century Communities Las Vegas',
+  description: 'Contact Century Communities in Las Vegas. Get in touch with Dr. Jan Duffy, preferred buyer agent, for expert new home guidance. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/contact-us',
+  },
 }
 
 export default function ContactUsPage() {

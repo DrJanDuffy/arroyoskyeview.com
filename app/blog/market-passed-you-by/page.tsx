@@ -6,17 +6,11 @@ import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Thought the Market Passed You By? Think Again. | Century Communities',
+  title: 'Market Passed You By? Think Again | 2025 Update',
   description: 'With more homes to choose from, prices leveling off, and mortgage rates easing, today\'s market is offering something you haven\'t had in a while: options.',
-  keywords: [
-    'housing market 2025',
-    'best time to buy home',
-    'home affordability',
-    'mortgage rates',
-    'housing inventory',
-    'buyer market',
-    'real estate market conditions',
-  ],
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/blog/market-passed-you-by',
+  },
 }
 
 export default function MarketPassedYouByPage() {

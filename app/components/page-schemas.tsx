@@ -438,6 +438,18 @@ export default function PageSchemas({
     }
   }
 
+  // WebSite Schema (for homepage only - required for site name)
+  let websiteSchema: any = null
+  if (pageType === 'homepage') {
+    websiteSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'Las Vegas Century Communities Realtor',
+      alternateName: ['Arroyo at Skyeview', 'Dr. Jan Duffy Real Estate', 'arroyoskyeview.com'],
+      url: baseUrl,
+    }
+  }
+
   // Collect all schemas
   const allSchemas = [
     webPageSchema,
@@ -451,6 +463,7 @@ export default function PageSchemas({
     ...(articleSchema ? [articleSchema] : []),
     ...(faqSchema ? [faqSchema] : []),
     ...(howToSchema ? [howToSchema] : []),
+    ...(websiteSchema ? [websiteSchema] : []),
   ]
 
   return (

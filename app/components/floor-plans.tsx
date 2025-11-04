@@ -123,7 +123,7 @@ export default function FloorPlans() {
               {plan.image ? (
                 <Image
                   src={plan.image}
-                  alt={`${plan.name} floor plan model home`}
+                  alt={`${plan.name} floor plan model home at Arroyo at Skyeview in Skye Canyon, Las Vegas. ${plan.sqft} square feet, ${plan.bedrooms} bedrooms, ${plan.bathrooms} bathrooms.`}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

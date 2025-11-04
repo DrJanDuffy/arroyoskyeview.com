@@ -8,20 +8,11 @@ import Link from 'next/link'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Townhomes for Sale Las Vegas | Century Communities | Dr. Jan Duffy',
-  description: 'Find new construction townhomes in Las Vegas. Century Communities offers modern townhomes with 2-4 bedrooms, premium finishes, and low-maintenance living. Expert buyer representation included.',
-  keywords: [
-    'townhomes Las Vegas',
-    'townhouses Las Vegas',
-    'new construction townhomes',
-    'Century Communities townhomes',
-    'townhomes for sale Las Vegas',
-    'Las Vegas townhomes',
-    'new townhomes Nevada',
-    'Arroyo at Skyeview',
-    'Sierra at Skyeview',
-    'Terra at Skyeview',
-  ],
+  title: 'Townhomes for Sale Las Vegas | Century Communities',
+  description: 'Find new construction townhomes in Las Vegas. Modern townhomes with 2-4 bedrooms, premium finishes. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/homes/townhomes-las-vegas',
+  },
 }
 
 export default function TownhomesPage() {

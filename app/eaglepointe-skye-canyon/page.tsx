@@ -13,16 +13,11 @@ import CommunityContentExpansion from '../components/community-content-expansion
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Eaglepointe at Skye Canyon by Century Communities | New Homes in Las Vegas, NV',
-  description: 'Eaglepointe at Skye Canyon is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new homes and floor plans from Century Communities.',
-  keywords: [
-    'Eaglepointe at Skye Canyon',
-    'Eaglepointe Skye Canyon',
-    'Century Communities Eaglepointe',
-    'Skye Canyon Las Vegas',
-    'new homes Skye Canyon',
-    'Las Vegas new construction',
-  ],
+  title: 'Eaglepointe at Skye Canyon | New Homes Las Vegas',
+  description: 'Eaglepointe at Skye Canyon offers new construction homes in Skye Canyon, Las Vegas. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/eaglepointe-skye-canyon',
+  },
 }
 
 export default function EaglepointeSkyeCanyonPage() {

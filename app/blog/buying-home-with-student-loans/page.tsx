@@ -7,15 +7,11 @@ import Script from 'next/script'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'You Can Buy a Home When You Have Student Loans | Century Communities',
+  title: 'Buying Home with Student Loans | Expert Guide',
   description: 'Learn how student loans don\'t have to prevent you from buying your dream home. Get expert advice on managing student debt while purchasing a home.',
-  keywords: [
-    'buying home with student loans',
-    'student loans home purchase',
-    'mortgage with student debt',
-    'first time homebuyer student loans',
-    'home buying student debt',
-  ],
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/blog/buying-home-with-student-loans',
+  },
 }
 
 export default function BuyingHomeWithStudentLoansPage() {

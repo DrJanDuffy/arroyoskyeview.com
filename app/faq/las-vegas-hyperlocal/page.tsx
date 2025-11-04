@@ -8,18 +8,11 @@ import Script from 'next/script'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Las Vegas New Homes Questions & Answers | Hyperlocal FAQ | Century Communities',
-  description: 'Comprehensive hyperlocal questions and answers about buying new homes in Las Vegas, Nevada. Get expert answers about neighborhoods, schools, lifestyle, and Century Communities homes.',
-  keywords: [
-    'Las Vegas new homes questions',
-    'Las Vegas homebuying FAQ',
-    'Skye Canyon questions',
-    'Summerlin new homes',
-    'Henderson real estate',
-    'Las Vegas neighborhoods',
-    'Las Vegas schools',
-    'Century Communities Las Vegas',
-  ],
+  title: 'Las Vegas Hyperlocal Q&A | New Homes FAQ',
+  description: 'Comprehensive hyperlocal questions and answers about buying new homes in Las Vegas. Expert answers about neighborhoods, schools, and Century Communities homes.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/faq/las-vegas-hyperlocal',
+  },
 }
 
 const hyperlocalQuestions = [

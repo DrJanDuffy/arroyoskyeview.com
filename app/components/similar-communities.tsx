@@ -117,7 +117,7 @@ export default function SimilarCommunities() {
                       {community.image ? (
                         <Image
                           src={community.image}
-                          alt={community.name}
+                          alt={`${community.name} new construction homes in ${community.location}. Century Communities development with modern designs and premium finishes.`}
                           fill
                           className="object-cover"
                           sizes="(max-width: 768px) 100vw, 33vw"

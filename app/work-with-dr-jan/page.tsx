@@ -11,17 +11,11 @@ import DrJanFAQ from '../components/dr-jan-faq'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Work with Dr. Duffy | Century Communities Expert Buyer\'s Agent',
-  description: 'Get expert representation on Century Communities new construction homes in Las Vegas. Dr. Duffy offers construction monitoring, building standards inspection, and insider knowledge—at no extra cost to you.',
-  keywords: [
-    'Dr. Duffy',
-    'Century Communities buyer agent',
-    'Las Vegas real estate agent',
-    'new construction buyer agent',
-    'construction monitoring',
-    'building standards inspection',
-    'Century Communities expert',
-  ],
+  title: 'Work with Dr. Jan Duffy | Century Communities Expert',
+  description: 'Expert buyer representation for Century Communities homes in Las Vegas. Construction monitoring, building standards inspection, insider knowledge. No extra cost. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/work-with-dr-jan',
+  },
 }
 
 export default function WorkWithDrJanPage() {

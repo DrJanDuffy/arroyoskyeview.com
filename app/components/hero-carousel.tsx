@@ -6,23 +6,23 @@ import Image from 'next/image'
 const images = [
   {
     src: '/images/hero/hero-5.jpg',
-    alt: 'Top 10 Things to Do in Pahrump, Nevada',
-    title: 'Pahrump, Nevada',
+    alt: 'Arroyo at Skyeview new construction townhomes in Skye Canyon, Las Vegas, Nevada. Modern two-story homes with premium finishes.',
+    title: 'Arroyo at Skyeview',
   },
   {
     src: '/images/hero/hero-6.jpg',
-    alt: 'Top Reasons for Buying a New Home in Nevada',
-    title: 'Nevada Living',
+    alt: 'Century Communities new construction homes in Las Vegas, Nevada. Modern townhomes and single-family homes with energy-efficient features.',
+    title: 'Century Communities Las Vegas',
   },
   {
     src: '/images/floor-plans/floor-plans-1.jpg',
-    alt: 'Skye Canyon master-planned community',
+    alt: 'Skye Canyon master-planned community in northwest Las Vegas featuring parks, trails, recreation center, and new construction homes.',
     title: 'Skye Canyon',
   },
   {
     src: '/images/hero/hero-7.jpg',
-    alt: 'The Townes at Union Village',
-    title: 'Union Village',
+    alt: 'Century Communities new construction homes in Las Vegas Metro area. Modern designs with premium finishes and quality construction.',
+    title: 'Century Communities',
   },
 ]
 

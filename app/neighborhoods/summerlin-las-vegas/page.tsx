@@ -7,18 +7,11 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'New Homes in Summerlin Las Vegas | Century Communities | Dr. Jan Duffy',
-  description: 'Discover new construction homes in Summerlin, Las Vegas. Find Century Communities new homes with expert buyer representation from Dr. Jan Duffy. Construction monitoring and insider knowledge included.',
-  keywords: [
-    'new homes Summerlin',
-    'Summerlin Las Vegas',
-    'new construction Summerlin',
-    'Century Communities Summerlin',
-    'homes for sale Summerlin',
-    'Las Vegas new homes',
-    'Summerlin real estate',
-    'new homes Las Vegas',
-  ],
+  title: 'New Homes in Summerlin Las Vegas | Century Communities',
+  description: 'Discover new construction homes in Summerlin, Las Vegas. Expert buyer representation with Dr. Jan Duffy. Construction monitoring included. Call (702) 903-4687.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/neighborhoods/summerlin-las-vegas',
+  },
 }
 
 export default function SummerlinPage() {

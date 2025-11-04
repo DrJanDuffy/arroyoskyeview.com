@@ -7,17 +7,11 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'Century Communities Builder Incentives Guide | Las Vegas New Homes',
-  description: 'Learn about current Century Communities builder incentives in Las Vegas. Get expert guidance on rate buy-downs, closing cost assistance, and promotions from Dr. Jan Duffy.',
-  keywords: [
-    'Century Communities incentives',
-    'builder incentives Las Vegas',
-    'mortgage rate buy down',
-    'closing cost assistance',
-    'builder promotions',
-    'new home incentives',
-    'Century Communities deals',
-  ],
+  title: 'Builder Incentives Guide | Century Communities Las Vegas',
+  description: 'Learn about current Century Communities builder incentives in Las Vegas. Rate buy-downs, closing cost assistance, and promotions. Expert guidance from Dr. Jan Duffy.',
+  alternates: {
+    canonical: 'https://www.arroyoskyeview.com/buyers/builder-incentives-guide',
+  },
 }
 
 export default function BuilderIncentivesGuidePage() {
