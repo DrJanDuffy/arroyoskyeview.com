@@ -14,6 +14,7 @@ import HomebuyerResources from './components/homebuyer-resources'
 import SimilarCommunities from './components/similar-communities'
 import HomeownerReviews from './components/homeowner-reviews'
 import RequestInfo from './components/request-info'
+import PeopleAlsoSearch from './components/people-also-search'
 import Footer from './components/footer'
 
 export default function HomePage() {
@@ -112,6 +113,7 @@ export default function HomePage() {
         </div>
 
         <SimilarCommunities />
+        <PeopleAlsoSearch />
         <HomeownerReviews />
         <RequestInfo />
       </main>
