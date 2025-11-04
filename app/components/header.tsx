@@ -19,7 +19,7 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:space-x-8">
-            <Link href="#homes" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
+            <Link href="/find-your-new-home/nevada/las-vegas-metro" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
               Find Your Home
             </Link>
             <Link href="/about-us" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
@@ -63,7 +63,7 @@ export default function Header() {
         {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden py-4 space-y-2">
-            <Link href="#homes" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
+            <Link href="/find-your-new-home/nevada/las-vegas-metro" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               Find Your Home
             </Link>
             <Link href="/about-us" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
