@@ -5,13 +5,13 @@ const steps = [
     description: 'Browse 15+ Las Vegas Century Communities with insider details',
     details: [
       'Understand floor plans, lot premiums, community amenities',
-      'Call Dr. Jan first—before you visit the model home',
+      'Call Dr. Duffy first—before you visit the model home',
     ],
   },
   {
     id: 2,
     title: 'Get Pre-Registered (Correctly)',
-    description: 'Dr. Jan handles proper registration with Century to ensure buyer representation',
+    description: 'Dr. Duffy handles proper registration with Century to ensure buyer representation',
     details: [
       'Protects your co-op benefits and ensures commission applies to your purchase',
       'No delays, no surprises at closing',
@@ -32,7 +32,7 @@ const steps = [
     description: 'Full clarity on every aspect of your new home',
     details: [
       'No post-closing surprises',
-      'Dr. Jan\'s support continues after closing',
+      'Dr. Duffy\'s support continues after closing',
     ],
   },
 ]

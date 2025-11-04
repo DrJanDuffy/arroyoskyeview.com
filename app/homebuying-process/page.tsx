@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import PurpleSaleBanner from '../components/purple-sale-banner'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import DrJanCTABanner from '../components/dr-jan-cta-banner'
 import HomebuyingProcessHero from '../components/homebuying-process-hero'
 import ProcessSteps from '../components/process-steps'
 import HowWeMakeItEasy from '../components/how-we-make-it-easy'
@@ -20,6 +21,7 @@ export default function HomebuyingProcessPage() {
       <PurpleSaleBanner />
       <Header />
       <main>
+        <DrJanCTABanner />
         <HomebuyingProcessHero />
         <ProcessSteps />
         <HowWeMakeItEasy />

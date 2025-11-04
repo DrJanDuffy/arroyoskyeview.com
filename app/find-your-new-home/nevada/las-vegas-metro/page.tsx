@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import PurpleSaleBanner from '../../../components/purple-sale-banner'
 import Header from '../../../components/header'
 import Footer from '../../../components/footer'
+import DrJanCTABanner from '../../../components/dr-jan-cta-banner'
 import LasVegasMetroHero from '../../../components/las-vegas-metro-hero'
 import CommunityListings from '../../../components/community-listings'
 import MapView from '../../../components/map-view'
@@ -17,6 +18,7 @@ export default function LasVegasMetroPage() {
       <PurpleSaleBanner />
       <Header />
       <main>
+        <DrJanCTABanner />
         <LasVegasMetroHero />
         <CommunityListings />
         <MapView />

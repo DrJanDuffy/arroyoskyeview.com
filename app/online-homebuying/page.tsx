@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import PurpleSaleBanner from '../components/purple-sale-banner'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import DrJanCTABanner from '../components/dr-jan-cta-banner'
 import OnlineHomebuyingHero from '../components/online-homebuying-hero'
 import HowItWorks from '../components/online-how-it-works'
 import Benefits from '../components/online-benefits'
@@ -18,6 +19,7 @@ export default function OnlineHomebuyingPage() {
       <PurpleSaleBanner />
       <Header />
       <main>
+        <DrJanCTABanner />
         <OnlineHomebuyingHero />
         <HowItWorks />
         <Benefits />

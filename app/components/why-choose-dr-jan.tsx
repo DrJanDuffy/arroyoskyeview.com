@@ -9,7 +9,7 @@ export default function WhyChooseDrJan() {
       ),
       points: [
         'Century Communities strategically positions itself in amenity-rich master-planned communities like Skye Canyon, plus neighborhoods across the Valley Skyecanyon',
-        'Dr. Jan knows which communities fit YOUR lifestyle and budget',
+        'Dr. Duffy knows which communities fit YOUR lifestyle and budget',
         'Real-time inventory tracking across all 15+ Las Vegas Century Communities',
       ],
     },
@@ -21,9 +21,9 @@ export default function WhyChooseDrJan() {
         </svg>
       ),
       points: [
-        'Dr. Jan monitors your home\'s construction every 7-10 days—the builder\'s team only answers to Century, but Dr. Jan works for YOU',
+        'Dr. Duffy monitors your home\'s construction every 7-10 days—the builder\'s team only answers to Century, but Dr. Duffy works for YOU',
         'Complimentary Building Standards Home Inspection at closing (catches issues BEFORE your warranty matters)',
-        'Construction quality difference? When the superintendent knows Dr. Jan\'s watching, your home gets built right',
+        'Construction quality difference? When the superintendent knows Dr. Duffy\'s watching, your home gets built right',
         'Once the superintendent knows monitoring will happen, he takes special care to follow construction standards Homes for Sale Vegas',
       ],
     },
@@ -37,7 +37,7 @@ export default function WhyChooseDrJan() {
       points: [
         'The price you pay doesn\'t change—commission is built into Century\'s prices whether you use an agent or not Homes for Sale Vegas',
         'Current builder incentives include up to $5,000 toward closing costs and competitive financing rates Neighborhoods in Las Vegas',
-        'Dr. Jan navigates incentives, timing, and move-in-ready inventory for maximum savings',
+        'Dr. Duffy navigates incentives, timing, and move-in-ready inventory for maximum savings',
       ],
     },
   ]

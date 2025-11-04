@@ -22,6 +22,9 @@ export default function Header() {
             <Link href="/find-your-new-home/nevada/las-vegas-metro" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
               Find Your Home
             </Link>
+            <Link href="/work-with-dr-jan" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
+              Work with Dr. Duffy
+            </Link>
             <Link href="/about-us" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
               About Century
             </Link>
@@ -35,12 +38,12 @@ export default function Header() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <button className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
-              Sign In
-            </button>
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">
-              Get Prequalified
-            </button>
+            <a
+              href="tel:702-222-1964"
+              className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700"
+            >
+              Call Dr. Duffy: 702-222-1964
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -66,6 +69,9 @@ export default function Header() {
             <Link href="/find-your-new-home/nevada/las-vegas-metro" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               Find Your Home
             </Link>
+            <Link href="/work-with-dr-jan" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
+              Work with Dr. Duffy
+            </Link>
             <Link href="/about-us" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               About Century
             </Link>
@@ -75,12 +81,12 @@ export default function Header() {
             <Link href="/contact-us" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               Contact Us
             </Link>
-            <button className="block w-full text-left px-3 py-2 text-gray-700 hover:text-blue-600">
-              Sign In
-            </button>
-            <button className="block w-full bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium">
-              Get Prequalified
-            </button>
+            <a
+              href="tel:702-222-1964"
+              className="block w-full bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium text-center"
+            >
+              Call Dr. Duffy: 702-222-1964
+            </a>
           </div>
         )}
       </nav>

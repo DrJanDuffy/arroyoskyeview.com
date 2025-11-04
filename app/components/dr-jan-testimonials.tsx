@@ -5,19 +5,19 @@ import { useState } from 'react'
 const testimonials = [
   {
     id: 1,
-    quote: 'Dr. Jan caught structural issues during construction monitoring that would\'ve cost us $3K+ to fix after warranty expired. She\'s not just an agent—she\'s our advocate.',
+    quote: 'Dr. Duffy caught structural issues during construction monitoring that would\'ve cost us $3K+ to fix after warranty expired. She\'s not just an agent—she\'s our advocate.',
     author: 'Recent Client',
     community: 'Skye Canyon',
   },
   {
     id: 2,
-    quote: 'Having Dr. Jan monitor our home construction gave us peace of mind. She noticed things we never would have seen, and her building standards inspection was invaluable.',
+    quote: 'Having Dr. Duffy monitor our home construction gave us peace of mind. She noticed things we never would have seen, and her building standards inspection was invaluable.',
     author: 'Satisfied Buyer',
     community: 'Arroyo at Skyeview',
   },
   {
     id: 3,
-    quote: 'Dr. Jan\'s knowledge of Century Communities helped us find the perfect home in the right community for our family. Her expertise made all the difference.',
+    quote: 'Dr. Duffy\'s knowledge of Century Communities helped us find the perfect home in the right community for our family. Her expertise made all the difference.',
     author: 'Happy Homeowner',
     community: 'The Townes at Union Village',
   },
@@ -38,7 +38,7 @@ export default function DrJanTestimonials() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center">
-          Century Communities Buyers Trust Dr. Jan
+          Century Communities Buyers Trust Dr. Duffy
         </h2>
         
         <div className="flex items-center justify-center mb-8">

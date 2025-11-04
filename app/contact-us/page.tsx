@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import PurpleSaleBanner from '../components/purple-sale-banner'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import DrJanCTABanner from '../components/dr-jan-cta-banner'
+import WhyWorkWithDrJan from '../components/why-work-with-dr-jan'
 import ContactHero from '../components/contact-hero'
 import ContactForm from '../components/contact-form'
 import ContactLocations from '../components/contact-locations'
@@ -18,7 +20,9 @@ export default function ContactUsPage() {
       <PurpleSaleBanner />
       <Header />
       <main>
+        <DrJanCTABanner />
         <ContactHero />
+        <WhyWorkWithDrJan />
         <ContactForm />
         <ContactLocations />
         <ContactMethods />

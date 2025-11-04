@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import PurpleSaleBanner from '../components/purple-sale-banner'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import DrJanCTABanner from '../components/dr-jan-cta-banner'
 import AboutUsHero from '../components/about-us-hero'
 import OurBrands from '../components/our-brands'
+import OurPreferredBuyersAgent from '../components/our-preferred-buyers-agent'
 import OurStory from '../components/our-story'
 import WhereWeBuild from '../components/where-we-build'
 import OnlineHomebuyingPioneer from '../components/online-homebuying-pioneer'
@@ -22,12 +24,14 @@ export default function AboutUsPage() {
       <PurpleSaleBanner />
       <Header />
       <main>
+        <DrJanCTABanner />
         <AboutUsHero />
         <OurBrands />
         <OurStory />
         <WhereWeBuild />
         <OnlineHomebuyingPioneer />
         <OurAffiliates />
+        <OurPreferredBuyersAgent />
         <SupportingCommunities />
         <BuildCareer />
       </main>

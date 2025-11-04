@@ -1,0 +1,81 @@
+import Link from 'next/link'
+
+export default function OurPreferredBuyersAgent() {
+  return (
+    <section className="py-16 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
+          <div className="text-center mb-8">
+            <div className="inline-block bg-blue-100 px-4 py-2 rounded-full mb-4">
+              <span className="text-blue-800 font-semibold text-sm">Century Communities Preferred Buyer's Agent</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Our Preferred Buyer's Agent
+            </h2>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+              We recommend working with Dr. Duffy for expert representation on all Century Communities homes in Las Vegas.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Why Dr. Duffy?</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span>Construction monitoring every 7-10 days during build</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span>Complimentary building standards inspection at closing</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span>Insider knowledge of all 15+ Las Vegas Century Communities</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span>Works for YOU, not the builder</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">No Extra Cost</h3>
+              <p className="text-gray-700 mb-4">
+                Century Communities pays for buyer representation on all their Las Vegas homes. The commission is built into the home pricing whether you use an agent or not—so you're already funding representation.
+              </p>
+              <p className="text-gray-700 font-semibold">
+                Choose Dr. Duffy, who protects YOUR interests throughout the entire process.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center pt-6 border-t border-gray-200">
+            <a
+              href="tel:702-222-1964"
+              className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition shadow-lg mr-4 mb-4"
+            >
+              Call Dr. Duffy: 702-222-1964
+            </a>
+            <Link
+              href="/work-with-dr-jan"
+              className="inline-block bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-50 transition shadow-lg mb-4"
+            >
+              Learn More About Dr. Duffy
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import PurpleSaleBanner from '../../components/purple-sale-banner'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
+import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 
 export const metadata: Metadata = {
   title: 'Thought the Market Passed You By? Think Again. | Century Communities',
@@ -23,6 +24,7 @@ export default function MarketPassedYouByPage() {
       <PurpleSaleBanner />
       <Header />
       <main>
+        <DrJanCTABanner />
         <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">

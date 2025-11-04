@@ -6,7 +6,21 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-lg font-bold mb-4">Century Communities</h3>
+            <h3 className="text-lg font-bold mb-4">Work with Dr. Duffy</h3>
+            <div className="mb-4">
+              <p className="text-sm text-gray-400 mb-2">
+                Century Communities Preferred Buyer's Agent
+              </p>
+              <p className="text-sm text-gray-400 mb-4">
+                Expert representation on new construction with construction monitoring, building standards inspection & insider knowledge.
+              </p>
+              <a
+                href="tel:702-222-1964"
+                className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-blue-700 transition mb-2"
+              >
+                Call: 702-222-1964
+              </a>
+            </div>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
                 <span className="sr-only">LinkedIn</span>
@@ -50,9 +64,10 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="#" className="hover:text-white">Homebuying Process</Link></li>
+              <li><Link href="/work-with-dr-jan" className="hover:text-white">Work with Dr. Duffy</Link></li>
+              <li><Link href="/homebuying-process" className="hover:text-white">Homebuying Process</Link></li>
               <li><Link href="#" className="hover:text-white">Blog</Link></li>
-              <li><Link href="#" className="hover:text-white">Contact Us</Link></li>
+              <li><Link href="/contact-us" className="hover:text-white">Contact Us</Link></li>
             </ul>
           </div>
         </div>

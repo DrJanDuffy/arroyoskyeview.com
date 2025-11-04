@@ -10,7 +10,7 @@ export default function DrJanHero() {
             Get expert representation on new construction—at no extra cost to you.
           </p>
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Century Communities pays for buyer representation on all their Las Vegas homes—which means you're already funding an agent, so you might as well choose the best one. <strong>Homes for Sale Vegas</strong> Dr. Jan brings insider knowledge of every Community, real-time construction monitoring, and a building standards inspection at closing—protecting your investment every step of the way.
+            Century Communities pays for buyer representation on all their Las Vegas homes—which means you're already funding an agent, so you might as well choose the best one. <strong>Homes for Sale Vegas</strong> Dr. Duffy brings insider knowledge of every Community, real-time construction monitoring, and a building standards inspection at closing—protecting your investment every step of the way.
           </p>
           <a
             href="tel:702-222-1964"
