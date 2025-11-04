@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://www.arroyoskyeview.com',
     title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
-    description: 'Discover new townhomes at Skyeview! Starting from $392,640',
+    description: 'New construction townhomes in Skye Canyon, Las Vegas. 2-4 bedrooms, premium finishes, starting from $392,640. Expert buyer representation by Dr. Jan Duffy at no extra cost.',
     siteName: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     images: [
       {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
-    description: 'Discover new townhomes at Skyeview! Starting from $392,640',
+    description: 'New construction townhomes in Skye Canyon, Las Vegas. 2-4 bedrooms, premium finishes, starting from $392,640. Expert buyer representation by Dr. Jan Duffy at no extra cost.',
     images: ['/og-image.png'],
   },
   alternates: {
