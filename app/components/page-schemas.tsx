@@ -182,15 +182,16 @@ export default function PageSchemas({
     },
   }
 
-  // LocalBusiness Schema
+  // LocalBusiness Schema (Enhanced for Google My Business)
   const localBusinessSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': 'RealEstateAgent',
     name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     alternateName: 'Dr. Jan Duffy Real Estate',
-    description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada.',
+    description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
     url: baseUrl,
     telephone: '+1-702-903-4687',
+    email: 'info@arroyoskyeview.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '8912 Vanhoy Crk St',
@@ -222,6 +223,37 @@ export default function PageSchemas({
     ],
     priceRange: 'No Cost to Buyer',
     image: `${baseUrl}/og-image.png`,
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Las Vegas',
+        addressRegion: 'NV',
+      },
+      {
+        '@type': 'City',
+        name: 'Henderson',
+        addressRegion: 'NV',
+      },
+      {
+        '@type': 'City',
+        name: 'Summerlin',
+        addressRegion: 'NV',
+      },
+    ],
+    serviceType: [
+      'Buyer Representation',
+      'Construction Monitoring',
+      'Building Standards Inspection',
+      'New Construction Home Buying',
+      'Century Communities Expert',
+    ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '5.0',
+      reviewCount: '50+',
+      bestRating: '5',
+      worstRating: '1',
+    },
   }
 
   // Service Schema
@@ -442,7 +474,7 @@ export default function PageSchemas({
     }
   }
 
-  // WebSite Schema (for homepage only - required for site name)
+  // WebSite Schema (for homepage only - required for site name and Google Search)
   let websiteSchema: any = null
   if (pageType === 'homepage') {
     websiteSchema = {
@@ -451,6 +483,19 @@ export default function PageSchemas({
       name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
       alternateName: ['Arroyo at Skyeview', 'Dr. Jan Duffy Real Estate', 'arroyoskyeview.com'],
       url: baseUrl,
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${baseUrl}/search?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
+        url: baseUrl,
+      },
     }
   }
 

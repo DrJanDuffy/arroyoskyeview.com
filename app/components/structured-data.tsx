@@ -288,16 +288,29 @@ export default function StructuredData() {
     telephone: '+1-702-903-4687',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
       postalCode: '89166',
       addressCountry: 'US',
     },
-    areaServed: {
-      '@type': 'City',
-      name: 'Las Vegas',
-      addressRegion: 'NV',
-    },
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Las Vegas',
+        addressRegion: 'NV',
+      },
+      {
+        '@type': 'City',
+        name: 'Henderson',
+        addressRegion: 'NV',
+      },
+      {
+        '@type': 'City',
+        name: 'Summerlin',
+        addressRegion: 'NV',
+      },
+    ],
     knowsAbout: [
       'New Construction Homes',
       'Century Communities',
