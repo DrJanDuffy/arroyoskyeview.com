@@ -1,7 +1,7 @@
 const locations = [
   {
     name: 'Arroyo at Skyeview Sales Office',
-    address: '8912 Vanhoy Creek St.',
+    address: '8912 Vanhoy Crk St',
     city: 'Las Vegas',
     state: 'NV',
     zip: '89166',

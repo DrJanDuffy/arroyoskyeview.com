@@ -4,8 +4,8 @@ import Footer from '../components/footer'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Accessibility Statement | Las Vegas Century Communities Realtor',
-  description: 'Accessibility Statement for Las Vegas Century Communities Realtor. Our commitment to making our website accessible to all users in compliance with WCAG 2.1 Level AA standards.',
+  title: 'Accessibility Statement | Arroyo at Skyeview | Homes by Dr. Jan Duffy',
+  description: 'Accessibility Statement for Arroyo at Skyeview | Homes by Dr. Jan Duffy. Our commitment to making our website accessible to all users in compliance with WCAG 2.1 Level AA standards.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/accessibility',
   },
@@ -17,8 +17,8 @@ export default function AccessibilityPage() {
       <PageSchemas
         pageType="about"
         url="/accessibility"
-        title="Accessibility Statement | Las Vegas Century Communities Realtor"
-        description="Accessibility Statement for Las Vegas Century Communities Realtor. Our commitment to making our website accessible to all users in compliance with WCAG 2.1 Level AA standards."
+        title="Accessibility Statement | Arroyo at Skyeview | Homes by Dr. Jan Duffy"
+        description="Accessibility Statement for Arroyo at Skyeview | Homes by Dr. Jan Duffy. Our commitment to making our website accessible to all users in compliance with WCAG 2.1 Level AA standards."
         breadcrumbs={[
           { name: 'Legal', url: '/legal' },
           { name: 'Accessibility Statement', url: '/accessibility' },
@@ -42,7 +42,7 @@ export default function AccessibilityPage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Commitment to Accessibility</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Las Vegas Century Communities Realtor is committed to ensuring digital accessibility 
+                Arroyo at Skyeview | Homes by Dr. Jan Duffy is committed to ensuring digital accessibility 
                 for people with disabilities. We are continually improving the user experience for 
                 everyone and applying the relevant accessibility standards to achieve these goals.
               </p>
@@ -223,6 +223,10 @@ export default function AccessibilityPage() {
               <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded">
                 <p className="text-lg text-gray-900 font-semibold mb-2">Dr. Jan Duffy</p>
                 <p className="text-lg text-gray-700 mb-2">Nevada Real Estate License #S.0197614</p>
+                <p className="text-lg text-gray-700 mb-2">
+                  8912 Vanhoy Crk St<br />
+                  Las Vegas, NV 89166
+                </p>
                 <p className="text-lg text-gray-700 mb-2">
                   <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
                     Phone: (702) 903-4687

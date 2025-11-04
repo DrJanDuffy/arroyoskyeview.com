@@ -4,8 +4,8 @@ import Footer from '../components/footer'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Las Vegas Century Communities Realtor',
-  description: 'Privacy Policy for Las Vegas Century Communities Realtor. Learn how we collect, use, and protect your personal information in compliance with CCPA and GDPR.',
+  title: 'Privacy Policy | Arroyo at Skyeview | Homes by Dr. Jan Duffy',
+  description: 'Privacy Policy for Arroyo at Skyeview | Homes by Dr. Jan Duffy. Learn how we collect, use, and protect your personal information in compliance with CCPA and GDPR.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/privacy-policy',
   },
@@ -17,8 +17,8 @@ export default function PrivacyPolicyPage() {
       <PageSchemas
         pageType="about"
         url="/privacy-policy"
-        title="Privacy Policy | Las Vegas Century Communities Realtor"
-        description="Privacy Policy for Las Vegas Century Communities Realtor. Learn how we collect, use, and protect your personal information in compliance with CCPA and GDPR."
+        title="Privacy Policy | Arroyo at Skyeview | Homes by Dr. Jan Duffy"
+        description="Privacy Policy for Arroyo at Skyeview | Homes by Dr. Jan Duffy. Learn how we collect, use, and protect your personal information in compliance with CCPA and GDPR."
         breadcrumbs={[
           { name: 'Legal', url: '/legal' },
           { name: 'Privacy Policy', url: '/privacy-policy' },
@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Introduction</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Las Vegas Century Communities Realtor ("we," "our," or "us") is committed to protecting your privacy. 
+                Arroyo at Skyeview | Homes by Dr. Jan Duffy ("we," "our," or "us") is committed to protecting your privacy. 
                 This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you 
                 visit our website arroyoskyeview.com or use our real estate services.
               </p>
@@ -223,6 +223,10 @@ export default function PrivacyPolicyPage() {
               <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded">
                 <p className="text-lg text-gray-900 font-semibold mb-2">Dr. Jan Duffy</p>
                 <p className="text-lg text-gray-700 mb-2">Nevada Real Estate License #S.0197614</p>
+                <p className="text-lg text-gray-700 mb-2">
+                  8912 Vanhoy Crk St<br />
+                  Las Vegas, NV 89166
+                </p>
                 <p className="text-lg text-gray-700 mb-2">
                   <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
                     Phone: (702) 903-4687

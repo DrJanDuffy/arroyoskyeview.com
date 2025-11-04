@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     url: 'https://www.arroyoskyeview.com',
     title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
     description: 'Discover new townhomes at Skyeview! Starting from $392,640',
-    siteName: 'Las Vegas Century Communities Realtor',
+    siteName: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     images: [
       {
         url: '/og-image.png',

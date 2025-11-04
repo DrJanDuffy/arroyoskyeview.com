@@ -4,8 +4,8 @@ import Footer from '../components/footer'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Terms of Use | Las Vegas Century Communities Realtor',
-  description: 'Terms of Use for Las Vegas Century Communities Realtor website. Understand the terms and conditions for using our real estate services and website.',
+  title: 'Terms of Use | Arroyo at Skyeview | Homes by Dr. Jan Duffy',
+  description: 'Terms of Use for Arroyo at Skyeview | Homes by Dr. Jan Duffy website. Understand the terms and conditions for using our real estate services and website.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/terms-of-use',
   },
@@ -17,8 +17,8 @@ export default function TermsOfUsePage() {
       <PageSchemas
         pageType="about"
         url="/terms-of-use"
-        title="Terms of Use | Las Vegas Century Communities Realtor"
-        description="Terms of Use for Las Vegas Century Communities Realtor website. Understand the terms and conditions for using our real estate services and website."
+        title="Terms of Use | Arroyo at Skyeview | Homes by Dr. Jan Duffy"
+        description="Terms of Use for Arroyo at Skyeview | Homes by Dr. Jan Duffy website. Understand the terms and conditions for using our real estate services and website."
         breadcrumbs={[
           { name: 'Legal', url: '/legal' },
           { name: 'Terms of Use', url: '/terms-of-use' },
@@ -42,8 +42,8 @@ export default function TermsOfUsePage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Acceptance of Terms</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Welcome to arroyoskyeview.com (the "Website"), operated by Las Vegas Century Communities 
-                Realtor, Dr. Jan Duffy, a licensed real estate agent in Nevada (License #S.0197614). 
+                Welcome to arroyoskyeview.com (the "Website"), operated by Arroyo at Skyeview | Homes by Dr. Jan Duffy. 
+                Dr. Jan Duffy is a licensed real estate agent in Nevada (License #S.0197614). 
                 By accessing or using this Website, you agree to be bound by these Terms of Use and all 
                 applicable laws and regulations.
               </p>
@@ -110,8 +110,7 @@ export default function TermsOfUsePage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Intellectual Property</h2>
               <p className="text-lg text-gray-700 mb-4">
-                The Website and its original content, features, and functionality are owned by Las Vegas 
-                Century Communities Realtor and are protected by international copyright, trademark, 
+                The Website and its original content, features, and functionality are owned by Arroyo at Skyeview | Homes by Dr. Jan Duffy and are protected by international copyright, trademark, 
                 patent, trade secret, and other intellectual property laws.
               </p>
               
@@ -124,7 +123,7 @@ export default function TermsOfUsePage() {
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">Copyright</h3>
               <p className="text-lg text-gray-700 mb-4">
                 All content on this Website, including text, graphics, logos, images, and software, 
-                is the property of Las Vegas Century Communities Realtor or its content suppliers and 
+                is the property of Arroyo at Skyeview | Homes by Dr. Jan Duffy or its content suppliers and 
                 is protected by copyright laws.
               </p>
             </section>
@@ -149,7 +148,7 @@ export default function TermsOfUsePage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Limitation of Liability</h2>
               <p className="text-lg text-gray-700 mb-4">
-                In no event shall Las Vegas Century Communities Realtor or its suppliers be liable for 
+                In no event shall Arroyo at Skyeview | Homes by Dr. Jan Duffy or its suppliers be liable for 
                 any damages (including, without limitation, damages for loss of data or profit, or due 
                 to business interruption) arising out of the use or inability to use the materials on 
                 this Website, even if we or our authorized representative have been notified orally or 
@@ -233,6 +232,10 @@ export default function TermsOfUsePage() {
               <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded">
                 <p className="text-lg text-gray-900 font-semibold mb-2">Dr. Jan Duffy</p>
                 <p className="text-lg text-gray-700 mb-2">Nevada Real Estate License #S.0197614</p>
+                <p className="text-lg text-gray-700 mb-2">
+                  8912 Vanhoy Crk St<br />
+                  Las Vegas, NV 89166
+                </p>
                 <p className="text-lg text-gray-700 mb-2">
                   <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
                     Phone: (702) 903-4687

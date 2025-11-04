@@ -49,12 +49,12 @@ export default function PageSchemas({
     inLanguage: 'en-US',
     isPartOf: {
       '@type': 'WebSite',
-      name: 'Las Vegas Century Communities Realtor',
+      name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
       url: baseUrl,
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Las Vegas Century Communities Realtor',
+      name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
       url: baseUrl,
     },
     ...(image && {
@@ -91,7 +91,7 @@ export default function PageSchemas({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Las Vegas Century Communities Realtor',
+    name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     alternateName: ['Dr. Jan Duffy Real Estate', 'Dr. Jan Duffy'],
     description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
     url: baseUrl,
@@ -99,6 +99,7 @@ export default function PageSchemas({
     email: 'info@arroyoskyeview.com',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
       postalCode: '89166',
@@ -153,6 +154,7 @@ export default function PageSchemas({
     email: 'info@arroyoskyeview.com',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
       postalCode: '89166',
@@ -184,13 +186,14 @@ export default function PageSchemas({
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'Las Vegas Century Communities Realtor',
+    name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     alternateName: 'Dr. Jan Duffy Real Estate',
     description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada.',
     url: baseUrl,
     telephone: '+1-702-903-4687',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
       postalCode: '89166',
@@ -254,12 +257,13 @@ export default function PageSchemas({
     jobTitle: 'Real Estate Agent',
     worksFor: {
       '@type': 'Organization',
-      name: 'Las Vegas Century Communities Realtor',
+      name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     },
     telephone: '+1-702-903-4687',
     email: 'info@arroyoskyeview.com',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
       postalCode: '89166',
@@ -367,7 +371,7 @@ export default function PageSchemas({
       },
       publisher: {
         '@type': 'Organization',
-        name: 'Las Vegas Century Communities Realtor',
+        name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
         logo: {
           '@type': 'ImageObject',
           url: `${baseUrl}/og-image.png`,
@@ -444,7 +448,7 @@ export default function PageSchemas({
     websiteSchema = {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: 'Las Vegas Century Communities Realtor',
+      name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
       alternateName: ['Arroyo at Skyeview', 'Dr. Jan Duffy Real Estate', 'arroyoskyeview.com'],
       url: baseUrl,
     }

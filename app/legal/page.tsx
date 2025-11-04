@@ -5,8 +5,8 @@ import Link from 'next/link'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Legal Information | Las Vegas Century Communities Realtor',
-  description: 'Legal information and policies for Las Vegas Century Communities Realtor. Access our Privacy Policy, Terms of Use, and Accessibility Statement.',
+  title: 'Legal Information | Arroyo at Skyeview | Homes by Dr. Jan Duffy',
+  description: 'Legal information and policies for Arroyo at Skyeview | Homes by Dr. Jan Duffy. Access our Privacy Policy, Terms of Use, and Accessibility Statement.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/legal',
   },
@@ -18,8 +18,8 @@ export default function LegalPage() {
       <PageSchemas
         pageType="about"
         url="/legal"
-        title="Legal Information | Las Vegas Century Communities Realtor"
-        description="Legal information and policies for Las Vegas Century Communities Realtor. Access our Privacy Policy, Terms of Use, and Accessibility Statement."
+        title="Legal Information | Arroyo at Skyeview | Homes by Dr. Jan Duffy"
+        description="Legal information and policies for Arroyo at Skyeview | Homes by Dr. Jan Duffy. Access our Privacy Policy, Terms of Use, and Accessibility Statement."
         breadcrumbs={[
           { name: 'Legal', url: '/legal' },
         ]}
@@ -32,7 +32,7 @@ export default function LegalPage() {
               Legal Information
             </h1>
             <p className="text-xl text-gray-700 text-center max-w-3xl mx-auto mb-12">
-              Important legal information and policies for Las Vegas Century Communities Realtor. 
+              Important legal information and policies for Arroyo at Skyeview | Homes by Dr. Jan Duffy. 
               Please review these documents to understand your rights and our obligations.
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function LegalPage() {
               <p className="text-gray-700 mb-6">
                 Understand the terms and conditions for using our website and services. These terms 
                 govern your access to property information, contact forms, and all content provided 
-                by Las Vegas Century Communities Realtor.
+                by Arroyo at Skyeview | Homes by Dr. Jan Duffy.
               </p>
               <Link
                 href="/terms-of-use"
@@ -112,9 +112,16 @@ export default function LegalPage() {
               <p><strong>Dr. Jan Duffy</strong></p>
               <p>Nevada Real Estate License #S.0197614</p>
               <p>
+                8912 Vanhoy Crk St<br />
+                Las Vegas, NV 89166
+              </p>
+              <p>
                 <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
                   Phone: (702) 903-4687
                 </a>
+              </p>
+              <p>
+                Email: <a href="mailto:info@arroyoskyeview.com" className="text-blue-600 hover:text-blue-700">info@arroyoskyeview.com</a>
               </p>
             </div>
           </div>

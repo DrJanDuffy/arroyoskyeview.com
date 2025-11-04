@@ -9,7 +9,7 @@ export default function StructuredData() {
     url: 'https://www.arroyoskyeview.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '8912 Vanhoy Creek St.',
+      streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
       postalCode: '89166',
@@ -125,7 +125,7 @@ export default function StructuredData() {
     telephone: '+1-702-730-4329',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '8912 Vanhoy Creek St.',
+      streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
       postalCode: '89166',
@@ -281,7 +281,7 @@ export default function StructuredData() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Las Vegas Century Communities Realtor',
+    name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     alternateName: 'Dr. Jan Duffy Real Estate',
     description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
     url: 'https://www.arroyoskyeview.com',

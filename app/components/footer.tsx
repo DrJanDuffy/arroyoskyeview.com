@@ -261,7 +261,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-sm text-gray-300 space-y-2">
               <p className="font-semibold text-white">
-                © 2025 Las Vegas Century Communities Realtor
+                © 2025 Arroyo at Skyeview | Homes by Dr. Jan Duffy
               </p>
               <p className="text-xs text-gray-400">
                 Dr. Jan Duffy, Nevada Real Estate License #S.0197614

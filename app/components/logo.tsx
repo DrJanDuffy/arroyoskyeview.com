@@ -29,19 +29,13 @@ export default function Logo() {
 
       {/* Enhanced Typography with Better Hierarchy */}
       <div className="flex flex-col leading-none">
-        <div className="flex items-baseline gap-1.5">
-          <span className="text-base md:text-lg font-bold text-blue-600 leading-tight group-hover:text-blue-700 transition-colors">
-            Las Vegas
-          </span>
-          <span className="text-xs md:text-sm text-blue-500 font-medium">•</span>
-        </div>
-        <span className="text-sm md:text-base font-extrabold text-gray-900 leading-tight tracking-tight">
-          Century Communities
+        <span className="text-sm md:text-base font-extrabold text-gray-900 leading-tight tracking-tight group-hover:text-blue-600 transition-colors">
+          Arroyo at Skyeview
         </span>
         <div className="mt-0.5 flex items-center gap-1.5">
           <div className="h-px w-4 bg-blue-300"></div>
-          <span className="text-[9px] md:text-[10px] font-bold text-gray-600 uppercase tracking-[0.15em]">
-            Realtor
+          <span className="text-[9px] md:text-[10px] font-semibold text-gray-600 tracking-wide">
+            Homes by Dr. Jan Duffy
           </span>
         </div>
       </div>
