@@ -74,7 +74,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-            <p>© 2025 CENTURY COMMUNITIES, All Rights Reserved.</p>
+            <p>© 2025 Las Vegas Century Communities Realtor, Dr. Jan Duffy Nevada License #S.0197614, All Rights Reserved.</p>
             <div className="flex flex-wrap gap-4 mt-4 md:mt-0">
               <Link href="#" className="hover:text-white">Privacy Policy</Link>
               <Link href="#" className="hover:text-white">Terms Of Use</Link>
