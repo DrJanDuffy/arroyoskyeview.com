@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import PurpleSaleBanner from '../../../../components/purple-sale-banner'
-import Header from '../../../../components/header'
-import Footer from '../../../../components/footer'
-import LasVegasMetroHero from '../../../../components/las-vegas-metro-hero'
-import CommunityListings from '../../../../components/community-listings'
-import MapView from '../../../../components/map-view'
+import PurpleSaleBanner from '../../../components/purple-sale-banner'
+import Header from '../../../components/header'
+import Footer from '../../../components/footer'
+import LasVegasMetroHero from '../../../components/las-vegas-metro-hero'
+import CommunityListings from '../../../components/community-listings'
+import MapView from '../../../components/map-view'
 
 export const metadata: Metadata = {
   title: 'Find Your New Home in Las Vegas Metro | Century Communities',
