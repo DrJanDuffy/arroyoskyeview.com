@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 interface Community {
@@ -20,7 +21,7 @@ const communities: Community[] = [
     location: 'Henderson, NV 89011',
     phone: '702.605.0956',
     price: 366990,
-    image: '/community-1.jpg',
+    image: '/images/hero/hero-7.jpg',
     features: ['Special Incentives', 'Tour Models Today!'],
   },
   {
@@ -29,7 +30,7 @@ const communities: Community[] = [
     location: 'Las Vegas, NV 89166',
     phone: '702.936.3020',
     price: 392640,
-    image: '/community-2.jpg',
+    image: '/images/floor-plans/floor-plans-1.jpg',
     features: ['Masterplan Community', 'NW Las Vegas'],
   },
 ]
@@ -67,13 +68,27 @@ export default function SimilarCommunities() {
               {communities.map((community) => (
                 <div key={community.id} className="min-w-full px-4">
                   <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                    <div className="h-64 bg-gray-200 relative">
-                      <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                        <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 20 20">
-                          <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-                        </svg>
-                      </div>
-                      <div className="absolute top-2 left-2 flex flex-wrap gap-2">
+                    <div className="h-64 bg-gray-200 relative overflow-hidden">
+                      {community.image ? (
+                        <Image
+                          src={community.image}
+                          alt={community.name}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 33vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                      ) : (
+                        <div className="absolute inset-0 flex items-center justify-center text-gray-400">
+                          <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                          </svg>
+                        </div>
+                      )}
+                      <div className="absolute top-2 left-2 flex flex-wrap gap-2 z-10">
                         {community.features.map((feature, idx) => (
                           <span key={idx} className="bg-blue-600 text-white text-xs px-2 py-1 rounded">
                             {feature}

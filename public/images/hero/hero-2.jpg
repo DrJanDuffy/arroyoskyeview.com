@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.106" height="12.077" viewBox="0 0 14.106 12.077">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none;stroke:#5a5a5a;stroke-linecap:round;stroke-linejoin:round;stroke-width:.7px}
+        </style>
+    </defs>
+    <g id="prefix__Building-Construction_Houses_house-3" data-name="Building-Construction / Houses / house-3" transform="translate(-268.261 -88.392)">
+        <g id="prefix__Group_3" data-name="Group 3" transform="translate(268.75 88.742)">
+            <g id="prefix__house-3">
+                <path id="prefix__Shape_10" d="M270.25 95.892v7.208h2.626v-3.5a.875.875 0 0 1 .875-.875h.875a.876.876 0 0 1 .875.875v3.5h6.126v-7.208" class="prefix__cls-1" data-name="Shape 10" transform="translate(-269.375 -91.72)"/>
+                <path id="prefix__Shape_11" d="M281.878 93.705l-6.046-4.434a.875.875 0 0 0-1.035 0l-6.046 4.434" class="prefix__cls-1" data-name="Shape 11" transform="translate(-268.75 -88.892)"/>
+                <path id="prefix__Shape_12" d="M283.75 90.346v-1.6h2.626v3.53" class="prefix__cls-1" data-name="Shape 12" transform="translate(-274.998 -88.742)"/>
+                <path id="prefix__Rectangle-path" d="M282.25 100.742h2.625v2.626h-2.625z" class="prefix__cls-1" transform="translate(-274.373 -93.741)"/>
+                <path id="prefix__Shape_13" d="M268.75 108.242h13.128" class="prefix__cls-1" data-name="Shape 13" transform="translate(-268.75 -96.865)"/>
+            </g>
+        </g>
+    </g>
+</svg>

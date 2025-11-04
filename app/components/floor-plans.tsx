@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 interface FloorPlan {
@@ -13,6 +14,8 @@ interface FloorPlan {
   parking: number
   description: string
   status: string
+  image?: string
+  floorPlanImage?: string
 }
 
 const floorPlans: FloorPlan[] = [
@@ -26,6 +29,8 @@ const floorPlans: FloorPlan[] = [
     parking: 2,
     description: 'Interior Unit',
     status: 'Model Open',
+    image: '/images/floor-plans/beverly-model.jpg',
+    floorPlanImage: '/images/floor-plans/beverly-floorplan.jpg',
   },
   {
     id: '2',
@@ -37,6 +42,8 @@ const floorPlans: FloorPlan[] = [
     parking: 2,
     description: '3 Bed + Loft',
     status: 'Modeled',
+    image: '/images/floor-plans/captiva-model.jpg',
+    floorPlanImage: '/images/floor-plans/captiva-floorplan.jpg',
   },
   {
     id: '3',
@@ -48,6 +55,8 @@ const floorPlans: FloorPlan[] = [
     parking: 2,
     description: 'End Unit',
     status: 'Stunning Model',
+    image: '/images/floor-plans/delray-model.jpg',
+    floorPlanImage: '/images/floor-plans/delray-floorplan.jpg',
   },
 ]
 
@@ -110,13 +119,27 @@ export default function FloorPlans() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sortedPlans.map((plan) => (
           <div key={plan.id} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
-            <div className="h-64 bg-gray-200 relative">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
-                </svg>
-              </div>
-              <div className="absolute top-2 right-2">
+            <div className="h-64 bg-gray-200 relative overflow-hidden">
+              {plan.image ? (
+                <Image
+                  src={plan.image}
+                  alt={`${plan.name} floor plan model home`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement
+                    target.style.display = 'none'
+                  }}
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center text-gray-400">
+                  <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                  </svg>
+                </div>
+              )}
+              <div className="absolute top-2 right-2 z-10">
                 <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded">{plan.status}</span>
               </div>
             </div>

@@ -4,9 +4,26 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 
 const images = [
-  '/hero-1.jpg',
-  '/hero-2.jpg',
-  '/hero-3.jpg',
+  {
+    src: '/images/hero/hero-5.jpg',
+    alt: 'Top 10 Things to Do in Pahrump, Nevada',
+    title: 'Pahrump, Nevada',
+  },
+  {
+    src: '/images/hero/hero-6.jpg',
+    alt: 'Top Reasons for Buying a New Home in Nevada',
+    title: 'Nevada Living',
+  },
+  {
+    src: '/images/floor-plans/floor-plans-1.jpg',
+    alt: 'Skye Canyon master-planned community',
+    title: 'Skye Canyon',
+  },
+  {
+    src: '/images/hero/hero-7.jpg',
+    alt: 'The Townes at Union Village',
+    title: 'Union Village',
+  },
 ]
 
 export default function HeroCarousel() {
@@ -42,20 +59,39 @@ export default function HeroCarousel() {
               index === currentIndex ? 'opacity-100' : 'opacity-0'
             }`}
           >
-            <div className="w-full h-full bg-gradient-to-r from-blue-600/90 to-blue-800/90 flex items-center justify-center">
-              <div className="text-center text-white px-4">
-                <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                  Arroyo at Skyeview at Skye Canyon
-                </h1>
-                <p className="text-xl md:text-2xl mb-6">New Homes in Las Vegas, NV</p>
-                <p className="text-2xl md:text-3xl font-semibold mb-8">Starting from $392,640</p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button className="bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
-                    Request Info
-                  </button>
-                  <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white/10 transition">
-                    Schedule a Tour
-                  </button>
+            <div className="relative w-full h-full">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                className="object-cover"
+                priority={index === 0}
+                sizes="100vw"
+                onError={(e) => {
+                  // Fallback to gradient if image fails to load
+                  const target = e.target as HTMLImageElement
+                  target.style.display = 'none'
+                  if (target.parentElement) {
+                    target.parentElement.classList.add('bg-gradient-to-r', 'from-blue-600', 'to-blue-800')
+                  }
+                }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/70 to-blue-800/70" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="text-center text-white px-4 z-10">
+                  <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+                    Arroyo at Skyeview at Skye Canyon
+                  </h1>
+                  <p className="text-xl md:text-2xl mb-6 drop-shadow-md">New Homes in Las Vegas, NV</p>
+                  <p className="text-2xl md:text-3xl font-semibold mb-8 drop-shadow-md">Starting from $392,640</p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button className="bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition shadow-lg">
+                      Request Info
+                    </button>
+                    <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white/10 transition shadow-lg">
+                      Schedule a Tour
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -85,14 +121,14 @@ export default function HeroCarousel() {
 
       {/* Thumbnail Indicators */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-        {images.map((_, index) => (
+        {images.map((img, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
             className={`w-3 h-3 rounded-full transition ${
               index === currentIndex ? 'bg-white' : 'bg-white/50'
             }`}
-            aria-label={`Go to slide ${index + 1}`}
+            aria-label={`Go to slide ${index + 1}: ${img.title}`}
           />
         ))}
       </div>

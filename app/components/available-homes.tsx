@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 interface Home {
@@ -15,6 +16,7 @@ interface Home {
   parking: number
   completion: string
   features: string[]
+  image?: string
 }
 
 const homes: Home[] = [
@@ -30,6 +32,7 @@ const homes: Home[] = [
     parking: 2,
     completion: 'Dec. Move In',
     features: ['Gray cabinets'],
+    image: '/images/homes/homes-1.jpg',
   },
   {
     id: '2',
@@ -43,6 +46,7 @@ const homes: Home[] = [
     parking: 2,
     completion: 'Dec. Move In',
     features: ['LVP Flooring', 'White Cabinets'],
+    image: '/images/homes/homes-2.jpg',
   },
   {
     id: '3',
@@ -56,6 +60,7 @@ const homes: Home[] = [
     parking: 2,
     completion: 'Dec. Move In',
     features: ['End Unit', 'White Cabinets'],
+    image: '/images/homes/homes-3.jpg',
   },
   {
     id: '4',
@@ -69,6 +74,7 @@ const homes: Home[] = [
     parking: 2,
     completion: 'Dec. Move In',
     features: ['LG Kitchen Appliances', 'Java Cabinets'],
+    image: '/images/homes/homes-4.jpg',
   },
   {
     id: '5',
@@ -82,6 +88,7 @@ const homes: Home[] = [
     parking: 2,
     completion: 'Dec. Move In',
     features: ['End unit', 'Courtyard Entry'],
+    image: '/images/homes/homes-5.jpg',
   },
 ]
 
@@ -150,12 +157,26 @@ export default function AvailableHomes() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {sortedHomes.map((home) => (
           <div key={home.id} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
-            <div className="h-48 bg-gray-200 relative">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-                </svg>
-              </div>
+            <div className="h-48 bg-gray-200 relative overflow-hidden">
+              {home.image ? (
+                <Image
+                  src={home.image}
+                  alt={`${home.floorPlan} floor plan at ${home.address}`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement
+                    target.style.display = 'none'
+                  }}
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center text-gray-400">
+                  <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                  </svg>
+                </div>
+              )}
             </div>
             <div className="p-6">
               <div className="mb-4">

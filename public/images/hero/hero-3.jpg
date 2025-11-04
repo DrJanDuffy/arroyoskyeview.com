@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.828" height="14.838" viewBox="0 0 14.828 14.838">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none;stroke:#5a5a5a;stroke-linecap:round;stroke-linejoin:round;stroke-width:.7px}
+        </style>
+    </defs>
+    <g id="prefix__Maps_Dimensions_real-estate-dimensions-map" data-name="Maps/Dimensions / real-estate-dimensions-map" transform="translate(-444.4 -1286.393)">
+        <g id="prefix__Group_97" data-name="Group 97" transform="translate(444.75 1286.75)">
+            <g id="prefix__Regular_97" data-name="Regular 97">
+                <path id="prefix__Shape_713" d="M445.989 1286.8a.942.942 0 0 0-1.239.894v10.831a.941.941 0 0 0 .559.861l3.332 1.413a.945.945 0 0 0 .7.024l4.485-1.786a.943.943 0 0 1 .672.011l3.084 1.212a.942.942 0 0 0 1.292-.874v-10.52a.941.941 0 0 0-.671-.9l-3.78-1.134a.941.941 0 0 0-.518-.006l-4.646 1.309a.94.94 0 0 1-.546-.015z" class="prefix__cls-1" data-name="Shape 713" transform="translate(-444.75 -1286.75)"/>
+                <path id="prefix__Shape_714" d="M447.75 1290.221v8.948l2.355.942 5.18-1.884 2.826.942v-8.477l-2.826-.942-5.18 1.413-2.355-.942z" class="prefix__cls-1" data-name="Shape 714" transform="translate(-445.866 -1287.866)"/>
+                <path id="prefix__Shape_715" d="M447.75 1295.88l2.355.942 2.355-.942" class="prefix__cls-1" data-name="Shape 715" transform="translate(-445.866 -1290.147)"/>
+                <path id="prefix__Shape_716" d="M458.25 1290.16v2.451" class="prefix__cls-1" data-name="Shape 716" transform="translate(-449.773 -1288.019)"/>
+                <path id="prefix__Shape_717" d="M447.75 1300.38l2.355.861 1.413-.39v2.7" class="prefix__cls-1" data-name="Shape 717" transform="translate(-445.866 -1291.822)"/>
+                <path id="prefix__Shape_718" d="M458.25 1302.2v-2.226l.942-.471 2.826.942" class="prefix__cls-1" data-name="Shape 718" transform="translate(-449.773 -1291.495)"/>
+            </g>
+        </g>
+    </g>
+</svg>

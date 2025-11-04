@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.057" height="20.952" viewBox="0 0 10.057 20.952">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Path_1502" d="M12.795-25v4.191H9.921a.634.634 0 0 0-.716.615V-18.011h3.592l-.718 4.19H9.2v9.778H4.912v-9.778H2.737v-4.19h2.175V-21c.018-.947.3-3.9 4.363-4h.21z" class="prefix__cls-1" data-name="Path 1502" transform="translate(-2.737 25)"/>
+        </clipPath>
+        <clipPath id="prefix__clip-path-2">
+            <path id="prefix__Path_1501" d="M0-4.048h20.952V-25H0z" class="prefix__cls-2" data-name="Path 1501" transform="translate(0 25)"/>
+        </clipPath>
+        <clipPath id="prefix__clip-path-3">
+            <path id="prefix__Rectangle_195" d="M0 0H24.444V29.682H0z" class="prefix__cls-2" data-name="Rectangle 195"/>
+        </clipPath>
+        <clipPath id="prefix__clip-path-4">
+            <path id="prefix__Path_1497" d="M2-4.048h11.349V-25H2z" class="prefix__cls-2" data-name="Path 1497" transform="translate(-2 25)"/>
+        </clipPath>
+        <clipPath id="prefix__clip-path-5">
+            <path id="prefix__Path_1500" d="M0-25h20.952v20.952H0z" class="prefix__cls-1" data-name="Path 1500" transform="translate(0 25)"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1,.prefix__cls-2{fill:#333}.prefix__cls-1{clip-rule:evenodd}.prefix__cls-7{clip-path:url(#prefix__clip-path-4)}
+        </style>
+    </defs>
+    <g id="prefix__Group_1148" clip-path="url(#prefix__clip-path)" data-name="Group 1148">
+        <g id="prefix__Group_1147" clip-path="url(#prefix__clip-path-2)" data-name="Group 1147" transform="translate(-2.39)">
+            <g id="prefix__Group_1146" data-name="Group 1146" transform="translate(-2.619 -4.365)" style="isolation:isolate">
+                <g id="prefix__Group_1145" clip-path="url(#prefix__clip-path-3)" data-name="Group 1145">
+                    <g id="prefix__Group_1142" class="prefix__cls-7" data-name="Group 1142" transform="translate(4.365 4.365)">
+                        <path id="prefix__Path_1496" d="M-2.263-30h18.788V-.318H-2.263z" class="prefix__cls-2" data-name="Path 1496" transform="translate(-1.459 25.635)"/>
+                    </g>
+                    <g id="prefix__Group_1144" clip-path="url(#prefix__clip-path-5)" data-name="Group 1144" transform="translate(2.619 4.365)">
+                        <g id="prefix__Group_1143" class="prefix__cls-7" data-name="Group 1143" transform="translate(1.746)">
+                            <path id="prefix__Path_1498" d="M-5-30h29.682V-.318H-5z" class="prefix__cls-2" data-name="Path 1498" transform="translate(-1.111 25.635)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
