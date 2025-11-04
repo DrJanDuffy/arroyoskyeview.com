@@ -22,7 +22,7 @@ export default function Header() {
             <Link href="#homes" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
               Find Your Home
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
+            <Link href="/about-us" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
               About Century
             </Link>
             <Link href="/homebuying-process" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
@@ -66,7 +66,7 @@ export default function Header() {
             <Link href="#homes" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               Find Your Home
             </Link>
-            <Link href="#about" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
+            <Link href="/about-us" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               About Century
             </Link>
             <Link href="/homebuying-process" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
