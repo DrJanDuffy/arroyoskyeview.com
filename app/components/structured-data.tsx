@@ -1,11 +1,12 @@
 export default function StructuredData() {
-  const structuredData = {
+  // Residential Complex Schema (Wikipedia/Knowledge Base friendly)
+  const residentialComplex = {
     '@context': 'https://schema.org',
-    '@type': 'RealEstateAgent',
-    name: 'Arroyo at Skyeview at Skye Canyon',
-    description: 'New townhomes in Las Vegas, NV. Starting from $392,640. Discover thoughtfully designed, two-story townhomes with exciting features like quartz countertops.',
+    '@type': 'ResidentialComplex',
+    name: 'Arroyo at Skyeview',
+    alternateName: ['Arroyo at Skyeview at Skye Canyon', 'Skyeview Arroyo'],
+    description: 'Arroyo at Skyeview is a residential community of townhomes located in Skye Canyon, Las Vegas, Nevada. The development offers two-story townhomes with 2 to 4 bedrooms, 2.5 baths, and 2-bay garages, featuring quartz countertops and open layouts.',
     url: 'https://www.arroyoskyeview.com',
-    telephone: '+1-702-730-4329',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '8912 Vanhoy Creek St.',
@@ -19,10 +20,116 @@ export default function StructuredData() {
       latitude: '36.2765',
       longitude: '-115.2832',
     },
+    containedInPlace: {
+      '@type': 'Place',
+      name: 'Skye Canyon',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Las Vegas',
+        addressRegion: 'NV',
+        postalCode: '89166',
+      },
+    },
+    numberOfBedrooms: {
+      '@type': 'QuantitativeValue',
+      minValue: 2,
+      maxValue: 4,
+    },
+    numberOfBathroomsTotal: 2.5,
+    numberOfRooms: {
+      '@type': 'QuantitativeValue',
+      minValue: 3,
+      maxValue: 5,
+    },
+    floorSize: {
+      '@type': 'QuantitativeValue',
+      minValue: 1531,
+      maxValue: 1729,
+      unitCode: 'SQM',
+    },
+    amenityFeature: [
+      {
+        '@type': 'LocationFeatureSpecification',
+        name: 'Resort-style pool',
+        value: true,
+      },
+      {
+        '@type': 'LocationFeatureSpecification',
+        name: 'Fitness center',
+        value: true,
+      },
+      {
+        '@type': 'LocationFeatureSpecification',
+        name: 'Parks',
+        value: true,
+      },
+      {
+        '@type': 'LocationFeatureSpecification',
+        name: 'Trails',
+        value: true,
+      },
+      {
+        '@type': 'LocationFeatureSpecification',
+        name: 'Sports courts',
+        value: true,
+      },
+    ],
     priceRange: '$392,640 - $424,590',
-    areaServed: {
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.5',
+      reviewCount: '8866',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    dateBuilt: '2024',
+    developer: {
+      '@type': 'Organization',
+      name: 'Century Communities',
+      url: 'https://www.centurycommunities.com',
+    },
+  }
+
+  // Place Schema for geographic information
+  const placeSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Place',
+    name: 'Skye Canyon',
+    description: 'Skye Canyon is a master-planned community in northwest Las Vegas, Nevada, covering 1,700 acres. It features residential developments, recreational facilities, parks, trails, and neighborhood schools.',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Las Vegas',
+      addressRegion: 'NV',
+      postalCode: '89166',
+      addressCountry: 'US',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: '36.2765',
+      longitude: '-115.2832',
+    },
+    containedIn: {
       '@type': 'City',
       name: 'Las Vegas',
+      addressRegion: 'NV',
+    },
+  }
+
+  // Real Estate Agent Schema (for sales office)
+  const realEstateAgent = {
+    '@context': 'https://schema.org',
+    '@type': 'RealEstateAgent',
+    name: 'Arroyo at Skyeview Sales Office',
+    description: 'Sales office for Arroyo at Skyeview townhomes in Las Vegas, Nevada.',
+    url: 'https://www.arroyoskyeview.com',
+    telephone: '+1-702-730-4329',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '8912 Vanhoy Creek St.',
+      addressLocality: 'Las Vegas',
+      addressRegion: 'NV',
+      postalCode: '89166',
+      addressCountry: 'US',
     },
     openingHoursSpecification: [
       {
@@ -45,11 +152,6 @@ export default function StructuredData() {
         closes: '17:00',
       },
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.5',
-      reviewCount: '8866',
-    },
   }
 
   const breadcrumbData = {
@@ -101,15 +203,105 @@ export default function StructuredData() {
     ],
   }
 
+  // FAQ Schema for common questions
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'What is Arroyo at Skyeview?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Arroyo at Skyeview is a residential community of townhomes located in Skye Canyon, Las Vegas, Nevada. The development offers two-story townhomes with 2 to 4 bedrooms, 2.5 baths, and 2-bay garages.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the prices for homes at Arroyo at Skyeview?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Homes at Arroyo at Skyeview start from $392,640, with prices ranging up to $424,590 depending on the floor plan and lot location.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What amenities are available at Skye Canyon?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Skye Canyon features a recreation center, fitness center, parks, trails, splash pads, sports courts and fields, and neighborhood schools across its 1,700 acres.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the floor plans available at Arroyo at Skyeview?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Arroyo at Skyeview offers three floor plans: Beverly (1,531 sq ft, 3 bedrooms), Captiva (1,643 sq ft, 3 bedrooms), and Delray (1,729 sq ft, 3-4 bedrooms). All plans include 2.5 baths and 2-bay garages.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the sales office hours?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'The sales office is open Monday through Thursday and Saturday through Sunday from 10:00 AM to 5:00 PM, and Friday from 12:00 PM to 5:00 PM.',
+        },
+      },
+    ],
+  }
+
+  // Article Schema for Wikipedia-style content
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'Arroyo at Skyeview at Skye Canyon',
+    description: 'Arroyo at Skyeview is a residential townhome community in Skye Canyon, Las Vegas, Nevada, developed by Century Communities.',
+    author: {
+      '@type': 'Organization',
+      name: 'Century Communities',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Century Communities',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.arroyoskyeview.com/og-image.png',
+      },
+    },
+    datePublished: '2024-01-01',
+    dateModified: new Date().toISOString().split('T')[0],
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': 'https://www.arroyoskyeview.com',
+    },
+  }
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(residentialComplex) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(placeSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(realEstateAgent) }}
       />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
     </>
   )

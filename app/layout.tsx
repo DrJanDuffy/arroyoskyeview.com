@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.arroyoskyeview.com'),
   title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
-  description: 'Discover new townhomes at Skyeview! The Arroyo at Skyeview community offers thoughtfully designed, two-story townhomes with exciting features like quartz countertops. Starting from $392,640 in Las Vegas, Nevada.',
+  description: 'Arroyo at Skyeview is a residential community of townhomes in Skye Canyon, Las Vegas, Nevada. Developed by Century Communities, the community offers two-story townhomes with 2-4 bedrooms, 2.5 baths, and 2-bay garages, starting from $392,640.',
   keywords: [
     'new homes Las Vegas',
     'townhomes Las Vegas',

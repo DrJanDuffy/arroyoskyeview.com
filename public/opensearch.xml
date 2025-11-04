@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Arroyo at Skyeview</ShortName>
+  <Description>Search Arroyo at Skyeview townhomes in Las Vegas, Nevada</Description>
+  <Tags>real estate Las Vegas townhomes Skye Canyon</Tags>
+  <Contact>info@arroyoskyeview.com</Contact>
+  <Url type="text/html" template="https://www.arroyoskyeview.com/?q={searchTerms}"/>
+  <Image height="16" width="16" type="image/x-icon">https://www.arroyoskyeview.com/favicon.ico</Image>
+  <Developer>Century Communities</Developer>
+  <Attribution>
+    Copyright 2025, Century Communities
+  </Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>en-US</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
+
