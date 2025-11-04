@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://arroyoskyeview.com'),
+  metadataBase: new URL('https://www.arroyoskyeview.com'),
   title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
   description: 'Discover new townhomes at Skyeview! The Arroyo at Skyeview community offers thoughtfully designed, two-story townhomes with exciting features like quartz countertops. Starting from $392,640 in Las Vegas, Nevada.',
   keywords: [
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://arroyoskyeview.com',
+    url: 'https://www.arroyoskyeview.com',
     title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
     description: 'Discover new townhomes at Skyeview! Starting from $392,640',
     siteName: 'Arroyo at Skyeview',
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     images: ['/og-image.png'],
   },
   alternates: {
-    canonical: 'https://arroyoskyeview.com',
+    canonical: 'https://www.arroyoskyeview.com',
   },
   verification: {
     google: 'G-6HBW87EGMR',

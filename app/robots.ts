@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/projects/'],
     },
-    sitemap: 'https://arroyoskyeview.com/sitemap.xml',
+    sitemap: 'https://www.arroyoskyeview.com/sitemap.xml',
   }
 }
 
