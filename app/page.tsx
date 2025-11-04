@@ -1,20 +1,27 @@
 'use client'
 
 import { useState } from 'react'
+import PurpleSaleBanner from './components/purple-sale-banner'
 import Header from './components/header'
 import HeroCarousel from './components/hero-carousel'
 import AvailableHomes from './components/available-homes'
+import AlreadyTaken from './components/already-taken'
 import FloorPlans from './components/floor-plans'
+import HomesiteMap from './components/homesite-map'
 import Overview from './components/overview'
 import AreaInformation from './components/area-information'
+import HomebuyerResources from './components/homebuyer-resources'
+import SimilarCommunities from './components/similar-communities'
+import HomeownerReviews from './components/homeowner-reviews'
 import RequestInfo from './components/request-info'
 import Footer from './components/footer'
 
 export default function HomePage() {
-  const [activeTab, setActiveTab] = useState<'homes' | 'plans' | 'overview' | 'area'>('homes')
+  const [activeTab, setActiveTab] = useState<'homes' | 'plans' | 'map' | 'overview' | 'area' | 'resources'>('homes')
 
   return (
     <div className="min-h-screen bg-white">
+      <PurpleSaleBanner />
       <Header />
       <main>
         <HeroCarousel />
@@ -22,7 +29,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Navigation Tabs */}
           <div className="border-b border-gray-200 mb-8">
-            <nav className="-mb-px flex space-x-8" aria-label="Tabs">
+            <nav className="-mb-px flex flex-wrap space-x-8" aria-label="Tabs">
               <button
                 onClick={() => setActiveTab('homes')}
                 className={`${
@@ -44,6 +51,16 @@ export default function HomePage() {
                 Floor Plans
               </button>
               <button
+                onClick={() => setActiveTab('map')}
+                className={`${
+                  activeTab === 'map'
+                    ? 'border-blue-600 text-blue-600'
+                    : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                } whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
+              >
+                Homesite Map
+              </button>
+              <button
                 onClick={() => setActiveTab('overview')}
                 className={`${
                   activeTab === 'overview'
@@ -63,18 +80,39 @@ export default function HomePage() {
               >
                 Area Information
               </button>
+              <button
+                onClick={() => setActiveTab('resources')}
+                className={`${
+                  activeTab === 'resources'
+                    ? 'border-blue-600 text-blue-600'
+                    : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                } whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
+              >
+                Homebuyer Resources
+              </button>
             </nav>
           </div>
 
           {/* Tab Content */}
           <div className="py-6">
-            {activeTab === 'homes' && <AvailableHomes />}
+            {activeTab === 'homes' && (
+              <div>
+                <AvailableHomes />
+                <div className="mt-12">
+                  <AlreadyTaken />
+                </div>
+              </div>
+            )}
             {activeTab === 'plans' && <FloorPlans />}
+            {activeTab === 'map' && <HomesiteMap />}
             {activeTab === 'overview' && <Overview />}
             {activeTab === 'area' && <AreaInformation />}
+            {activeTab === 'resources' && <HomebuyerResources />}
           </div>
         </div>
 
+        <SimilarCommunities />
+        <HomeownerReviews />
         <RequestInfo />
       </main>
       <Footer />
