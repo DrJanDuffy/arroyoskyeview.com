@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import PurpleSaleBanner from '../../../components/purple-sale-banner'
-import Header from '../../../components/header'
-import Footer from '../../../components/footer'
-import DrJanCTABanner from '../../../components/dr-jan-cta-banner'
-import PageSchemas from '../../../components/page-schemas'
-import DrJanContactCard from '../../../components/dr-jan-contact-card'
+import PurpleSaleBanner from '../../components/purple-sale-banner'
+import Header from '../../components/header'
+import Footer from '../../components/footer'
+import DrJanCTABanner from '../../components/dr-jan-cta-banner'
+import PageSchemas from '../../components/page-schemas'
+import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
   title: 'Century Communities Builder Incentives Guide | Las Vegas New Homes',
