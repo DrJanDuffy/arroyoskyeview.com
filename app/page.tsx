@@ -3,6 +3,12 @@
 import { useState } from 'react'
 import PurpleSaleBanner from './components/purple-sale-banner'
 import Header from './components/header'
+import DrJanHero from './components/dr-jan-hero'
+import WhyChooseDrJan from './components/why-choose-dr-jan'
+import BuyerJourney from './components/buyer-journey'
+import DrJanTestimonials from './components/dr-jan-testimonials'
+import BestOpportunities from './components/best-opportunities'
+import DrJanFAQ from './components/dr-jan-faq'
 import HeroCarousel from './components/hero-carousel'
 import AvailableHomes from './components/available-homes'
 import AlreadyTaken from './components/already-taken'
@@ -19,13 +25,35 @@ import Footer from './components/footer'
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'homes' | 'plans' | 'map' | 'overview' | 'area' | 'resources'>('homes')
+  const [showDrJanContent, setShowDrJanContent] = useState(true)
 
   return (
     <div className="min-h-screen bg-white">
       <PurpleSaleBanner />
       <Header />
       <main>
-        <HeroCarousel />
+        {showDrJanContent ? (
+          <>
+            <DrJanHero />
+            <WhyChooseDrJan />
+            <BuyerJourney />
+            <DrJanTestimonials />
+            <BestOpportunities />
+            <DrJanFAQ />
+            <div className="py-8 bg-gray-50">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <button
+                  onClick={() => setShowDrJanContent(false)}
+                  className="text-blue-600 hover:text-blue-700 font-medium underline"
+                >
+                  View Community Details →
+                </button>
+              </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <HeroCarousel />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Navigation Tabs */}
@@ -116,6 +144,8 @@ export default function HomePage() {
         <PeopleAlsoSearch />
         <HomeownerReviews />
         <RequestInfo />
+          </>
+        )}
       </main>
       <Footer />
     </div>
