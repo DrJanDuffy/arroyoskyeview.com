@@ -3,6 +3,7 @@ import PurpleSaleBanner from '../components/purple-sale-banner'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import DrJanCTABanner from '../components/dr-jan-cta-banner'
+import DrJanContactCard from '../components/dr-jan-contact-card'
 import WhyWorkWithDrJan from '../components/why-work-with-dr-jan'
 import ContactHero from '../components/contact-hero'
 import ContactForm from '../components/contact-form'
@@ -49,6 +50,11 @@ export default function ContactUsPage() {
         <ContactForm />
         <ContactLocations />
         <ContactMethods />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="max-w-2xl mx-auto">
+            <DrJanContactCard />
+          </div>
+        </div>
       </main>
       <Footer />
     </div>
