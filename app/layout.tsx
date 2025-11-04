@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
-import DeployBanner from '../components/deploy-banner'
 import './globals.css'
 
 const geistSans = Geist({
@@ -15,17 +14,17 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Simple v0',
-  description: 'The simplest way to use v0 - just prompt and see your app',
+  title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
+  description: 'Discover new townhomes at Skyeview! The Arroyo at Skyeview community offers thoughtfully designed, two-story townhomes with exciting features like quartz countertops.',
   openGraph: {
-    title: 'Simple v0',
-    description: 'The simplest way to use v0 - just prompt and see your app',
+    title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
+    description: 'Discover new townhomes at Skyeview! Starting from $392,640',
     images: ['/og-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Simple v0',
-    description: 'The simplest way to use v0 - just prompt and see your app',
+    title: 'Arroyo at Skyeview at Skye Canyon | New Homes in Las Vegas, NV',
+    description: 'Discover new townhomes at Skyeview! Starting from $392,640',
     images: ['/og-image.png'],
   },
 }
@@ -47,7 +46,6 @@ export default function RootLayout({
           disableTransitionOnChange
           storageKey="theme"
         >
-          <DeployBanner />
           {children}
         </ThemeProvider>
       </body>
