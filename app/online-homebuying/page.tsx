@@ -7,6 +7,7 @@ import OnlineHomebuyingHero from '../components/online-homebuying-hero'
 import HowItWorks from '../components/online-how-it-works'
 import Benefits from '../components/online-benefits'
 import AvailableHomesOnline from '../components/available-homes-online'
+import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'Online Homebuying | Century Communities',
@@ -16,6 +17,26 @@ export const metadata: Metadata = {
 export default function OnlineHomebuyingPage() {
   return (
     <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="process"
+        url="/online-homebuying"
+        title="Online Homebuying | Century Communities"
+        description="Purchase your new home completely online with Century Communities. Industry-first Buy Now option allows you to buy your dream home online from start to finish."
+        breadcrumbs={[
+          { name: 'Homebuyer Resources', url: '/' },
+          { name: 'Online Homebuying', url: '/online-homebuying' },
+        ]}
+        questions={[
+          {
+            question: 'Can I really buy a home completely online?',
+            answer: 'Yes, Century Communities offers an industry-first "Buy Now" option that allows you to purchase your new home completely online from start to finish.',
+          },
+          {
+            question: 'What are the benefits of online homebuying?',
+            answer: 'Online homebuying offers convenience, speed, and the ability to complete the purchase process from anywhere. You can view homes, select options, and complete paperwork online.',
+          },
+        ]}
+      />
       <PurpleSaleBanner />
       <Header />
       <main>

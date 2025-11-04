@@ -12,7 +12,7 @@ const opportunities = [
     incentives: '$5,000 toward closing costs',
     features: ['Top-rated schools', 'Red Rock hiking access', 'Resort-style amenities'],
     image: '/images/hero/hero-5.jpg',
-    phone: '702-222-1964',
+    phone: '(702) 903-4687',
   },
   {
     id: '2',
@@ -22,7 +22,7 @@ const opportunities = [
     incentives: 'Competitive financing rates',
     features: ['Master-planned community', 'NW Las Vegas', 'Quick move-in available'],
     image: '/images/hero/hero-6.jpg',
-    phone: '702-222-1964',
+    phone: '(702) 903-4687',
   },
   {
     id: '3',
@@ -32,7 +32,7 @@ const opportunities = [
     incentives: 'Special incentives available',
     features: ['Henderson location', 'Tour models today', 'Move-in ready homes'],
     image: '/images/hero/hero-7.jpg',
-    phone: '702-222-1964',
+    phone: '(702) 903-4687',
   },
 ]
 
@@ -112,7 +112,7 @@ export default function BestOpportunities() {
                   ))}
                 </ul>
                 <a
-                  href={`tel:${opportunity.phone}`}
+                  href="tel:7029034687"
                   className="block w-full bg-blue-600 text-white text-center px-4 py-3 rounded-md font-semibold hover:bg-blue-700 transition"
                 >
                   Call/Text {opportunity.phone}
@@ -124,10 +124,10 @@ export default function BestOpportunities() {
 
         <div className="text-center mt-8">
           <a
-            href="tel:702-222-1964"
+            href="tel:7029034687"
             className="text-blue-600 hover:text-blue-700 font-semibold text-lg"
           >
-            See all available homes → Call/Text 702-222-1964
+            See all available homes → Call/Text (702) 903-4687
           </a>
         </div>
       </div>

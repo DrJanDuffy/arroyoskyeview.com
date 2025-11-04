@@ -61,10 +61,10 @@ export default function OurPreferredBuyersAgent() {
 
           <div className="text-center pt-6 border-t border-gray-200">
             <a
-              href="tel:702-222-1964"
+              href="tel:7029034687"
               className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition shadow-lg mr-4 mb-4"
             >
-              Call Dr. Duffy: 702-222-1964
+              Call Dr. Jan: (702) 903-4687
             </a>
             <Link
               href="/work-with-dr-jan"

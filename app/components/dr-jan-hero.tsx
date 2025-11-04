@@ -13,10 +13,10 @@ export default function DrJanHero() {
             Century Communities pays for buyer representation on all their Las Vegas homes—which means you're already funding an agent, so you might as well choose the best one. <strong>Homes for Sale Vegas</strong> Dr. Duffy brings insider knowledge of every Community, real-time construction monitoring, and a building standards inspection at closing—protecting your investment every step of the way.
           </p>
           <a
-            href="tel:702-222-1964"
+            href="tel:7029034687"
             className="inline-block bg-white text-blue-600 px-8 py-4 rounded-md text-lg font-semibold hover:bg-gray-100 transition shadow-lg"
           >
-            Schedule Your Century Communities Tour – 702-222-1964
+            Schedule Your Century Communities Tour – (702) 903-4687
           </a>
         </div>
       </div>

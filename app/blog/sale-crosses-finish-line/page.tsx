@@ -3,6 +3,7 @@ import PurpleSaleBanner from '../../components/purple-sale-banner'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
+import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'How To Make Sure Your Sale Crosses the Finish Line | Century Communities',
@@ -21,6 +22,29 @@ export const metadata: Metadata = {
 export default function SaleCrossesFinishLinePage() {
   return (
     <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="blog"
+        url="/blog/sale-crosses-finish-line"
+        title="How To Make Sure Your Sale Crosses the Finish Line | Century Communities"
+        description="Learn how pre-listing inspections can help prevent buyers from backing out. Get expert advice on avoiding common deal breakers and ensuring a smooth home sale."
+        breadcrumbs={[
+          { name: 'Blog', url: '/' },
+          { name: 'Sale Crosses Finish Line', url: '/blog/sale-crosses-finish-line' },
+        ]}
+        author="Dr. Jan Duffy"
+        datePublished="2024-01-13"
+        dateModified={new Date().toISOString().split('T')[0]}
+        questions={[
+          {
+            question: 'How can I prevent buyers from backing out of a sale?',
+            answer: 'Pre-listing inspections can help identify and fix issues before listing, preventing buyers from discovering problems during their inspection and backing out.',
+          },
+          {
+            question: 'What is a pre-listing inspection?',
+            answer: 'A pre-listing inspection is a home inspection done before listing your home for sale. It identifies issues that could cause problems during the sale process, allowing you to fix them proactively.',
+          },
+        ]}
+      />
       <PurpleSaleBanner />
       <Header />
       <main>

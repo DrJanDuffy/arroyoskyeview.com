@@ -89,10 +89,10 @@ export default function BuyerJourney() {
             Ready to buy smart?
           </p>
           <a
-            href="tel:702-222-1964"
+            href="tel:7029034687"
             className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition shadow-lg"
           >
-            Call/Text 702-222-1964
+            Call/Text (702) 903-4687
           </a>
         </div>
       </div>

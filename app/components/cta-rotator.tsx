@@ -1,0 +1,152 @@
+'use client'
+
+import { useState, useEffect } from 'react'
+
+interface CTAOption {
+  text: string
+  type: 'call' | 'text'
+  variant?: 'primary' | 'secondary'
+}
+
+const ctaOptions: CTAOption[] = [
+  {
+    text: "Claim Your New Century Home Before It's Gone",
+    type: 'call',
+    variant: 'primary',
+  },
+  {
+    text: 'Lock In Pre-Construction Pricing Today',
+    type: 'text',
+    variant: 'primary',
+  },
+  {
+    text: "Ready to Build Your Dream Home? Let's Talk",
+    type: 'call',
+    variant: 'primary',
+  },
+  {
+    text: 'Get the Inside Track on Available Lots',
+    type: 'text',
+    variant: 'primary',
+  },
+  {
+    text: "First-Time New Home Buyer? I'll Guide You Through It",
+    type: 'call',
+    variant: 'primary',
+  },
+  {
+    text: "Don't Miss Out on Your Perfect Floor Plan",
+    type: 'text',
+    variant: 'primary',
+  },
+  {
+    text: 'Questions About Century Communities Incentives? Call Me',
+    type: 'call',
+    variant: 'primary',
+  },
+  {
+    text: 'See Your New Home Before Construction Starts',
+    type: 'call',
+    variant: 'primary',
+  },
+  {
+    text: "Move-In Ready or Pre-Construction? Let's Find Your Perfect Fit",
+    type: 'text',
+    variant: 'primary',
+  },
+  {
+    text: 'Get Expert Guidance on Builder Incentives & Pricing',
+    type: 'call',
+    variant: 'primary',
+  },
+]
+
+interface CTARotatorProps {
+  variant?: 'primary' | 'secondary'
+  className?: string
+  showRotate?: boolean
+  specificIndex?: number
+}
+
+export default function CTARotator({
+  variant = 'primary',
+  className = '',
+  showRotate = false,
+  specificIndex,
+}: CTARotatorProps) {
+  const [currentIndex, setCurrentIndex] = useState(
+    specificIndex !== undefined ? specificIndex : Math.floor(Math.random() * ctaOptions.length)
+  )
+
+  useEffect(() => {
+    if (showRotate && specificIndex === undefined) {
+      const interval = setInterval(() => {
+        setCurrentIndex((prev) => (prev + 1) % ctaOptions.length)
+      }, 5000) // Rotate every 5 seconds
+
+      return () => clearInterval(interval)
+    }
+  }, [showRotate, specificIndex])
+
+  const currentCTA = ctaOptions[currentIndex]
+  const phoneNumber = '(702) 903-4687'
+  const telLink = `tel:7029034687`
+  const smsLink = `sms:7029034687`
+
+  const isPrimary = variant === 'primary' || currentCTA.variant === 'primary'
+
+  return (
+    <div className={className}>
+      <a
+        href={currentCTA.type === 'call' ? telLink : smsLink}
+        className={`inline-block px-8 py-4 rounded-lg text-lg font-semibold text-center transition-all duration-300 ${
+          isPrimary
+            ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl transform hover:scale-105'
+            : 'bg-gray-100 text-gray-900 hover:bg-gray-200 border-2 border-gray-300'
+        }`}
+      >
+        {currentCTA.text} - {currentCTA.type === 'call' ? 'Call' : 'Text'} Dr. Jan {phoneNumber}
+      </a>
+    </div>
+  )
+}
+
+export function getCTAByContext(context: string): { text: string; type: 'call' | 'text' } {
+  const contextLower = context.toLowerCase()
+
+  // Match CTAs to page context
+  if (contextLower.includes('inventory') || contextLower.includes('available')) {
+    return ctaOptions[0] // "Claim Your New Century Home Before It's Gone"
+  }
+  if (contextLower.includes('pre-construction') || contextLower.includes('pricing')) {
+    return ctaOptions[1] // "Lock In Pre-Construction Pricing Today"
+  }
+  if (contextLower.includes('build') || contextLower.includes('dream')) {
+    return ctaOptions[2] // "Ready to Build Your Dream Home? Let's Talk"
+  }
+  if (contextLower.includes('lot') || contextLower.includes('homesite')) {
+    return ctaOptions[3] // "Get the Inside Track on Available Lots"
+  }
+  if (contextLower.includes('first-time') || contextLower.includes('homebuyer')) {
+    return ctaOptions[4] // "First-Time New Home Buyer? I'll Guide You Through It"
+  }
+  if (contextLower.includes('floor plan') || contextLower.includes('plan')) {
+    return ctaOptions[5] // "Don't Miss Out on Your Perfect Floor Plan"
+  }
+  if (contextLower.includes('incentive') || contextLower.includes('builder')) {
+    return ctaOptions[6] // "Questions About Century Communities Incentives? Call Me"
+  }
+  if (contextLower.includes('construction') || contextLower.includes('build')) {
+    return ctaOptions[7] // "See Your New Home Before Construction Starts"
+  }
+  if (contextLower.includes('move-in') || contextLower.includes('ready')) {
+    return ctaOptions[8] // "Move-In Ready or Pre-Construction? Let's Find Your Perfect Fit"
+  }
+  if (contextLower.includes('pricing') || contextLower.includes('incentive')) {
+    return ctaOptions[9] // "Get Expert Guidance on Builder Incentives & Pricing"
+  }
+
+  // Default to first CTA
+  return ctaOptions[0]
+}
+

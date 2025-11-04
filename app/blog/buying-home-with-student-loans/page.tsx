@@ -4,6 +4,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 import Script from 'next/script'
+import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'You Can Buy a Home When You Have Student Loans | Century Communities',
@@ -20,6 +21,29 @@ export const metadata: Metadata = {
 export default function BuyingHomeWithStudentLoansPage() {
   return (
     <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="blog"
+        url="/blog/buying-home-with-student-loans"
+        title="You Can Buy a Home When You Have Student Loans | Century Communities"
+        description="Learn how student loans don't have to prevent you from buying your dream home. Get expert advice on managing student debt while purchasing a home."
+        breadcrumbs={[
+          { name: 'Blog', url: '/' },
+          { name: 'Buying Home with Student Loans', url: '/blog/buying-home-with-student-loans' },
+        ]}
+        author="Dr. Jan Duffy"
+        datePublished="2024-01-14"
+        dateModified={new Date().toISOString().split('T')[0]}
+        questions={[
+          {
+            question: 'Can I buy a home if I have student loans?',
+            answer: 'Yes, having student loans doesn\'t mean you can\'t buy a home. Lenders evaluate your debt-to-income ratio and overall financial situation, not just your student loan balance.',
+          },
+          {
+            question: 'How do lenders evaluate student loans when approving a mortgage?',
+            answer: 'Lenders look at your debt-to-income ratio, credit score, employment history, and overall financial stability. Student loans are just one factor in the evaluation process.',
+          },
+        ]}
+      />
       <PurpleSaleBanner />
       <Header />
       <main>

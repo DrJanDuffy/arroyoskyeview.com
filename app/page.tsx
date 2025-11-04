@@ -21,6 +21,8 @@ import SimilarCommunities from './components/similar-communities'
 import HomeownerReviews from './components/homeowner-reviews'
 import RequestInfo from './components/request-info'
 import PeopleAlsoSearch from './components/people-also-search'
+import HomepageContentSection from './components/homepage-content-section'
+import PageSchemas from './components/page-schemas'
 import Footer from './components/footer'
 
 export default function HomePage() {
@@ -29,6 +31,31 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="homepage"
+        url="/"
+        title="Arroyo at Skyeview: New Construction Townhomes in Skye Canyon, Las Vegas"
+        description="Arroyo at Skyeview offers modern townhomes in Skye Canyon, Las Vegas. Starting from $392,640. Expert buyer representation with Dr. Jan Duffy. Construction monitoring, building standards inspection & insider knowledge."
+        breadcrumbs={[]}
+        location="Skye Canyon"
+        zipCode="89166"
+        questions={[
+          {
+            question: 'What is Arroyo at Skyeview and where is it located?',
+            answer: 'Arroyo at Skyeview is a residential community of modern townhomes located in Skye Canyon, a master-planned community in northwest Las Vegas, Nevada (zip code 89166).',
+          },
+          {
+            question: 'What are the prices for homes at Arroyo at Skyeview?',
+            answer: 'Homes at Arroyo at Skyeview start from $392,640, with prices ranging up to $424,590 depending on the floor plan and lot location.',
+          },
+          {
+            question: 'What floor plans are available at Arroyo at Skyeview?',
+            answer: 'Arroyo at Skyeview offers three distinct floor plans: the Beverly (1,531 sq ft, 3 bedrooms), the Captiva (1,643 sq ft, 3 bedrooms), and the Delray (1,729 sq ft, 3-4 bedrooms).',
+          },
+        ]}
+        priceRange="$392,640 - $424,590"
+        rating={{ value: '4.5', count: '8866' }}
+      />
       <PurpleSaleBanner />
       <Header />
       <main>
@@ -141,6 +168,7 @@ export default function HomePage() {
         </div>
 
         <SimilarCommunities />
+        <HomepageContentSection />
         <PeopleAlsoSearch />
         <HomeownerReviews />
         <RequestInfo />

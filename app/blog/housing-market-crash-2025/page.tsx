@@ -4,6 +4,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 import Image from 'next/image'
+import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'Is the Housing Market Going To Crash? Here\'s What Experts Say | Century Communities',
@@ -21,6 +22,29 @@ export const metadata: Metadata = {
 export default function HousingMarketCrashPage() {
   return (
     <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="blog"
+        url="/blog/housing-market-crash-2025"
+        title="Is the Housing Market Going To Crash? Here's What Experts Say | Century Communities"
+        description="Expert forecasts show home prices are expected to rise nationally, not fall, over the next 5 years. Learn what the data says about the housing market outlook."
+        breadcrumbs={[
+          { name: 'Blog', url: '/' },
+          { name: 'Housing Market Crash', url: '/blog/housing-market-crash-2025' },
+        ]}
+        author="Dr. Jan Duffy"
+        datePublished="2024-01-10"
+        dateModified={new Date().toISOString().split('T')[0]}
+        questions={[
+          {
+            question: 'Is the housing market going to crash in 2025?',
+            answer: 'Expert forecasts show home prices are expected to rise nationally, not fall, over the next 5 years. The data points to slow, continued growth rather than a crash.',
+          },
+          {
+            question: 'What do experts say about home prices?',
+            answer: 'The Home Price Expectations Survey shows experts expect home prices to continue rising over the next 5 years, with forecasts showing continued growth rather than decline.',
+          },
+        ]}
+      />
       <PurpleSaleBanner />
       <Header />
       <main>

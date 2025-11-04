@@ -277,6 +277,39 @@ export default function StructuredData() {
     },
   }
 
+  // Organization Schema for Grokipedia compatibility
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Las Vegas Century Communities Realtor',
+    alternateName: 'Dr. Jan Duffy Real Estate',
+    description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
+    url: 'https://www.arroyoskyeview.com',
+    telephone: '+1-702-903-4687',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Las Vegas',
+      addressRegion: 'NV',
+      postalCode: '89166',
+      addressCountry: 'US',
+    },
+    areaServed: {
+      '@type': 'City',
+      name: 'Las Vegas',
+      addressRegion: 'NV',
+    },
+    knowsAbout: [
+      'New Construction Homes',
+      'Century Communities',
+      'Las Vegas Real Estate',
+      'Skye Canyon',
+      'Summerlin',
+      'Henderson',
+      'First-Time Homebuyers',
+      'Builder Incentives',
+    ],
+  }
+
   return (
     <>
       <script
@@ -302,6 +335,10 @@ export default function StructuredData() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
     </>
   )

@@ -9,6 +9,7 @@ import HowWeMakeItEasy from '../components/how-we-make-it-easy'
 import MoreWaysToStreamline from '../components/more-ways-to-streamline'
 import HomebuyerResourcesCarousel from '../components/homebuyer-resources-carousel'
 import GetInTouch from '../components/get-in-touch'
+import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'Homebuying Process | Century Communities',
@@ -18,10 +19,30 @@ export const metadata: Metadata = {
 export default function HomebuyingProcessPage() {
   return (
     <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="process"
+        url="/homebuying-process"
+        title="Homebuying Process | Century Communities"
+        description="Explore the homebuying process with Century Communities. Learn about prequalification, house hunting, contracting, and closing on your new home."
+        breadcrumbs={[
+          { name: 'Homebuyer Resources', url: '/' },
+          { name: 'Homebuying Process', url: '/homebuying-process' },
+        ]}
+        questions={[
+          {
+            question: 'What are the steps in the homebuying process?',
+            answer: 'The homebuying process includes: 1) Prequalify, 2) House Hunt, 3) Contract, and 4) Close on your new home.',
+          },
+          {
+            question: 'How long does the homebuying process take?',
+            answer: 'The homebuying process typically takes 4-7 months from contract to closing for new construction homes.',
+          },
+        ]}
+      />
       <PurpleSaleBanner />
       <Header />
       <main>
-        <DrJanCTABanner />
+        <DrJanCTABanner context="first-time homebuyer guide" />
         <HomebuyingProcessHero />
         <ProcessSteps />
         <HowWeMakeItEasy />

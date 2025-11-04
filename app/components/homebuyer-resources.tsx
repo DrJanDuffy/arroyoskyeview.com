@@ -36,11 +36,11 @@ export default function HomebuyerResources() {
     },
     {
       id: '5',
-      title: 'Top 10 Things to Do in Pahrump, Nevada',
-      description: 'Located on the other side of Mount Charleston from Las Vegas, this high-desert town of almost 50,000 people offers no shortage of fun and adventure...',
-      image: '/images/hero/hero-6.jpg',
-      category: 'Area Guide',
-      url: '#',
+      title: 'New Home Inventory is 2x the Normal: Why It\'s Time to Buy New',
+      description: 'With low resale inventory and 2x the normal new home inventory, builders are buying down mortgage rates, lowering prices, and offering promotions and incentives. It\'s time to buy new!',
+      image: '/images/hero/hero-7.jpg',
+      category: 'Market Insights',
+      url: '/blog/new-home-inventory-2x',
     },
   ]
 
@@ -95,28 +95,28 @@ export default function HomebuyerResources() {
         <h3 className="text-xl font-bold text-gray-900 mb-4">Additional Resources</h3>
         <ul className="space-y-3">
           <li>
-            <a href="#" className="text-blue-600 hover:text-blue-700 font-medium">
+            <a href="/homebuying-process" className="text-blue-600 hover:text-blue-700 font-medium">
               Homebuying Process
             </a>
             <p className="text-sm text-gray-600 mt-1">Learn about our step-by-step process for buying your new home</p>
           </li>
           <li>
-            <a href="#" className="text-blue-600 hover:text-blue-700 font-medium">
+            <a href="/faq" className="text-blue-600 hover:text-blue-700 font-medium">
+              Frequently Asked Questions
+            </a>
+            <p className="text-sm text-gray-600 mt-1">Get answers to common questions about buying new construction homes</p>
+          </li>
+          <li>
+            <a href="/faq/las-vegas-hyperlocal" className="text-blue-600 hover:text-blue-700 font-medium">
+              Las Vegas Hyperlocal Q&A
+            </a>
+            <p className="text-sm text-gray-600 mt-1">Comprehensive hyperlocal questions and answers about Las Vegas neighborhoods, schools, and lifestyle</p>
+          </li>
+          <li>
+            <a href="/online-homebuying" className="text-blue-600 hover:text-blue-700 font-medium">
               Online Homebuying
             </a>
             <p className="text-sm text-gray-600 mt-1">Purchase your home entirely online with our convenient platform</p>
-          </li>
-          <li>
-            <a href="#" className="text-blue-600 hover:text-blue-700 font-medium">
-              Our Affiliates
-            </a>
-            <p className="text-sm text-gray-600 mt-1">Connect with trusted partners for financing, insurance, and more</p>
-          </li>
-          <li>
-            <a href="#" className="text-blue-600 hover:text-blue-700 font-medium">
-              Blog: The Front Porch
-            </a>
-            <p className="text-sm text-gray-600 mt-1">Read the latest news, tips, and stories from Century Communities</p>
           </li>
         </ul>
       </div>

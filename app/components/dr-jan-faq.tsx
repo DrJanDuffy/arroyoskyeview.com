@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: 'Which Century Communities are best for [families/first-time buyers/investors]?',
-    answer: 'Let\'s talk—Dr. Duffy knows the ins and outs of every community. Call/text 702-222-1964',
+    answer: 'Let\'s talk—Dr. Jan Duffy knows the ins and outs of every community. Call/text (702) 903-4687',
   },
 ]
 

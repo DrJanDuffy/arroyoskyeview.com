@@ -3,6 +3,7 @@ import PurpleSaleBanner from '../../components/purple-sale-banner'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
+import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'Thought the Market Passed You By? Think Again. | Century Communities',
@@ -21,6 +22,29 @@ export const metadata: Metadata = {
 export default function MarketPassedYouByPage() {
   return (
     <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="blog"
+        url="/blog/market-passed-you-by"
+        title="Thought the Market Passed You By? Think Again. | Century Communities"
+        description="With more homes to choose from, prices leveling off, and mortgage rates easing, today's market is offering something you haven't had in a while: options."
+        breadcrumbs={[
+          { name: 'Blog', url: '/' },
+          { name: 'Market Passed You By', url: '/blog/market-passed-you-by' },
+        ]}
+        author="Dr. Jan Duffy"
+        datePublished="2024-01-12"
+        dateModified={new Date().toISOString().split('T')[0]}
+        questions={[
+          {
+            question: 'Is now a good time to buy a home?',
+            answer: 'Yes, with more homes to choose from, prices leveling off, and mortgage rates easing, today\'s market is offering options that buyers haven\'t had in a while.',
+          },
+          {
+            question: 'What are current market conditions for buyers?',
+            answer: 'Buyers are in a better position now than they\'ve been in quite a long time, with more inventory, better affordability, and more negotiating power.',
+          },
+        ]}
+      />
       <PurpleSaleBanner />
       <Header />
       <main>

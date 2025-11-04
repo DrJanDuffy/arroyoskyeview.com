@@ -1,0 +1,189 @@
+import type { Metadata } from 'next'
+import PurpleSaleBanner from '../../../components/purple-sale-banner'
+import Header from '../../../components/header'
+import Footer from '../../../components/footer'
+import DrJanCTABanner from '../../../components/dr-jan-cta-banner'
+import PageSchemas from '../../../components/page-schemas'
+import DrJanContactCard from '../../../components/dr-jan-contact-card'
+
+export const metadata: Metadata = {
+  title: 'Century Communities Builder Incentives Guide | Las Vegas New Homes',
+  description: 'Learn about current Century Communities builder incentives in Las Vegas. Get expert guidance on rate buy-downs, closing cost assistance, and promotions from Dr. Jan Duffy.',
+  keywords: [
+    'Century Communities incentives',
+    'builder incentives Las Vegas',
+    'mortgage rate buy down',
+    'closing cost assistance',
+    'builder promotions',
+    'new home incentives',
+    'Century Communities deals',
+  ],
+}
+
+export default function BuilderIncentivesGuidePage() {
+  return (
+    <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="buyer-guide"
+        url="/buyers/builder-incentives-guide"
+        title="Century Communities Builder Incentives Guide | Las Vegas New Homes"
+        description="Learn about current Century Communities builder incentives in Las Vegas. Get expert guidance on rate buy-downs, closing cost assistance, and promotions from Dr. Jan Duffy."
+        breadcrumbs={[
+          { name: 'Buyers', url: '/buyers/builder-incentives-guide' },
+          { name: 'Builder Incentives Guide', url: '/buyers/builder-incentives-guide' },
+        ]}
+        questions={[
+          {
+            question: 'What builder incentives are currently available in Las Vegas?',
+            answer: 'Century Communities is offering mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. Dr. Jan Duffy has insider knowledge of current incentives—call (702) 903-4687.',
+          },
+          {
+            question: 'How much can builder rate buy-downs save me?',
+            answer: 'Builder rate buy-downs can reduce your mortgage interest rate by 1-2 percentage points for the first few years, potentially saving hundreds of dollars per month.',
+          },
+        ]}
+      />
+      <PurpleSaleBanner />
+      <Header />
+      <main>
+        <DrJanCTABanner />
+        
+        <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Century Communities Builder Incentives Guide
+            </h1>
+            <p className="text-xl text-blue-100 max-w-3xl">
+              Learn about current builder incentives, promotions, and how to maximize your savings when buying a Century Communities home in Las Vegas.
+            </p>
+          </div>
+        </section>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2">
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">Current Builder Incentives</h2>
+                <p className="text-lg text-gray-700 mb-4">
+                  With 2x the normal new home inventory, builders are offering aggressive incentives to attract buyers. Century Communities is currently providing various incentives that can significantly reduce your costs and monthly payments.
+                </p>
+                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg mb-6">
+                  <p className="text-lg font-semibold text-gray-900 mb-2">Important Note</p>
+                  <p className="text-gray-700">
+                    Builder incentives change frequently and vary by community, lot, and timing. Dr. Jan Duffy has real-time knowledge of current incentives and can help you maximize your savings.
+                  </p>
+                </div>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">Types of Builder Incentives</h2>
+                
+                <div className="space-y-6">
+                  <div className="border border-gray-200 rounded-lg p-6">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Mortgage Rate Buy-Downs</h3>
+                    <p className="text-lg text-gray-700 mb-3">
+                      Builders are buying down mortgage rates to make financing more affordable. This can reduce your monthly payment by hundreds of dollars.
+                    </p>
+                    <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                      <li>Temporary rate buy-downs (2-1 buydown, 3-2-1 buydown)</li>
+                      <li>Permanent rate reductions</li>
+                      <li>Combined with builder's preferred lenders for best rates</li>
+                    </ul>
+                  </div>
+
+                  <div className="border border-gray-200 rounded-lg p-6">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Closing Cost Assistance</h3>
+                    <p className="text-lg text-gray-700 mb-3">
+                      Builders may offer closing cost credits or assistance, reducing your upfront costs significantly.
+                    </p>
+                    <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                      <li>Up to $5,000 or more in closing cost assistance</li>
+                      <li>Can be combined with other incentives</li>
+                      <li>Reduces cash needed at closing</li>
+                    </ul>
+                  </div>
+
+                  <div className="border border-gray-200 rounded-lg p-6">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Price Reductions</h3>
+                    <p className="text-lg text-gray-700 mb-3">
+                      Builders are adjusting prices to be more competitive, offering better value than in recent years.
+                    </p>
+                    <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                      <li>Reduced base prices on select homes</li>
+                      <li>Lot premiums waived or reduced</li>
+                      <li>Move-in ready homes at discounted prices</li>
+                    </ul>
+                  </div>
+
+                  <div className="border border-gray-200 rounded-lg p-6">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Upgrade Packages</h3>
+                    <p className="text-lg text-gray-700 mb-3">
+                      Free or discounted upgrades can add significant value to your new home.
+                    </p>
+                    <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                      <li>Premium flooring and countertops</li>
+                      <li>Appliance upgrades</li>
+                      <li>Design center credits</li>
+                      <li>Smart home technology packages</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Maximize Builder Incentives</h2>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">1. Work with Dr. Jan Duffy</h3>
+                    <p className="text-gray-700">
+                      Dr. Jan has insider knowledge of current incentives and can negotiate the best package for you. She knows which communities and lots have the best incentives available.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">2. Timing Matters</h3>
+                    <p className="text-gray-700">
+                      Incentives often vary by month and quarter. Builders may offer better incentives at month-end or quarter-end to meet sales goals.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">3. Consider Move-In Ready Homes</h3>
+                    <p className="text-gray-700">
+                      Homes that are completed or near completion may have better incentives as builders want to close quickly.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">4. Bundle Incentives</h3>
+                    <p className="text-gray-700">
+                      Often, builders allow you to combine multiple incentives. Dr. Jan can help you structure the best package combining rate buy-downs, closing costs, and upgrades.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <section className="mb-12 bg-blue-50 p-8 rounded-lg">
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Get Current Incentive Information</h2>
+                <p className="text-lg text-gray-700 mb-6">
+                  Builder incentives change frequently. Dr. Jan Duffy maintains real-time knowledge of current Century Communities incentives and can help you find the best deals available.
+                </p>
+                <a
+                  href="tel:7029034687"
+                  className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition"
+                >
+                  Call Dr. Jan: (702) 903-4687
+                </a>
+              </section>
+            </div>
+
+            <div className="lg:col-span-1">
+              <div className="sticky top-4">
+                <DrJanContactCard />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  )
+}
+

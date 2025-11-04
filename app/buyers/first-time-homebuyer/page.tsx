@@ -1,0 +1,222 @@
+import type { Metadata } from 'next'
+import PurpleSaleBanner from '../../components/purple-sale-banner'
+import Header from '../../components/header'
+import Footer from '../../components/footer'
+import DrJanCTABanner from '../../components/dr-jan-cta-banner'
+import PageSchemas from '../../components/page-schemas'
+import DrJanContactCard from '../../components/dr-jan-contact-card'
+
+export const metadata: Metadata = {
+  title: 'First-Time Homebuyer Guide Las Vegas | Century Communities | Dr. Jan Duffy',
+  description: 'Complete guide for first-time homebuyers in Las Vegas. Learn about down payment assistance, financing options, and the homebuying process with expert guidance from Dr. Jan Duffy.',
+  keywords: [
+    'first-time homebuyer Las Vegas',
+    'first-time buyer guide',
+    'down payment assistance Nevada',
+    'Nevada first-time buyer',
+    'Las Vegas homebuying',
+    'first-time buyer programs',
+    'homebuyer assistance',
+    'Century Communities first-time buyer',
+  ],
+}
+
+export default function FirstTimeHomebuyerPage() {
+  return (
+    <div className="min-h-screen bg-white">
+      <PageSchemas
+        pageType="buyer-guide"
+        url="/buyers/first-time-homebuyer"
+        title="First-Time Homebuyer Guide Las Vegas | Century Communities | Dr. Jan Duffy"
+        description="Complete guide for first-time homebuyers in Las Vegas. Learn about down payment assistance, financing options, and the homebuying process with expert guidance from Dr. Jan Duffy."
+        breadcrumbs={[
+          { name: 'Buyers', url: '/buyers/first-time-homebuyer' },
+          { name: 'First-Time Homebuyer', url: '/buyers/first-time-homebuyer' },
+        ]}
+        questions={[
+          {
+            question: 'What programs are available for first-time homebuyers in Las Vegas?',
+            answer: 'There are several programs available for first-time homebuyers in Las Vegas including down payment assistance programs, FHA loans, and state-specific first-time buyer programs. Contact Dr. Jan Duffy at (702) 903-4687 for guidance on available programs.',
+          },
+          {
+            question: 'How much do I need for a down payment on a new construction home?',
+            answer: 'Down payment requirements vary by loan type. FHA loans may require as little as 3.5% down, conventional loans typically require 5-20% down, and some programs offer down payment assistance. Dr. Jan Duffy can help you understand your options.',
+          },
+        ]}
+      />
+      <PurpleSaleBanner />
+      <Header />
+      <main>
+        <DrJanCTABanner />
+        
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              First-Time Homebuyer Guide Las Vegas
+            </h1>
+            <p className="text-xl text-blue-100 max-w-3xl">
+              Complete guide to buying your first home in Las Vegas. Get expert guidance from Dr. Jan Duffy on the entire homebuying process, financing, and available programs.
+            </p>
+          </div>
+        </section>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2">
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">Getting Started as a First-Time Homebuyer</h2>
+                <p className="text-lg text-gray-700 mb-4">
+                  Buying your first home is an exciting milestone, but it can also feel overwhelming. This guide will walk you through everything you need to know about purchasing your first home in Las Vegas with Century Communities.
+                </p>
+                <p className="text-lg text-gray-700 mb-4">
+                  The good news? As a first-time homebuyer, you may qualify for special programs, down payment assistance, and favorable financing options that can make homeownership more accessible than you think.
+                </p>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">Step 1: Get Your Finances in Order</h2>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">Check Your Credit Score</h3>
+                    <p className="text-gray-700">
+                      Your credit score significantly impacts your mortgage rate. Aim for a score of 620 or higher for conventional loans, though some programs accept lower scores.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">Save for Down Payment</h3>
+                    <p className="text-gray-700">
+                      While 20% down is ideal, many first-time buyer programs require as little as 3-5% down. Down payment assistance programs may also be available.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h3 className="text-xl font-bold text-gray-900 mb-3">Get Pre-Approved</h3>
+                    <p className="text-gray-700">
+                      Getting pre-approved shows sellers you're serious and helps you understand your budget. Dr. Jan Duffy can connect you with trusted lenders.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">First-Time Buyer Programs</h2>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-blue-600 pl-4">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans</h3>
+                    <p className="text-gray-700 mb-2">
+                      Federal Housing Administration loans allow down payments as low as 3.5% with more flexible credit requirements.
+                    </p>
+                  </div>
+                  <div className="border-l-4 border-blue-600 pl-4">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">VA Loans</h3>
+                    <p className="text-gray-700 mb-2">
+                      If you're a veteran or active military, VA loans offer 0% down payment and no private mortgage insurance.
+                    </p>
+                  </div>
+                  <div className="border-l-4 border-blue-600 pl-4">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Nevada Down Payment Assistance</h3>
+                    <p className="text-gray-700 mb-2">
+                      Nevada offers various down payment assistance programs for first-time buyers. Dr. Jan Duffy can help you explore these options.
+                    </p>
+                  </div>
+                  <div className="border-l-4 border-blue-600 pl-4">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Builder Incentives</h3>
+                    <p className="text-gray-700 mb-2">
+                      Century Communities often offers special incentives for first-time buyers, including closing cost assistance and rate buy-downs.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">Why New Construction for First-Time Buyers?</h2>
+                <p className="text-lg text-gray-700 mb-4">
+                  New construction homes offer several advantages for first-time buyers:
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-lg text-gray-700 mb-6 ml-4">
+                  <li><strong>No Surprise Repairs:</strong> Everything is brand new with builder warranties</li>
+                  <li><strong>Modern Features:</strong> Energy-efficient systems, modern appliances, and contemporary design</li>
+                  <li><strong>Builder Incentives:</strong> Special financing, closing cost assistance, and upgrades</li>
+                  <li><strong>Warranty Protection:</strong> Builder warranties cover major systems and structural issues</li>
+                  <li><strong>Customization Options:</strong> Choose finishes and features that match your style</li>
+                </ul>
+              </section>
+
+              <section className="mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">The Homebuying Process</h2>
+                <div className="space-y-6">
+                  <div className="flex gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                      1
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Get Pre-Approved</h3>
+                      <p className="text-gray-700">Understand your budget and get pre-approved for financing.</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                      2
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Work with Dr. Jan Duffy</h3>
+                      <p className="text-gray-700">Get expert representation at no cost to you. Dr. Jan will help you find the perfect home and navigate the entire process.</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                      3
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Choose Your Home</h3>
+                      <p className="text-gray-700">Select from available homes or choose a lot for new construction.</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                      4
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Construction & Monitoring</h3>
+                      <p className="text-gray-700">Dr. Jan monitors construction to ensure quality throughout the build process.</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                      5
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Closing & Inspection</h3>
+                      <p className="text-gray-700">Complete final inspection and close on your new home with confidence.</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section className="mb-12 bg-blue-50 p-8 rounded-lg">
+                <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Start Your Homebuying Journey?</h2>
+                <p className="text-lg text-gray-700 mb-6">
+                  Dr. Jan Duffy specializes in helping first-time homebuyers navigate the entire process. With expert guidance on financing, builder incentives, and the homebuying process, you'll have the support you need every step of the way.
+                </p>
+                <a
+                  href="tel:7029034687"
+                  className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition"
+                >
+                  Call Dr. Jan: (702) 903-4687
+                </a>
+              </section>
+            </div>
+
+            <div className="lg:col-span-1">
+              <div className="sticky top-4">
+                <DrJanContactCard />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  )
+}
+

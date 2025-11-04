@@ -24,10 +24,10 @@ export default function DrJanContactCard() {
       
       <div className="space-y-3">
         <a
-          href="tel:702-222-1964"
+          href="tel:7029034687"
           className="block w-full bg-blue-600 text-white text-center px-4 py-3 rounded-md font-semibold hover:bg-blue-700 transition"
         >
-          Call/Text: 702-222-1964
+          Call/Text: (702) 903-4687
         </a>
         <Link
           href="/work-with-dr-jan"
