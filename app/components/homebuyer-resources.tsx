@@ -4,17 +4,27 @@ export default function HomebuyerResources() {
   const resources = [
     {
       id: '1',
-      title: 'Top 10 Things to Do in Pahrump, Nevada',
-      description: 'Located on the other side of Mount Charleston from Las Vegas, this high-desert town of almost 50,000 people offers no shortage of fun and adventure...',
+      title: 'Is the Housing Market Going To Crash? Here\'s What Experts Say',
+      description: 'Expert forecasts show home prices are expected to rise nationally, not fall, over the next 5 years. Learn what the data says about the housing market outlook.',
       image: '/images/hero/hero-5.jpg',
-      category: 'Area Guide',
+      category: 'Market Insights',
+      url: '/blog/housing-market-crash-2025',
     },
     {
       id: '2',
+      title: 'Top 10 Things to Do in Pahrump, Nevada',
+      description: 'Located on the other side of Mount Charleston from Las Vegas, this high-desert town of almost 50,000 people offers no shortage of fun and adventure...',
+      image: '/images/hero/hero-6.jpg',
+      category: 'Area Guide',
+      url: '#',
+    },
+    {
+      id: '3',
       title: 'Top Reasons for Buying a New Home in Nevada',
       description: 'Discover why you should buy a new home in Nevada. From Las Vegas\'s energy to Henderson\'s tranquility, the Silver State is sure to have your perfect home...',
-      image: '/images/hero/hero-6.jpg',
+      image: '/images/hero/hero-7.jpg',
       category: 'Homebuying Guide',
+      url: '#',
     },
   ]
 
@@ -54,9 +64,12 @@ export default function HomebuyerResources() {
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">{resource.title}</h3>
               <p className="text-gray-600 mb-4 line-clamp-3">{resource.description}</p>
-              <button className="text-blue-600 hover:text-blue-700 font-medium text-sm">
+              <a
+                href={resource.url || '#'}
+                className="inline-block text-blue-600 hover:text-blue-700 font-medium text-sm"
+              >
                 Read More →
-              </button>
+              </a>
             </div>
           </div>
         ))}
