@@ -7,7 +7,7 @@ const steps = [
     id: 1,
     title: 'Prequalify',
     subtitle: 'Get a no-strings-attached financial assessment',
-    description: 'This no-commitment, knowledge-building exercise gives you insight into how much home you could probably afford, as well as which home loan type might be your best fit. All it requires is for a lender to take a snapshot of your finances and run a credit check. Prequalification is a powerful tool that will let you know exactly what steps you'll need to take before you're ready to purchase a home—if you're not there already! It also establishes a relationship with a lender, which will come in handy later on when you need preapproval to purchase a particular home',
+    description: 'This no-commitment, knowledge-building exercise gives you insight into how much home you could probably afford, as well as which home loan type might be your best fit. All it requires is for a lender to take a snapshot of your finances and run a credit check. Prequalification is a powerful tool that will let you know exactly what steps you\'ll need to take before you\'re ready to purchase a home—if you\'re not there already! It also establishes a relationship with a lender, which will come in handy later on when you need preapproval to purchase a particular home',
     cta: 'Get prequalified',
     ctaLink: '#prequalify',
     myths: [
@@ -20,7 +20,7 @@ const steps = [
     id: 2,
     title: 'House Hunt',
     subtitle: 'Search on-site or online',
-    description: 'Once you've prequalified and know your price range, you're ready to go shopping. Depending on what's most convenient for you, you could browse online, tour communities in person, or a combination of both! This is the time to put together your wish list of everything you'd want in your dream home.',
+    description: 'Once you\'ve prequalified and know your price range, you\'re ready to go shopping. Depending on what\'s most convenient for you, you could browse online, tour communities in person, or a combination of both! This is the time to put together your wish list of everything you\'d want in your dream home.',
     cta: 'Start your search',
     ctaLink: '/',
     wishList: [
@@ -35,7 +35,7 @@ const steps = [
     id: 3,
     title: 'Contract',
     subtitle: 'Make a preliminary commitment to buy',
-    description: 'One of the great advantages of new home construction is that it's first-come, first-served. As long as you're a qualified buyer, the house is yours if you're the one who got there first. When you've found a home that checks the right boxes, you'll want to act fast to get it under contract—ensuring that no other buyer can swoop in and buy it out from under you.',
+    description: 'One of the great advantages of new home construction is that it\'s first-come, first-served. As long as you\'re a qualified buyer, the house is yours if you\'re the one who got there first. When you\'ve found a home that checks the right boxes, you\'ll want to act fast to get it under contract—ensuring that no other buyer can swoop in and buy it out from under you.',
     considerations: [
       'Home loan preapproval',
       'Earnest money deposit',
@@ -46,8 +46,8 @@ const steps = [
   {
     id: 4,
     title: 'Close',
-    subtitle: 'Put a bow on it and grab the keys… you're a new homeowner!',
-    description: 'This is your big day to sign final paperwork and breathe a sigh of satisfaction, because you've officially bought a home. And whether it's your first house, or one of several, the feeling never gets old. You'll also love the peace of mind that comes with a new home warranty, providing coverage on major items and repairs.',
+    subtitle: 'Put a bow on it and grab the keys… you\'re a new homeowner!',
+    description: 'This is your big day to sign final paperwork and breathe a sigh of satisfaction, because you\'ve officially bought a home. And whether it\'s your first house, or one of several, the feeling never gets old. You\'ll also love the peace of mind that comes with a new home warranty, providing coverage on major items and repairs.',
     considerations: [
       'Down Payment',
       'Closing costs',

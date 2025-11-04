@@ -26,7 +26,7 @@ export default function MoreWaysToStreamline() {
         <p className="text-lg text-gray-700 mb-12 text-center max-w-3xl mx-auto">
           Our affiliate companies allow you to make the process even easier, offering everything from 
           in-house mortgage financing to title and insurance services. With everything under the same 
-          roof, you'll enjoy a more seamless experience that allows you to focus more on the excitement 
+          roof, you\'ll enjoy a more seamless experience that allows you to focus more on the excitement 
           of buying your dream home.
         </p>
 

@@ -6,8 +6,8 @@ export default function HomebuyingProcessHero() {
           Explore the homebuying process
         </h1>
         <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-          Whether it's your first time buying a new home or you're in need of a refresher for the 
-          next home purchase, we're here to walk you through the process—ensuring that you'll be 
+          Whether it\'s your first time buying a new home or you\'re in need of a refresher for the 
+          next home purchase, we\'re here to walk you through the process—ensuring that you\'ll be 
           prepared and informed every step of the way.
         </p>
       </div>

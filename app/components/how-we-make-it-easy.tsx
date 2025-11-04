@@ -6,7 +6,7 @@ export default function HowWeMakeItEasy() {
           How we make it easy
         </h2>
         <p className="text-lg text-gray-700 mb-12 text-center max-w-3xl mx-auto">
-          We've got your homebuying needs covered with two industry-leading homebuilding brands.
+          We\'ve got your homebuying needs covered with two industry-leading homebuilding brands.
         </p>
 
         {/* Comparison Table */}
@@ -76,10 +76,10 @@ export default function HowWeMakeItEasy() {
 
           <div className="px-6 py-4 bg-gray-50 border-t border-gray-200">
             <p className="text-sm text-gray-600 mb-2">
-              <strong>Century Communities:</strong> If you're looking to pick your homesite and build from the ground up—personalizing your floor plan with structural and design options along the way—our flagship brand is for you.
+              <strong>Century Communities:</strong> If you\'re looking to pick your homesite and build from the ground up—personalizing your floor plan with structural and design options along the way—our flagship brand is for you.
             </p>
             <p className="text-sm text-gray-600 mb-2">
-              <strong>Century Complete:</strong> If you're in need of something on a faster timeline, both of our brands give you the option to purchase a quick move-in home—with Century Complete offering streamlined single-family homes at a more affordable price, and Century Communities offering everything from quick move-in single-family homes to townhomes and condos.
+              <strong>Century Complete:</strong> If you\'re in need of something on a faster timeline, both of our brands give you the option to purchase a quick move-in home—with Century Complete offering streamlined single-family homes at a more affordable price, and Century Communities offering everything from quick move-in single-family homes to townhomes and condos.
             </p>
             <p className="text-sm text-gray-600">
               <strong>Buy online:</strong> Available homes from both homebuilding brands offer our industry-first "Buy Now" option—allowing you to purchase your new home completely online!{' '}
