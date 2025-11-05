@@ -15,8 +15,8 @@ export default function ContactMethods() {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
             <p className="text-gray-600 mb-4">Send us an email anytime</p>
-            <a href="mailto:info@centurycommunities.com" className="text-blue-600 hover:text-blue-700 font-semibold">
-              info@centurycommunities.com
+            <a href="mailto:info@arroyoskyeview.com" className="text-blue-600 hover:text-blue-700 font-semibold">
+              info@arroyoskyeview.com
             </a>
           </div>
 
@@ -28,8 +28,8 @@ export default function ContactMethods() {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
             <p className="text-gray-600 mb-4">Call us during business hours</p>
-            <a href="tel:888-885-5653" className="text-blue-600 hover:text-blue-700 font-semibold">
-              888-885-5653
+            <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
+              (702) 903-4687
             </a>
           </div>
 
@@ -52,9 +52,13 @@ export default function ContactMethods() {
             Emergency Warranty Issue?
           </h3>
           <p className="text-gray-700 mb-4">
-            Call our service number at{' '}
-            <a href="tel:888-885-5653" className="text-blue-600 hover:text-blue-700 font-semibold">
+            For warranty issues, contact Century Communities service at{' '}
+            <a href="tel:8888855653" className="text-blue-600 hover:text-blue-700 font-semibold">
               888-885-5653
+            </a>
+            {' '}or call Dr. Jan Duffy at{' '}
+            <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
+              (702) 903-4687
             </a>
           </p>
         </div>

@@ -12,8 +12,8 @@ import ContactMethods from '../components/contact-methods'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Century Communities Las Vegas',
-  description: 'Contact Century Communities in Las Vegas. Get in touch with Dr. Jan Duffy, preferred buyer agent, for expert new home guidance. Call (702) 903-4687.',
+  title: 'Contact Us | Arroyo at Skyeview | Homes by Dr. Jan Duffy',
+  description: 'Contact Dr. Jan Duffy for expert buyer representation on Century Communities new construction homes in Las Vegas. Call (702) 903-4687 or email info@arroyoskyeview.com. Located at 8912 Vanhoy Crk St, Las Vegas, NV 89166.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/contact-us',
   },
