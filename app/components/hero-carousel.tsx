@@ -142,8 +142,10 @@ export default function HeroCarousel() {
               <p className="font-semibold text-gray-900">8912 Vanhoy Crk St, Las Vegas, NV 89166</p>
             </div>
             <div>
-              <p className="text-sm text-gray-600">Phone</p>
-              <p className="font-semibold text-gray-900">702-730-4329</p>
+              <p className="text-sm text-gray-600">Contact Dr. Jan</p>
+              <p className="font-semibold text-gray-900">
+                <a href="tel:7029034687" className="hover:text-blue-600 transition-colors">(702) 903-4687</a>
+              </p>
             </div>
             <div>
               <p className="text-sm text-gray-600">Sales Office Hours</p>

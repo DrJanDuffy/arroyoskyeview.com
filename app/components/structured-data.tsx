@@ -119,10 +119,11 @@ export default function StructuredData() {
   const realEstateAgent = {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
-    name: 'Arroyo at Skyeview Sales Office',
-    description: 'Sales office for Arroyo at Skyeview townhomes in Las Vegas, Nevada.',
+    name: 'Dr. Jan Duffy',
+    alternateName: 'Arroyo at Skyeview Sales Office',
+    description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Dr. Jan Duffy provides construction monitoring, building standards inspection, and insider knowledge of Century Communities homes.',
     url: 'https://www.arroyoskyeview.com',
-    telephone: '+1-702-730-4329',
+    telephone: '+1-702-903-4687',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '8912 Vanhoy Crk St',

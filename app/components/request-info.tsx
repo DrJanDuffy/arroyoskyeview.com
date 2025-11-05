@@ -199,9 +199,9 @@ export default function RequestInfo() {
               type="button"
               variant="outline"
               className="flex-1"
-              onClick={() => window.location.href = 'tel:702-730-4329'}
+              onClick={() => window.location.href = 'tel:7029034687'}
             >
-              Call Now: 702-730-4329
+              Call Dr. Jan: (702) 903-4687
             </Button>
           </div>
         </form>
