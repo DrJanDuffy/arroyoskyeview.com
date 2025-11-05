@@ -148,7 +148,11 @@ export default function SimilarCommunities() {
                         </h3>
                       </Link>
                       <p className="text-gray-600 mb-2">{community.location}</p>
-                      <p className="text-blue-600 font-semibold mb-2">{community.phone}</p>
+                      <p className="text-blue-600 font-semibold mb-2">
+                        <a href="tel:7029034687" className="hover:text-blue-700 transition-colors">
+                          {community.phone}
+                        </a>
+                      </p>
                       <p className="text-2xl font-bold text-gray-900 mb-2">Homes From {formatPrice(community.price)}</p>
                       <p className="text-sm text-gray-600 mb-4">Est. $X,XXX/mo</p>
                       <div className="flex gap-2">
