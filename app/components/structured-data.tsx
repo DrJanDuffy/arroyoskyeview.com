@@ -124,6 +124,7 @@ export default function StructuredData() {
     description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Dr. Jan Duffy provides construction monitoring, building standards inspection, and insider knowledge of Century Communities homes.',
     url: 'https://www.arroyoskyeview.com',
     telephone: '+1-702-903-4687',
+    email: 'info@arroyoskyeview.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '8912 Vanhoy Crk St',
