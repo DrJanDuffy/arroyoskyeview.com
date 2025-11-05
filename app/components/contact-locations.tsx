@@ -5,7 +5,7 @@ const locations = [
     city: 'Las Vegas',
     state: 'NV',
     zip: '89166',
-    phone: '702-730-4329',
+    phone: '(702) 903-4687',
     hours: 'Mon-Sun: 10:00 AM - 5:00 PM',
   },
   {
@@ -14,7 +14,7 @@ const locations = [
     city: 'Las Vegas',
     state: 'NV',
     zip: '89166',
-    phone: '702-936-3020',
+    phone: '(702) 903-4687',
     hours: 'Mon-Sun: 10:00 AM - 5:00 PM',
   },
   {
@@ -23,7 +23,7 @@ const locations = [
     city: 'Henderson',
     state: 'NV',
     zip: '89011',
-    phone: '702-605-0956',
+    phone: '(702) 903-4687',
     hours: 'Mon-Sun: 10:00 AM - 5:00 PM',
   },
 ]
@@ -46,7 +46,9 @@ export default function ContactLocations() {
                 <p>{location.address}</p>
                 <p>{location.city}, {location.state} {location.zip}</p>
                 <p className="font-semibold text-blue-600 mt-4">
-                  {location.phone}
+                  <a href="tel:7029034687" className="hover:text-blue-700 transition-colors">
+                    {location.phone}
+                  </a>
                 </p>
                 <p className="text-sm text-gray-600 mt-2">
                   {location.hours}

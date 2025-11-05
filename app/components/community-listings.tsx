@@ -26,7 +26,7 @@ const communities: Community[] = [
     location: 'Skye Canyon',
     city: 'Las Vegas',
     zip: '89166',
-    phone: '702-730-4329',
+    phone: '(702) 903-4687',
     price: 392640,
     homeTypes: ['Townhomes'],
     image: '/images/hero/hero-5.jpg',
@@ -39,7 +39,7 @@ const communities: Community[] = [
     location: 'Skye Canyon',
     city: 'Las Vegas',
     zip: '89166',
-    phone: '702-936-3020',
+    phone: '(702) 903-4687',
     price: 392640,
     homeTypes: ['Single-Family Homes', 'Townhomes'],
     image: '/images/floor-plans/floor-plans-1.jpg',
@@ -52,7 +52,7 @@ const communities: Community[] = [
     location: 'Union Village',
     city: 'Henderson',
     zip: '89011',
-    phone: '702-605-0956',
+    phone: '(702) 903-4687',
     price: 366990,
     homeTypes: ['Townhomes'],
     image: '/images/hero/hero-7.jpg',
@@ -193,7 +193,9 @@ export default function CommunityListings() {
                   {community.location}, {community.city}, NV {community.zip}
                 </p>
                 <p className="text-blue-600 font-semibold mb-2">
-                  {community.phone}
+                  <a href="tel:7029034687" className="hover:text-blue-700 transition-colors">
+                    {community.phone}
+                  </a>
                 </p>
                 <p className="text-2xl font-bold text-gray-900 mb-4">
                   Homes From {formatPrice(community.price)}

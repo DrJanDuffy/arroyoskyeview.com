@@ -52,11 +52,7 @@ export default function ContactMethods() {
             Emergency Warranty Issue?
           </h3>
           <p className="text-gray-700 mb-4">
-            For warranty issues, contact Century Communities service at{' '}
-            <a href="tel:8888855653" className="text-blue-600 hover:text-blue-700 font-semibold">
-              888-885-5653
-            </a>
-            {' '}or call Dr. Jan Duffy at{' '}
+            For warranty issues or any questions, call Dr. Jan Duffy at{' '}
             <a href="tel:7029034687" className="text-blue-600 hover:text-blue-700 font-semibold">
               (702) 903-4687
             </a>
