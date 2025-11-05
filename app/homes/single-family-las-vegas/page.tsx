@@ -5,6 +5,7 @@ import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Single Family Homes Las Vegas | New Construction',
@@ -97,6 +98,37 @@ export default function SingleFamilyHomesPage() {
                 <p className="text-lg text-gray-700 mb-4">
                   Each home is built with quality construction, modern floor plans, and energy-efficient features designed to enhance your lifestyle and reduce utility costs.
                 </p>
+                <div className="space-y-4 mt-6">
+                  <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">
+                      <Link href="/eaglepointe-skye-canyon" className="text-blue-600 hover:text-blue-700">
+                        Eaglepointe at Skye Canyon: Master-planned community homes
+                      </Link>
+                    </h3>
+                    <p className="text-gray-700 mb-2">New construction single-family homes in Skye Canyon with modern designs and premium finishes</p>
+                  </div>
+                  <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">
+                      <Link href="/ironwood" className="text-blue-600 hover:text-blue-700">
+                        Ironwood: Las Vegas Metro single-family homes
+                      </Link>
+                    </h3>
+                    <p className="text-gray-700 mb-2">Spacious new construction homes in Las Vegas Metro with contemporary floor plans</p>
+                  </div>
+                  <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">
+                      <Link href="/homestead-west" className="text-blue-600 hover:text-blue-700">
+                        Homestead West: Century Communities single-family homes
+                      </Link>
+                    </h3>
+                    <p className="text-gray-700 mb-2">Modern single-family homes in Las Vegas with energy-efficient features</p>
+                  </div>
+                  <p className="text-gray-600 mt-4">
+                    <Link href="/find-your-new-home/nevada/las-vegas-metro" className="text-blue-600 hover:text-blue-700 font-semibold">
+                      Browse all Las Vegas Metro new construction communities →
+                    </Link>
+                  </p>
+                </div>
               </section>
 
               <section className="mb-12">

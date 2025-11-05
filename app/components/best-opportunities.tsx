@@ -13,6 +13,7 @@ const opportunities = [
     features: ['Top-rated schools', 'Red Rock hiking access', 'Resort-style amenities'],
     image: '/images/hero/hero-5.jpg',
     phone: '(702) 903-4687',
+    href: '/',
   },
   {
     id: '2',
@@ -23,16 +24,18 @@ const opportunities = [
     features: ['Master-planned community', 'NW Las Vegas', 'Quick move-in available'],
     image: '/images/hero/hero-6.jpg',
     phone: '(702) 903-4687',
+    href: '/sierra-at-skyeview',
   },
   {
     id: '3',
-    community: 'The Townes at Union Village',
-    location: 'Henderson',
-    price: 366990,
+    community: 'Terra at Skyeview',
+    location: 'Skye Canyon',
+    price: 392640,
     incentives: 'Special incentives available',
-    features: ['Henderson location', 'Tour models today', 'Move-in ready homes'],
+    features: ['Skye Canyon location', 'New construction', 'Move-in ready homes'],
     image: '/images/hero/hero-7.jpg',
     phone: '(702) 903-4687',
+    href: '/terra-at-skyeview',
   },
 ]
 
@@ -87,9 +90,11 @@ export default function BestOpportunities() {
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                  {opportunity.community}
-                </h3>
+                <Link href={opportunity.href}>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2 hover:text-blue-600 transition-colors">
+                    {opportunity.community}
+                  </h3>
+                </Link>
                 <p className="text-gray-600 mb-4">
                   {opportunity.location}
                 </p>

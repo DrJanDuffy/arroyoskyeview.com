@@ -4,6 +4,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 import InformationalPageContent from '../../components/informational-page-content'
+import Link from 'next/link'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
@@ -159,6 +160,62 @@ export default function Zip89166Page() {
             },
           ]}
         />
+        <section className="bg-gray-50 py-12 mt-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Century Communities New Homes in Skye Canyon
+            </h2>
+            <p className="text-lg text-gray-700 mb-8">
+              Discover all Century Communities developments in zip code 89166 (Skye Canyon):
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Link
+                href="/"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Arroyo at Skyeview: Townhomes starting at $392,640
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  2-story townhomes with 2-4 bedrooms in Skye Canyon master-planned community.
+                </p>
+              </Link>
+              <Link
+                href="/sierra-at-skyeview"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Sierra at Skyeview: New construction in Skye Canyon
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Modern townhomes with contemporary designs and premium finishes.
+                </p>
+              </Link>
+              <Link
+                href="/terra-at-skyeview"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Terra at Skyeview: Skye Canyon townhomes
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Energy-efficient townhomes with modern floor plans in northwest Las Vegas.
+                </p>
+              </Link>
+              <Link
+                href="/eaglepointe-skye-canyon"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Eaglepointe at Skye Canyon: Master-planned community
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  New construction homes in Skye Canyon with resort-style amenities.
+                </p>
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

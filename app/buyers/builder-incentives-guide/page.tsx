@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import PurpleSaleBanner from '../../components/purple-sale-banner'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
@@ -66,6 +67,42 @@ export default function BuilderIncentivesGuidePage() {
                   <p className="text-gray-700">
                     Builder incentives change frequently and vary by community, lot, and timing. Dr. Jan Duffy has real-time knowledge of current incentives and can help you maximize your savings.
                   </p>
+                </div>
+                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mt-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Communities with Current Builder Incentives</h3>
+                  <p className="text-gray-700 mb-4">
+                    Contact Dr. Jan Duffy to learn about current incentives at these Century Communities:
+                  </p>
+                  <ul className="space-y-2">
+                    <li>
+                      <Link href="/" className="text-blue-600 hover:text-blue-700 font-semibold">
+                        Arroyo at Skyeview
+                      </Link>
+                      {' - '}
+                      <span className="text-gray-700">See available homes at Arroyo at Skyeview with current builder incentives</span>
+                    </li>
+                    <li>
+                      <Link href="/sierra-at-skyeview" className="text-blue-600 hover:text-blue-700 font-semibold">
+                        Sierra at Skyeview
+                      </Link>
+                      {' - '}
+                      <span className="text-gray-700">Explore Sierra at Skyeview new construction with promotions</span>
+                    </li>
+                    <li>
+                      <Link href="/terra-at-skyeview" className="text-blue-600 hover:text-blue-700 font-semibold">
+                        Terra at Skyeview
+                      </Link>
+                      {' - '}
+                      <span className="text-gray-700">Browse Terra at Skyeview homes with current incentives</span>
+                    </li>
+                    <li>
+                      <Link href="/find-your-new-home/nevada/las-vegas-metro" className="text-blue-600 hover:text-blue-700 font-semibold">
+                        Browse all Las Vegas Metro communities
+                      </Link>
+                      {' - '}
+                      <span className="text-gray-700">See all Century Communities with current builder incentives</span>
+                    </li>
+                  </ul>
                 </div>
               </section>
 

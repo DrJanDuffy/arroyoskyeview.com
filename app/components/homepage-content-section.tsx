@@ -120,13 +120,43 @@ export default function HomepageContentSection() {
           Century Communities pays for buyer representation on all their Las Vegas homes. The commission is built into the home pricing whether you use an agent or not—which means you're already funding representation. Dr. Jan Duffy works exclusively for YOU, not the builder, ensuring your interests are protected throughout the entire process. There's no additional cost for this expert representation.
         </p>
 
-        <div className="mt-6">
+        <div className="mt-6 flex flex-wrap gap-4">
           <a
             href="tel:7029034687"
             className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition"
           >
             Call Dr. Jan Duffy: (702) 903-4687
           </a>
+          <Link
+            href="/work-with-dr-jan"
+            className="inline-block bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-50 transition"
+          >
+            Work with Dr. Jan Duffy for expert buyer representation
+          </Link>
+        </div>
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Link
+            href="/buyers/builder-incentives-guide"
+            className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition group"
+          >
+            <h4 className="font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+              Current builder incentives and promotions
+            </h4>
+            <p className="text-sm text-gray-600">
+              Learn about rate buy-downs, closing cost assistance, and current Century Communities incentives.
+            </p>
+          </Link>
+          <Link
+            href="/buyers/first-time-homebuyer"
+            className="bg-white p-4 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition group"
+          >
+            <h4 className="font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+              First-time homebuyer guide
+            </h4>
+            <p className="text-sm text-gray-600">
+              Complete guide for first-time buyers including down payment assistance and financing options.
+            </p>
+          </Link>
         </div>
       </section>
 

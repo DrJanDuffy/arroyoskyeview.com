@@ -3,6 +3,7 @@ import PurpleSaleBanner from '../../components/purple-sale-banner'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
+import Link from 'next/link'
 import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
@@ -132,6 +133,51 @@ export default function HendersonPage() {
             </div>
           </div>
         </div>
+        <section className="bg-gray-50 py-12 mt-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Century Communities New Homes in Las Vegas Metro
+            </h2>
+            <p className="text-lg text-gray-700 mb-8">
+              Explore Century Communities developments across Las Vegas, including nearby areas:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <Link
+                href="/areas/zip-89166"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Skye Canyon: Master-planned community in northwest Las Vegas
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Discover Arroyo at Skyeview, Sierra at Skyeview, Terra at Skyeview, and Eaglepointe at Skye Canyon.
+                </p>
+              </Link>
+              <Link
+                href="/neighborhoods/summerlin-las-vegas"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Summerlin: Premier master-planned community
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Explore luxury new construction homes in Summerlin, one of Las Vegas's most desirable areas.
+                </p>
+              </Link>
+              <Link
+                href="/find-your-new-home/nevada/las-vegas-metro"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Browse all Las Vegas Metro new construction communities
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  View all Century Communities new homes across Las Vegas, Henderson, and surrounding areas.
+                </p>
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

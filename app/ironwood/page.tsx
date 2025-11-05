@@ -10,6 +10,9 @@ import FloorPlans from '../components/floor-plans'
 import Overview from '../components/overview'
 import SimilarCommunities from '../components/similar-communities'
 import CommunityContentExpansion from '../components/community-content-expansion'
+import CrossCommunityLinks from '../components/cross-community-links'
+import BuyerResourcesSection from '../components/buyer-resources-section'
+import NeighborhoodLinksSection from '../components/neighborhood-links-section'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
@@ -48,6 +51,9 @@ export default function IronwoodPage() {
           </div>
           <div className="mt-12">
             <Overview />
+          </div>
+          <div className="mt-12">
+            <BuyerResourcesSection />
           </div>
           <div className="mt-12">
             <DrJanContactCard />
@@ -101,6 +107,8 @@ export default function IronwoodPage() {
             },
           ]}
         />
+        <NeighborhoodLinksSection location="Las Vegas Metro" />
+        <CrossCommunityLinks currentCommunity="Ironwood" location="Las Vegas Metro" />
         <SimilarCommunities />
       </main>
       <Footer />

@@ -100,7 +100,7 @@ export default function TownhomesPage() {
                   <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">
                       <Link href="/" className="text-blue-600 hover:text-blue-700">
-                        Arroyo at Skyeview
+                        Arroyo at Skyeview: 2-story townhomes starting at $392,640
                       </Link>
                     </h3>
                     <p className="text-gray-700 mb-2">2-story townhomes with 2-4 bedrooms, 2.5 baths, and 2-bay garages in Skye Canyon</p>
@@ -109,20 +109,20 @@ export default function TownhomesPage() {
                   <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">
                       <Link href="/sierra-at-skyeview" className="text-blue-600 hover:text-blue-700">
-                        Sierra at Skyeview
+                        Sierra at Skyeview: Skye Canyon townhomes with 2-4 bedrooms
                       </Link>
                     </h3>
-                    <p className="text-gray-700 mb-2">New construction townhomes in Skye Canyon</p>
-                    <p className="text-blue-600 font-semibold">Contact for pricing</p>
+                    <p className="text-gray-700 mb-2">New construction townhomes in Skye Canyon with modern floor plans and premium finishes</p>
+                    <p className="text-blue-600 font-semibold">Starting from $392,640</p>
                   </div>
                   <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">
                       <Link href="/terra-at-skyeview" className="text-blue-600 hover:text-blue-700">
-                        Terra at Skyeview
+                        Terra at Skyeview: New construction townhomes in northwest Las Vegas
                       </Link>
                     </h3>
-                    <p className="text-gray-700 mb-2">Modern townhomes in Skye Canyon</p>
-                    <p className="text-blue-600 font-semibold">Contact for pricing</p>
+                    <p className="text-gray-700 mb-2">Modern townhomes in Skye Canyon with energy-efficient features and contemporary designs</p>
+                    <p className="text-blue-600 font-semibold">Starting from $392,640</p>
                   </div>
                 </div>
               </section>

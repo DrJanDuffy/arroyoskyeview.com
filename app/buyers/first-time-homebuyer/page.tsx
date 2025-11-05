@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import PurpleSaleBanner from '../../components/purple-sale-banner'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
@@ -133,6 +134,35 @@ export default function FirstTimeHomebuyerPage() {
                   <li><strong>Warranty Protection:</strong> Builder warranties cover major systems and structural issues</li>
                   <li><strong>Customization Options:</strong> Choose finishes and features that match your style</li>
                 </ul>
+                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mt-6">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">First-Time Buyer Friendly Communities</h3>
+                  <p className="text-gray-700 mb-4">
+                    Explore new construction homes starting at $392K that are perfect for first-time buyers:
+                  </p>
+                  <ul className="space-y-2">
+                    <li>
+                      <Link href="/" className="text-blue-600 hover:text-blue-700 font-semibold">
+                        Arroyo at Skyeview
+                      </Link>
+                      {' - '}
+                      <span className="text-gray-700">Explore new construction homes at Arroyo at Skyeview starting at $392K</span>
+                    </li>
+                    <li>
+                      <Link href="/sierra-at-skyeview" className="text-blue-600 hover:text-blue-700 font-semibold">
+                        Sierra at Skyeview
+                      </Link>
+                      {' - '}
+                      <span className="text-gray-700">See available homes at Sierra at Skyeview with current builder incentives</span>
+                    </li>
+                    <li>
+                      <Link href="/areas/zip-89166" className="text-blue-600 hover:text-blue-700 font-semibold">
+                        Browse all Skye Canyon communities
+                      </Link>
+                      {' - '}
+                      <span className="text-gray-700">Browse first-time buyer friendly communities in Skye Canyon</span>
+                    </li>
+                  </ul>
+                </div>
               </section>
 
               <section className="mb-12">
