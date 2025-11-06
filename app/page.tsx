@@ -59,6 +59,9 @@ export default function HomePage() {
       <PurpleSaleBanner />
       <Header />
       <main>
+        {/* Always render SEO-critical content first for Google indexing */}
+        <HomepageContentSection />
+        
         {showDrJanContent ? (
           <>
             <DrJanHero />
@@ -168,7 +171,6 @@ export default function HomePage() {
         </div>
 
         <SimilarCommunities />
-        <HomepageContentSection />
         <PeopleAlsoSearch />
         <HomeownerReviews />
         <RequestInfo />
