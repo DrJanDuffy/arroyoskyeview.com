@@ -2,11 +2,11 @@ import Link from 'next/link'
 
 export default function Logo() {
   return (
-    <Link href="/" className="flex items-center space-x-3 group transition-all duration-200">
-      {/* Enhanced Logo Icon with Modern Design */}
+    <Link href="tel:7029034687" className="flex items-center space-x-3 group transition-all duration-200">
+      {/* Phone Number Display */}
       <div className="relative flex-shrink-0">
         <div className="w-12 h-12 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-          {/* House Icon */}
+          {/* Phone Icon */}
           <svg
             className="w-7 h-7 text-white"
             fill="none"
@@ -17,7 +17,7 @@ export default function Logo() {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
             />
           </svg>
         </div>
@@ -27,15 +27,15 @@ export default function Logo() {
         </div>
       </div>
 
-      {/* Enhanced Typography with Better Hierarchy */}
+      {/* Phone Number Display */}
       <div className="flex flex-col leading-none">
         <span className="text-sm md:text-base font-extrabold text-gray-900 leading-tight tracking-tight group-hover:text-blue-600 transition-colors">
-          Arroyo at Skyeview
+          (702) 903-4687
         </span>
         <div className="mt-0.5 flex items-center gap-1.5">
           <div className="h-px w-4 bg-blue-300"></div>
           <span className="text-[9px] md:text-[10px] font-semibold text-gray-600 tracking-wide">
-            Homes by Dr. Jan Duffy
+            Call or Text
           </span>
         </div>
       </div>

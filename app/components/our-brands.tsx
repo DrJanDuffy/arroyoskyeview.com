@@ -13,7 +13,9 @@ export default function OurBrands() {
           <div className="bg-white border border-gray-200 rounded-lg p-8 shadow-sm hover:shadow-md transition">
             <div className="mb-6">
               <div className="h-16 bg-blue-600 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-white text-xl font-bold">Arroyo at Skyeview Homes</span>
+                <a href="tel:7029034687" className="text-white text-xl font-bold hover:text-blue-100 transition-colors">
+                  (702) 903-4687
+                </a>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">
                 New Construction Townhomes
@@ -55,7 +57,9 @@ export default function OurBrands() {
           <div className="bg-white border border-gray-200 rounded-lg p-8 shadow-sm hover:shadow-md transition">
             <div className="mb-6">
               <div className="h-16 bg-gray-800 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-white text-xl font-bold">New Construction Options</span>
+                <a href="tel:7029034687" className="text-white text-xl font-bold hover:text-gray-200 transition-colors">
+                  (702) 903-4687
+                </a>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">
                 Modern Living
