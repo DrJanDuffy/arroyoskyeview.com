@@ -87,7 +87,7 @@ export default function HeroCarousel() {
                   <p className="text-lg md:text-xl mb-4 drop-shadow-md">Zip Code 89166, Northwest Las Vegas, Nevada</p>
                   <p className="text-2xl md:text-3xl font-semibold mb-6 drop-shadow-md">Starting from $392,640</p>
                   <p className="text-sm md:text-base mb-8 drop-shadow-md bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg inline-block">
-                    <strong>Dr. Jan Duffy represents HOME BUYERS</strong>—not builders or HOAs
+                    <strong>Dr. Jan Duffy represents HOME BUYERS</strong>—not the builder
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a

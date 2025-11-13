@@ -35,7 +35,7 @@ export default function Footer() {
 
   const resources = [
     { name: 'FAQ', href: '/faq', title: 'Frequently Asked Questions New Construction Homes Las Vegas' },
-    { name: 'Las Vegas Hyperlocal Q&A', href: '/faq/las-vegas-hyperlocal', title: 'Las Vegas Real Estate Questions Answers' },
+    { name: 'Las Vegas Neighborhood Q&A', href: '/faq/las-vegas-hyperlocal', title: 'Las Vegas Real Estate Questions Answers' },
   ]
 
   const blogPosts = [

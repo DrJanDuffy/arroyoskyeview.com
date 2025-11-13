@@ -179,7 +179,7 @@ export default function TermsOfUsePage() {
               <p className="text-lg text-gray-700 mb-4">
                 This Website provides information about new construction homes in Las Vegas, Nevada and 
                 facilitates connections between potential buyers and Dr. Jan Duffy, a licensed real estate 
-                agent and New Construction Home Expert. Dr. Jan Duffy represents buyers, not builders or homeowners. Use of this Website does not create a broker-client relationship.
+                agent and New Construction Home Expert. Dr. Jan Duffy represents buyers, not the builder. Use of this Website does not create a broker-client relationship.
               </p>
               
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">No Real Estate Brokerage Relationship</h3>

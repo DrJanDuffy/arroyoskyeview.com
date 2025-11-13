@@ -42,14 +42,14 @@ export default function HomePage() {
         pageType="homepage"
         url="/"
         title="Arroyo at Skyeview Homes | New Construction Townhomes in Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)"
-        description="Arroyo at Skyeview Homes offers modern new construction townhomes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). Starting from $392,640. Located near US-95 and the 215 Beltway. Dr. Jan Duffy is your buyer's agent—she represents HOME BUYERS, not builders or HOAs. Expert buyer representation, construction monitoring, building standards inspection & insider knowledge. Call (702) 903-4687."
+        description="Arroyo at Skyeview Homes offers modern new construction townhomes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). Starting from $392,640. Located near US-95 and the 215 Beltway. Dr. Jan Duffy is your buyer's agent—she represents HOME BUYERS, not the builder. Expert buyer representation, construction monitoring, building standards inspection & insider knowledge. Call (702) 903-4687."
         breadcrumbs={[]}
         location="Skye Canyon"
         zipCode="89166"
         questions={[
           {
             question: 'What is Arroyo at Skyeview Homes and where exactly is it located in Las Vegas, Nevada?',
-            answer: 'Arroyo at Skyeview Homes is a residential community of modern new construction townhomes located in Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas, Nevada (zip code 89166). The community is situated near the intersection of US-95 and the 215 Beltway, approximately 20-25 minutes northwest of the Las Vegas Strip, 15 minutes west of Red Rock Canyon National Conservation Area, and 30 minutes northwest of Mount Charleston. This northwest Las Vegas location offers easy access to major employment centers while maintaining a peaceful residential atmosphere. When buying Arroyo at Skyeview Homes, work with Dr. Jan Duffy—your buyer\'s agent who represents HOME BUYERS, not builders or HOAs.',
+            answer: 'Arroyo at Skyeview Homes is a residential community of modern new construction townhomes located in Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas, Nevada (zip code 89166). The community is situated near the intersection of US-95 and the 215 Beltway, approximately 20-25 minutes northwest of the Las Vegas Strip, 15 minutes west of Red Rock Canyon National Conservation Area, and 30 minutes northwest of Mount Charleston. This northwest Las Vegas location offers easy access to major employment centers while maintaining a peaceful residential atmosphere. When buying Arroyo at Skyeview Homes, work with Dr. Jan Duffy—your buyer\'s agent who represents HOME BUYERS, not the builder.',
           },
           {
             question: 'What are the prices for Arroyo at Skyeview Homes?',

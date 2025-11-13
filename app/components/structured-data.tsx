@@ -215,7 +215,7 @@ export default function StructuredData() {
         name: 'What is Arroyo at Skyeview Homes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Arroyo at Skyeview Homes is a residential community of new construction townhomes located in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). The development offers two-story townhomes with 2 to 4 bedrooms, 2.5 baths, and 2-bay garages, starting from $392,640. Dr. Jan Duffy provides expert buyer representation for Arroyo at Skyeview Homes—she represents HOME BUYERS, not builders or HOAs.',
+          text: 'Arroyo at Skyeview Homes is a residential community of new construction townhomes located in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). The development offers two-story townhomes with 2 to 4 bedrooms, 2.5 baths, and 2-bay garages, starting from $392,640. Dr. Jan Duffy provides expert buyer representation for Arroyo at Skyeview Homes—she represents HOME BUYERS, not the builder.',
         },
       },
       {

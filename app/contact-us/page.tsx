@@ -13,7 +13,7 @@ import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'Contact Dr. Jan Duffy | Buyer\'s Agent for Arroyo at Skyeview Homes | Skye Canyon, Northwest Las Vegas',
-  description: 'Contact Dr. Jan Duffy, your buyer\'s agent for Arroyo at Skyeview Homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. She represents HOME BUYERS, not builders or HOAs. Call (702) 903-4687 or email info@arroyoskyeview.com. Located at 8912 Vanhoy Crk St, Las Vegas, NV 89166.',
+  description: 'Contact Dr. Jan Duffy, your buyer\'s agent for Arroyo at Skyeview Homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. She represents HOME BUYERS, not the builder. Call (702) 903-4687 or email info@arroyoskyeview.com. Located at 8912 Vanhoy Crk St, Las Vegas, NV 89166.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/contact-us',
   },
@@ -26,7 +26,7 @@ export default function ContactUsPage() {
         pageType="contact"
         url="/contact-us"
         title="Contact Dr. Jan Duffy | Buyer's Agent for Arroyo at Skyeview Homes"
-        description="Contact Dr. Jan Duffy, your buyer's agent for Arroyo at Skyeview Homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. She represents HOME BUYERS, not builders or HOAs. Call (702) 903-4687 for expert buyer representation."
+        description="Contact Dr. Jan Duffy, your buyer's agent for Arroyo at Skyeview Homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. She represents HOME BUYERS, not the builder. Call (702) 903-4687 for expert buyer representation."
         breadcrumbs={[
           { name: 'Contact Us', url: '/contact-us' },
         ]}
@@ -37,7 +37,7 @@ export default function ContactUsPage() {
           },
           {
             question: 'What services does Dr. Jan Duffy provide for home buyers?',
-            answer: 'Dr. Jan Duffy provides expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. She represents HOME BUYERS, not builders or HOAs. Services include construction monitoring every 7-10 days, building standards inspection at closing, and insider knowledge of Arroyo at Skyeview Homes and northwest Las Vegas communities. Builders pay for buyer representation, so there\'s no extra cost to you.',
+            answer: 'Dr. Jan Duffy provides expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. She represents HOME BUYERS, not the builder. Services include construction monitoring every 7-10 days, building standards inspection at closing, and insider knowledge of Arroyo at Skyeview Homes and northwest Las Vegas communities. Builders pay for buyer representation, so there\'s no extra cost to you.',
           },
         ]}
       />

@@ -67,7 +67,7 @@ export default function TownhomesPage() {
                   <div className="bg-gray-50 p-6 rounded-lg">
                     <h3 className="text-xl font-bold text-gray-900 mb-3">Low Maintenance</h3>
                     <p className="text-gray-700">
-                      Exterior maintenance and landscaping are typically handled by the HOA, giving you more time to enjoy life.
+                      Exterior maintenance and landscaping are typically handled by the community, giving you more time to enjoy life.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-lg">

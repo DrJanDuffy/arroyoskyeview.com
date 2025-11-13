@@ -6,15 +6,15 @@ import { trackFAQExpand } from './analytics-tracker'
 const faqs = [
   {
     question: 'Does it cost more to use a buyer\'s agent for Arroyo at Skyeview Homes?',
-    answer: 'No—builders pay for buyer representation on all new construction homes including Arroyo at Skyeview Homes. The commission is built into the home pricing whether you use an agent or not. You\'re already paying for representation, so choose someone who protects YOUR interests. Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs. There\'s no extra cost to you.',
+    answer: 'No—builders pay for buyer representation on all new construction homes including Arroyo at Skyeview Homes. The commission is built into the home pricing whether you use an agent or not. You\'re already paying for representation, so choose someone who protects YOUR interests. Dr. Jan Duffy represents HOME BUYERS, not the builder. There\'s no extra cost to you.',
   },
   {
     question: 'What makes Dr. Jan Duffy different from going directly to the builder\'s agent for Arroyo at Skyeview Homes?',
-    answer: 'The builder\'s entire team—from model home agents to carpenters—works exclusively for the builder, not for you. Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who monitors construction quality at Arroyo at Skyeview Homes every 7-10 days and advocates solely for YOUR interests as a home buyer. She represents HOME BUYERS, not builders or HOAs. This means you get construction monitoring, building standards inspection, and insider knowledge—all at no extra cost.',
+    answer: 'The builder\'s entire team—from model home agents to carpenters—works exclusively for the builder, not for you. Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who monitors construction quality at Arroyo at Skyeview Homes every 7-10 days and advocates solely for YOUR interests as a home buyer. She represents HOME BUYERS, not the builder. This means you get construction monitoring, building standards inspection, and insider knowledge—all at no extra cost.',
   },
   {
     question: 'Why should I work with Dr. Jan Duffy when buying Arroyo at Skyeview Homes in Skye Canyon?',
-    answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who specializes in Arroyo at Skyeview Homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. She represents HOME BUYERS, not builders or HOAs. She offers construction monitoring every 7-10 days, building standards inspection at closing, and insider knowledge of available inventory, pricing, and lot selection. Best of all, builders pay for buyer representation—so there\'s no extra cost to you. Call/text (702) 903-4687 to get started.',
+    answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who specializes in Arroyo at Skyeview Homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. She represents HOME BUYERS, not the builder. She offers construction monitoring every 7-10 days, building standards inspection at closing, and insider knowledge of available inventory, pricing, and lot selection. Best of all, builders pay for buyer representation—so there\'s no extra cost to you. Call/text (702) 903-4687 to get started.',
   },
 ]
 

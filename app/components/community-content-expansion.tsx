@@ -100,10 +100,10 @@ export default function CommunityContentExpansion({
         </div>
       </section>
 
-      {/* Section 3: Hyperlocal Content */}
+      {/* Section 3: Neighborhood Content */}
       <section className="mb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Living in {location}, Las Vegas: Hyperlocal Guide
+          Living in {location}, Las Vegas: Neighborhood Guide
         </h2>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">

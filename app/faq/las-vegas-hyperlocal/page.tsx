@@ -8,14 +8,14 @@ import Script from 'next/script'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Las Vegas Hyperlocal Q&A | Arroyo at Skyeview & Northwest Las Vegas FAQ',
-  description: 'Comprehensive hyperlocal questions and answers about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. Expert answers about neighborhoods, schools, and new construction homes.',
+  title: 'Las Vegas Neighborhood Q&A | Arroyo at Skyeview & Northwest Las Vegas FAQ',
+  description: 'Comprehensive questions and answers about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. Expert answers about neighborhoods, schools, and new construction homes.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/faq/las-vegas-hyperlocal',
   },
 }
 
-const hyperlocalQuestions = [
+const neighborhoodQuestions = [
   {
     question: 'What are the best neighborhoods in Las Vegas, Nevada for new construction homes?',
     answer: 'Some of the best neighborhoods for new construction in Las Vegas, Nevada include Skye Canyon (northwest Las Vegas, zip code 89166) where Arroyo at Skyeview is located, Summerlin (west side), Henderson (southeast), and North Las Vegas. Skye Canyon offers master-planned community amenities, top-rated schools including Roger Bryan Elementary (9/10 rating), and proximity to nature including Red Rock Canyon (15 minutes west) and Mount Charleston (30 minutes northwest). Summerlin is known for luxury homes and golf courses. Henderson offers family-friendly neighborhoods with excellent schools. Your buyer\'s agent, Dr. Jan Duffy, specializes in northwest Las Vegas new construction including Skye Canyon, zip code 89166.',
@@ -45,8 +45,8 @@ const hyperlocalQuestions = [
     answer: 'New construction homes are available in several master-planned communities in Las Vegas, Nevada including Skye Canyon (northwest Las Vegas, zip code 89166 where Arroyo at Skyeview is located), Summerlin, and Henderson communities. Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas, features extensive amenities including Skye Canyon Park, trails connecting throughout the community, Skye Canyon Marketplace shopping, and top-rated schools including Roger Bryan Elementary (9/10 rating). Each master-planned community offers unique lifestyle benefits and amenities. Your buyer\'s agent, Dr. Jan Duffy, specializes in northwest Las Vegas communities including Skye Canyon.',
   },
   {
-    question: 'Are there HOA fees for new construction homes in Las Vegas?',
-    answer: 'Yes, most new construction communities in Las Vegas have HOA fees that cover common area maintenance, amenities, and sometimes utilities. HOA fees typically range from $100-$300+ per month depending on the community amenities. Skye Canyon communities generally have reasonable HOA fees that cover maintenance of parks, trails, and common areas.',
+    question: 'What are the community fees for new construction homes in Las Vegas?',
+    answer: 'Most new construction communities in Las Vegas have community fees that cover common area maintenance, amenities, and sometimes utilities. Community fees typically range from $100-$300+ per month depending on the community amenities. Skye Canyon communities generally have reasonable community fees that cover maintenance of parks, trails, and common areas.',
   },
   {
     question: 'What is the weather like in Las Vegas and how does it affect new homes?',
@@ -122,7 +122,7 @@ const hyperlocalQuestions = [
   },
   {
     question: 'Are there pet restrictions in Las Vegas new home communities?',
-    answer: 'Pet policies vary by community and HOA. Most communities in Las Vegas, Nevada allow pets with reasonable restrictions (typically 2-3 pets, size/breed restrictions may apply). Skye Canyon, zip code 89166, northwest Las Vegas where Arroyo at Skyeview is located, and most new construction neighborhoods in northwest Las Vegas are pet-friendly. Check specific HOA rules for detailed pet policies. The extensive trail systems in Skye Canyon make it ideal for dog owners.',
+    answer: 'Pet policies vary by community. Most communities in Las Vegas, Nevada allow pets with reasonable restrictions (typically 2-3 pets, size/breed restrictions may apply). Skye Canyon, zip code 89166, northwest Las Vegas where Arroyo at Skyeview is located, and most new construction neighborhoods in northwest Las Vegas are pet-friendly. Check specific community rules for detailed pet policies. The extensive trail systems in Skye Canyon make it ideal for dog owners.',
   },
   {
     question: 'What is the typical down payment for new construction homes in Las Vegas?',
@@ -154,7 +154,7 @@ export default function LasVegasHyperlocalFAQPage() {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: hyperlocalQuestions.map((item) => ({
+    mainEntity: neighborhoodQuestions.map((item) => ({
       '@type': 'Question',
       name: item.question,
       acceptedAnswer: {
@@ -169,13 +169,13 @@ export default function LasVegasHyperlocalFAQPage() {
       <PageSchemas
         pageType="faq"
         url="/faq/las-vegas-hyperlocal"
-        title="Las Vegas New Homes Questions & Answers | Hyperlocal FAQ | Arroyo at Skyeview & Northwest Las Vegas"
-        description="Comprehensive hyperlocal questions and answers about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. Get expert answers about neighborhoods, schools, lifestyle, and new construction homes."
+        title="Las Vegas New Homes Questions & Answers | Neighborhood FAQ | Arroyo at Skyeview & Northwest Las Vegas"
+        description="Comprehensive questions and answers about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. Get expert answers about neighborhoods, schools, lifestyle, and new construction homes."
         breadcrumbs={[
           { name: 'FAQ', url: '/faq' },
-          { name: 'Las Vegas Hyperlocal Q&A', url: '/faq/las-vegas-hyperlocal' },
+          { name: 'Las Vegas Neighborhood Q&A', url: '/faq/las-vegas-hyperlocal' },
         ]}
-        questions={hyperlocalQuestions.slice(0, 10).map(q => ({
+        questions={neighborhoodQuestions.slice(0, 10).map(q => ({
           question: q.question,
           answer: q.answer.substring(0, 200) + (q.answer.length > 200 ? '...' : ''),
         }))}
@@ -194,10 +194,10 @@ export default function LasVegasHyperlocalFAQPage() {
         <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Las Vegas New Homes: Hyperlocal Questions & Answers
+              Las Vegas New Homes: Neighborhood Questions & Answers
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
-              Comprehensive hyperlocal questions and answers about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. Get expert answers about neighborhoods, schools, lifestyle, and new construction homes from your buyer's agent.
+              Comprehensive questions and answers about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. Get expert answers about neighborhoods, schools, lifestyle, and new construction homes from your buyer's agent.
             </p>
           </div>
         </section>
@@ -207,11 +207,11 @@ export default function LasVegasHyperlocalFAQPage() {
             <div className="lg:col-span-2">
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-gray-700 mb-8">
-                  Find answers to the most common questions about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. These hyperlocal questions and answers cover neighborhoods, schools, lifestyle, pricing, and everything you need to know about new construction homes in the Las Vegas area, with a focus on northwest Las Vegas communities.
+                  Find answers to the most common questions about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. These questions and answers cover neighborhoods, schools, lifestyle, pricing, and everything you need to know about new construction homes in the Las Vegas area, with a focus on northwest Las Vegas communities.
                 </p>
                 
                 <div className="space-y-6">
-                  {hyperlocalQuestions.map((faq, index) => (
+                  {neighborhoodQuestions.map((faq, index) => (
                     <div key={index} className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
                       <h2 className="text-xl font-bold text-gray-900 mb-3">
                         {faq.question}

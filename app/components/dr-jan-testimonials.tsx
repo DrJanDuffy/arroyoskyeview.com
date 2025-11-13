@@ -43,7 +43,7 @@ export default function DrJanTestimonials() {
         
         <div className="flex items-center justify-center mb-8">
           <div className="bg-blue-100 px-4 py-2 rounded-full">
-            <span className="text-blue-800 font-semibold text-sm">Buyer's Agent | Represents HOME BUYERS, Not Builders or HOAs</span>
+            <span className="text-blue-800 font-semibold text-sm">Buyer's Agent | Represents HOME BUYERS, Not the Builder</span>
           </div>
         </div>
 

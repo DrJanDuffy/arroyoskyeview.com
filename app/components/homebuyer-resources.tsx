@@ -108,9 +108,9 @@ export default function HomebuyerResources() {
           </li>
           <li>
             <a href="/faq/las-vegas-hyperlocal" className="text-blue-600 hover:text-blue-700 font-medium">
-              Las Vegas Hyperlocal Q&A
+              Las Vegas Neighborhood Q&A
             </a>
-            <p className="text-sm text-gray-600 mt-1">Comprehensive hyperlocal questions and answers about Las Vegas neighborhoods, schools, and lifestyle</p>
+            <p className="text-sm text-gray-600 mt-1">Comprehensive questions and answers about Las Vegas neighborhoods, schools, and lifestyle</p>
           </li>
           <li>
             <a href="/online-homebuying" className="text-blue-600 hover:text-blue-700 font-medium">

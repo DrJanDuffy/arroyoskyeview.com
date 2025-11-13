@@ -93,7 +93,7 @@ export default function PageSchemas({
     '@type': 'Organization',
     name: 'Arroyo at Skyeview Homes | Homes by Dr. Jan Duffy',
     alternateName: ['Dr. Jan Duffy Real Estate', 'Dr. Jan Duffy', 'Arroyo at Skyeview Homes'],
-    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs. Specializing in construction monitoring, building standards inspection, and insider knowledge of northwest Las Vegas communities.',
+    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). Dr. Jan Duffy represents HOME BUYERS, not the builder. Specializing in construction monitoring, building standards inspection, and insider knowledge of northwest Las Vegas communities.',
     url: baseUrl,
     telephone: '+1-702-903-4687',
     email: 'info@arroyoskyeview.com',
@@ -286,12 +286,12 @@ export default function PageSchemas({
       name: 'Las Vegas',
       addressRegion: 'NV',
     },
-    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs. Services include construction monitoring, building standards inspection, and insider knowledge of available inventory and pricing.',
+    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. Dr. Jan Duffy represents HOME BUYERS, not the builder. Services include construction monitoring, building standards inspection, and insider knowledge of available inventory and pricing.',
     offers: {
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD',
-      description: 'No cost to buyer - Builders pay for buyer representation. Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs.',
+      description: 'No cost to buyer - Builders pay for buyer representation. Dr. Jan Duffy represents HOME BUYERS, not the builder.',
     },
   }
 

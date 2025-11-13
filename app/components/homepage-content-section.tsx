@@ -26,7 +26,7 @@ export default function HomepageContentSection() {
     },
     {
       question: 'Why should I work with Dr. Jan Duffy when buying at Arroyo at Skyeview in Skye Canyon, northwest Las Vegas?',
-      answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who provides expert buyer representation specifically for Arroyo at Skyeview Homes and new construction homes in northwest Las Vegas, Nevada, including Skye Canyon (zip code 89166). <strong>She represents HOME BUYERS, not builders or HOAs.</strong> She offers construction monitoring every 7-10 days during your home\'s build at Arroyo at Skyeview Homes, a complimentary building standards inspection at closing, and insider knowledge of available inventory, pricing, and lot selection in this northwest Las Vegas area. Dr. Jan has deep local knowledge of Arroyo at Skyeview Homes, Skye Canyon, zip code 89166, and all northwest Las Vegas new construction communities. Best of all, builders pay for buyer\'s agent representation—so you\'re already funding an agent, and Dr. Jan works exclusively for YOU as a home buyer, not the builder or homeowner association. Call (702) 903-4687 to get started with your Arroyo at Skyeview Homes purchase.',
+      answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who provides expert buyer representation specifically for Arroyo at Skyeview Homes and new construction homes in northwest Las Vegas, Nevada, including Skye Canyon (zip code 89166). <strong>She represents HOME BUYERS, not the builder.</strong> She offers construction monitoring every 7-10 days during your home\'s build at Arroyo at Skyeview Homes, a complimentary building standards inspection at closing, and insider knowledge of available inventory, pricing, and lot selection in this northwest Las Vegas area. Dr. Jan has deep local knowledge of Arroyo at Skyeview Homes, Skye Canyon, zip code 89166, and all northwest Las Vegas new construction communities. Best of all, builders pay for buyer\'s agent representation—so you\'re already funding an agent, and Dr. Jan works exclusively for YOU as a home buyer, not the builder. Call (702) 903-4687 to get started with your Arroyo at Skyeview Homes purchase.',
     },
     {
       question: 'How long does it take to build a new home at Arroyo at Skyeview?',
@@ -59,7 +59,7 @@ export default function HomepageContentSection() {
           Welcome to Arroyo at Skyeview in Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)
         </h2>
         <p className="text-lg text-gray-700 mb-4">
-          Arroyo at Skyeview Homes represents the perfect blend of modern living and community amenities in one of Las Vegas's most desirable master-planned communities. Located in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166), near the intersection of US-95 and the 215 Beltway, this new construction development offers two-story townhomes designed for contemporary lifestyles with premium finishes and energy-efficient features. Arroyo at Skyeview Homes is situated in the heart of Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas. When buying Arroyo at Skyeview Homes, work with Dr. Jan Duffy—your buyer's agent who represents HOME BUYERS, not builders or HOAs.
+          Arroyo at Skyeview Homes represents the perfect blend of modern living and community amenities in one of Las Vegas's most desirable master-planned communities. Located in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166), near the intersection of US-95 and the 215 Beltway, this new construction development offers two-story townhomes designed for contemporary lifestyles with premium finishes and energy-efficient features. Arroyo at Skyeview Homes is situated in the heart of Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas. When buying Arroyo at Skyeview Homes, work with Dr. Jan Duffy—your buyer's agent who represents HOME BUYERS, not the builder.
         </p>
         
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
@@ -115,10 +115,10 @@ export default function HomepageContentSection() {
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
-          No Extra Cost to You - Dr. Jan Duffy Represents HOME BUYERS, Not Builders or HOAs
+          No Extra Cost to You - Dr. Jan Duffy Represents HOME BUYERS, Not the Builder
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          <strong>Important: Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs.</strong> When you buy Arroyo at Skyeview Homes, builders pay for buyer representation—the commission is built into the home pricing whether you use an agent or not. This means you're already funding representation, so choose someone who works exclusively for YOU as a home buyer. Dr. Jan Duffy protects YOUR interests throughout the entire process, ensuring you get the best deal, quality construction, and proper representation. There's no additional cost for this expert buyer representation—builders pay for it.
+          <strong>Important: Dr. Jan Duffy represents HOME BUYERS, not the builder.</strong> When you buy Arroyo at Skyeview Homes, builders pay for buyer representation—the commission is built into the home pricing whether you use an agent or not. This means you're already funding representation, so choose someone who works exclusively for YOU as a home buyer. Dr. Jan Duffy protects YOUR interests throughout the entire process, ensuring you get the best deal, quality construction, and proper representation. There's no additional cost for this expert buyer representation—builders pay for it.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-4">
@@ -134,7 +134,7 @@ export default function HomepageContentSection() {
             onClick={() => trackCTAClick('Work with Dr. Jan', 'homepage_content_section')}
             className="inline-block bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-50 transition"
           >
-            Work with Dr. Jan Duffy | Represents Home Buyers, Not Builders or HOAs
+            Work with Dr. Jan Duffy | Represents Home Buyers, Not the Builder
           </Link>
         </div>
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -163,10 +163,10 @@ export default function HomepageContentSection() {
         </div>
       </section>
 
-      {/* Section 3: Hyperlocal Skye Canyon Content */}
+      {/* Section 3: Skye Canyon Neighborhood Content */}
       <section className="mb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Living in Skye Canyon, Las Vegas: Hyperlocal Guide
+          Living in Skye Canyon, Las Vegas: Neighborhood Guide
         </h2>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">

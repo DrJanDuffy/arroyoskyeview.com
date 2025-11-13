@@ -169,7 +169,7 @@ export default function NewHomeInventoryPage() {
 
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Las Vegas New Construction Market: Hyperlocal Insights
+                Las Vegas New Construction Market: Local Insights
               </h2>
               <p className="text-lg text-gray-700 mb-4">
                 The Las Vegas new construction market is experiencing unprecedented inventory levels, creating exceptional opportunities for homebuyers. In communities like Skye Canyon, Summerlin, and Henderson, Century Communities and other builders are offering aggressive incentives to move inventory.

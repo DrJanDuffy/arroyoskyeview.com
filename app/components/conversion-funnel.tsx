@@ -135,7 +135,7 @@ export default function ConversionFunnel() {
 
         <div className="mt-12 bg-blue-50 border-2 border-blue-200 rounded-lg p-6 text-center">
           <p className="text-gray-700 mb-4">
-            <strong className="text-gray-900">Remember:</strong> Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs. 
+            <strong className="text-gray-900">Remember:</strong> Dr. Jan Duffy represents HOME BUYERS, not the builder. 
             Builders pay for buyer representation, so there's no extra cost to you.
           </p>
           <a

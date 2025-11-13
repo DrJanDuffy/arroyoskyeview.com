@@ -235,11 +235,11 @@ export default function Header() {
                     <Link
                       href="/faq/las-vegas-hyperlocal"
                       className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150 group"
-                      title="Las Vegas Hyperlocal Questions & Answers - Neighborhoods, Schools, Lifestyle"
+                      title="Las Vegas Neighborhood Questions & Answers - Neighborhoods, Schools, Lifestyle"
                     >
                       <span className="flex items-center">
                         <span className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100 mr-2 transition-opacity duration-150"></span>
-                        Las Vegas Hyperlocal Q&A
+                        Las Vegas Neighborhood Q&A
                       </span>
                     </Link>
                     <div className="border-t border-gray-100 my-2"></div>
@@ -284,7 +284,7 @@ export default function Header() {
                     <Link
                       href="/work-with-dr-jan"
                       className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150 group"
-                      title="Work with Dr. Jan Duffy - Expert Buyer's Agent for Arroyo at Skyeview Homes | Represents Home Buyers, Not Builders or HOAs"
+                      title="Work with Dr. Jan Duffy - Expert Buyer's Agent for Arroyo at Skyeview Homes | Represents Home Buyers, Not Builders"
                     >
                       <span className="flex items-center">
                         <span className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100 mr-2 transition-opacity duration-150"></span>
@@ -517,7 +517,7 @@ export default function Header() {
                     className="block py-2.5 px-3 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-150"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Las Vegas Hyperlocal Q&A
+                    Las Vegas Neighborhood Q&A
                   </Link>
                   <div className="pt-3 pb-2 text-xs font-bold text-blue-600 uppercase tracking-wider">Blog</div>
                   {blogPosts.map((post) => (
