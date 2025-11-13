@@ -15,8 +15,8 @@ export default function ContactHero() {
             Contact Us
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-            Our New Home Specialists are standing by to help you with everything from prequalification 
-            to finding the right home in your area of interest.
+            Get expert buyer representation for Arroyo at Skyeview Homes and new construction in Las Vegas. 
+            Dr. Jan Duffy represents HOME BUYERS, not the builder—at no extra cost to you.
           </p>
         </div>
 

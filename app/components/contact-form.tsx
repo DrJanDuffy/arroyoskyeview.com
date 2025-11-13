@@ -60,10 +60,10 @@ export default function ContactForm() {
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-              Send Us a Message
+              Get Started with Your Home Search
             </h2>
             <p className="text-lg text-gray-600">
-              Fill out the form below and we'll get back to you within 24 hours
+              Tell us about your new construction home search and we'll get back to you within 24 hours
             </p>
           </div>
 
