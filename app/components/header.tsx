@@ -84,11 +84,17 @@ export default function Header() {
                 </svg>
               </button>
               {activeDropdown === 'communities' && (
-                <div
-                  className="absolute left-0 mt-2 w-80 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
-                  onMouseEnter={() => setActiveDropdown('communities')}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
+                <>
+                  {/* Invisible bridge to prevent dropdown from closing when moving mouse */}
+                  <div 
+                    className="absolute left-0 top-full w-full h-2"
+                    onMouseEnter={() => setActiveDropdown('communities')}
+                  />
+                  <div
+                    className="absolute left-0 mt-0 w-80 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
+                    onMouseEnter={() => setActiveDropdown('communities')}
+                    onMouseLeave={() => setActiveDropdown(null)}
+                  >
                   <div className="py-2">
                     <div className="px-4 py-2.5 text-xs font-bold text-blue-600 uppercase tracking-wider bg-blue-50 border-b border-blue-100">
                       Communities
@@ -142,11 +148,17 @@ export default function Header() {
                 </svg>
               </button>
               {activeDropdown === 'propertyTypes' && (
-                <div
-                  className="absolute left-0 mt-2 w-64 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
-                  onMouseEnter={() => setActiveDropdown('propertyTypes')}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
+                <>
+                  {/* Invisible bridge to prevent dropdown from closing when moving mouse */}
+                  <div 
+                    className="absolute left-0 top-full w-full h-2"
+                    onMouseEnter={() => setActiveDropdown('propertyTypes')}
+                  />
+                  <div
+                    className="absolute left-0 mt-0 w-64 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
+                    onMouseEnter={() => setActiveDropdown('propertyTypes')}
+                    onMouseLeave={() => setActiveDropdown(null)}
+                  >
                   <div className="py-2">
                     {propertyTypes.map((type) => (
                       <Link
@@ -162,7 +174,8 @@ export default function Header() {
                       </Link>
                     ))}
                   </div>
-                </div>
+                  </div>
+                </>
               )}
             </div>
 
@@ -179,11 +192,17 @@ export default function Header() {
                 </svg>
               </button>
               {activeDropdown === 'buyers' && (
-                <div
-                  className="absolute left-0 mt-2 w-72 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
-                  onMouseEnter={() => setActiveDropdown('buyers')}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
+                <>
+                  {/* Invisible bridge to prevent dropdown from closing when moving mouse */}
+                  <div 
+                    className="absolute left-0 top-full w-full h-2"
+                    onMouseEnter={() => setActiveDropdown('buyers')}
+                  />
+                  <div
+                    className="absolute left-0 mt-0 w-72 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
+                    onMouseEnter={() => setActiveDropdown('buyers')}
+                    onMouseLeave={() => setActiveDropdown(null)}
+                  >
                   <div className="py-2">
                     {buyerResources.map((resource) => (
                       <Link
@@ -199,7 +218,8 @@ export default function Header() {
                       </Link>
                     ))}
                   </div>
-                </div>
+                  </div>
+                </>
               )}
             </div>
 
@@ -216,11 +236,17 @@ export default function Header() {
                 </svg>
               </button>
               {activeDropdown === 'resources' && (
-                <div
-                  className="absolute left-0 mt-2 w-72 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
-                  onMouseEnter={() => setActiveDropdown('resources')}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
+                <>
+                  {/* Invisible bridge to prevent dropdown from closing when moving mouse */}
+                  <div 
+                    className="absolute left-0 top-full w-full h-2"
+                    onMouseEnter={() => setActiveDropdown('resources')}
+                  />
+                  <div
+                    className="absolute left-0 mt-0 w-72 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
+                    onMouseEnter={() => setActiveDropdown('resources')}
+                    onMouseLeave={() => setActiveDropdown(null)}
+                  >
                   <div className="py-2">
                     <Link
                       href="/faq"
@@ -258,7 +284,8 @@ export default function Header() {
                       </Link>
                     ))}
                   </div>
-                </div>
+                  </div>
+                </>
               )}
             </div>
 
@@ -275,11 +302,17 @@ export default function Header() {
                 </svg>
               </button>
               {activeDropdown === 'contact' && (
-                <div
-                  className="absolute right-0 mt-2 w-64 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
-                  onMouseEnter={() => setActiveDropdown('contact')}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
+                <>
+                  {/* Invisible bridge to prevent dropdown from closing when moving mouse */}
+                  <div 
+                    className="absolute right-0 top-full w-full h-2"
+                    onMouseEnter={() => setActiveDropdown('contact')}
+                  />
+                  <div
+                    className="absolute right-0 mt-0 w-64 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
+                    onMouseEnter={() => setActiveDropdown('contact')}
+                    onMouseLeave={() => setActiveDropdown(null)}
+                  >
                   <div className="py-2">
                     <Link
                       href="/work-with-dr-jan"
@@ -302,7 +335,8 @@ export default function Header() {
                       </span>
                     </Link>
                   </div>
-                </div>
+                  </div>
+                </>
               )}
             </div>
 
@@ -319,11 +353,17 @@ export default function Header() {
                 </svg>
               </button>
               {activeDropdown === 'about' && (
-                <div
-                  className="absolute right-0 mt-2 w-64 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
-                  onMouseEnter={() => setActiveDropdown('about')}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
+                <>
+                  {/* Invisible bridge to prevent dropdown from closing when moving mouse */}
+                  <div 
+                    className="absolute right-0 top-full w-full h-2"
+                    onMouseEnter={() => setActiveDropdown('about')}
+                  />
+                  <div
+                    className="absolute right-0 mt-0 w-64 rounded-xl shadow-xl bg-white ring-1 ring-gray-200 z-50 animate-in fade-in slide-in-from-top-2 duration-200"
+                    onMouseEnter={() => setActiveDropdown('about')}
+                    onMouseLeave={() => setActiveDropdown(null)}
+                  >
                   <div className="py-2">
                     <Link
                       href="/about-us"
@@ -346,7 +386,8 @@ export default function Header() {
                       </span>
                     </Link>
                   </div>
-                </div>
+                  </div>
+                </>
               )}
             </div>
           </div>
