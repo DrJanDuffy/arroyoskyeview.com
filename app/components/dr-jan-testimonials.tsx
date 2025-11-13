@@ -17,9 +17,9 @@ const testimonials = [
   },
   {
     id: 3,
-    quote: 'Dr. Duffy\'s knowledge of Century Communities helped us find the perfect home in the right community for our family. Her expertise made all the difference.',
-    author: 'Happy Homeowner',
-    community: 'The Townes at Union Village',
+    quote: 'Dr. Duffy\'s expertise in Arroyo at Skyeview Homes and Skye Canyon helped us find the perfect home. She represents buyers, not builders—and that made all the difference in getting the best deal.',
+    author: 'Happy Home Buyer',
+    community: 'Arroyo at Skyeview Homes',
   },
 ]
 
@@ -38,12 +38,12 @@ export default function DrJanTestimonials() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center">
-          Century Communities Buyers Trust Dr. Duffy
+          Home Buyers Trust Dr. Jan Duffy
         </h2>
         
         <div className="flex items-center justify-center mb-8">
           <div className="bg-blue-100 px-4 py-2 rounded-full">
-            <span className="text-blue-800 font-semibold text-sm">Century Communities Preferred Buyer's Agent</span>
+            <span className="text-blue-800 font-semibold text-sm">Buyer's Agent | Represents HOME BUYERS, Not Builders or HOAs</span>
           </div>
         </div>
 

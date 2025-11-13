@@ -8,8 +8,8 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'New Homes in Summerlin Las Vegas | Century Communities',
-  description: 'Discover new construction homes in Summerlin, Las Vegas. Expert buyer representation with Dr. Jan Duffy. Construction monitoring included. Call (702) 903-4687.',
+  title: 'New Homes in Summerlin Las Vegas | New Construction Homes',
+  description: 'Discover new construction homes in Summerlin, Las Vegas, Nevada. Expert buyer\'s agent representation with Dr. Jan Duffy. Construction monitoring included. Call (702) 903-4687.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/neighborhoods/summerlin-las-vegas',
   },
@@ -21,8 +21,8 @@ export default function SummerlinPage() {
       <PageSchemas
         pageType="neighborhood"
         url="/neighborhoods/summerlin-las-vegas"
-        title="New Homes in Summerlin Las Vegas | Century Communities | Dr. Jan Duffy"
-        description="Discover new construction homes in Summerlin, Las Vegas. Find Century Communities new homes with expert buyer representation from Dr. Jan Duffy. Construction monitoring and insider knowledge included."
+        title="New Homes in Summerlin Las Vegas | New Construction Homes | Buyer's Agent"
+        description="Discover new construction homes in Summerlin, Las Vegas, Nevada. Find new construction homes with expert buyer's agent representation from Dr. Jan Duffy. Construction monitoring and insider knowledge included."
         breadcrumbs={[
           { name: 'Neighborhoods', url: '/find-your-new-home/nevada/las-vegas-metro' },
           { name: 'Summerlin', url: '/neighborhoods/summerlin-las-vegas' },
@@ -31,8 +31,8 @@ export default function SummerlinPage() {
         zipCode="89149"
         questions={[
           {
-            question: 'What Century Communities developments are in Summerlin?',
-            answer: 'Summerlin features multiple Century Communities developments. Contact Dr. Jan Duffy at (702) 903-4687 for current inventory and available homes in Summerlin.',
+            question: 'What new construction developments are in Summerlin?',
+            answer: 'Summerlin features multiple new construction developments. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 for current inventory and available homes in Summerlin, Las Vegas, Nevada.',
           },
           {
             question: 'What are the benefits of living in Summerlin?',
@@ -81,7 +81,7 @@ export default function SummerlinPage() {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">New Construction Homes in Summerlin</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Century Communities offers exceptional new construction homes in the Summerlin area, designed for modern living with premium finishes and energy-efficient features.
+                  Builders offer exceptional new construction homes in the Summerlin area, Las Vegas, Nevada, designed for modern living with premium finishes and energy-efficient features.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
                   Whether you're looking for a single-family home, townhome, or luxury residence, Summerlin provides diverse housing options to suit various lifestyles and budgets.
@@ -124,11 +124,11 @@ export default function SummerlinPage() {
                   When buying a new construction home in Summerlin, working with Dr. Jan Duffy ensures you have expert representation throughout the process. Dr. Jan provides:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-lg text-gray-700 mb-6 ml-4">
-                  <li>Insider knowledge of available Century Communities homes</li>
+                  <li>Insider knowledge of available new construction homes in Las Vegas, Nevada</li>
                   <li>Construction monitoring during your home's build</li>
                   <li>Building standards inspection at closing</li>
                   <li>Negotiation expertise for best pricing and incentives</li>
-                  <li>No additional cost - Century Communities pays for buyer representation</li>
+                  <li>No additional cost - builders pay for buyer's agent representation</li>
                 </ul>
               </section>
             </div>
@@ -143,10 +143,10 @@ export default function SummerlinPage() {
         <section className="bg-gray-50 py-12 mt-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Century Communities New Homes in Las Vegas Metro
+              New Construction Homes in Las Vegas Metro
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Explore Century Communities developments across Las Vegas, including nearby areas:
+              Explore new construction developments across Las Vegas, Nevada, including nearby areas:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link
@@ -168,7 +168,7 @@ export default function SummerlinPage() {
                   Browse all Las Vegas Metro new construction communities
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  View all Century Communities new homes across Las Vegas, Henderson, and surrounding areas.
+                  View all new construction homes across Las Vegas, Henderson, and surrounding areas in Nevada.
                 </p>
               </Link>
               <Link
@@ -179,7 +179,7 @@ export default function SummerlinPage() {
                   Henderson: Family-friendly neighborhoods with excellent schools
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Explore Century Communities new construction homes in Henderson, Nevada.
+                  Explore new construction homes in Henderson, Nevada with your buyer's agent.
                 </p>
               </Link>
             </div>

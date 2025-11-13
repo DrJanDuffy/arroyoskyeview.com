@@ -7,8 +7,8 @@ import DrJanContactCard from '../components/dr-jan-contact-card'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'FAQ | Century Communities New Homes Las Vegas',
-  description: 'Get answers to common questions about buying new construction homes in Las Vegas. Learn about the homebuying process, builder incentives, and warranties.',
+  title: 'FAQ | New Construction Homes Las Vegas | Buyer\'s Agent FAQ',
+  description: 'Get answers to common questions about buying new construction homes in Las Vegas, Nevada. Learn about the homebuying process, builder incentives, and warranties from your buyer\'s agent.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/faq',
   },
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question: 'Does it cost more to use a buyer\'s agent for Century Communities?',
-    answer: 'No—the commission is built into Century\'s home pricing whether you represent yourself or hire an agent. You\'re already paying for representation, so choose someone who protects YOUR interests. Dr. Jan Duffy provides expert representation at no extra cost to you.',
+    question: 'Does it cost more to use a buyer\'s agent for new construction homes in Las Vegas, Nevada?',
+    answer: 'No—the commission is built into new construction home pricing whether you represent yourself or hire a buyer\'s agent. You\'re already paying for representation, so choose someone who protects YOUR interests. Dr. Jan Duffy, your buyer\'s agent, provides expert representation at no extra cost to you.',
   },
   {
     question: 'What makes buying new construction different from resale?',
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     question: 'What incentives are builders offering?',
-    answer: 'Builders are currently offering incentives including mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. Dr. Jan Duffy has insider knowledge of current Century Communities incentives and can help you maximize your savings.',
+    answer: 'Builders are currently offering incentives including mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. Dr. Jan Duffy, your buyer\'s agent, has insider knowledge of current builder incentives in Las Vegas, Nevada and can help you maximize your savings.',
   },
   {
     question: 'Do I need a down payment for new construction?',
@@ -52,16 +52,16 @@ const faqs = [
     answer: 'Yes! Even new homes can have issues. Dr. Jan Duffy provides a complimentary building standards inspection at closing that catches issues BEFORE your warranty matters, potentially saving you thousands in post-warranty repairs.',
   },
   {
-    question: 'How do I register with Century Communities?',
-    answer: 'It\'s crucial to register correctly with Century Communities to ensure buyer representation. Dr. Jan Duffy handles proper registration to protect your co-op benefits and ensure commission applies to your purchase. Call her BEFORE visiting model homes.',
+    question: 'How do I register with builders when buying new construction?',
+    answer: 'It\'s crucial to register correctly with builders to ensure your buyer\'s agent representation. Dr. Jan Duffy, your buyer\'s agent, handles proper registration to protect your co-op benefits and ensure commission applies to your purchase. Call her BEFORE visiting model homes.',
   },
 ]
 
 export default function FAQPage() {
   const faqQuestions = [
     {
-      question: 'Does it cost more to use a buyer\'s agent for Century Communities?',
-      answer: 'No—the commission is built into Century\'s home pricing whether you represent yourself or hire an agent. You\'re already paying for representation, so choose someone who protects YOUR interests. Dr. Jan Duffy provides expert representation at no extra cost to you.',
+      question: 'Does it cost more to use a buyer\'s agent for new construction homes in Las Vegas, Nevada?',
+      answer: 'No—the commission is built into new construction home pricing whether you represent yourself or hire a buyer\'s agent. You\'re already paying for representation, so choose someone who protects YOUR interests. Dr. Jan Duffy, your buyer\'s agent, provides expert representation at no extra cost to you.',
     },
     {
       question: 'What makes buying new construction different from resale?',
@@ -74,8 +74,8 @@ export default function FAQPage() {
       <PageSchemas
         pageType="faq"
         url="/faq"
-        title="Frequently Asked Questions About New Homes | Century Communities FAQ"
-        description="Get answers to common questions about buying new construction homes in Las Vegas. Learn about the homebuying process, builder incentives, warranties, and more."
+        title="Frequently Asked Questions About New Construction Homes | Las Vegas Buyer's Agent FAQ"
+        description="Get answers to common questions about buying new construction homes in Las Vegas, Nevada. Learn about the homebuying process, builder incentives, warranties, and buyer's agent representation."
         breadcrumbs={[
           { name: 'FAQ', url: '/faq' },
         ]}
@@ -92,7 +92,7 @@ export default function FAQPage() {
               Frequently Asked Questions
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
-              Get answers to common questions about buying new construction homes in Las Vegas with Century Communities.
+              Get answers to common questions about buying new construction homes in Las Vegas, Nevada with expert buyer's agent representation.
             </p>
           </div>
         </section>

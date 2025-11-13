@@ -8,8 +8,8 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'New Homes in Henderson Las Vegas | Century Communities',
-  description: 'Discover new construction homes in Henderson, Nevada. Expert buyer representation with Dr. Jan Duffy. Construction monitoring included. Call (702) 903-4687.',
+  title: 'New Homes in Henderson Las Vegas | New Construction Homes',
+  description: 'Discover new construction homes in Henderson, Nevada. Expert buyer\'s agent representation with Dr. Jan Duffy. Construction monitoring included. Call (702) 903-4687.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/neighborhoods/henderson-las-vegas',
   },
@@ -21,8 +21,8 @@ export default function HendersonPage() {
       <PageSchemas
         pageType="neighborhood"
         url="/neighborhoods/henderson-las-vegas"
-        title="New Homes in Henderson Las Vegas | Century Communities | Dr. Jan Duffy"
-        description="Discover new construction homes in Henderson, Nevada. Find Century Communities new homes with expert buyer representation from Dr. Jan Duffy. Construction monitoring and insider knowledge included."
+        title="New Homes in Henderson Las Vegas | New Construction Homes | Buyer's Agent"
+        description="Discover new construction homes in Henderson, Nevada. Find new construction homes with expert buyer's agent representation from Dr. Jan Duffy. Construction monitoring and insider knowledge included."
         breadcrumbs={[
           { name: 'Neighborhoods', url: '/find-your-new-home/nevada/las-vegas-metro' },
           { name: 'Henderson', url: '/neighborhoods/henderson-las-vegas' },
@@ -31,8 +31,8 @@ export default function HendersonPage() {
         zipCode="89011"
         questions={[
           {
-            question: 'What Century Communities developments are in Henderson?',
-            answer: 'Henderson features Century Communities developments including The Townes at Union Village. Contact Dr. Jan Duffy at (702) 903-4687 for current inventory.',
+            question: 'What new construction developments are in Henderson?',
+            answer: 'Henderson features new construction developments including The Townes at Union Village. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 for current inventory in Henderson, Nevada.',
           },
           {
             question: 'What are the benefits of living in Henderson?',
@@ -52,7 +52,7 @@ export default function HendersonPage() {
               New Homes in Henderson, Las Vegas
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
-              Discover exceptional new construction homes in Henderson, Nevada's second-largest city. Get expert representation with Dr. Jan Duffy for Century Communities homes.
+              Discover exceptional new construction homes in Henderson, Nevada's second-largest city. Get expert buyer's agent representation with Dr. Jan Duffy for new construction homes.
             </p>
           </div>
         </section>
@@ -79,9 +79,9 @@ export default function HendersonPage() {
               </section>
 
               <section className="mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Century Communities in Henderson</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">New Construction Homes in Henderson, Nevada</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Century Communities offers new construction homes in Henderson, including communities like The Townes at Union Village. These homes feature modern designs, energy-efficient construction, and premium finishes.
+                  Builders offer new construction homes in Henderson, Nevada, including communities like The Townes at Union Village. These homes feature modern designs, energy-efficient construction, and premium finishes.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
                   Whether you're a first-time homebuyer or looking to upgrade, Henderson offers diverse housing options with excellent value and quality of life.
@@ -136,10 +136,10 @@ export default function HendersonPage() {
         <section className="bg-gray-50 py-12 mt-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Century Communities New Homes in Las Vegas Metro
+              New Construction Homes in Las Vegas Metro
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Explore Century Communities developments across Las Vegas, including nearby areas:
+              Explore new construction developments across Las Vegas, Nevada, including nearby areas:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link
@@ -172,7 +172,7 @@ export default function HendersonPage() {
                   Browse all Las Vegas Metro new construction communities
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  View all Century Communities new homes across Las Vegas, Henderson, and surrounding areas.
+                  View all new construction homes across Las Vegas, Henderson, and surrounding areas in Nevada.
                 </p>
               </Link>
             </div>

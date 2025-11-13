@@ -29,8 +29,8 @@ export default function EaglepointeSkyeCanyonPage() {
       <PageSchemas
         pageType="community"
         url="/eaglepointe-skye-canyon"
-        title="Eaglepointe at Skye Canyon by Century Communities | New Homes in Las Vegas, NV"
-        description="Eaglepointe at Skye Canyon is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new homes and floor plans from Century Communities."
+        title="Eaglepointe at Skye Canyon | New Construction Homes in Skye Canyon, Las Vegas, NV"
+        description="Eaglepointe at Skye Canyon is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new construction homes and floor plans with expert buyer's agent representation from Dr. Jan Duffy."
         breadcrumbs={[
           { name: 'Find Your Home', url: '/find-your-new-home/nevada/las-vegas-metro' },
           { name: 'Skye Canyon', url: '/areas/zip-89166' },
@@ -84,7 +84,7 @@ export default function EaglepointeSkyeCanyonPage() {
             },
             {
               question: 'Why should I work with Dr. Jan Duffy when buying at Eaglepointe at Skye Canyon?',
-              answer: 'Dr. Jan Duffy provides expert buyer representation for Century Communities homes including Eaglepointe at Skye Canyon. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Century Communities pays for buyer representation, so there\'s no extra cost. Call (702) 903-4687.',
+              answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who provides expert buyer representation for new construction homes including Eaglepointe at Skye Canyon in Las Vegas, Nevada. She represents YOU, not the builder. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Builders pay for buyer\'s agent representation, so there\'s no extra cost to you. Call (702) 903-4687.',
             },
             {
               question: 'What amenities are available in Skye Canyon near Eaglepointe?',

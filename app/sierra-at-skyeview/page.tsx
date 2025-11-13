@@ -29,8 +29,8 @@ export default function SierraAtSkyeviewPage() {
       <PageSchemas
         pageType="community"
         url="/sierra-at-skyeview"
-        title="Sierra at Skyeview by Century Communities | New Homes in Las Vegas, NV"
-        description="Sierra at Skyeview is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new homes and floor plans from Century Communities."
+        title="Sierra at Skyeview | New Construction Homes in Skye Canyon, Las Vegas, NV"
+        description="Sierra at Skyeview is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new construction homes and floor plans with expert buyer's agent representation from Dr. Jan Duffy."
         breadcrumbs={[
           { name: 'Find Your Home', url: '/find-your-new-home/nevada/las-vegas-metro' },
           { name: 'Skye Canyon', url: '/areas/zip-89166' },
@@ -78,7 +78,7 @@ export default function SierraAtSkyeviewPage() {
           questions={[
             {
               question: 'What is Sierra at Skyeview and where is it located?',
-              answer: 'Sierra at Skyeview is a residential community of new construction townhomes located in Skye Canyon, a master-planned community in northwest Las Vegas, Nevada (zip code 89166). The development is part of Century Communities\' portfolio and offers modern townhomes with contemporary designs and premium finishes in one of Las Vegas\'s most desirable areas.',
+              answer: 'Sierra at Skyeview is a residential community of new construction townhomes located in Skye Canyon, a master-planned community in northwest Las Vegas, Nevada (zip code 89166). The development offers modern townhomes with contemporary designs and premium finishes in one of Las Vegas\'s most desirable areas.',
             },
             {
               question: 'What types of homes are available at Sierra at Skyeview?',
@@ -98,7 +98,7 @@ export default function SierraAtSkyeviewPage() {
             },
             {
               question: 'Why should I work with Dr. Jan Duffy when buying at Sierra at Skyeview?',
-              answer: 'Dr. Jan Duffy provides expert buyer representation for Century Communities homes including Sierra at Skyeview. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Century Communities pays for buyer representation, so there\'s no extra cost to you. Call (702) 903-4687.',
+              answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who provides expert buyer representation for new construction homes including Sierra at Skyeview in Las Vegas, Nevada. She represents YOU, not the builder. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Builders pay for buyer\'s agent representation, so there\'s no extra cost to you. Call (702) 903-4687.',
             },
             {
               question: 'How long does it take to build a home at Sierra at Skyeview?',

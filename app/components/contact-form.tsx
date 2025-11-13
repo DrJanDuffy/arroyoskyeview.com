@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
+import { trackFormSubmit } from './analytics-tracker'
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -20,6 +21,9 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+    
+    // Track form submission
+    trackFormSubmit('contact_form')
     
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 1000))

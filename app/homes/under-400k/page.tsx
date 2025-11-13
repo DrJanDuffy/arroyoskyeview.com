@@ -9,7 +9,7 @@ import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'Homes Under $400k Las Vegas | Affordable New Construction',
-  description: 'Find new construction homes under $400k in Las Vegas. Affordable Century Communities homes perfect for first-time buyers. Expert guidance. Call (702) 903-4687.',
+  description: 'Find new construction homes under $400k in Las Vegas, Nevada. Affordable new construction homes perfect for first-time buyers. Expert buyer\'s agent guidance. Call (702) 903-4687.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/homes/under-400k',
   },
@@ -21,8 +21,8 @@ export default function Under400kPage() {
       <PageSchemas
         pageType="property-type"
         url="/homes/under-400k"
-        title="Homes Under $400k Las Vegas | Affordable New Construction | Century Communities"
-        description="Find new construction homes under $400k in Las Vegas. Discover affordable Century Communities homes perfect for first-time buyers and budget-conscious homebuyers."
+        title="Homes Under $400k Las Vegas | Affordable New Construction | Buyer's Agent"
+        description="Find new construction homes under $400k in Las Vegas, Nevada. Discover affordable new construction homes perfect for first-time buyers and budget-conscious homebuyers with expert buyer's agent representation."
         breadcrumbs={[
           { name: 'Homes', url: '/homes/under-400k' },
           { name: 'Homes Under $400k', url: '/homes/under-400k' },
@@ -30,8 +30,8 @@ export default function Under400kPage() {
         priceRange="Under $400,000"
         questions={[
           {
-            question: 'What Century Communities homes are available under $400k?',
-            answer: 'Century Communities offers homes under $400k including townhomes in Skye Canyon like Arroyo at Skyeview starting from $392,640. Contact Dr. Jan Duffy at (702) 903-4687 for current availability.',
+            question: 'What new construction homes are available under $400k in Las Vegas, Nevada?',
+            answer: 'Builders offer homes under $400k including townhomes in Skye Canyon, Las Vegas, Nevada like Arroyo at Skyeview starting from $392,640. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 for current availability.',
           },
           {
             question: 'What financing options are available for homes under $400k?',
@@ -50,7 +50,7 @@ export default function Under400kPage() {
               New Homes Under $400k in Las Vegas
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
-              Discover affordable new construction homes under $400,000 from Century Communities. Perfect for first-time buyers and those seeking great value.
+              Discover affordable new construction homes under $400,000 in Las Vegas, Nevada. Perfect for first-time buyers and those seeking great value with expert buyer's agent representation.
             </p>
           </div>
         </section>
@@ -61,7 +61,7 @@ export default function Under400kPage() {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Affordable New Construction in Las Vegas</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Finding quality new construction homes under $400k in Las Vegas is possible with Century Communities. These homes offer modern features, energy efficiency, and builder warranties at an affordable price point.
+                  Finding quality new construction homes under $400k in Las Vegas, Nevada is possible. These homes offer modern features, energy efficiency, and builder warranties at an affordable price point. Your buyer's agent, Dr. Jan Duffy, helps you find the best options.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
                   With current builder incentives including rate buy-downs and closing cost assistance, you may find that a new construction home fits your budget better than expected.

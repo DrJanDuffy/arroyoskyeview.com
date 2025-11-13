@@ -212,18 +212,18 @@ export default function StructuredData() {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'What is Arroyo at Skyeview?',
+        name: 'What is Arroyo at Skyeview Homes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Arroyo at Skyeview is a residential community of townhomes located in Skye Canyon, Las Vegas, Nevada. The development offers two-story townhomes with 2 to 4 bedrooms, 2.5 baths, and 2-bay garages.',
+          text: 'Arroyo at Skyeview Homes is a residential community of new construction townhomes located in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). The development offers two-story townhomes with 2 to 4 bedrooms, 2.5 baths, and 2-bay garages, starting from $392,640. Dr. Jan Duffy provides expert buyer representation for Arroyo at Skyeview Homes—she represents HOME BUYERS, not builders or HOAs.',
         },
       },
       {
         '@type': 'Question',
-        name: 'What are the prices for homes at Arroyo at Skyeview?',
+        name: 'What are the prices for Arroyo at Skyeview Homes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Homes at Arroyo at Skyeview start from $392,640, with prices ranging up to $424,590 depending on the floor plan and lot location.',
+          text: 'Arroyo at Skyeview Homes start from $392,640, with prices ranging up to $424,590 depending on the floor plan and lot location. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 for current pricing and incentives.',
         },
       },
       {
@@ -236,10 +236,10 @@ export default function StructuredData() {
       },
       {
         '@type': 'Question',
-        name: 'What are the floor plans available at Arroyo at Skyeview?',
+        name: 'What are the floor plans available at Arroyo at Skyeview Homes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Arroyo at Skyeview offers three floor plans: Beverly (1,531 sq ft, 3 bedrooms), Captiva (1,643 sq ft, 3 bedrooms), and Delray (1,729 sq ft, 3-4 bedrooms). All plans include 2.5 baths and 2-bay garages.',
+          text: 'Arroyo at Skyeview Homes offers three floor plans: Beverly (1,531 sq ft, 3 bedrooms), Captiva (1,643 sq ft, 3 bedrooms), and Delray (1,729 sq ft, 3-4 bedrooms). All plans include 2.5 baths and 2-bay garages. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 to learn more.',
         },
       },
       {

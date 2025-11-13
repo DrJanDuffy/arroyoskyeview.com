@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { trackPhoneClick, trackCTAClick } from './analytics-tracker'
 
 export default function OurPreferredBuyersAgent() {
   return (
@@ -7,13 +10,13 @@ export default function OurPreferredBuyersAgent() {
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <div className="text-center mb-8">
             <div className="inline-block bg-blue-100 px-4 py-2 rounded-full mb-4">
-              <span className="text-blue-800 font-semibold text-sm">Century Communities Preferred Buyer's Agent</span>
+              <span className="text-blue-800 font-semibold text-sm">New Construction Home Expert | Las Vegas, Nevada</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Preferred Buyer's Agent
+              Expert Buyer Representation - Dr. Jan Duffy Represents YOU
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              We recommend working with Dr. Duffy for expert representation on all Century Communities homes in Las Vegas.
+              We recommend working with Dr. Jan Duffy for expert buyer representation on all new construction homes in Las Vegas, Nevada. She represents YOU, not the builder or homeowner.
             </p>
           </div>
 
@@ -37,7 +40,7 @@ export default function OurPreferredBuyersAgent() {
                   <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Insider knowledge of all 15+ Las Vegas Century Communities</span>
+                  <span>Insider knowledge of all new construction communities in Las Vegas, Nevada & Skye Canyon</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -51,10 +54,10 @@ export default function OurPreferredBuyersAgent() {
             <div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">No Extra Cost</h3>
               <p className="text-gray-700 mb-4">
-                Century Communities pays for buyer representation on all their Las Vegas homes. The commission is built into the home pricing whether you use an agent or not—so you're already funding representation.
+                Builders pay for buyer representation on all new construction homes in Las Vegas, Nevada. The commission is built into the home pricing whether you use an agent or not—so you're already funding representation.
               </p>
               <p className="text-gray-700 font-semibold">
-                Choose Dr. Duffy, who protects YOUR interests throughout the entire process.
+                Choose Dr. Jan Duffy, a New Construction Home Expert who protects YOUR interests throughout the entire process. She represents YOU, not the builder.
               </p>
             </div>
           </div>
@@ -62,12 +65,14 @@ export default function OurPreferredBuyersAgent() {
           <div className="text-center pt-6 border-t border-gray-200">
             <a
               href="tel:7029034687"
+              onClick={() => trackPhoneClick('702-903-4687', 'preferred_buyers_agent')}
               className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition shadow-lg mr-4 mb-4"
             >
               Call Dr. Jan: (702) 903-4687
             </a>
             <Link
               href="/work-with-dr-jan"
+              onClick={() => trackCTAClick('Learn More About Dr. Duffy', 'preferred_buyers_agent')}
               className="inline-block bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-50 transition shadow-lg mb-4"
             >
               Learn More About Dr. Duffy

@@ -24,6 +24,13 @@ import PeopleAlsoSearch from './components/people-also-search'
 import HomepageContentSection from './components/homepage-content-section'
 import PageSchemas from './components/page-schemas'
 import Footer from './components/footer'
+import StickyPhoneCTA from './components/sticky-phone-cta'
+import TrustBadges from './components/trust-badges'
+import HomepageFAQPreview from './components/homepage-faq-preview'
+import AnalyticsTracker from './components/analytics-tracker'
+import ReviewSchema from './components/review-schema'
+import UrgencyBanner from './components/urgency-banner'
+import ConversionFunnel from './components/conversion-funnel'
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'homes' | 'plans' | 'map' | 'overview' | 'area' | 'resources'>('homes')
@@ -34,37 +41,41 @@ export default function HomePage() {
       <PageSchemas
         pageType="homepage"
         url="/"
-        title="Arroyo at Skyeview: New Construction Townhomes in Skye Canyon, Las Vegas"
-        description="Arroyo at Skyeview offers modern townhomes in Skye Canyon, Las Vegas. Starting from $392,640. Expert buyer representation with Dr. Jan Duffy. Construction monitoring, building standards inspection & insider knowledge."
+        title="Arroyo at Skyeview Homes | New Construction Townhomes in Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)"
+        description="Arroyo at Skyeview Homes offers modern new construction townhomes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). Starting from $392,640. Located near US-95 and the 215 Beltway. Dr. Jan Duffy is your buyer's agent—she represents HOME BUYERS, not builders or HOAs. Expert buyer representation, construction monitoring, building standards inspection & insider knowledge. Call (702) 903-4687."
         breadcrumbs={[]}
         location="Skye Canyon"
         zipCode="89166"
         questions={[
           {
-            question: 'What is Arroyo at Skyeview and where is it located?',
-            answer: 'Arroyo at Skyeview is a residential community of modern townhomes located in Skye Canyon, a master-planned community in northwest Las Vegas, Nevada (zip code 89166).',
+            question: 'What is Arroyo at Skyeview Homes and where exactly is it located in Las Vegas, Nevada?',
+            answer: 'Arroyo at Skyeview Homes is a residential community of modern new construction townhomes located in Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas, Nevada (zip code 89166). The community is situated near the intersection of US-95 and the 215 Beltway, approximately 20-25 minutes northwest of the Las Vegas Strip, 15 minutes west of Red Rock Canyon National Conservation Area, and 30 minutes northwest of Mount Charleston. This northwest Las Vegas location offers easy access to major employment centers while maintaining a peaceful residential atmosphere. When buying Arroyo at Skyeview Homes, work with Dr. Jan Duffy—your buyer\'s agent who represents HOME BUYERS, not builders or HOAs.',
           },
           {
-            question: 'What are the prices for homes at Arroyo at Skyeview?',
-            answer: 'Homes at Arroyo at Skyeview start from $392,640, with prices ranging up to $424,590 depending on the floor plan and lot location.',
+            question: 'What are the prices for Arroyo at Skyeview Homes?',
+            answer: 'Arroyo at Skyeview Homes start from $392,640, with prices ranging up to $424,590 depending on the floor plan and lot location. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 for current pricing and incentives.',
           },
           {
-            question: 'What floor plans are available at Arroyo at Skyeview?',
-            answer: 'Arroyo at Skyeview offers three distinct floor plans: the Beverly (1,531 sq ft, 3 bedrooms), the Captiva (1,643 sq ft, 3 bedrooms), and the Delray (1,729 sq ft, 3-4 bedrooms).',
+            question: 'What floor plans are available at Arroyo at Skyeview Homes?',
+            answer: 'Arroyo at Skyeview Homes offers three distinct floor plans: the Beverly (1,531 sq ft, 3 bedrooms), the Captiva (1,643 sq ft, 3 bedrooms), and the Delray (1,729 sq ft, 3-4 bedrooms). All plans include 2.5 bathrooms and 2-bay garages. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 to learn more about available floor plans.',
           },
         ]}
         priceRange="$392,640 - $424,590"
         rating={{ value: '4.5', count: '8866' }}
       />
       <PurpleSaleBanner />
+      <UrgencyBanner />
       <Header />
+      <TrustBadges />
       <main>
         {/* Always render SEO-critical content first for Google indexing */}
         <HomepageContentSection />
+        <HomepageFAQPreview />
         
         {showDrJanContent ? (
           <>
             <DrJanHero />
+            <ConversionFunnel />
             <WhyChooseDrJan />
             <BuyerJourney />
             <DrJanTestimonials />
@@ -178,6 +189,9 @@ export default function HomePage() {
         )}
       </main>
       <Footer />
+      <StickyPhoneCTA />
+      <AnalyticsTracker />
+      <ReviewSchema />
     </div>
   )
 }

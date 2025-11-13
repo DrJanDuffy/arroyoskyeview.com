@@ -1,30 +1,30 @@
 export default function AreaInformation() {
   const schools = [
-    'Divich Elementary School',
-    'Escobedo Middle School',
-    'Arbor View High School',
+    { name: 'Roger Bryan Elementary School', address: 'Skye Canyon, Las Vegas, NV 89166', rating: '9/10' },
+    { name: 'Sig Rogich Middle School', address: 'Skye Canyon, Las Vegas, NV 89166' },
+    { name: 'Shadow Ridge High School', address: 'Northwest Las Vegas, NV 89166' },
   ]
 
   const shopping = [
-    { name: 'Sprouts Farmers Market', address: 'Las Vegas, NV 89128' },
-    { name: "Smith's Food and Drug", address: 'Las Vegas, NV 89106' },
-    { name: 'Montecito Marketplace', address: 'Las Vegas, NV 89149' },
-    { name: 'The Shoppes', address: 'Las Vegas, NV 89166' },
-    { name: "Lowe's Home Improvement", address: 'Las Vegas, NV 89119' },
+    { name: "Smith's Food and Drug", address: 'Skye Canyon Marketplace, Las Vegas, NV 89166' },
+    { name: 'Skye Canyon Marketplace', address: 'Skye Canyon, Las Vegas, NV 89166' },
+    { name: 'Durango Square', address: 'Northwest Las Vegas, NV (10 min south)' },
+    { name: 'Downtown Summerlin', address: 'Summerlin, Las Vegas, NV (15-20 min southeast)' },
+    { name: "Lowe's Home Improvement", address: 'Northwest Las Vegas, NV' },
   ]
 
   const dining = [
-    { name: 'Buffalo Wild Wings', address: 'Las Vegas, NV 89166' },
-    { name: 'Baby Stacks Cafe', address: 'Las Vegas, NV 89166' },
-    { name: 'Michocan Mexican', address: 'Las Vegas, NV 89166' },
-    { name: 'Starbucks', address: 'Las Vegas, NV 89166' },
-    { name: 'Cafe Rio', address: 'Las Vegas, NV 89166' },
-    { name: 'Thai Spoon', address: 'Las Vegas, NV 89166' },
+    { name: 'Restaurants at Skye Canyon Marketplace', address: 'Skye Canyon, Las Vegas, NV 89166' },
+    { name: 'Baby Stacks Cafe', address: 'Skye Canyon, Las Vegas, NV 89166' },
+    { name: 'Cafe Rio', address: 'Skye Canyon, Las Vegas, NV 89166' },
+    { name: 'Starbucks', address: 'Skye Canyon Marketplace, Las Vegas, NV 89166' },
+    { name: 'Local Dining Options', address: 'Throughout northwest Las Vegas, NV 89166' },
+    { name: 'Upscale Dining', address: 'Downtown Summerlin (15-20 min southeast)' },
   ]
 
   return (
     <div>
-      <h2 className="text-3xl font-bold text-gray-900 mb-8">Area Information</h2>
+      <h2 className="text-3xl font-bold text-gray-900 mb-8">Area Information for Arroyo at Skyeview, Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Schools */}
@@ -37,11 +37,14 @@ export default function AreaInformation() {
           </h3>
           <ul className="space-y-3">
             {schools.map((school, index) => (
-              <li key={index} className="text-gray-700 flex items-start">
-                <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span>{school}</span>
+              <li key={index} className="text-gray-700">
+                <div className="font-medium flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <span>{school.name} {school.rating && `(${school.rating})`}</span>
+                </div>
+                <div className="text-sm text-gray-600 ml-7">{school.address}</div>
               </li>
             ))}
           </ul>

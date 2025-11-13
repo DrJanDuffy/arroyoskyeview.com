@@ -12,7 +12,7 @@ import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
   title: 'Online Homebuying | Buy New Home Online Las Vegas',
-  description: 'Buy your Century Communities home completely online. Industry-first Buy Now option. Expert guidance from Dr. Jan Duffy. Call (702) 903-4687.',
+  description: 'Buy your new construction home completely online in Las Vegas, Nevada. Industry-first Buy Now option. Expert guidance from your buyer\'s agent, Dr. Jan Duffy. Call (702) 903-4687.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/online-homebuying',
   },
@@ -24,8 +24,8 @@ export default function OnlineHomebuyingPage() {
       <PageSchemas
         pageType="process"
         url="/online-homebuying"
-        title="Online Homebuying | Century Communities"
-        description="Purchase your new home completely online with Century Communities. Industry-first Buy Now option allows you to buy your dream home online from start to finish."
+        title="Online Homebuying | New Construction Homes Las Vegas, Nevada"
+        description="Purchase your new construction home completely online in Las Vegas, Nevada. Industry-first Buy Now option allows you to buy your dream home online from start to finish with your buyer's agent."
         breadcrumbs={[
           { name: 'Homebuyer Resources', url: '/' },
           { name: 'Online Homebuying', url: '/online-homebuying' },
@@ -33,7 +33,7 @@ export default function OnlineHomebuyingPage() {
         questions={[
           {
             question: 'Can I really buy a home completely online?',
-            answer: 'Yes, Century Communities offers an industry-first "Buy Now" option that allows you to purchase your new home completely online from start to finish.',
+            answer: 'Yes, builders offer an industry-first "Buy Now" option that allows you to purchase your new construction home completely online from start to finish. Your buyer\'s agent, Dr. Jan Duffy, can guide you through the process.',
           },
           {
             question: 'What are the benefits of online homebuying?',

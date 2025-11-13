@@ -8,8 +8,8 @@ import Link from 'next/link'
 import PageSchemas from '../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Townhomes for Sale Las Vegas | Century Communities',
-  description: 'Find new construction townhomes in Las Vegas. Modern townhomes with 2-4 bedrooms, premium finishes. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  title: 'Townhomes for Sale Las Vegas | New Construction Townhomes',
+  description: 'Find new construction townhomes in Las Vegas, Nevada. Modern townhomes with 2-4 bedrooms, premium finishes. Expert buyer\'s agent representation with Dr. Jan Duffy. Call (702) 903-4687.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/homes/townhomes-las-vegas',
   },
@@ -21,16 +21,16 @@ export default function TownhomesPage() {
       <PageSchemas
         pageType="property-type"
         url="/homes/townhomes-las-vegas"
-        title="Townhomes for Sale Las Vegas | Century Communities | Dr. Jan Duffy"
-        description="Find new construction townhomes in Las Vegas. Century Communities offers modern townhomes with 2-4 bedrooms, premium finishes, and low-maintenance living. Expert buyer representation included."
+        title="Townhomes for Sale Las Vegas | New Construction Townhomes | Buyer's Agent"
+        description="Find new construction townhomes in Las Vegas, Nevada. Modern townhomes with 2-4 bedrooms, premium finishes, and low-maintenance living. Expert buyer's agent representation included."
         breadcrumbs={[
           { name: 'Homes', url: '/homes/townhomes-las-vegas' },
           { name: 'Townhomes', url: '/homes/townhomes-las-vegas' },
         ]}
         questions={[
           {
-            question: 'What townhome communities does Century Communities have in Las Vegas?',
-            answer: 'Century Communities offers townhomes in Skye Canyon including Arroyo at Skyeview, Sierra at Skyeview, and Terra at Skyeview. Contact Dr. Jan Duffy at (702) 903-4687 for current availability.',
+            question: 'What townhome communities are available in Las Vegas, Nevada?',
+            answer: 'New construction townhomes are available in Skye Canyon, Las Vegas, Nevada including Arroyo at Skyeview, Sierra at Skyeview, and Terra at Skyeview. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 for current availability.',
           },
           {
             question: 'What are the benefits of buying a townhome?',
@@ -50,7 +50,7 @@ export default function TownhomesPage() {
               Townhomes for Sale in Las Vegas
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
-              Discover modern new construction townhomes from Century Communities. Perfect for first-time buyers, downsizers, and investors seeking low-maintenance living.
+              Discover modern new construction townhomes in Las Vegas, Nevada. Perfect for first-time buyers, downsizers, and investors seeking low-maintenance living with expert buyer's agent representation.
             </p>
           </div>
         </section>
@@ -61,7 +61,7 @@ export default function TownhomesPage() {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Choose a Townhome?</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Townhomes offer the perfect balance of homeownership and convenience. Century Communities townhomes in Las Vegas provide modern living spaces with low-maintenance lifestyles, ideal for busy professionals, first-time buyers, and active adults.
+                  Townhomes offer the perfect balance of homeownership and convenience. New construction townhomes in Las Vegas, Nevada provide modern living spaces with low-maintenance lifestyles, ideal for busy professionals, first-time buyers, and active adults.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                   <div className="bg-gray-50 p-6 rounded-lg">
@@ -92,9 +92,9 @@ export default function TownhomesPage() {
               </section>
 
               <section className="mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Century Communities Townhomes in Las Vegas</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">New Construction Townhomes in Las Vegas, Nevada</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Century Communities offers several townhome communities in Las Vegas, including:
+                  Several new construction townhome communities are available in Las Vegas, Nevada, including:
                 </p>
                 <div className="space-y-4 mb-6">
                   <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
@@ -130,7 +130,7 @@ export default function TownhomesPage() {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Townhome Features</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Century Communities townhomes typically include:
+                  New construction townhomes in Las Vegas, Nevada typically include:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-lg text-gray-700 mb-6 ml-4">
                   <li>Open-concept floor plans perfect for modern living</li>
@@ -146,7 +146,7 @@ export default function TownhomesPage() {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Expert Buyer Representation</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  When buying a Century Communities townhome, Dr. Jan Duffy provides expert representation including construction monitoring, building standards inspection, and insider knowledge of available inventory.
+                  When buying a new construction townhome in Las Vegas, Nevada, Dr. Jan Duffy, your buyer's agent, provides expert buyer representation including construction monitoring, building standards inspection, and insider knowledge of available inventory. She represents YOU, not the builder.
                 </p>
               </section>
             </div>

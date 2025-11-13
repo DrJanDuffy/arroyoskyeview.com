@@ -16,8 +16,8 @@ import NeighborhoodLinksSection from '../components/neighborhood-links-section'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Ironwood | New Homes by Century Communities Las Vegas',
-  description: 'Ironwood offers new construction homes in Las Vegas by Century Communities. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  title: 'Ironwood | New Construction Homes Las Vegas, Nevada',
+  description: 'Ironwood offers new construction homes in Las Vegas, Nevada. Expert buyer\'s agent representation with Dr. Jan Duffy. Call (702) 903-4687.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/ironwood',
   },
@@ -29,8 +29,8 @@ export default function IronwoodPage() {
       <PageSchemas
         pageType="community"
         url="/ironwood"
-        title="Ironwood by Century Communities | New Homes in Las Vegas, NV"
-        description="Ironwood is a residential community by Century Communities in Las Vegas, Nevada. Discover new homes and floor plans."
+        title="Ironwood | New Construction Homes in Las Vegas, Nevada"
+        description="Ironwood is a residential community in Las Vegas, Nevada. Discover new construction homes and floor plans with expert buyer's agent representation from Dr. Jan Duffy."
         breadcrumbs={[
           { name: 'Find Your Home', url: '/find-your-new-home/nevada/las-vegas-metro' },
           { name: 'Ironwood', url: '/ironwood' },
@@ -66,8 +66,8 @@ export default function IronwoodPage() {
           homeType="New Homes"
           questions={[
             {
-              question: 'What is Ironwood by Century Communities?',
-              answer: 'Ironwood is a residential community by Century Communities in Las Vegas, Nevada. The development offers new construction homes with modern designs, premium finishes, and energy-efficient features. Ironwood represents Century Communities\' commitment to quality construction and contemporary living in Las Vegas.',
+              question: 'What is Ironwood?',
+              answer: 'Ironwood is a residential community in Las Vegas, Nevada. The development offers new construction homes with modern designs, premium finishes, and energy-efficient features. Ironwood represents quality construction and contemporary living in Las Vegas.',
             },
             {
               question: 'Where is Ironwood located in Las Vegas?',
@@ -75,7 +75,7 @@ export default function IronwoodPage() {
             },
             {
               question: 'What types of homes are available at Ironwood?',
-              answer: 'Ironwood offers new construction homes with modern floor plans, energy-efficient features, and premium finishes. The homes are designed for contemporary living with quality construction and Century Communities\' high standards. Contact Dr. Jan Duffy for current availability and floor plan options.',
+              answer: 'Ironwood offers new construction homes with modern floor plans, energy-efficient features, and premium finishes. The homes are designed for contemporary living with quality construction and high standards. Contact Dr. Jan Duffy, your buyer\'s agent, for current availability and floor plan options.',
             },
             {
               question: 'What are the prices for homes at Ironwood?',
@@ -83,7 +83,7 @@ export default function IronwoodPage() {
             },
             {
               question: 'Why should I work with Dr. Jan Duffy when buying at Ironwood?',
-              answer: 'Dr. Jan Duffy provides expert buyer representation for Century Communities homes including Ironwood. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Century Communities pays for buyer representation, so there\'s no extra cost. Call (702) 903-4687.',
+              answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who provides expert buyer representation for new construction homes including Ironwood in Las Vegas, Nevada. She represents YOU, not the builder. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Builders pay for buyer\'s agent representation, so there\'s no extra cost to you. Call (702) 903-4687.',
             },
             {
               question: 'What schools serve the Ironwood community?',
@@ -91,7 +91,7 @@ export default function IronwoodPage() {
             },
             {
               question: 'What amenities are available near Ironwood?',
-              answer: 'Ironwood residents have access to local amenities depending on the specific location. Century Communities communities typically feature nearby shopping, dining, schools, and recreational facilities. Contact Dr. Jan Duffy for specific information about amenities near Ironwood.',
+              answer: 'Ironwood residents have access to local amenities depending on the specific location. New construction communities in Las Vegas, Nevada typically feature nearby shopping, dining, schools, and recreational facilities. Contact Dr. Jan Duffy, your buyer\'s agent, for specific information about amenities near Ironwood.',
             },
             {
               question: 'How long does it take to build a home at Ironwood?',
@@ -103,7 +103,7 @@ export default function IronwoodPage() {
             },
             {
               question: 'What builder incentives are available at Ironwood?',
-              answer: 'With 2x the normal new home inventory in Las Vegas, builders are offering aggressive incentives including mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. Dr. Jan Duffy has insider knowledge of current Century Communities incentives at Ironwood.',
+              answer: 'With 2x the normal new home inventory in Las Vegas, Nevada, builders are offering aggressive incentives including mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. Dr. Jan Duffy, your buyer\'s agent, has insider knowledge of current builder incentives at Ironwood.',
             },
           ]}
         />

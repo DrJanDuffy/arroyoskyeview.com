@@ -29,8 +29,8 @@ export default function TerraAtSkyeviewPage() {
       <PageSchemas
         pageType="community"
         url="/terra-at-skyeview"
-        title="Terra at Skyeview by Century Communities | New Homes in Las Vegas, NV"
-        description="Terra at Skyeview is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new homes and floor plans from Century Communities."
+        title="Terra at Skyeview | New Construction Homes in Skye Canyon, Las Vegas, NV"
+        description="Terra at Skyeview is a residential community in Skye Canyon, Las Vegas, Nevada. Discover new construction homes and floor plans with expert buyer's agent representation from Dr. Jan Duffy."
         breadcrumbs={[
           { name: 'Find Your Home', url: '/find-your-new-home/nevada/las-vegas-metro' },
           { name: 'Skye Canyon', url: '/areas/zip-89166' },
@@ -84,7 +84,7 @@ export default function TerraAtSkyeviewPage() {
             },
             {
               question: 'Why should I work with Dr. Jan Duffy when buying at Terra at Skyeview?',
-              answer: 'Dr. Jan Duffy provides expert buyer representation for Century Communities homes including Terra at Skyeview. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Century Communities pays for buyer representation, so there\'s no extra cost. Call (702) 903-4687.',
+              answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who provides expert buyer representation for new construction homes including Terra at Skyeview in Las Vegas, Nevada. She represents YOU, not the builder. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Builders pay for buyer\'s agent representation, so there\'s no extra cost to you. Call (702) 903-4687.',
             },
             {
               question: 'What amenities are available in Skye Canyon near Terra at Skyeview?',

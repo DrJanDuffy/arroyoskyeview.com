@@ -12,8 +12,8 @@ import Link from 'next/link'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Work with Dr. Jan Duffy | Century Communities Expert',
-  description: 'Expert buyer representation for Century Communities homes in Las Vegas. Construction monitoring, building standards inspection, insider knowledge. No extra cost. Call (702) 903-4687.',
+  title: 'Work with Dr. Jan Duffy | New Construction Home Expert | Las Vegas, Nevada',
+  description: 'Expert buyer representation for new construction homes in Las Vegas, Nevada. Dr. Jan Duffy represents YOU, not the builder. Construction monitoring, building standards inspection, insider knowledge. No extra cost. Call (702) 903-4687.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/work-with-dr-jan',
   },
@@ -25,19 +25,19 @@ export default function WorkWithDrJanPage() {
       <PageSchemas
         pageType="about"
         url="/work-with-dr-jan"
-        title="Work with Dr. Jan Duffy | Century Communities Expert Buyer's Agent"
-        description="Get expert representation on Century Communities new construction homes in Las Vegas. Dr. Jan Duffy offers construction monitoring, building standards inspection, and insider knowledge—at no extra cost to you."
+        title="Work with Dr. Jan Duffy | New Construction Home Expert | Las Vegas, Nevada"
+        description="Get expert buyer representation on new construction homes in Las Vegas, Nevada. Dr. Jan Duffy represents YOU, not the builder. Construction monitoring, building standards inspection, and insider knowledge—at no extra cost to you."
         breadcrumbs={[
           { name: 'Work with Dr. Jan', url: '/work-with-dr-jan' },
         ]}
         questions={[
           {
             question: 'Why should I work with Dr. Jan Duffy?',
-            answer: 'Dr. Jan Duffy provides expert buyer representation for Century Communities homes including construction monitoring every 7-10 days, building standards inspection at closing, and insider knowledge of available inventory and pricing.',
+            answer: 'Dr. Jan Duffy is a New Construction Home Expert providing expert buyer representation for new construction homes in Las Vegas, Nevada. She represents YOU, not the builder. Services include construction monitoring every 7-10 days, building standards inspection at closing, and insider knowledge of available inventory and pricing.',
           },
           {
             question: 'How much does it cost to work with Dr. Jan Duffy?',
-            answer: 'There is no extra cost to you. Century Communities pays for buyer representation on all their Las Vegas homes. The commission is built into home pricing whether you use an agent or not.',
+            answer: 'There is no extra cost to you. Builders pay for buyer representation on all new construction homes in Las Vegas, Nevada. The commission is built into home pricing whether you use an agent or not.',
           },
         ]}
       />
@@ -53,10 +53,10 @@ export default function WorkWithDrJanPage() {
         <section className="bg-gray-50 py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-              Century Communities Homes in Las Vegas with Dr. Jan's Representation
+              New Construction Homes in Las Vegas, Nevada with Dr. Jan's Buyer Representation
             </h2>
             <p className="text-center text-gray-700 mb-8 max-w-3xl mx-auto">
-              Explore these featured Century Communities where Dr. Jan Duffy provides expert buyer representation at no extra cost to you.
+              Explore these featured new construction communities in Las Vegas, Nevada where Dr. Jan Duffy provides expert buyer representation. She represents YOU, not the builder—at no extra cost to you.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
               <Link
@@ -89,7 +89,7 @@ export default function WorkWithDrJanPage() {
                   Browse all Skye Canyon communities
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Discover all Century Communities in Skye Canyon with expert buyer representation included.
+                  Discover all new construction homes in Skye Canyon, Las Vegas, Nevada with expert buyer representation included.
                 </p>
               </Link>
             </div>

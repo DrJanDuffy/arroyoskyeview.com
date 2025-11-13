@@ -20,10 +20,10 @@ export default function DrJanCTABanner({ context = '' }: DrJanCTABannerProps) {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-center md:text-left">
             <h3 className="text-xl md:text-2xl font-bold mb-2">
-              Work with Dr. Jan Duffy - Century Communities Expert
+              Work with Dr. Jan Duffy - Buyer's Agent for Arroyo at Skyeview Homes
             </h3>
             <p className="text-blue-100 text-sm md:text-base">
-              Get expert representation on new construction—at no extra cost to you. Construction monitoring, building standards inspection & insider knowledge.
+              <strong>Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs.</strong> Expert buyer representation for Arroyo at Skyeview Homes in Skye Canyon, zip code 89166—at no extra cost to you. Construction monitoring, building standards inspection & insider knowledge.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3">

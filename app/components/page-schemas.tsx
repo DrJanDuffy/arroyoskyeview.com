@@ -91,9 +91,9 @@ export default function PageSchemas({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
-    alternateName: ['Dr. Jan Duffy Real Estate', 'Dr. Jan Duffy'],
-    description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
+    name: 'Arroyo at Skyeview Homes | Homes by Dr. Jan Duffy',
+    alternateName: ['Dr. Jan Duffy Real Estate', 'Dr. Jan Duffy', 'Arroyo at Skyeview Homes'],
+    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs. Specializing in construction monitoring, building standards inspection, and insider knowledge of northwest Las Vegas communities.',
     url: baseUrl,
     telephone: '+1-702-903-4687',
     email: 'info@arroyoskyeview.com',
@@ -123,12 +123,13 @@ export default function PageSchemas({
       },
     ],
     knowsAbout: [
+      'Arroyo at Skyeview Homes',
       'New Construction Homes',
-      'Century Communities',
+      'Buyer Representation',
       'Las Vegas Real Estate',
       'Skye Canyon',
-      'Summerlin',
-      'Henderson',
+      'Northwest Las Vegas',
+      'Zip Code 89166',
       'First-Time Homebuyers',
       'Builder Incentives',
       'Construction Monitoring',
@@ -170,7 +171,8 @@ export default function PageSchemas({
       'Construction Monitoring',
       'Building Standards Inspection',
       'New Construction Home Buying',
-      'Century Communities Expert',
+      'Arroyo at Skyeview Homes Expert',
+      'Skye Canyon Real Estate',
     ],
     priceRange: 'No Cost to Buyer',
     aggregateRating: {
@@ -245,7 +247,8 @@ export default function PageSchemas({
       'Construction Monitoring',
       'Building Standards Inspection',
       'New Construction Home Buying',
-      'Century Communities Expert',
+      'Arroyo at Skyeview Homes Expert',
+      'Skye Canyon Real Estate',
     ],
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -254,6 +257,18 @@ export default function PageSchemas({
       bestRating: '5',
       worstRating: '1',
     },
+  }
+
+  // Update serviceType in LocalBusiness schema
+  if (localBusinessSchema.serviceType) {
+    localBusinessSchema.serviceType = [
+      'Buyer Representation',
+      'Construction Monitoring',
+      'Building Standards Inspection',
+      'New Construction Home Buying',
+      'Arroyo at Skyeview Homes Expert',
+      'Skye Canyon Real Estate',
+    ]
   }
 
   // Service Schema
@@ -271,12 +286,12 @@ export default function PageSchemas({
       name: 'Las Vegas',
       addressRegion: 'NV',
     },
-    description: 'Expert buyer representation for Century Communities new construction homes including construction monitoring, building standards inspection, and insider knowledge of available inventory and pricing.',
+    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs. Services include construction monitoring, building standards inspection, and insider knowledge of available inventory and pricing.',
     offers: {
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD',
-      description: 'No cost to buyer - Century Communities pays for buyer representation',
+      description: 'No cost to buyer - Builders pay for buyer representation. Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs.',
     },
   }
 

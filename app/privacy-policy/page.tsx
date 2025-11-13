@@ -94,7 +94,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <ul className="list-disc list-inside space-y-2 text-lg text-gray-700 mb-6 ml-4">
                 <li>Provide real estate services and respond to your inquiries</li>
-                <li>Match you with Century Communities properties that meet your criteria</li>
+                <li>Match you with new construction properties in Las Vegas, Nevada that meet your criteria</li>
                 <li>Schedule property tours and consultations</li>
                 <li>Assist with mortgage prequalification and homebuying process</li>
                 <li>Send you updates about available properties, pricing, and incentives</li>
@@ -110,11 +110,11 @@ export default function PrivacyPolicyPage() {
                 We may share your information with:
               </p>
               
-              <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">Century Communities</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">Builders</h3>
               <p className="text-lg text-gray-700 mb-4">
-                As a Century Communities Preferred Buyer's Agent, we share your information with 
-                Century Communities to facilitate your home purchase, coordinate property tours, 
-                and process transactions.
+                As a New Construction Home Expert and buyer's agent, we share your information with 
+                builders to facilitate your home purchase, coordinate property tours, 
+                and process transactions. Dr. Jan Duffy represents YOU, not the builder.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">Service Providers</h3>

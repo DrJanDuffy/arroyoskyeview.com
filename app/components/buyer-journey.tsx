@@ -2,7 +2,7 @@ const steps = [
   {
     id: 1,
     title: 'Find Your Home',
-    description: 'Browse 15+ Las Vegas Century Communities with insider details',
+    description: 'Browse new construction communities in Las Vegas, Nevada with insider details from your buyer\'s agent',
     details: [
       'Understand floor plans, lot premiums, community amenities',
       'Call Dr. Duffy first—before you visit the model home',
@@ -11,7 +11,7 @@ const steps = [
   {
     id: 2,
     title: 'Get Pre-Registered (Correctly)',
-    description: 'Dr. Duffy handles proper registration with Century to ensure buyer representation',
+    description: 'Dr. Jan Duffy, your buyer\'s agent, handles proper registration with builders to ensure buyer representation',
     details: [
       'Protects your co-op benefits and ensures commission applies to your purchase',
       'No delays, no surprises at closing',
@@ -42,7 +42,7 @@ export default function BuyerJourney() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-          Century Communities Buyer Journey
+          New Construction Home Buyer Journey | Las Vegas, Nevada
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

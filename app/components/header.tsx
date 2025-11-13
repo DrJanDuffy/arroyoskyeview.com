@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Logo from './logo'
+import { trackPhoneClick } from './analytics-tracker'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -97,7 +98,7 @@ export default function Header() {
                         key={community.href}
                         href={community.href}
                         className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150 group"
-                        title={`${community.name} - New Construction Homes by Century Communities`}
+                        title={`${community.name} - New Construction Homes | Buyer's Agent Representation`}
                       >
                         <span className="flex items-center">
                           <span className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100 mr-2 transition-opacity duration-150"></span>
@@ -114,7 +115,7 @@ export default function Header() {
                         key={neighborhood.href}
                         href={neighborhood.href}
                         className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150 group"
-                        title={`New Homes in ${neighborhood.name} - Century Communities`}
+                        title={`New Homes in ${neighborhood.name} | Buyer's Agent Representation`}
                       >
                         <span className="flex items-center">
                           <span className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100 mr-2 transition-opacity duration-150"></span>
@@ -152,7 +153,7 @@ export default function Header() {
                         key={type.href}
                         href={type.href}
                         className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150 group"
-                        title={`${type.name} in Las Vegas - Century Communities`}
+                        title={`${type.name} in Las Vegas | Buyer's Agent Representation`}
                       >
                         <span className="flex items-center">
                           <span className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100 mr-2 transition-opacity duration-150"></span>
@@ -283,7 +284,7 @@ export default function Header() {
                     <Link
                       href="/work-with-dr-jan"
                       className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150 group"
-                      title="Work with Dr. Jan Duffy - Expert Century Communities Buyer Agent"
+                      title="Work with Dr. Jan Duffy - Expert Buyer's Agent for Arroyo at Skyeview Homes | Represents Home Buyers, Not Builders or HOAs"
                     >
                       <span className="flex items-center">
                         <span className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100 mr-2 transition-opacity duration-150"></span>
@@ -293,7 +294,7 @@ export default function Header() {
                     <Link
                       href="/contact-us"
                       className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150 group"
-                      title="Contact Century Communities - Get In Touch"
+                      title="Contact Dr. Jan Duffy - Buyer's Agent for Arroyo at Skyeview Homes | (702) 903-4687"
                     >
                       <span className="flex items-center">
                         <span className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100 mr-2 transition-opacity duration-150"></span>
@@ -327,11 +328,11 @@ export default function Header() {
                     <Link
                       href="/about-us"
                       className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors duration-150 group"
-                      title="About Century Communities - Las Vegas New Home Builder"
+                      title="About Dr. Jan Duffy - Buyer's Agent for Arroyo at Skyeview Homes | Represents Home Buyers"
                     >
                       <span className="flex items-center">
                         <span className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100 mr-2 transition-opacity duration-150"></span>
-                        About Century Communities
+                        About Dr. Jan Duffy
                       </span>
                     </Link>
                     <Link
@@ -354,6 +355,7 @@ export default function Header() {
           <div className="hidden lg:flex lg:items-center ml-4">
             <a
               href="tel:7029034687"
+              onClick={() => trackPhoneClick('702-903-4687', 'header_desktop')}
               className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center space-x-2"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -367,6 +369,7 @@ export default function Header() {
           <div className="lg:hidden flex items-center space-x-3">
             <a
               href="tel:7029034687"
+              onClick={() => trackPhoneClick('702-903-4687', 'header_mobile')}
               className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition flex items-center space-x-1"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -592,8 +595,11 @@ export default function Header() {
             </div>
             <a
               href="tel:7029034687"
+              onClick={() => {
+                trackPhoneClick('702-903-4687', 'header_mobile_menu')
+                setIsMenuOpen(false)
+              }}
               className="block w-full mx-4 mt-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-lg text-sm font-semibold text-center hover:from-blue-700 hover:to-blue-800 transition-all duration-200 shadow-lg flex items-center justify-center space-x-2"
-              onClick={() => setIsMenuOpen(false)}
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

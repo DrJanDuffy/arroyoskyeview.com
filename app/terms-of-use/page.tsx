@@ -80,7 +80,7 @@ export default function TermsOfUsePage() {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Real Estate Information Accuracy</h2>
               <p className="text-lg text-gray-700 mb-4">
                 The materials on this Website are provided for informational purposes only. While we 
-                strive to provide accurate and up-to-date information about Century Communities properties, 
+                strive to provide accurate and up-to-date information about new construction properties in Las Vegas, Nevada, 
                 pricing, availability, and features:
               </p>
               
@@ -88,7 +88,7 @@ export default function TermsOfUsePage() {
               <p className="text-lg text-gray-700 mb-4">
                 All property information, including but not limited to prices, floor plans, square 
                 footage, features, availability, and completion dates, is subject to change without 
-                notice. Century Communities reserves the right to modify, discontinue, or change 
+                notice. Builders reserve the right to modify, discontinue, or change 
                 any aspect of their communities and homes at any time.
               </p>
 
@@ -97,13 +97,13 @@ export default function TermsOfUsePage() {
                 We do not warrant or make any representations concerning the accuracy, likely results, 
                 or reliability of the use of the materials on this Website or otherwise relating to 
                 such materials or on any sites linked to this Website. All information should be verified 
-                directly with Century Communities or Dr. Jan Duffy before making any purchase decisions.
+                directly with the builder or Dr. Jan Duffy before making any purchase decisions.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">Contact for Current Information</h3>
               <p className="text-lg text-gray-700 mb-4">
-                For the most current and accurate information about Century Communities properties, 
-                pricing, incentives, and availability, please contact Dr. Jan Duffy at (702) 903-4687.
+                For the most current and accurate information about new construction properties in Las Vegas, Nevada, 
+                pricing, incentives, and availability, please contact Dr. Jan Duffy, a New Construction Home Expert, at (702) 903-4687.
               </p>
             </section>
 
@@ -163,8 +163,8 @@ export default function TermsOfUsePage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Links to Third-Party Websites</h2>
               <p className="text-lg text-gray-700 mb-4">
-                This Website may contain links to third-party websites, including Century Communities' 
-                website and other real estate resources. These links are provided for your convenience 
+                This Website may contain links to third-party websites, including builder websites 
+                and other real estate resources. These links are provided for your convenience 
                 only. We do not endorse or assume responsibility for the content, privacy policies, or 
                 practices of third-party websites.
               </p>
@@ -177,9 +177,9 @@ export default function TermsOfUsePage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Real Estate Services</h2>
               <p className="text-lg text-gray-700 mb-4">
-                This Website provides information about Century Communities new construction homes and 
+                This Website provides information about new construction homes in Las Vegas, Nevada and 
                 facilitates connections between potential buyers and Dr. Jan Duffy, a licensed real estate 
-                agent. Use of this Website does not create a broker-client relationship.
+                agent and New Construction Home Expert. Dr. Jan Duffy represents buyers, not builders or homeowners. Use of this Website does not create a broker-client relationship.
               </p>
               
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">No Real Estate Brokerage Relationship</h3>
@@ -190,8 +190,7 @@ export default function TermsOfUsePage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">Equal Housing Opportunity</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Century Communities is an equal housing opportunity provider. All Century Communities 
-                homes are available on an equal opportunity basis without regard to race, color, religion, 
+                All new construction homes in Las Vegas, Nevada are available on an equal opportunity basis without regard to race, color, religion, 
                 sex, handicap, familial status, or national origin.
               </p>
             </section>

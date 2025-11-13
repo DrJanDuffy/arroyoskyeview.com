@@ -21,16 +21,16 @@ export default function SingleFamilyHomesPage() {
       <PageSchemas
         pageType="property-type"
         url="/homes/single-family-las-vegas"
-        title="Single Family Homes Las Vegas | New Construction | Century Communities"
-        description="Find new construction single-family homes in Las Vegas. Century Communities offers spacious single-family homes with modern designs, premium finishes, and expert buyer representation."
+        title="Single Family Homes Las Vegas | New Construction | Buyer's Agent"
+        description="Find new construction single-family homes in Las Vegas, Nevada. Spacious single-family homes with modern designs, premium finishes, and expert buyer's agent representation."
         breadcrumbs={[
           { name: 'Homes', url: '/homes/single-family-las-vegas' },
           { name: 'Single Family Homes', url: '/homes/single-family-las-vegas' },
         ]}
         questions={[
           {
-            question: 'What single-family home communities does Century Communities have in Las Vegas?',
-            answer: 'Century Communities offers single-family homes in communities throughout Las Vegas including Skye Canyon, Summerlin, and Henderson. Contact Dr. Jan Duffy at (702) 903-4687 for current availability.',
+            question: 'What single-family home communities are available in Las Vegas, Nevada?',
+            answer: 'New construction single-family homes are available in communities throughout Las Vegas, Nevada including Skye Canyon, Summerlin, and Henderson. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 for current availability.',
           },
           {
             question: 'What are the benefits of buying a single-family home?',
@@ -49,7 +49,7 @@ export default function SingleFamilyHomesPage() {
               Single Family Homes in Las Vegas
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
-              Discover spacious new construction single-family homes from Century Communities. Perfect for growing families seeking privacy, space, and modern living.
+              Discover spacious new construction single-family homes in Las Vegas, Nevada. Perfect for growing families seeking privacy, space, and modern living with expert buyer's agent representation.
             </p>
           </div>
         </section>
@@ -60,7 +60,7 @@ export default function SingleFamilyHomesPage() {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Choose a Single-Family Home?</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Single-family homes offer the ultimate in privacy, space, and customization. Century Communities builds single-family homes designed for modern families with features that enhance daily living.
+                  Single-family homes offer the ultimate in privacy, space, and customization. New construction single-family homes in Las Vegas, Nevada are designed for modern families with features that enhance daily living.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                   <div className="bg-gray-50 p-6 rounded-lg">
@@ -91,9 +91,9 @@ export default function SingleFamilyHomesPage() {
               </section>
 
               <section className="mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">Century Communities Single-Family Homes</h2>
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">New Construction Single-Family Homes in Las Vegas, Nevada</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Century Communities offers single-family homes across Las Vegas in master-planned communities with excellent amenities, schools, and location benefits.
+                  New construction single-family homes are available across Las Vegas, Nevada in master-planned communities with excellent amenities, schools, and location benefits.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
                   Each home is built with quality construction, modern floor plans, and energy-efficient features designed to enhance your lifestyle and reduce utility costs.
@@ -118,7 +118,7 @@ export default function SingleFamilyHomesPage() {
                   <div className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">
                       <Link href="/homestead-west" className="text-blue-600 hover:text-blue-700">
-                        Homestead West: Century Communities single-family homes
+                        Homestead West: New construction single-family homes
                       </Link>
                     </h3>
                     <p className="text-gray-700 mb-2">Modern single-family homes in Las Vegas with energy-efficient features</p>

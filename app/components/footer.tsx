@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { trackPhoneClick } from './analytics-tracker'
 
 export default function Footer() {
   const communities = [
@@ -25,13 +28,13 @@ export default function Footer() {
 
   const buyerResources = [
     { name: 'First-Time Homebuyer Guide', href: '/buyers/first-time-homebuyer', title: 'First Time Homebuyer Guide Las Vegas' },
-    { name: 'Builder Incentives Guide', href: '/buyers/builder-incentives-guide', title: 'Century Communities Builder Incentives' },
+    { name: 'Builder Incentives Guide', href: '/buyers/builder-incentives-guide', title: 'New Construction Builder Incentives Las Vegas' },
     { name: 'Homebuying Process', href: '/homebuying-process', title: 'New Home Buying Process Las Vegas' },
     { name: 'Online Homebuying', href: '/online-homebuying', title: 'Buy New Home Online Las Vegas' },
   ]
 
   const resources = [
-    { name: 'FAQ', href: '/faq', title: 'Frequently Asked Questions Century Communities' },
+    { name: 'FAQ', href: '/faq', title: 'Frequently Asked Questions New Construction Homes Las Vegas' },
     { name: 'Las Vegas Hyperlocal Q&A', href: '/faq/las-vegas-hyperlocal', title: 'Las Vegas Real Estate Questions Answers' },
   ]
 
@@ -56,10 +59,10 @@ export default function Footer() {
               </h2>
               <div className="mb-6 space-y-3">
                 <p className="text-sm text-gray-300 leading-relaxed">
-                  <strong className="text-white">Century Communities Preferred Buyer's Agent</strong> serving Las Vegas, Nevada
+                  <strong className="text-white">New Construction Home Expert</strong> serving Las Vegas, Nevada & Skye Canyon
                 </p>
                 <p className="text-sm text-gray-300 leading-relaxed">
-                  Expert representation on new construction homes with construction monitoring, building standards inspection & insider knowledge of Century Communities incentives and pricing.
+                  Expert buyer representation on new construction homes in Las Vegas, Nevada. Dr. Jan Duffy represents YOU, not the builder. Construction monitoring, building standards inspection & insider knowledge of builder incentives and pricing.
                 </p>
                 <p className="text-sm text-gray-300 leading-relaxed">
                   <strong className="text-white">Nevada Real Estate License #S.0197614</strong>
@@ -67,6 +70,7 @@ export default function Footer() {
               </div>
               <a
                 href="tel:7029034687"
+                onClick={() => trackPhoneClick('702-903-4687', 'footer_cta')}
                 className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:from-blue-700 hover:to-blue-800 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 mb-4"
                 aria-label="Call Dr. Jan Duffy at 702-903-4687"
               >
@@ -79,7 +83,7 @@ export default function Footer() {
                 <Link
                   href="/work-with-dr-jan"
                   className="inline-flex items-center text-sm text-blue-400 hover:text-blue-300 transition-colors duration-200 font-medium group"
-                  title="Learn more about Dr. Jan Duffy Century Communities buyer representation"
+                  title="Learn more about Dr. Jan Duffy new construction buyer representation in Las Vegas, Nevada"
                 >
                   <span>Learn More About Dr. Jan</span>
                   <svg className="ml-2 w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -128,7 +132,7 @@ export default function Footer() {
           {/* Communities - SEO Enhanced */}
           <nav className="col-span-1" aria-labelledby="communities-heading">
             <h3 id="communities-heading" className="text-lg font-bold mb-4 text-white border-b border-gray-700 pb-2">
-              Century Communities Las Vegas
+              Arroyo at Skyeview Homes | Las Vegas, Nevada
             </h3>
             <ul className="space-y-3 text-sm">
               {communities.map((community) => (
@@ -303,10 +307,7 @@ export default function Footer() {
           </div>
           <div className="mt-6 pt-6 border-t border-gray-800">
             <p className="text-xs text-gray-400 text-center leading-relaxed">
-              <strong className="text-gray-300">Century Communities is an equal housing opportunity provider.</strong> 
-              {' '}This website is operated by Dr. Jan Duffy, a licensed real estate agent in Nevada. 
-              All Century Communities communities, floor plans, and pricing are subject to change without notice. 
-              Please contact Dr. Jan Duffy at (702) 903-4687 for the most current information about Century Communities new construction homes in Las Vegas, Nevada.
+              Equal Housing Opportunity | Arroyo at Skyview | Homes by Dr. Duffy. Licensed agent (License #S.0197614.LLC), Berkshire Hathaway HomeServices Nevada. Subject to change. (702) 903-4687
             </p>
           </div>
         </div>

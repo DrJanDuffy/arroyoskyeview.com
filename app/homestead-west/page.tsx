@@ -16,8 +16,8 @@ import NeighborhoodLinksSection from '../components/neighborhood-links-section'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Homestead West | New Homes by Century Communities Las Vegas',
-  description: 'Homestead West offers new construction homes in Las Vegas by Century Communities. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+  title: 'Homestead West | New Construction Homes Las Vegas, Nevada',
+  description: 'Homestead West offers new construction homes in Las Vegas, Nevada. Expert buyer\'s agent representation with Dr. Jan Duffy. Call (702) 903-4687.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/homestead-west',
   },
@@ -29,8 +29,8 @@ export default function HomesteadWestPage() {
       <PageSchemas
         pageType="community"
         url="/homestead-west"
-        title="Homestead West by Century Communities | New Homes in Las Vegas, NV"
-        description="Homestead West is a residential community by Century Communities in Las Vegas, Nevada. Discover new homes and floor plans."
+        title="Homestead West | New Construction Homes in Las Vegas, Nevada"
+        description="Homestead West is a residential community in Las Vegas, Nevada. Discover new construction homes and floor plans with expert buyer's agent representation from Dr. Jan Duffy."
         breadcrumbs={[
           { name: 'Find Your Home', url: '/find-your-new-home/nevada/las-vegas-metro' },
           { name: 'Homestead West', url: '/homestead-west' },
@@ -66,8 +66,8 @@ export default function HomesteadWestPage() {
           homeType="New Homes"
           questions={[
             {
-              question: 'What is Homestead West by Century Communities?',
-              answer: 'Homestead West is a residential community by Century Communities in Las Vegas, Nevada. The development offers new construction homes with modern designs, premium finishes, and energy-efficient features, representing Century Communities\' commitment to quality construction and contemporary living.',
+              question: 'What is Homestead West?',
+              answer: 'Homestead West is a residential community in Las Vegas, Nevada. The development offers new construction homes with modern designs, premium finishes, and energy-efficient features, representing quality construction and contemporary living.',
             },
             {
               question: 'Where is Homestead West located in Las Vegas?',
@@ -83,7 +83,7 @@ export default function HomesteadWestPage() {
             },
             {
               question: 'Why should I work with Dr. Jan Duffy when buying at Homestead West?',
-              answer: 'Dr. Jan Duffy provides expert buyer representation for Century Communities homes including Homestead West. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Century Communities pays for buyer representation, so there\'s no extra cost. Call (702) 903-4687.',
+              answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who provides expert buyer representation for new construction homes including Homestead West in Las Vegas, Nevada. She represents YOU, not the builder. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Builders pay for buyer\'s agent representation, so there\'s no extra cost to you. Call (702) 903-4687.',
             },
             {
               question: 'What schools serve the Homestead West community?',
@@ -95,11 +95,11 @@ export default function HomesteadWestPage() {
             },
             {
               question: 'What amenities are available near Homestead West?',
-              answer: 'Homestead West residents have access to local amenities depending on the specific location. Century Communities communities typically feature nearby shopping, dining, schools, and recreational facilities. Contact Dr. Jan Duffy for specific information about amenities near Homestead West.',
+              answer: 'Homestead West residents have access to local amenities depending on the specific location. New construction communities in Las Vegas, Nevada typically feature nearby shopping, dining, schools, and recreational facilities. Contact Dr. Jan Duffy, your buyer\'s agent, for specific information about amenities near Homestead West.',
             },
             {
               question: 'What builder incentives are available at Homestead West?',
-              answer: 'With 2x the normal new home inventory in Las Vegas, builders are offering aggressive incentives including mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. Dr. Jan Duffy has insider knowledge of current Century Communities incentives at Homestead West.',
+              answer: 'With 2x the normal new home inventory in Las Vegas, Nevada, builders are offering aggressive incentives including mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. Dr. Jan Duffy, your buyer\'s agent, has insider knowledge of current builder incentives at Homestead West.',
             },
             {
               question: 'What are property taxes like for Homestead West?',

@@ -8,9 +8,9 @@ export default function WhyChooseDrJan() {
         </svg>
       ),
       points: [
-        'Century Communities strategically positions itself in amenity-rich master-planned communities like Skye Canyon, plus neighborhoods across the Valley Skyecanyon',
-        'Dr. Duffy knows which communities fit YOUR lifestyle and budget',
-        'Real-time inventory tracking across all 15+ Las Vegas Century Communities',
+        'New construction homes are strategically positioned in amenity-rich master-planned communities like Skye Canyon, plus neighborhoods across Las Vegas, Nevada',
+        'Dr. Jan Duffy, your buyer\'s agent, knows which communities fit YOUR lifestyle and budget',
+        'Real-time inventory tracking across all new construction communities in Las Vegas, Nevada and Skye Canyon',
       ],
     },
     {
@@ -21,10 +21,10 @@ export default function WhyChooseDrJan() {
         </svg>
       ),
       points: [
-        'Dr. Duffy monitors your home\'s construction every 7-10 days—the builder\'s team only answers to Century, but Dr. Duffy works for YOU',
+        'Dr. Jan Duffy, your buyer\'s agent, monitors your home\'s construction every 7-10 days—the builder\'s team works for the builder, but Dr. Duffy works exclusively for YOU',
         'Complimentary Building Standards Home Inspection at closing (catches issues BEFORE your warranty matters)',
-        'Construction quality difference? When the superintendent knows Dr. Duffy\'s watching, your home gets built right',
-        'Once the superintendent knows monitoring will happen, he takes special care to follow construction standards Homes for Sale Vegas',
+        'Construction quality difference? When the superintendent knows your buyer\'s agent is watching, your home gets built right',
+        'Once the superintendent knows buyer\'s agent monitoring will happen, he takes special care to follow construction standards Homes for Sale Vegas',
       ],
     },
     {
@@ -35,9 +35,9 @@ export default function WhyChooseDrJan() {
         </svg>
       ),
       points: [
-        'The price you pay doesn\'t change—commission is built into Century\'s prices whether you use an agent or not Homes for Sale Vegas',
+        'The price you pay doesn\'t change—commission is built into new construction home prices whether you use a buyer\'s agent or not Homes for Sale Vegas',
         'Current builder incentives include up to $5,000 toward closing costs and competitive financing rates Neighborhoods in Las Vegas',
-        'Dr. Duffy navigates incentives, timing, and move-in-ready inventory for maximum savings',
+        'Dr. Jan Duffy, your buyer\'s agent, navigates incentives, timing, and move-in-ready inventory for maximum savings',
       ],
     },
   ]
@@ -46,7 +46,7 @@ export default function WhyChooseDrJan() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-          Your Century Communities Advantage
+          Your Buyer's Agent Advantage in Las Vegas, Nevada
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

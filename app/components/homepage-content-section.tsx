@@ -1,11 +1,12 @@
 import PageQASection from './page-qa-section'
 import Link from 'next/link'
+import { trackPhoneClick, trackCTAClick } from './analytics-tracker'
 
 export default function HomepageContentSection() {
   const homepageQuestions = [
     {
-      question: 'What is Arroyo at Skyeview and where is it located?',
-      answer: 'Arroyo at Skyeview is a residential community of modern townhomes located in Skye Canyon, a master-planned community in northwest Las Vegas, Nevada (zip code 89166). The development is situated approximately 20-25 minutes from the Las Vegas Strip, offering a peaceful residential atmosphere while maintaining easy access to city amenities. Skye Canyon spans 1,700 acres and features extensive parks, trails, top-rated schools, and recreational facilities.',
+      question: 'What is Arroyo at Skyeview and where exactly is it located in northwest Las Vegas, Nevada?',
+      answer: 'Arroyo at Skyeview is a residential community of modern new construction townhomes located in Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas, Nevada (zip code 89166). The community is situated near the intersection of US-95 and the 215 Beltway, approximately 20-25 minutes northwest of the Las Vegas Strip, 15 minutes west of Red Rock Canyon National Conservation Area, and 30 minutes northwest of Mount Charleston. Skye Canyon spans 1,700 acres in northwest Las Vegas and features extensive parks, trails, top-rated schools including Roger Bryan Elementary (9/10 rating), and recreational facilities. This northwest Las Vegas location offers easy access to major employment centers including Summerlin, Downtown Las Vegas, and the Strip corridor while maintaining a peaceful residential atmosphere away from the hustle and bustle.',
     },
     {
       question: 'What are the prices for homes at Arroyo at Skyeview?',
@@ -16,16 +17,16 @@ export default function HomepageContentSection() {
       answer: 'Arroyo at Skyeview offers three distinct floor plans: the Beverly (1,531 sq ft, 3 bedrooms), the Captiva (1,643 sq ft, 3 bedrooms), and the Delray (1,729 sq ft, 3-4 bedrooms). All plans include 2.5 bathrooms and 2-bay garages. Each floor plan features modern open-concept designs, quartz countertops, energy-efficient appliances, and contemporary finishes perfect for modern living in Las Vegas.',
     },
     {
-      question: 'What schools serve the Skye Canyon area?',
-      answer: 'Skye Canyon is served by excellent schools in the Clark County School District. Roger Bryan Elementary School is highly rated (9/10), along with Sig Rogich Middle School and Shadow Ridge High School. The area is known for quality education, with many families choosing Skye Canyon specifically for the school quality and proximity to educational facilities. These schools are convenient for families living in Arroyo at Skyeview.',
+      question: 'What schools serve Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas?',
+      answer: 'Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada is served by excellent schools in the Clark County School District. Roger Bryan Elementary School (rated 9/10) is located within Skye Canyon itself, making it highly convenient for families at Arroyo at Skyeview. Sig Rogich Middle School and Shadow Ridge High School serve older students in this northwest Las Vegas area. Many families specifically choose Skye Canyon and Arroyo at Skyeview for the exceptional school quality, with Roger Bryan Elementary being one of the top-rated elementary schools in northwest Las Vegas. These schools are all conveniently located within or near zip code 89166, making the school commute easy for Arroyo at Skyeview residents.',
     },
     {
-      question: 'What amenities are available in Skye Canyon?',
-      answer: 'Skye Canyon features extensive amenities including a recreation center, fitness facilities, multiple parks and playgrounds, extensive trail systems for hiking and biking, splash pads, sports courts and fields, and neighborhood schools. The master-planned community is designed for active lifestyles with a focus on outdoor recreation and family-friendly amenities. Residents of Arroyo at Skyeview have access to all these community amenities.',
+      question: 'What amenities are available near Arroyo at Skyeview in Skye Canyon, northwest Las Vegas, Nevada?',
+      answer: 'Arroyo at Skyeview residents in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166) have access to extensive amenities within the master-planned community. Skye Canyon features a state-of-the-art recreation center, fitness facilities, multiple parks and playgrounds including Skye Canyon Park, extensive trail systems for hiking and biking connecting throughout the 1,700-acre community, splash pads, sports courts and fields, and neighborhood schools including Roger Bryan Elementary. The Skye Canyon Marketplace shopping center is nearby with grocery stores, restaurants, and retail. The community is designed for active lifestyles with a focus on outdoor recreation and family-friendly amenities. Additionally, Arroyo at Skyeview is just 15 minutes from Red Rock Canyon National Conservation Area, 30 minutes from Mount Charleston for skiing and hiking, and 20-25 minutes from the Las Vegas Strip. The 215 Beltway and US-95 provide easy access to all of northwest Las Vegas and beyond.',
     },
     {
-      question: 'Why should I work with Dr. Jan Duffy when buying at Arroyo at Skyeview?',
-      answer: 'Dr. Jan Duffy provides expert buyer representation specifically for Century Communities homes in Las Vegas, including Arroyo at Skyeview. She offers construction monitoring every 7-10 days during your home\'s build, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Best of all, Century Communities pays for buyer representation—so you\'re already funding an agent, and Dr. Jan works exclusively for YOU, not the builder. Call (702) 903-4687 to get started.',
+      question: 'Why should I work with Dr. Jan Duffy when buying at Arroyo at Skyeview in Skye Canyon, northwest Las Vegas?',
+      answer: 'Dr. Jan Duffy is a New Construction Home Expert and buyer\'s agent who provides expert buyer representation specifically for Arroyo at Skyeview Homes and new construction homes in northwest Las Vegas, Nevada, including Skye Canyon (zip code 89166). <strong>She represents HOME BUYERS, not builders or HOAs.</strong> She offers construction monitoring every 7-10 days during your home\'s build at Arroyo at Skyeview Homes, a complimentary building standards inspection at closing, and insider knowledge of available inventory, pricing, and lot selection in this northwest Las Vegas area. Dr. Jan has deep local knowledge of Arroyo at Skyeview Homes, Skye Canyon, zip code 89166, and all northwest Las Vegas new construction communities. Best of all, builders pay for buyer\'s agent representation—so you\'re already funding an agent, and Dr. Jan works exclusively for YOU as a home buyer, not the builder or homeowner association. Call (702) 903-4687 to get started with your Arroyo at Skyeview Homes purchase.',
     },
     {
       question: 'How long does it take to build a new home at Arroyo at Skyeview?',
@@ -36,36 +37,36 @@ export default function HomepageContentSection() {
       answer: 'Nevada has relatively low property taxes compared to many states. In Clark County (Las Vegas zip code 89166), the average property tax rate is approximately 0.60-0.70% of assessed value. For a $400,000 home at Arroyo at Skyeview, annual property taxes would be approximately $2,400-$2,800. Nevada also has no state income tax, making it attractive for homeowners.',
     },
     {
-      question: 'Are there shopping and dining options near Skye Canyon?',
-      answer: 'Yes, Skye Canyon is conveniently located near major shopping including the Skye Canyon Marketplace, which features grocery stores, restaurants, and retail. The area is also close to Durango Square shopping center and approximately 15-20 minutes from the Las Vegas Strip. Local dining options include casual and family-friendly restaurants, with more upscale dining available nearby in Summerlin.',
+      question: 'What shopping and dining options are near Arroyo at Skyeview in Skye Canyon, northwest Las Vegas?',
+      answer: 'Arroyo at Skyeview in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166) is conveniently located near excellent shopping and dining. The Skye Canyon Marketplace is right within the community, featuring grocery stores including Smith\'s Food and Drug, restaurants, and retail shops. The area is also close to Durango Square shopping center (approximately 10 minutes south), and approximately 20-25 minutes from the Las Vegas Strip. Summerlin, with its upscale dining and shopping options including Downtown Summerlin, is approximately 15-20 minutes southeast. Local dining options near Arroyo at Skyeview include casual and family-friendly restaurants perfect for northwest Las Vegas living, with more upscale dining available in nearby Summerlin. The 215 Beltway and US-95 provide easy access to shopping centers throughout northwest Las Vegas.',
     },
     {
-      question: 'What outdoor recreation is available near Arroyo at Skyeview?',
-      answer: 'Las Vegas offers exceptional outdoor recreation, and Skye Canyon is perfectly positioned to access it all. Red Rock Canyon National Conservation Area is just 15 minutes away, Mount Charleston (for skiing and hiking) is 30 minutes, and Lake Mead is 45 minutes. Skye Canyon itself features extensive trail systems, parks, and outdoor activities perfect for active families and outdoor enthusiasts.',
+      question: 'What outdoor recreation is available near Arroyo at Skyeview in Skye Canyon, northwest Las Vegas, Nevada?',
+      answer: 'Arroyo at Skyeview in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166) is perfectly positioned for outdoor recreation enthusiasts. Red Rock Canyon National Conservation Area is just 15 minutes west via US-95, offering world-class hiking, rock climbing, and scenic drives. Mount Charleston (for skiing in winter and hiking year-round) is 30 minutes northwest, reaching elevations over 11,000 feet. Lake Mead National Recreation Area is 45 minutes southeast. Skye Canyon itself features extensive trail systems connecting throughout the 1,700-acre community, multiple parks including Skye Canyon Park, and outdoor activities perfect for active families. The northwest Las Vegas location means you\'re closer to the mountains and desert recreation than most Las Vegas areas, while still being accessible to city amenities. The 215 Beltway provides easy access to all outdoor recreation throughout the Las Vegas Valley.',
     },
   ]
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* H1 - Main Title */}
-      <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center">
-        Arroyo at Skyeview: New Construction Townhomes in Skye Canyon, Las Vegas
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center">
+        Arroyo at Skyeview: New Construction Townhomes in Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)
       </h1>
 
       {/* Section 1: Community Overview */}
       <section className="mb-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Welcome to Arroyo at Skyeview in Skye Canyon
+          Welcome to Arroyo at Skyeview in Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)
         </h2>
         <p className="text-lg text-gray-700 mb-4">
-          Arroyo at Skyeview represents the perfect blend of modern living and community amenities in one of Las Vegas's most desirable master-planned communities. Located in Skye Canyon, northwest Las Vegas (zip code 89166), this Century Communities development offers two-story townhomes designed for contemporary lifestyles with premium finishes and energy-efficient features.
+          Arroyo at Skyeview Homes represents the perfect blend of modern living and community amenities in one of Las Vegas's most desirable master-planned communities. Located in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166), near the intersection of US-95 and the 215 Beltway, this new construction development offers two-story townhomes designed for contemporary lifestyles with premium finishes and energy-efficient features. Arroyo at Skyeview Homes is situated in the heart of Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas. When buying Arroyo at Skyeview Homes, work with Dr. Jan Duffy—your buyer's agent who represents HOME BUYERS, not builders or HOAs.
         </p>
         
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
-          Prime Location in Northwest Las Vegas
+          Prime Location in Northwest Las Vegas, Nevada - Zip Code 89166
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Skye Canyon is strategically positioned in northwest Las Vegas, offering residents the best of both worlds: peaceful suburban living with easy access to the city's amenities. The community is approximately 20-25 minutes from the Las Vegas Strip, providing convenient access to entertainment, dining, and employment centers while maintaining a family-friendly residential atmosphere.
+          Skye Canyon and Arroyo at Skyeview are strategically positioned in northwest Las Vegas, Nevada (zip code 89166), offering residents the best of both worlds: peaceful suburban living with easy access to the city's amenities. The community is approximately 20-25 minutes northwest of the Las Vegas Strip via US-95, providing convenient access to entertainment, dining, and employment centers including Summerlin (15-20 minutes southeast), Downtown Las Vegas (25 minutes southeast), and the Strip corridor. The 215 Beltway provides easy access to all of northwest Las Vegas and beyond. This northwest Las Vegas location maintains a family-friendly residential atmosphere while being close to major employment centers, shopping at Skye Canyon Marketplace and Durango Square, and outdoor recreation at Red Rock Canyon (15 minutes west) and Mount Charleston (30 minutes northwest).
         </p>
         
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
@@ -89,7 +90,7 @@ export default function HomepageContentSection() {
           Expert Buyer Representation with Dr. Jan Duffy
         </h2>
         <p className="text-lg text-gray-700 mb-4">
-          When purchasing a new construction home at Arroyo at Skyeview, working with Dr. Jan Duffy ensures you have expert representation throughout the entire process. Dr. Jan is a Century Communities Preferred Buyer's Agent specializing in new construction homes throughout Las Vegas, including all Skye Canyon communities.
+          When purchasing a new construction home at Arroyo at Skyeview in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166), working with Dr. Jan Duffy ensures you have expert buyer's agent representation throughout the entire process. Dr. Jan is a New Construction Home Expert and buyer's agent specializing in new construction homes throughout northwest Las Vegas, Nevada, including all Skye Canyon communities. She has deep local knowledge of zip code 89166, Skye Canyon, and the northwest Las Vegas area, including Arroyo at Skyeview, Sierra at Skyeview, and Terra at Skyeview.
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
@@ -107,31 +108,33 @@ export default function HomepageContentSection() {
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
-          Insider Knowledge of Century Communities
+          Insider Knowledge of New Construction Homes in Las Vegas, Nevada
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Dr. Jan Duffy has insider knowledge of all Century Communities developments in Las Vegas, including real-time inventory tracking, current pricing, available incentives, and which communities best fit different lifestyles and budgets. She knows which lots have the best views, which floor plans are most popular, and how to navigate the builder's processes to maximize your value and minimize delays.
+          Dr. Jan Duffy is a New Construction Home Expert with insider knowledge of all new construction developments in Las Vegas, Nevada and Skye Canyon, including real-time inventory tracking, current pricing, available incentives, and which communities best fit different lifestyles and budgets. She knows which lots have the best views, which floor plans are most popular, and how to navigate the builder's processes to maximize your value and minimize delays.
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
-          No Extra Cost to You
+          No Extra Cost to You - Dr. Jan Duffy Represents HOME BUYERS, Not Builders or HOAs
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Century Communities pays for buyer representation on all their Las Vegas homes. The commission is built into the home pricing whether you use an agent or not—which means you're already funding representation. Dr. Jan Duffy works exclusively for YOU, not the builder, ensuring your interests are protected throughout the entire process. There's no additional cost for this expert representation.
+          <strong>Important: Dr. Jan Duffy represents HOME BUYERS, not builders or HOAs.</strong> When you buy Arroyo at Skyeview Homes, builders pay for buyer representation—the commission is built into the home pricing whether you use an agent or not. This means you're already funding representation, so choose someone who works exclusively for YOU as a home buyer. Dr. Jan Duffy protects YOUR interests throughout the entire process, ensuring you get the best deal, quality construction, and proper representation. There's no additional cost for this expert buyer representation—builders pay for it.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-4">
           <a
             href="tel:7029034687"
+            onClick={() => trackPhoneClick('702-903-4687', 'homepage_content_section')}
             className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition"
           >
-            Call Dr. Jan Duffy: (702) 903-4687
+            Call Dr. Jan Duffy: (702) 903-4687 | Buyer's Agent for Arroyo at Skyeview Homes
           </a>
           <Link
             href="/work-with-dr-jan"
+            onClick={() => trackCTAClick('Work with Dr. Jan', 'homepage_content_section')}
             className="inline-block bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-50 transition"
           >
-            Work with Dr. Jan Duffy for expert buyer representation
+            Work with Dr. Jan Duffy | Represents Home Buyers, Not Builders or HOAs
           </Link>
         </div>
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -143,7 +146,7 @@ export default function HomepageContentSection() {
               Current builder incentives and promotions
             </h4>
             <p className="text-sm text-gray-600">
-              Learn about rate buy-downs, closing cost assistance, and current Century Communities incentives.
+              Learn about rate buy-downs, closing cost assistance, and current builder incentives for new construction homes in northwest Las Vegas, Nevada.
             </p>
           </Link>
           <Link

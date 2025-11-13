@@ -10,8 +10,8 @@ import MapView from '../../../components/map-view'
 import PageSchemas from '../../../components/page-schemas'
 
 export const metadata: Metadata = {
-  title: 'Find Your New Home in Las Vegas Metro | Century Communities',
-  description: 'Discover new homes and communities in Las Vegas Metro, Nevada. Browse available homes, floor plans, and communities from Century Communities.',
+  title: 'Find Your New Home in Las Vegas Metro, Nevada | New Construction Homes',
+  description: 'Discover new construction homes and communities throughout Las Vegas Metro, Nevada. Browse available homes, floor plans, and communities in Las Vegas, Henderson, Summerlin, Skye Canyon, and surrounding areas with expert buyer\'s agent representation.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/find-your-new-home/nevada/las-vegas-metro',
   },
@@ -23,16 +23,16 @@ export default function LasVegasMetroPage() {
       <PageSchemas
         pageType="neighborhood"
         url="/find-your-new-home/nevada/las-vegas-metro"
-        title="Find Your New Home in Las Vegas Metro | Century Communities"
-        description="Discover new homes and communities in Las Vegas Metro, Nevada. Browse available homes, floor plans, and communities from Century Communities."
+        title="Find Your New Home in Las Vegas Metro, Nevada | New Construction Homes"
+        description="Discover new construction homes and communities throughout Las Vegas Metro, Nevada. Browse available homes, floor plans, and communities in Las Vegas, Henderson, Summerlin, Skye Canyon (zip code 89166), and surrounding areas with expert buyer's agent representation."
         breadcrumbs={[
           { name: 'Find Your Home', url: '/find-your-new-home/nevada/las-vegas-metro' },
         ]}
         location="Las Vegas Metro"
         questions={[
           {
-            question: 'What communities are available in Las Vegas Metro?',
-            answer: 'Century Communities has multiple communities in Las Vegas Metro including Skye Canyon, Summerlin, Henderson, and other premier locations.',
+            question: 'What new construction communities are available in Las Vegas Metro, Nevada?',
+            answer: 'New construction communities are available throughout Las Vegas Metro, Nevada including Skye Canyon (zip code 89166) in northwest Las Vegas, Summerlin, Henderson, and other premier locations. Contact Dr. Jan Duffy, your buyer\'s agent, at (702) 903-4687 for current inventory in these Las Vegas Metro areas.',
           },
           {
             question: 'How do I find available homes in Las Vegas Metro?',

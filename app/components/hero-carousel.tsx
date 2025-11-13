@@ -2,27 +2,28 @@
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
+import { trackCTAClick } from './analytics-tracker'
 
 const images = [
   {
     src: '/images/hero/hero-5.jpg',
-    alt: 'Arroyo at Skyeview new construction townhomes in Skye Canyon, Las Vegas, Nevada. Modern two-story homes with premium finishes.',
-    title: 'Arroyo at Skyeview',
+    alt: 'Arroyo at Skyeview Homes new construction townhomes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. Modern two-story homes with premium finishes.',
+    title: 'Arroyo at Skyeview Homes',
   },
   {
     src: '/images/hero/hero-6.jpg',
-    alt: 'Century Communities new construction homes in Las Vegas, Nevada. Modern townhomes and single-family homes with energy-efficient features.',
-    title: 'Century Communities Las Vegas',
+    alt: 'Arroyo at Skyeview Homes new construction townhomes in Skye Canyon, northwest Las Vegas, Nevada. Modern homes with energy-efficient features.',
+    title: 'Arroyo at Skyeview Homes',
   },
   {
     src: '/images/floor-plans/floor-plans-1.jpg',
-    alt: 'Skye Canyon master-planned community in northwest Las Vegas featuring parks, trails, recreation center, and new construction homes.',
-    title: 'Skye Canyon',
+    alt: 'Skye Canyon master-planned community in zip code 89166, northwest Las Vegas featuring parks, trails, recreation center, and Arroyo at Skyeview Homes.',
+    title: 'Skye Canyon, Zip Code 89166',
   },
   {
     src: '/images/hero/hero-7.jpg',
-    alt: 'Century Communities new construction homes in Las Vegas Metro area. Modern designs with premium finishes and quality construction.',
-    title: 'Century Communities',
+    alt: 'Arroyo at Skyeview Homes new construction townhomes in Skye Canyon, northwest Las Vegas, Nevada. Modern designs with premium finishes and quality construction.',
+    title: 'Arroyo at Skyeview Homes',
   },
 ]
 
@@ -80,17 +81,29 @@ export default function HeroCarousel() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center text-white px-4 z-10">
                   <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-                    Arroyo at Skyeview at Skye Canyon
+                    Arroyo at Skyeview Homes
                   </h1>
-                  <p className="text-xl md:text-2xl mb-6 drop-shadow-md">New Homes in Las Vegas, NV</p>
-                  <p className="text-2xl md:text-3xl font-semibold mb-8 drop-shadow-md">Starting from $392,640</p>
+                  <p className="text-xl md:text-2xl mb-2 drop-shadow-md">New Construction Townhomes in Skye Canyon</p>
+                  <p className="text-lg md:text-xl mb-4 drop-shadow-md">Zip Code 89166, Northwest Las Vegas, Nevada</p>
+                  <p className="text-2xl md:text-3xl font-semibold mb-6 drop-shadow-md">Starting from $392,640</p>
+                  <p className="text-sm md:text-base mb-8 drop-shadow-md bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg inline-block">
+                    <strong>Dr. Jan Duffy represents HOME BUYERS</strong>—not builders or HOAs
+                  </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button className="bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition shadow-lg">
-                      Request Info
-                    </button>
-                    <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white/10 transition shadow-lg">
-                      Schedule a Tour
-                    </button>
+                    <a
+                      href="tel:7029034687"
+                      onClick={() => trackCTAClick('Call Now - Hero Carousel', 'hero_carousel')}
+                      className="bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition shadow-lg text-center"
+                    >
+                      Call Now: (702) 903-4687
+                    </a>
+                    <a
+                      href="/work-with-dr-jan"
+                      onClick={() => trackCTAClick('Free Buyer Representation - Hero Carousel', 'hero_carousel')}
+                      className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white/10 transition shadow-lg text-center"
+                    >
+                      Free Buyer Representation
+                    </a>
                   </div>
                 </div>
               </div>
