@@ -1,5 +1,3 @@
-import GoogleMapEmbed from './google-map-embed'
-
 export default function ContactHero() {
   return (
     <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white py-20 relative overflow-hidden">
@@ -73,13 +71,7 @@ export default function ContactHero() {
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4">Dr. Jan Duffy</h2>
             <p className="text-blue-100 mb-4">Nevada Real Estate License #S.0197614</p>
-            <div className="mb-4">
-              <GoogleMapEmbed 
-                address="8912 Vanhoy Crk St, Las Vegas, NV 89166"
-                height="200px"
-                className="rounded-lg overflow-hidden"
-              />
-            </div>
+            <p className="text-blue-100 mb-4">New Construction Home Preferred Buyer's Agent</p>
             <div className="pt-4 border-t border-white/20">
               <p className="text-sm text-blue-200 mb-2">Available 7 days a week</p>
               <p className="text-lg text-white font-semibold">9:00 AM - 6:00 PM</p>
