@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { trackCTAClick } from './analytics-tracker'
+import GoogleMapEmbed from './google-map-embed'
 
 const images = [
   {
@@ -149,18 +150,23 @@ export default function HeroCarousel() {
       {/* Quick Info Bar */}
       <div className="absolute bottom-0 left-0 right-0 bg-white/95 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-            <div>
-              <p className="text-sm text-gray-600">Address</p>
-              <p className="font-semibold text-gray-900">8912 Vanhoy Crk St, Las Vegas, NV 89166</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="text-center md:text-left">
+              <p className="text-sm text-gray-600 mb-2">Location</p>
+              <div className="h-32">
+                <GoogleMapEmbed 
+                  address="8912 Vanhoy Crk St, Las Vegas, NV 89166"
+                  height="128px"
+                />
+              </div>
             </div>
-            <div>
+            <div className="text-center">
               <p className="text-sm text-gray-600">Contact Dr. Jan</p>
               <p className="font-semibold text-gray-900">
                 <a href="tel:7029034687" className="hover:text-blue-600 transition-colors">(702) 903-4687</a>
               </p>
             </div>
-            <div>
+            <div className="text-center md:text-right">
               <p className="text-sm text-gray-600">Sales Office Hours</p>
               <p className="font-semibold text-gray-900">Mon-Sun: 10:00 AM - 5:00 PM</p>
             </div>

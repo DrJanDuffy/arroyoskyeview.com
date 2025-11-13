@@ -1,3 +1,5 @@
+import GoogleMapEmbed from './google-map-embed'
+
 const locations = [
   {
     name: 'Arroyo at Skyeview Sales Office',
@@ -42,6 +44,15 @@ export default function ContactLocations() {
               <h3 className="text-xl font-bold text-gray-900 mb-4">
                 {location.name}
               </h3>
+              {location.address === '8912 Vanhoy Crk St' && (
+                <div className="mb-4">
+                  <GoogleMapEmbed 
+                    address={`${location.address}, ${location.city}, ${location.state} ${location.zip}`}
+                    height="200px"
+                    className="rounded-lg overflow-hidden"
+                  />
+                </div>
+              )}
               <div className="space-y-2 text-gray-700">
                 <p>{location.address}</p>
                 <p>{location.city}, {location.state} {location.zip}</p>
