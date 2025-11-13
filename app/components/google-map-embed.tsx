@@ -1,17 +1,35 @@
 interface GoogleMapEmbedProps {
-  address: string
+  address?: string
+  mapUrl?: string
   className?: string
   height?: string
 }
 
 export default function GoogleMapEmbed({ 
   address, 
+  mapUrl,
   className = '', 
   height = '300px' 
 }: GoogleMapEmbedProps) {
-  // Encode the address for the Google Maps embed URL (no API key required)
-  const encodedAddress = encodeURIComponent(address)
-  const mapUrl = `https://www.google.com/maps?q=${encodedAddress}&output=embed`
+  // Use provided mapUrl, or generate from address
+  let embedUrl: string
+  if (mapUrl && mapUrl.includes('maps.app.goo.gl')) {
+    // For Google Maps short links, use the address-based embed
+    // Short links don't work directly in iframes, so we'll use the address
+    const encodedAddress = encodeURIComponent(address || '8912 Vanhoy Crk St, Las Vegas, NV 89166')
+    embedUrl = `https://www.google.com/maps?q=${encodedAddress}&output=embed`
+  } else if (mapUrl) {
+    // Use provided embed URL directly
+    embedUrl = mapUrl
+  } else if (address) {
+    // Generate embed URL from address
+    const encodedAddress = encodeURIComponent(address)
+    embedUrl = `https://www.google.com/maps?q=${encodedAddress}&output=embed`
+  } else {
+    // Fallback to default address
+    const encodedAddress = encodeURIComponent('8912 Vanhoy Crk St, Las Vegas, NV 89166')
+    embedUrl = `https://www.google.com/maps?q=${encodedAddress}&output=embed`
+  }
 
   return (
     <div className={`w-full ${className}`} style={{ height }}>
@@ -22,9 +40,21 @@ export default function GoogleMapEmbed({
         loading="lazy"
         allowFullScreen
         referrerPolicy="no-referrer-when-downgrade"
-        src={mapUrl}
-        title={`Map showing ${address}`}
+        src={embedUrl}
+        title={`Map showing ${address || 'location'}`}
       />
+      {mapUrl && mapUrl.includes('maps.app.goo.gl') && (
+        <div className="mt-2 text-center">
+          <a 
+            href={mapUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-700 text-sm font-medium"
+          >
+            Open in Google Maps →
+          </a>
+        </div>
+      )}
     </div>
   )
 }

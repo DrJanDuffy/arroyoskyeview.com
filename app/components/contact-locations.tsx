@@ -11,6 +11,7 @@ export default function ContactLocations() {
             </h3>
             <div className="mb-4">
               <GoogleMapEmbed 
+                mapUrl="https://maps.app.goo.gl/E4ySRChkkQjnYjeN7"
                 address="8912 Vanhoy Crk St, Las Vegas, NV 89166"
                 height="200px"
                 className="rounded-lg overflow-hidden"
