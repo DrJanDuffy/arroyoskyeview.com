@@ -2,7 +2,7 @@ import GoogleMapEmbed from './google-map-embed'
 
 const locations = [
   {
-    name: 'Arroyo at Skyeview Sales Office',
+    name: 'Arroyo at Skyeview Map',
     address: '8912 Vanhoy Crk St',
     city: 'Las Vegas',
     state: 'NV',
@@ -54,8 +54,8 @@ export default function ContactLocations() {
                 </div>
               )}
               <div className="space-y-2 text-gray-700">
-                <p>{location.address}</p>
-                <p>{location.city}, {location.state} {location.zip}</p>
+                <p className={location.address === '8912 Vanhoy Crk St' ? 'sr-only' : ''}>{location.address}</p>
+                <p className={location.address === '8912 Vanhoy Crk St' ? 'sr-only' : ''}>{location.city}, {location.state} {location.zip}</p>
                 <p className="font-semibold text-blue-600 mt-4">
                   <a href="tel:7029034687" className="hover:text-blue-700 transition-colors">
                     {location.phone}

@@ -120,7 +120,7 @@ export default function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
     name: 'Dr. Jan Duffy',
-    alternateName: 'Arroyo at Skyeview Sales Office',
+    alternateName: 'Arroyo at Skyeview Map',
     description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Las Vegas, Nevada. Dr. Jan Duffy provides construction monitoring, building standards inspection, and insider knowledge of new construction homes.',
     url: 'https://www.arroyoskyeview.com',
     telephone: '+1-702-903-4687',
