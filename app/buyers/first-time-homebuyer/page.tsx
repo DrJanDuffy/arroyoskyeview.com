@@ -8,7 +8,7 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'First-Time Homebuyer Guide Las Vegas | Century Communities',
+  title: 'First-Time Homebuyer Guide Las Vegas | Arroyo at Skyeview Homes',
   description: 'Complete guide for first-time homebuyers in Las Vegas. Learn about down payment assistance, financing, and the homebuying process. Expert guidance from Dr. Jan Duffy.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/buyers/first-time-homebuyer',
@@ -21,7 +21,7 @@ export default function FirstTimeHomebuyerPage() {
       <PageSchemas
         pageType="buyer-guide"
         url="/buyers/first-time-homebuyer"
-        title="First-Time Homebuyer Guide Las Vegas | Century Communities | Dr. Jan Duffy"
+        title="First-Time Homebuyer Guide Las Vegas | Arroyo at Skyeview Homes | Dr. Jan Duffy"
         description="Complete guide for first-time homebuyers in Las Vegas. Learn about down payment assistance, financing options, and the homebuying process with expert guidance from Dr. Jan Duffy."
         breadcrumbs={[
           { name: 'Buyers', url: '/buyers/first-time-homebuyer' },
@@ -61,7 +61,7 @@ export default function FirstTimeHomebuyerPage() {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Getting Started as a First-Time Homebuyer</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Buying your first home is an exciting milestone, but it can also feel overwhelming. This guide will walk you through everything you need to know about purchasing your first home in Las Vegas with Century Communities.
+                  Buying your first home is an exciting milestone, but it can also feel overwhelming. This guide will walk you through everything you need to know about purchasing your first home in Las Vegas including Arroyo at Skyeview Homes.
                 </p>
                 <p className="text-lg text-gray-700 mb-4">
                   The good news? As a first-time homebuyer, you may qualify for special programs, down payment assistance, and favorable financing options that can make homeownership more accessible than you think.
@@ -116,7 +116,7 @@ export default function FirstTimeHomebuyerPage() {
                   <div className="border-l-4 border-blue-600 pl-4">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Builder Incentives</h3>
                     <p className="text-gray-700 mb-2">
-                      Century Communities often offers special incentives for first-time buyers, including closing cost assistance and rate buy-downs.
+                      Builders often offer special incentives for first-time buyers at Arroyo at Skyeview Homes, including closing cost assistance and rate buy-downs.
                     </p>
                   </div>
                 </div>

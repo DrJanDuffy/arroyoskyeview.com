@@ -12,7 +12,7 @@ const resources = [
   },
   {
     id: '2',
-    title: 'All in the Family: Century Communities and Century Complete',
+    title: 'New Construction Homes: Arroyo at Skyeview Homes',
     description: 'Dive into the differences between our two brands and discover which might be your best fit!',
     image: '/images/hero/hero-9.jpg',
   },

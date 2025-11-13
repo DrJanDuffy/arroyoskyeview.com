@@ -19,7 +19,7 @@ export default function MarketPassedYouByPage() {
       <PageSchemas
         pageType="blog"
         url="/blog/market-passed-you-by"
-        title="Thought the Market Passed You By? Think Again. | Century Communities"
+        title="Thought the Market Passed You By? Think Again. | Arroyo at Skyeview Homes"
         description="With more homes to choose from, prices leveling off, and mortgage rates easing, today's market is offering something you haven't had in a while: options."
         breadcrumbs={[
           { name: 'Blog', url: '/' },

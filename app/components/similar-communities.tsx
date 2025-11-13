@@ -47,7 +47,7 @@ const communities: Community[] = [
     phone: '(702) 903-4687',
     price: 392640,
     image: '/images/hero/hero-6.jpg',
-    features: ['Century Communities', 'Las Vegas Metro'],
+    features: ['Arroyo at Skyeview Homes', 'Las Vegas Metro'],
     href: '/ironwood',
     anchorText: 'View Ironwood new construction homes',
   },
@@ -58,7 +58,7 @@ const communities: Community[] = [
     phone: '(702) 903-4687',
     price: 392640,
     image: '/images/hero/hero-7.jpg',
-    features: ['Century Communities', 'Las Vegas'],
+    features: ['Arroyo at Skyeview Homes', 'Las Vegas'],
     href: '/homestead-west',
     anchorText: 'Discover Homestead West single-family homes',
   },
@@ -116,7 +116,7 @@ export default function SimilarCommunities() {
                         {community.image ? (
                           <Image
                             src={community.image}
-                            alt={`${community.name} new construction homes in ${community.location}. Century Communities development with modern designs and premium finishes.`}
+                            alt={`${community.name} new construction homes in ${community.location}. Arroyo at Skyeview Homes development with modern designs and premium finishes.`}
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"
                             sizes="(max-width: 768px) 100vw, 33vw"
@@ -154,7 +154,7 @@ export default function SimilarCommunities() {
                         </a>
                       </p>
                       <p className="text-2xl font-bold text-gray-900 mb-2">Homes From {formatPrice(community.price)}</p>
-                      <p className="text-sm text-gray-600 mb-4">Est. $X,XXX/mo</p>
+                      <p className="text-sm text-gray-600 mb-4">Contact for monthly payment estimate</p>
                       <div className="flex gap-2">
                         <Link href={community.href} className="flex-1">
                           <Button variant="outline" className="w-full">

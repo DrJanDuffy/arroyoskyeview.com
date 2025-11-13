@@ -623,7 +623,7 @@ export default function Header() {
                     className="block py-2.5 px-3 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors duration-150"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    About Century Communities
+                    About Arroyo at Skyeview
                   </Link>
                   <Link
                     href="/find-your-new-home/nevada/las-vegas-metro"

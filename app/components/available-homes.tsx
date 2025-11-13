@@ -188,7 +188,7 @@ export default function AvailableHomes() {
               <div className="mb-4">
                 <p className="text-lg font-semibold text-blue-600 mb-2">{home.floorPlan}</p>
                 <p className="text-2xl font-bold text-gray-900 mb-2">{formatPrice(home.price)}</p>
-                <p className="text-sm text-gray-600">Est. $X,XXX/mo</p>
+                <p className="text-sm text-gray-600">Contact for monthly payment estimate</p>
               </div>
 
               <div className="grid grid-cols-2 gap-2 mb-4 text-sm">

@@ -46,11 +46,11 @@ export default function MapView() {
           <div className="flex items-center justify-center gap-4">
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-blue-600 rounded-full border-2 border-white"></div>
-              <span className="text-sm text-gray-700">Century Communities</span>
+              <span className="text-sm text-gray-700">Arroyo at Skyeview Homes</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-gray-400 rounded-full border-2 border-white"></div>
-              <span className="text-sm text-gray-700">Century Complete</span>
+              <span className="text-sm text-gray-700">New Construction</span>
             </div>
           </div>
         </div>

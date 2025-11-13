@@ -140,7 +140,7 @@ export default function Zip89166Page() {
             },
             {
               question: 'Why should I work with Dr. Jan Duffy for zip code 89166 homes?',
-              answer: 'Dr. Jan Duffy provides expert buyer representation for Century Communities homes in zip code 89166. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Century Communities pays for buyer representation, so there\'s no extra cost. Call (702) 903-4687.',
+              answer: 'Dr. Jan Duffy provides expert buyer representation for Arroyo at Skyeview Homes and new construction homes in zip code 89166. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Builders pay for buyer representation, so there\'s no extra cost. Call (702) 903-4687.',
             },
             {
               question: 'What is the commute like from zip code 89166?',
@@ -163,10 +163,10 @@ export default function Zip89166Page() {
         <section className="bg-gray-50 py-12 mt-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Century Communities New Homes in Skye Canyon
+              Arroyo at Skyeview Homes in Skye Canyon
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Discover all Century Communities developments in zip code 89166 (Skye Canyon):
+              Discover all new construction developments in zip code 89166 (Skye Canyon):
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link

@@ -47,7 +47,7 @@ export default function NeighborhoodLinksSection({ location, zipCode }: Neighbor
               Browse all Las Vegas Metro new construction communities
             </h3>
             <p className="text-gray-600">
-              View all Century Communities new construction homes across Las Vegas, Henderson, and surrounding areas.
+              View all Arroyo at Skyeview Homes and new construction homes across Las Vegas, Henderson, and surrounding areas.
             </p>
           </Link>
           <Link

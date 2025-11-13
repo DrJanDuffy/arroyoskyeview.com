@@ -20,7 +20,7 @@ export default function HousingMarketCrashPage() {
       <PageSchemas
         pageType="blog"
         url="/blog/housing-market-crash-2025"
-        title="Is the Housing Market Going To Crash? Here's What Experts Say | Century Communities"
+        title="Is the Housing Market Going To Crash? Here's What Experts Say | Arroyo at Skyeview Homes"
         description="Expert forecasts show home prices are expected to rise nationally, not fall, over the next 5 years. Learn what the data says about the housing market outlook."
         breadcrumbs={[
           { name: 'Blog', url: '/' },

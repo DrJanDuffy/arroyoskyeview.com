@@ -3,9 +3,9 @@ export default function StructuredData() {
   const residentialComplex = {
     '@context': 'https://schema.org',
     '@type': 'ResidentialComplex',
-    name: 'Arroyo at Skyeview',
-    alternateName: ['Arroyo at Skyeview at Skye Canyon', 'Skyeview Arroyo'],
-    description: 'Arroyo at Skyeview is a residential community of townhomes located in Skye Canyon, Las Vegas, Nevada. The development offers two-story townhomes with 2 to 4 bedrooms, 2.5 baths, and 2-bay garages, featuring quartz countertops and open layouts.',
+    name: 'Arroyo at Skyeview Homes',
+    alternateName: ['Arroyo at Skyeview Homes', 'Arroyo at Skyeview at Skye Canyon', 'Skyeview Arroyo'],
+    description: 'Arroyo at Skyeview Homes is a residential community of new construction townhomes located in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). The development offers two-story townhomes with 2 to 4 bedrooms, 2.5 baths, and 2-bay garages, featuring quartz countertops and open layouts, starting from $392,640.',
     url: 'https://www.arroyoskyeview.com',
     address: {
       '@type': 'PostalAddress',
@@ -85,8 +85,8 @@ export default function StructuredData() {
     dateBuilt: '2024',
     developer: {
       '@type': 'Organization',
-      name: 'Century Communities',
-      url: 'https://www.centurycommunities.com',
+      name: 'Arroyo at Skyeview Homes',
+      url: 'http://drjanduffy.realscout.com/',
     },
   }
 
@@ -121,7 +121,7 @@ export default function StructuredData() {
     '@type': 'RealEstateAgent',
     name: 'Dr. Jan Duffy',
     alternateName: 'Arroyo at Skyeview Sales Office',
-    description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Dr. Jan Duffy provides construction monitoring, building standards inspection, and insider knowledge of Century Communities homes.',
+    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Las Vegas, Nevada. Dr. Jan Duffy provides construction monitoring, building standards inspection, and insider knowledge of new construction homes.',
     url: 'https://www.arroyoskyeview.com',
     telephone: '+1-702-903-4687',
     email: 'info@arroyoskyeview.com',
@@ -258,14 +258,14 @@ export default function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: 'Arroyo at Skyeview at Skye Canyon',
-    description: 'Arroyo at Skyeview is a residential townhome community in Skye Canyon, Las Vegas, Nevada, developed by Century Communities.',
+    description: 'Arroyo at Skyeview Homes is a residential townhome community in Skye Canyon, Las Vegas, Nevada, part of Arroyo at Skyeview Homes.',
     author: {
       '@type': 'Organization',
-      name: 'Century Communities',
+      name: 'Arroyo at Skyeview Homes',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Century Communities',
+      name: 'Arroyo at Skyeview Homes',
       logo: {
         '@type': 'ImageObject',
         url: 'https://www.arroyoskyeview.com/og-image.png',
@@ -285,7 +285,7 @@ export default function StructuredData() {
     '@type': 'Organization',
     name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     alternateName: 'Dr. Jan Duffy Real Estate',
-    description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
+    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
     url: 'https://www.arroyoskyeview.com',
     telephone: '+1-702-903-4687',
     address: {
@@ -315,7 +315,7 @@ export default function StructuredData() {
     ],
     knowsAbout: [
       'New Construction Homes',
-      'Century Communities',
+      'Arroyo at Skyeview Homes',
       'Las Vegas Real Estate',
       'Skye Canyon',
       'Summerlin',

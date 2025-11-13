@@ -3,19 +3,19 @@
 import Link from 'next/link'
 
 const searchTerms = [
-  { term: 'Sierra at Skyeview by Century Communities', url: '/sierra-at-skyeview' },
-  { term: 'Ironwood by Century Communities', url: '/ironwood' },
-  { term: 'Terra at Skyeview by Century Communities', url: '/terra-at-skyeview' },
-  { term: 'The Townes at Union Village by Century Communities', url: '/find-your-new-home/nevada/las-vegas-metro' },
-  { term: 'Homestead West by Century Communities', url: '/homestead-west' },
-  { term: 'Eaglepointe at Skye Canyon by Century Communities', url: '/eaglepointe-skye-canyon' },
-  { term: 'Arroyo at Skyview reviews', url: '/' },
+  { term: 'Sierra at Skyeview', url: '/sierra-at-skyeview' },
+  { term: 'Ironwood', url: '/ironwood' },
+  { term: 'Terra at Skyeview', url: '/terra-at-skyeview' },
+  { term: 'The Townes at Union Village', url: '/find-your-new-home/nevada/las-vegas-metro' },
+  { term: 'Homestead West', url: '/homestead-west' },
+  { term: 'Eaglepointe at Skye Canyon', url: '/eaglepointe-skye-canyon' },
+  { term: 'Arroyo at Skyeview reviews', url: '/' },
   { term: 'Sierra at Skyview', url: '/sierra-at-skyeview' },
   { term: 'Skyview Mesa', url: '/find-your-new-home/nevada/las-vegas-metro' },
   { term: 'Skye View', url: '/' },
   { term: 'Skyview Las Vegas', url: '/' },
-  { term: 'Century Communities Skyview', url: '/' },
-  { term: 'Skyview Homes', url: '/' },
+  { term: 'Arroyo at Skyeview Homes', url: '/' },
+  { term: 'Skyeview Homes', url: '/' },
   { term: 'Terra at Skyeview', url: '/terra-at-skyeview' },
 ]
 

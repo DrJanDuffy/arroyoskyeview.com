@@ -10,7 +10,7 @@ interface CTAOption {
 
 const ctaOptions: CTAOption[] = [
   {
-    text: "Claim Your New Century Home Before It's Gone",
+    text: "Claim Your New Home Before It's Gone",
     type: 'call',
     variant: 'primary',
   },
@@ -40,7 +40,7 @@ const ctaOptions: CTAOption[] = [
     variant: 'primary',
   },
   {
-    text: 'Questions About Century Communities Incentives? Call Me',
+    text: 'Questions About Builder Incentives? Call Me',
     type: 'call',
     variant: 'primary',
   },
@@ -116,7 +116,7 @@ export function getCTAByContext(context: string): { text: string; type: 'call' |
 
   // Match CTAs to page context
   if (contextLower.includes('inventory') || contextLower.includes('available')) {
-    return ctaOptions[0] // "Claim Your New Century Home Before It's Gone"
+    return ctaOptions[0] // "Claim Your New Home Before It's Gone"
   }
   if (contextLower.includes('pre-construction') || contextLower.includes('pricing')) {
     return ctaOptions[1] // "Lock In Pre-Construction Pricing Today"
@@ -134,7 +134,7 @@ export function getCTAByContext(context: string): { text: string; type: 'call' |
     return ctaOptions[5] // "Don't Miss Out on Your Perfect Floor Plan"
   }
   if (contextLower.includes('incentive') || contextLower.includes('builder')) {
-    return ctaOptions[6] // "Questions About Century Communities Incentives? Call Me"
+    return ctaOptions[6] // "Questions About Builder Incentives? Call Me"
   }
   if (contextLower.includes('construction') || contextLower.includes('build')) {
     return ctaOptions[7] // "See Your New Home Before Construction Starts"

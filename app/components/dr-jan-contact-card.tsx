@@ -14,7 +14,7 @@ export default function DrJanContactCard() {
             Dr. Duffy
           </h3>
           <p className="text-sm text-blue-600 font-semibold mb-2">
-            Century Communities Preferred Buyer's Agent
+            New Construction Home Preferred Buyer's Agent
           </p>
           <p className="text-sm text-gray-700 mb-4">
             Expert representation on new construction with construction monitoring, building standards inspection & insider knowledge.
@@ -39,7 +39,7 @@ export default function DrJanContactCard() {
       
       <div className="mt-4 pt-4 border-t border-blue-200">
         <p className="text-xs text-gray-600">
-          <strong>Remember:</strong> Century Communities pays for buyer representation—you're already funding an agent, so choose the best one.
+          <strong>Remember:</strong> Builders pay for buyer representation on Arroyo at Skyeview Homes—you're already funding an agent, so choose the best one.
         </p>
       </div>
     </div>

@@ -8,8 +8,8 @@ import PageSchemas from '../../components/page-schemas'
 import DrJanContactCard from '../../components/dr-jan-contact-card'
 
 export const metadata: Metadata = {
-  title: 'Builder Incentives Guide | Century Communities Las Vegas',
-  description: 'Learn about current Century Communities builder incentives in Las Vegas. Rate buy-downs, closing cost assistance, and promotions. Expert guidance from Dr. Jan Duffy.',
+  title: 'Builder Incentives Guide | Arroyo at Skyeview Homes Las Vegas',
+  description: 'Learn about current builder incentives for Arroyo at Skyeview Homes in Las Vegas. Rate buy-downs, closing cost assistance, and promotions. Expert guidance from Dr. Jan Duffy.',
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/buyers/builder-incentives-guide',
   },
@@ -21,8 +21,8 @@ export default function BuilderIncentivesGuidePage() {
       <PageSchemas
         pageType="buyer-guide"
         url="/buyers/builder-incentives-guide"
-        title="Century Communities Builder Incentives Guide | Las Vegas New Homes"
-        description="Learn about current Century Communities builder incentives in Las Vegas. Get expert guidance on rate buy-downs, closing cost assistance, and promotions from Dr. Jan Duffy."
+        title="Builder Incentives Guide | Arroyo at Skyeview Homes Las Vegas"
+        description="Learn about current builder incentives for Arroyo at Skyeview Homes in Las Vegas. Get expert guidance on rate buy-downs, closing cost assistance, and promotions from Dr. Jan Duffy."
         breadcrumbs={[
           { name: 'Buyers', url: '/buyers/builder-incentives-guide' },
           { name: 'Builder Incentives Guide', url: '/buyers/builder-incentives-guide' },
@@ -30,7 +30,7 @@ export default function BuilderIncentivesGuidePage() {
         questions={[
           {
             question: 'What builder incentives are currently available in Las Vegas?',
-            answer: 'Century Communities is offering mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. Dr. Jan Duffy has insider knowledge of current incentives—call (702) 903-4687.',
+            answer: 'Builders are offering mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages for Arroyo at Skyeview Homes. Dr. Jan Duffy has insider knowledge of current incentives—call (702) 903-4687.',
           },
           {
             question: 'How much can builder rate buy-downs save me?',
@@ -46,10 +46,10 @@ export default function BuilderIncentivesGuidePage() {
         <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Century Communities Builder Incentives Guide
+              Builder Incentives Guide for Arroyo at Skyeview Homes
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
-              Learn about current builder incentives, promotions, and how to maximize your savings when buying a Century Communities home in Las Vegas.
+              Learn about current builder incentives, promotions, and how to maximize your savings when buying Arroyo at Skyeview Homes in Las Vegas.
             </p>
           </div>
         </section>
@@ -60,7 +60,7 @@ export default function BuilderIncentivesGuidePage() {
               <section className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Current Builder Incentives</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  With 2x the normal new home inventory, builders are offering aggressive incentives to attract buyers. Century Communities is currently providing various incentives that can significantly reduce your costs and monthly payments.
+                  With 2x the normal new home inventory, builders are offering aggressive incentives to attract buyers. Builders at Arroyo at Skyeview Homes are currently providing various incentives that can significantly reduce your costs and monthly payments.
                 </p>
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg mb-6">
                   <p className="text-lg font-semibold text-gray-900 mb-2">Important Note</p>
@@ -71,7 +71,7 @@ export default function BuilderIncentivesGuidePage() {
                 <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mt-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Communities with Current Builder Incentives</h3>
                   <p className="text-gray-700 mb-4">
-                    Contact Dr. Jan Duffy to learn about current incentives at these Century Communities:
+                    Contact Dr. Jan Duffy to learn about current incentives at these new construction communities:
                   </p>
                   <ul className="space-y-2">
                     <li>
@@ -100,7 +100,7 @@ export default function BuilderIncentivesGuidePage() {
                         Browse all Las Vegas Metro communities
                       </Link>
                       {' - '}
-                      <span className="text-gray-700">See all Century Communities with current builder incentives</span>
+                      <span className="text-gray-700">See all new construction communities with current builder incentives</span>
                     </li>
                   </ul>
                 </div>
@@ -194,7 +194,7 @@ export default function BuilderIncentivesGuidePage() {
               <section className="mb-12 bg-blue-50 p-8 rounded-lg">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Get Current Incentive Information</h2>
                 <p className="text-lg text-gray-700 mb-6">
-                  Builder incentives change frequently. Dr. Jan Duffy maintains real-time knowledge of current Century Communities incentives and can help you find the best deals available.
+                  Builder incentives change frequently. Dr. Jan Duffy maintains real-time knowledge of current builder incentives for Arroyo at Skyeview Homes and can help you find the best deals available.
                 </p>
                 <a
                   href="tel:7029034687"

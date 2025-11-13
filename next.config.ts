@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'www.centurycommunities.com',
+        protocol: 'http',
+        hostname: 'drjanduffy.realscout.com',
         pathname: '/**',
       },
       {

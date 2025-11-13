@@ -4,7 +4,7 @@ export default function HomeownerReviews() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Homeowner reviews</h2>
         <p className="text-center text-gray-600 mb-8">
-          See for yourself what our Century Communities homeowners are saying about their dream homes!
+          See for yourself what homeowners are saying about Arroyo at Skyeview Homes!
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -64,7 +64,7 @@ export default function HomeownerReviews() {
               </div>
             </div>
             <p className="text-gray-700 mb-4">
-              Trusted reviews from verified homeowners who have purchased and moved into their new Century Communities home.
+              Trusted reviews from verified homeowners who have purchased and moved into their new Arroyo at Skyeview Homes.
             </p>
             <button className="text-blue-600 hover:text-blue-700 font-medium text-sm">
               View All Reviews →

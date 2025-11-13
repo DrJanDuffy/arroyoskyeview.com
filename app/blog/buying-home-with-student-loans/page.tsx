@@ -20,7 +20,7 @@ export default function BuyingHomeWithStudentLoansPage() {
       <PageSchemas
         pageType="blog"
         url="/blog/buying-home-with-student-loans"
-        title="You Can Buy a Home When You Have Student Loans | Century Communities"
+        title="You Can Buy a Home When You Have Student Loans | Arroyo at Skyeview Homes"
         description="Learn how student loans don't have to prevent you from buying your dream home. Get expert advice on managing student debt while purchasing a home."
         breadcrumbs={[
           { name: 'Blog', url: '/' },

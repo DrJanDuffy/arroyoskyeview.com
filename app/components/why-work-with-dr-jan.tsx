@@ -9,7 +9,7 @@ export default function WhyWorkWithDrJan() {
             Why Work with Dr. Duffy?
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Get expert representation on Century Communities new construction—at no extra cost to you.
+            Get expert representation on Arroyo at Skyeview Homes and new construction—at no extra cost to you.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ export default function WhyWorkWithDrJan() {
               Insider Knowledge
             </h3>
             <p className="text-gray-700 mb-4">
-              Dr. Duffy knows which of the 15+ Las Vegas Century Communities fit YOUR lifestyle and budget, with real-time inventory tracking.
+              Dr. Duffy knows which new construction communities in Las Vegas including Arroyo at Skyeview Homes fit YOUR lifestyle and budget, with real-time inventory tracking.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export default function WhyWorkWithDrJan() {
               No Extra Cost
             </h3>
             <p className="text-gray-700 mb-4">
-              Century Communities pays for buyer representation—you're already funding an agent, so choose the best one who works for YOU, not the builder.
+              Builders pay for buyer representation on Arroyo at Skyeview Homes—you're already funding an agent, so choose the best one who works for YOU, not the builder.
             </p>
           </div>
         </div>

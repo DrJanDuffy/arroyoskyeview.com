@@ -9,20 +9,6 @@ export default function SupportingCommunities() {
         </h2>
         
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-100 rounded-lg p-8 mb-8">
-            <div className="h-24 bg-gray-200 rounded-lg mb-6 flex items-center justify-center">
-              <div className="text-gray-600 font-semibold text-xl">
-                Century Cares Foundation
-              </div>
-            </div>
-            <Link 
-              href="#" 
-              className="inline-block text-blue-600 hover:text-blue-700 font-semibold"
-            >
-              Learn More →
-            </Link>
-          </div>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-gray-100 rounded-lg p-6 text-center">
               <div className="h-32 bg-gray-200 rounded-lg mb-4 flex items-center justify-center">

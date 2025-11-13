@@ -19,7 +19,7 @@ export default function SaleCrossesFinishLinePage() {
       <PageSchemas
         pageType="blog"
         url="/blog/sale-crosses-finish-line"
-        title="How To Make Sure Your Sale Crosses the Finish Line | Century Communities"
+        title="How To Make Sure Your Sale Crosses the Finish Line | Arroyo at Skyeview Homes"
         description="Learn how pre-listing inspections can help prevent buyers from backing out. Get expert advice on avoiding common deal breakers and ensuring a smooth home sale."
         breadcrumbs={[
           { name: 'Blog', url: '/' },

@@ -27,10 +27,10 @@ export default function BuyerResourcesSection() {
             className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
           >
             <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-              Current Century Communities Builder Incentives
+              Current Builder Incentives for Arroyo at Skyeview Homes
             </h3>
             <p className="text-gray-600">
-              Current Century Communities builder incentives and promotions. Learn about rate buy-downs, closing cost assistance, and how to maximize your savings.
+              Current builder incentives and promotions for Arroyo at Skyeview Homes. Learn about rate buy-downs, closing cost assistance, and how to maximize your savings.
             </p>
           </Link>
           <Link
@@ -38,7 +38,7 @@ export default function BuyerResourcesSection() {
             className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
           >
             <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-              Why Work with Dr. Jan Duffy for Century Communities Homes
+              Why Work with Dr. Jan Duffy for Arroyo at Skyeview Homes
             </h3>
             <p className="text-gray-600">
               Expert buyer representation with construction monitoring, building standards inspection, and insider knowledge—at no extra cost to you.

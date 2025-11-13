@@ -123,7 +123,7 @@ export default function FloorPlans() {
               {plan.image ? (
                 <Image
                   src={plan.image}
-                  alt={`${plan.name} floor plan model home at Arroyo at Skyeview in Skye Canyon, Las Vegas. ${plan.sqft} square feet, ${plan.bedrooms} bedrooms, ${plan.bathrooms} bathrooms.`}
+                  alt={`${plan.name} floor plan model home at Arroyo at Skyeview Homes in Skye Canyon, Las Vegas. ${plan.sqft} square feet, ${plan.bedrooms} bedrooms, ${plan.bathrooms} bathrooms.`}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -148,7 +148,7 @@ export default function FloorPlans() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
                 <p className="text-sm text-gray-600 mb-2">{plan.description}</p>
                 <p className="text-2xl font-bold text-blue-600 mb-1">From {formatPrice(plan.price)}</p>
-                <p className="text-sm text-gray-600">Est. $X,XXX/mo</p>
+                <p className="text-sm text-gray-600">Contact for monthly payment estimate</p>
               </div>
 
               <div className="grid grid-cols-2 gap-2 mb-4 text-sm border-t border-gray-200 pt-4">

@@ -149,7 +149,7 @@ export default function PageSchemas({
     '@type': 'RealEstateAgent',
     name: 'Dr. Jan Duffy',
     alternateName: 'Dr. Jan Duffy Real Estate',
-    description: 'Century Communities Preferred Buyer\'s Agent specializing in new construction homes in Las Vegas, Nevada. Expert in construction monitoring, building standards inspection, and buyer representation.',
+    description: 'New Construction Home Preferred Buyer\'s Agent specializing in new construction homes in Las Vegas, Nevada. Expert in construction monitoring, building standards inspection, and buyer representation.',
     url: `${baseUrl}/work-with-dr-jan`,
     telephone: '+1-702-903-4687',
     email: 'info@arroyoskyeview.com',
@@ -190,7 +190,7 @@ export default function PageSchemas({
     '@type': 'RealEstateAgent',
     name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     alternateName: 'Dr. Jan Duffy Real Estate',
-    description: 'Expert buyer representation for Century Communities new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
+    description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
     url: baseUrl,
     telephone: '+1-702-903-4687',
     email: 'info@arroyoskyeview.com',
@@ -317,7 +317,7 @@ export default function PageSchemas({
       addressCountry: 'US',
     },
     knowsAbout: [
-      'Century Communities',
+      'Arroyo at Skyeview',
       'New Construction Homes',
       'Las Vegas Real Estate',
       'Construction Monitoring',
@@ -334,7 +334,7 @@ export default function PageSchemas({
       '@context': 'https://schema.org',
       '@type': 'ResidentialComplex',
       name: communityName,
-      description: `${communityName} is a residential community in ${location}, Las Vegas, Nevada, developed by Century Communities.`,
+      description: `${communityName} is a residential community in ${location}, Las Vegas, Nevada, part of Arroyo at Skyeview Homes.`,
       url: fullUrl,
       address: {
         '@type': 'PostalAddress',
@@ -370,8 +370,8 @@ export default function PageSchemas({
       }),
       developer: {
         '@type': 'Organization',
-        name: 'Century Communities',
-        url: 'https://www.centurycommunities.com',
+        name: 'Arroyo at Skyeview Homes',
+        url: baseUrl,
       },
     }
     communitySchemas.push(residentialComplexSchema)

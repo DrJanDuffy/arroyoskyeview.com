@@ -18,7 +18,7 @@
 - **Skye Canyon Sales Office**: 702-936-3020
 - **The Townes at Union Village**: 702-605-0956
 
-### Century Communities Service
+### Builder Warranty Service
 - **Warranty Service**: 888-885-5653 (Correct - for warranty issues only)
 
 ---

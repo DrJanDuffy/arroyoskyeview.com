@@ -31,7 +31,7 @@
 ### 1. ✅ E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
 - **Experience**: Dr. Jan Duffy's credentials and local expertise prominently featured
 - **Expertise**: Detailed buyer guides, construction monitoring expertise highlighted
-- **Authoritativeness**: Century Communities partnership, Nevada license #S.0197614
+- **Authoritativeness**: New Construction Home Expert, Nevada license #S.0197614
 - **Trustworthiness**: Complete legal pages, privacy policy, accessibility statement
 
 ### 2. ✅ Semantic SEO & Natural Language

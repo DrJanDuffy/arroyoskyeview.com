@@ -173,15 +173,13 @@ export default function RequestInfo() {
 
           <div className="text-xs text-gray-500 mb-6">
             <p>
-              Century Communities' privacy policy can be found at{' '}
+              Our privacy policy can be found at{' '}
               <a 
-                href="https://www.centurycommunities.com/privacy-policy" 
+                href="/privacy-policy" 
                 className="text-blue-600 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Century Communities Privacy Policy"
+                title="Privacy Policy"
               >
-                www.centurycommunities.com/privacy-policy
+                /privacy-policy
               </a>.
               You understand that by providing your information to us, we will reach out to you via the information you provide us.
               Standard text message rates apply. Users can opt out of text messages at any time by texting STOP.

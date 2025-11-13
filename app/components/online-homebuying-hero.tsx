@@ -10,7 +10,7 @@ export default function OnlineHomebuyingHero() {
         </p>
         <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mt-8">
           <p className="text-lg">
-            Available homes from both Century Communities and Century Complete offer our 
+            New construction homes including Arroyo at Skyeview Homes offer an 
             industry-first "Buy Now" option—allowing you to purchase your new home completely online!
           </p>
         </div>

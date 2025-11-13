@@ -87,10 +87,9 @@ public/
 ## Image Sources
 
 Images can be obtained from:
-1. The original Century Communities website: https://www.centurycommunities.com/find-your-new-home/nevada/las-vegas-metro/las-vegas/skye-canyon/skyeview---arroyo/
-2. Real estate photography services
-3. Stock photo services (with proper licensing)
-4. Professional photography of the actual community
+1. Real estate photography services
+2. Stock photo services (with proper licensing)
+3. Professional photography of the actual community
 
 ## Image Optimization
 

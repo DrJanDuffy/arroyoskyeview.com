@@ -116,7 +116,7 @@ export default function TermsOfUsePage() {
               
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">Trademarks</h3>
               <p className="text-lg text-gray-700 mb-4">
-                "Century Communities" is a trademark of Century Communities, Inc. All other trademarks, 
+                "Arroyo at Skyeview" and related marks are trademarks. All other trademarks, 
                 service marks, and trade names are the property of their respective owners.
               </p>
 

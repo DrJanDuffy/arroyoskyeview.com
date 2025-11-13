@@ -23,7 +23,7 @@ export default function NewHomeInventoryPage() {
     },
     {
       question: 'What builder incentives are available in Las Vegas right now?',
-      answer: 'Las Vegas builders, including Century Communities, are offering mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages.',
+      answer: 'Las Vegas builders, including builders at Arroyo at Skyeview Homes, are offering mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages.',
     },
     {
       question: 'Is now a good time to buy new construction in Las Vegas?',
@@ -36,7 +36,7 @@ export default function NewHomeInventoryPage() {
       <PageSchemas
         pageType="blog"
         url="/blog/new-home-inventory-2x"
-        title="New Home Inventory is 2x the Normal | Why It's Time to Buy New | Century Communities"
+        title="New Home Inventory is 2x the Normal | Why It's Time to Buy New | Arroyo at Skyeview Homes"
         description="With low resale inventory and 2x the normal new home inventory, builders are buying down mortgage rates, lowering prices, and offering promotions and incentives. It's time to buy new!"
         breadcrumbs={[
           { name: 'Blog', url: '/' },
@@ -172,14 +172,14 @@ export default function NewHomeInventoryPage() {
                 Las Vegas New Construction Market: Local Insights
               </h2>
               <p className="text-lg text-gray-700 mb-4">
-                The Las Vegas new construction market is experiencing unprecedented inventory levels, creating exceptional opportunities for homebuyers. In communities like Skye Canyon, Summerlin, and Henderson, Century Communities and other builders are offering aggressive incentives to move inventory.
+                The Las Vegas new construction market is experiencing unprecedented inventory levels, creating exceptional opportunities for homebuyers. In communities like Skye Canyon, Summerlin, and Henderson, builders including those at Arroyo at Skyeview Homes are offering aggressive incentives to move inventory.
               </p>
               
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
                 Skye Canyon: A Prime Example of Builder Incentives
               </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Skye Canyon, located in northwest Las Vegas (zip code 89166), exemplifies the current market conditions. With multiple Century Communities developments including Arroyo at Skyeview, Sierra at Skyeview, and Terra at Skyeview, buyers have exceptional options. Builders are offering rate buy-downs, closing cost assistance, and competitive pricing in this master-planned community.
+                Skye Canyon, located in northwest Las Vegas (zip code 89166), exemplifies the current market conditions. With multiple new construction developments including Arroyo at Skyeview Homes, Sierra at Skyeview, and Terra at Skyeview, buyers have exceptional options. Builders are offering rate buy-downs, closing cost assistance, and competitive pricing in this master-planned community.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
@@ -202,14 +202,14 @@ export default function NewHomeInventoryPage() {
                 Working with Dr. Jan Duffy: Maximize Your Builder Incentives
               </h2>
               <p className="text-lg text-gray-700 mb-4">
-                Dr. Jan Duffy specializes in helping Las Vegas homebuyers navigate the new construction market and maximize builder incentives. With insider knowledge of Century Communities and real-time inventory tracking, she helps clients secure the best deals available.
+                Dr. Jan Duffy specializes in helping Las Vegas homebuyers navigate the new construction market and maximize builder incentives. With insider knowledge of Arroyo at Skyeview Homes and real-time inventory tracking, she helps clients secure the best deals available.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
                 Insider Knowledge of Current Incentives
               </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Dr. Jan Duffy maintains real-time knowledge of all Century Communities incentives across Las Vegas developments. She knows which communities are offering the best rate buy-downs, closing cost assistance, and pricing adjustments. This insider knowledge helps you secure the maximum value when purchasing new construction.
+                Dr. Jan Duffy maintains real-time knowledge of all builder incentives across Las Vegas developments including Arroyo at Skyeview Homes. She knows which communities are offering the best rate buy-downs, closing cost assistance, and pricing adjustments. This insider knowledge helps you secure the maximum value when purchasing new construction.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
@@ -230,7 +230,7 @@ export default function NewHomeInventoryPage() {
                 No Extra Cost to You
               </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Century Communities pays for buyer representation on all their Las Vegas homes. The commission is built into home pricing whether you use an agent or not, which means you're already funding representation. Dr. Jan Duffy works exclusively for YOU, not the builder, ensuring your interests are protected throughout the entire process.
+                Builders pay for buyer representation on all new construction homes including Arroyo at Skyeview Homes. The commission is built into home pricing whether you use an agent or not, which means you're already funding representation. Dr. Jan Duffy works exclusively for YOU, not the builder, ensuring your interests are protected throughout the entire process.
               </p>
 
               <div className="mt-6">
@@ -300,7 +300,7 @@ export default function NewHomeInventoryPage() {
                 Customization Opportunities
               </h3>
               <p className="text-lg text-gray-700 mb-4">
-                When purchasing pre-construction, you may have the opportunity to customize finishes, flooring, cabinetry, and design elements through Century Communities' design center. This allows you to create a home that truly matches your style and preferences. Even if you purchase a move-in ready home, you can often make selections on finishes and upgrades.
+                When purchasing pre-construction, you may have the opportunity to customize finishes, flooring, cabinetry, and design elements through the builder's design center. This allows you to create a home that truly matches your style and preferences. Even if you purchase a move-in ready home, you can often make selections on finishes and upgrades.
               </p>
             </div>
 
@@ -312,7 +312,7 @@ export default function NewHomeInventoryPage() {
                 },
                 {
                   question: 'What builder incentives are available in Las Vegas right now?',
-                  answer: 'Las Vegas builders, including Century Communities, are offering mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. These incentives vary by community and can change frequently. Dr. Jan Duffy has real-time knowledge of current incentives—call (702) 903-4687 for the most current information.',
+                  answer: 'Las Vegas builders, including builders at Arroyo at Skyeview Homes, are offering mortgage rate buy-downs, closing cost assistance, price reductions, and upgrade packages. These incentives vary by community and can change frequently. Dr. Jan Duffy has real-time knowledge of current incentives—call (702) 903-4687 for the most current information.',
                 },
                 {
                   question: 'How much can builder rate buy-downs save me?',
@@ -324,11 +324,11 @@ export default function NewHomeInventoryPage() {
                 },
                 {
                   question: 'What communities in Las Vegas are offering the best builder incentives?',
-                  answer: 'Communities throughout Las Vegas are offering incentives, including Skye Canyon, Summerlin, and Henderson. Specific incentives vary by community and change frequently. Dr. Jan Duffy has insider knowledge of current incentives across all Century Communities developments in Las Vegas—call (702) 903-4687 to learn about current opportunities.',
+                  answer: 'Communities throughout Las Vegas are offering incentives, including Skye Canyon, Summerlin, and Henderson. Specific incentives vary by community and change frequently. Dr. Jan Duffy has insider knowledge of current incentives across all new construction developments in Las Vegas including Arroyo at Skyeview Homes—call (702) 903-4687 to learn about current opportunities.',
                 },
                 {
                   question: 'How do I know if I\'m getting the best deal on new construction?',
-                  answer: 'Working with Dr. Jan Duffy ensures you have expert representation who knows current pricing, available incentives, and how to maximize your value. She has insider knowledge of Century Communities and real-time inventory tracking. Century Communities pays for buyer representation, so there\'s no extra cost to you. Call (702) 903-4687.',
+                  answer: 'Working with Dr. Jan Duffy ensures you have expert representation who knows current pricing, available incentives, and how to maximize your value. She has insider knowledge of Arroyo at Skyeview Homes and real-time inventory tracking. Builders pay for buyer representation, so there\'s no extra cost to you. Call (702) 903-4687.',
                 },
                 {
                   question: 'What are the advantages of new construction over resale in Las Vegas?',
@@ -344,7 +344,7 @@ export default function NewHomeInventoryPage() {
                 },
                 {
                   question: 'Why should I work with Dr. Jan Duffy when buying new construction?',
-                  answer: 'Dr. Jan Duffy provides expert buyer representation for Century Communities homes in Las Vegas. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Century Communities pays for buyer representation, so there\'s no extra cost. Call (702) 903-4687.',
+                  answer: 'Dr. Jan Duffy provides expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Las Vegas. She offers construction monitoring every 7-10 days, a complimentary building standards inspection at closing, and insider knowledge of available inventory and pricing. Builders pay for buyer representation, so there\'s no extra cost. Call (702) 903-4687.',
                 },
               ]}
               title="New Home Inventory: Frequently Asked Questions"

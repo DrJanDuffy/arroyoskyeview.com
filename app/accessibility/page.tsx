@@ -142,7 +142,7 @@ export default function AccessibilityPage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Third-Party Content</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Our website may include content from third parties, such as Century Communities or 
+                Our website may include content from third parties or 
                 other service providers. While we aim to ensure accessibility, we cannot guarantee 
                 the accessibility of third-party content. If you encounter accessibility issues with 
                 third-party content, please contact us so we can work with the third party to address 

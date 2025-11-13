@@ -8,7 +8,7 @@ interface CrossCommunityLinksProps {
 export default function CrossCommunityLinks({ currentCommunity, location }: CrossCommunityLinksProps) {
   // Skye Canyon communities (zip 89166)
   const skyeCanyonCommunities = [
-    { name: 'Arroyo at Skyeview', href: '/', anchorText: 'Arroyo at Skyeview: Townhomes starting at $392,640' },
+    { name: 'Arroyo at Skyeview Homes', href: '/', anchorText: 'Arroyo at Skyeview Homes: Townhomes starting at $392,640' },
     { name: 'Sierra at Skyeview', href: '/sierra-at-skyeview', anchorText: 'Sierra at Skyeview: New construction in Skye Canyon' },
     { name: 'Terra at Skyeview', href: '/terra-at-skyeview', anchorText: 'Terra at Skyeview: Skye Canyon townhomes' },
     { name: 'Eaglepointe at Skye Canyon', href: '/eaglepointe-skye-canyon', anchorText: 'Eaglepointe at Skye Canyon: Master-planned community' },
@@ -17,7 +17,7 @@ export default function CrossCommunityLinks({ currentCommunity, location }: Cros
   // Las Vegas Metro communities
   const lasVegasMetroCommunities = [
     { name: 'Ironwood', href: '/ironwood', anchorText: 'Ironwood: New construction homes in Las Vegas Metro' },
-    { name: 'Homestead West', href: '/homestead-west', anchorText: 'Homestead West: Century Communities homes' },
+    { name: 'Homestead West', href: '/homestead-west', anchorText: 'Homestead West: New construction homes' },
   ]
 
   // Filter out current community
@@ -96,7 +96,7 @@ export default function CrossCommunityLinks({ currentCommunity, location }: Cros
             Explore All Las Vegas Metro Communities
           </h3>
           <p className="text-gray-700 mb-4">
-            Browse all Century Communities new construction homes across Las Vegas, Henderson, and Summerlin.
+            Browse all Arroyo at Skyeview Homes and new construction homes across Las Vegas, Henderson, and Summerlin.
           </p>
           <Link
             href="/find-your-new-home/nevada/las-vegas-metro"
