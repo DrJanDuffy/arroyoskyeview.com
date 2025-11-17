@@ -2,7 +2,6 @@ import Script from 'next/script'
 
 export default function ReviewSchema() {
   const businessId = 'https://www.arroyoskyeview.com'
-  const serviceId = `${businessId}#buyer-representation-service`
   
   const reviewSchema = {
     '@context': 'https://schema.org',
@@ -32,15 +31,19 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'Service',
-          '@id': serviceId,
-          name: 'Buyer Representation for New Construction Homes',
-          serviceType: 'Real Estate Buyer Representation',
-          provider: {
-            '@type': 'RealEstateAgent',
-            '@id': businessId,
-            name: 'Dr. Jan Duffy',
+          '@type': 'LocalBusiness',
+          '@id': businessId,
+          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
+          description: 'Expert buyer representation for new construction homes in Las Vegas, Nevada',
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: '8912 Vanhoy Crk St',
+            addressLocality: 'Las Vegas',
+            addressRegion: 'NV',
+            postalCode: '89166',
+            addressCountry: 'US',
           },
+          telephone: '+1-702-903-4687',
         },
       },
       {
@@ -57,15 +60,19 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'Service',
-          '@id': serviceId,
-          name: 'Buyer Representation for New Construction Homes',
-          serviceType: 'Real Estate Buyer Representation',
-          provider: {
-            '@type': 'RealEstateAgent',
-            '@id': businessId,
-            name: 'Dr. Jan Duffy',
+          '@type': 'LocalBusiness',
+          '@id': businessId,
+          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
+          description: 'Expert buyer representation for new construction homes in Las Vegas, Nevada',
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: '8912 Vanhoy Crk St',
+            addressLocality: 'Las Vegas',
+            addressRegion: 'NV',
+            postalCode: '89166',
+            addressCountry: 'US',
           },
+          telephone: '+1-702-903-4687',
         },
       },
       {
@@ -82,15 +89,19 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'Service',
-          '@id': serviceId,
-          name: 'Buyer Representation for New Construction Homes',
-          serviceType: 'Real Estate Buyer Representation',
-          provider: {
-            '@type': 'RealEstateAgent',
-            '@id': businessId,
-            name: 'Dr. Jan Duffy',
+          '@type': 'LocalBusiness',
+          '@id': businessId,
+          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
+          description: 'Expert buyer representation for new construction homes in Las Vegas, Nevada',
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: '8912 Vanhoy Crk St',
+            addressLocality: 'Las Vegas',
+            addressRegion: 'NV',
+            postalCode: '89166',
+            addressCountry: 'US',
           },
+          telephone: '+1-702-903-4687',
         },
       },
     ],
