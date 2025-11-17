@@ -34,6 +34,7 @@ export default function ReviewSchema() {
           '@type': 'RealEstateAgent',
           '@id': businessId,
           name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
+          url: businessId,
         },
       },
       {
@@ -53,6 +54,7 @@ export default function ReviewSchema() {
           '@type': 'RealEstateAgent',
           '@id': businessId,
           name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
+          url: businessId,
         },
       },
       {
@@ -72,6 +74,7 @@ export default function ReviewSchema() {
           '@type': 'RealEstateAgent',
           '@id': businessId,
           name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
+          url: businessId,
         },
       },
     ],
