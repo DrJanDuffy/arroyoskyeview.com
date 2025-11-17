@@ -62,7 +62,7 @@ export default function WhyWorkWithDrJan() {
             href="/work-with-dr-jan"
             className="inline-block bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-50 transition shadow-lg mb-4"
           >
-            Learn More
+            Learn More About Working with Dr. Jan Duffy
           </Link>
         </div>
       </div>

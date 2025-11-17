@@ -37,7 +37,7 @@ export default function DrJanCTABanner({ context = '' }: DrJanCTABannerProps) {
               href="/work-with-dr-jan"
               className="bg-blue-500 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-400 transition text-center whitespace-nowrap"
             >
-              Learn More
+              Learn More About Dr. Jan's Buyer Representation
             </Link>
           </div>
         </div>
