@@ -1,10 +1,12 @@
 import Script from 'next/script'
 
 export default function ReviewSchema() {
+  const businessId = 'https://www.arroyoskyeview.com'
+  
   const reviewSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    '@id': 'https://www.arroyoskyeview.com',
+    '@type': 'RealEstateAgent',
+    '@id': businessId,
     name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
     image: 'https://www.arroyoskyeview.com/og-image.png',
     aggregateRating: {
@@ -29,8 +31,9 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'Service',
-          name: 'Buyer Representation for Arroyo at Skyeview Homes',
+          '@type': 'RealEstateAgent',
+          '@id': businessId,
+          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
         },
       },
       {
@@ -47,8 +50,9 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'Service',
-          name: 'Buyer Representation for Arroyo at Skyeview Homes',
+          '@type': 'RealEstateAgent',
+          '@id': businessId,
+          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
         },
       },
       {
@@ -65,8 +69,9 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'Service',
-          name: 'Buyer Representation for Arroyo at Skyeview Homes',
+          '@type': 'RealEstateAgent',
+          '@id': businessId,
+          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
         },
       },
     ],
