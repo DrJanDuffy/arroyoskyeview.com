@@ -25,11 +25,7 @@ const nextConfig: NextConfig = {
   // Enable experimental features for better performance
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu', '@radix-ui/react-popover', '@radix-ui/react-alert-dialog'],
-    // Optimize CSS loading
-    optimizeCss: true,
   },
-  // Target modern browsers to reduce polyfills
-  swcMinify: true,
   // Optimize production builds - disable source maps for smaller bundles
   productionBrowserSourceMaps: false,
 }
