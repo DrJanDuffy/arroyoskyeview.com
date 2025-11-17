@@ -134,16 +134,20 @@ export default function HeroCarousel() {
       </button>
 
       {/* Thumbnail Indicators */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-3">
         {images.map((img, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition ${
-              index === currentIndex ? 'bg-white' : 'bg-white/50'
+            className={`w-11 h-11 rounded-full transition flex items-center justify-center ${
+              index === currentIndex ? 'bg-white/90' : 'bg-white/50'
             }`}
             aria-label={`Go to slide ${index + 1}: ${img.title}`}
-          />
+          >
+            <span className={`w-2 h-2 rounded-full ${
+              index === currentIndex ? 'bg-blue-600' : 'bg-gray-600'
+            }`} />
+          </button>
         ))}
       </div>
 

@@ -71,7 +71,7 @@ export default function AvailableHomesOnline() {
                 )}
                 {home.available && (
                   <div className="absolute top-4 right-4">
-                    <span className="bg-green-600 text-white text-xs px-3 py-1 rounded-full font-semibold">
+                    <span className="bg-green-700 text-white text-xs px-3 py-1 rounded-full font-semibold">
                       Available Online
                     </span>
                   </div>

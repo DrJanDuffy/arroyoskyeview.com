@@ -90,16 +90,20 @@ export default function DrJanTestimonials() {
               </button>
 
               {/* Indicators */}
-              <div className="flex justify-center mt-6 space-x-2">
+              <div className="flex justify-center mt-6 space-x-3">
                 {testimonials.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentIndex(index)}
-                    className={`w-2 h-2 rounded-full transition ${
+                    className={`w-11 h-11 rounded-full transition flex items-center justify-center ${
                       index === currentIndex ? 'bg-blue-600' : 'bg-gray-300'
                     }`}
                     aria-label={`Go to testimonial ${index + 1}`}
-                  />
+                  >
+                    <span className={`w-2 h-2 rounded-full ${
+                      index === currentIndex ? 'bg-white' : 'bg-gray-600'
+                    }`} />
+                  </button>
                 ))}
               </div>
             </>
