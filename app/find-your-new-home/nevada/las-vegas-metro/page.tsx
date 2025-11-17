@@ -15,6 +15,31 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/find-your-new-home/nevada/las-vegas-metro',
   },
+  openGraph: {
+    title: 'Find Your New Home in Las Vegas Metro, Nevada | New Construction Homes',
+    description: 'Discover new construction homes and communities throughout Las Vegas Metro, Nevada. Browse available homes, floor plans, and communities in Las Vegas, Henderson, Summerlin, Skye Canyon, and surrounding areas with expert buyer\'s agent representation.',
+    url: 'https://www.arroyoskyeview.com/find-your-new-home/nevada/las-vegas-metro',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Arroyo at Skyeview at Skye Canyon',
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function LasVegasMetroPage() {

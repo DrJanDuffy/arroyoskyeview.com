@@ -12,6 +12,31 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/blog/buying-home-with-student-loans',
   },
+  openGraph: {
+    title: 'Buying Home with Student Loans | Expert Guide',
+    description: 'Learn how student loans don\'t have to prevent you from buying your dream home. Get expert advice on managing student debt while purchasing a home.',
+    url: 'https://www.arroyoskyeview.com/blog/buying-home-with-student-loans',
+    type: 'article',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Arroyo at Skyeview at Skye Canyon',
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function BuyingHomeWithStudentLoansPage() {

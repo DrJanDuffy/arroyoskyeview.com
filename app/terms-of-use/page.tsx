@@ -9,6 +9,31 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/terms-of-use',
   },
+  openGraph: {
+    title: 'Terms of Use | Arroyo at Skyeview | Homes by Dr. Jan Duffy',
+    description: 'Terms of Use for Arroyo at Skyeview | Homes by Dr. Jan Duffy website. Understand the terms and conditions for using our real estate services and website.',
+    url: 'https://www.arroyoskyeview.com/terms-of-use',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Arroyo at Skyeview at Skye Canyon',
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function TermsOfUsePage() {

@@ -21,6 +21,31 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/sierra-at-skyeview',
   },
+  openGraph: {
+    title: 'Sierra at Skyeview | New Homes in Skye Canyon Las Vegas',
+    description: 'Sierra at Skyeview offers new construction townhomes in Skye Canyon, Las Vegas. Expert buyer representation with Dr. Jan Duffy. Call (702) 903-4687.',
+    url: 'https://www.arroyoskyeview.com/sierra-at-skyeview',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Arroyo at Skyeview at Skye Canyon',
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function SierraAtSkyeviewPage() {

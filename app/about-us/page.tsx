@@ -22,6 +22,31 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/about-us',
   },
+  openGraph: {
+    title: 'About Arroyo at Skyeview | Las Vegas New Construction Homes',
+    description: 'Learn about Arroyo at Skyeview Homes - new construction townhomes in Skye Canyon, northwest Las Vegas, Nevada. Expert buyer representation with Dr. Jan Duffy.',
+    url: 'https://www.arroyoskyeview.com/about-us',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Arroyo at Skyeview at Skye Canyon',
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function AboutUsPage() {

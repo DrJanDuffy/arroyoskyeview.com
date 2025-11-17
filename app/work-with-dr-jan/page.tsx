@@ -17,6 +17,31 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.arroyoskyeview.com/work-with-dr-jan',
   },
+  openGraph: {
+    title: 'Work with Dr. Jan Duffy | New Construction Home Expert | Las Vegas, Nevada',
+    description: 'Expert buyer representation for new construction homes in Las Vegas, Nevada. Dr. Jan Duffy represents YOU, not the builder. Construction monitoring, building standards inspection, insider knowledge. No extra cost. Call (702) 903-4687.',
+    url: 'https://www.arroyoskyeview.com/work-with-dr-jan',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Arroyo at Skyeview at Skye Canyon',
+      },
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function WorkWithDrJanPage() {

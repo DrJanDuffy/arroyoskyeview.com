@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/find-your-new-home/nevada/las-vegas-metro`,
-      lastModified: lastWeek,
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
@@ -87,9 +87,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/about-us`,
-      lastModified: lastMonth,
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/contact-us`,
@@ -99,9 +99,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/online-homebuying`,
-      lastModified: lastMonth,
-      changeFrequency: 'monthly',
-      priority: 0.8,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/neighborhoods/summerlin-las-vegas`,
@@ -141,27 +141,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/blog/housing-market-crash-2025`,
-      lastModified: lastMonth,
-      changeFrequency: 'monthly',
-      priority: 0.7,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/blog/buying-home-with-student-loans`,
-      lastModified: lastMonth,
-      changeFrequency: 'monthly',
-      priority: 0.7,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/blog/market-passed-you-by`,
-      lastModified: lastMonth,
-      changeFrequency: 'monthly',
-      priority: 0.7,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/blog/sale-crosses-finish-line`,
-      lastModified: lastMonth,
-      changeFrequency: 'monthly',
-      priority: 0.7,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/blog/new-home-inventory-2x`,
@@ -183,9 +183,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/terms-of-use`,
-      lastModified: lastMonth,
-      changeFrequency: 'yearly',
-      priority: 0.5,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
     {
       url: `${baseUrl}/accessibility`,
