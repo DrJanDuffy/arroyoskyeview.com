@@ -3,6 +3,7 @@ import Script from 'next/script'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
 import StructuredData from './components/structured-data'
+import PreconnectLinks from './components/preconnect-links'
 import './globals.css'
 
 const geistSans = Geist({
@@ -81,20 +82,25 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Preconnect links for faster resource loading */}
+        <PreconnectLinks />
+        
         {/* Structured Data for SEO */}
         <StructuredData />
         
-        {/* Google tag (gtag.js) */}
+        {/* Google tag (gtag.js) - Deferred to improve initial page load */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-6HBW87EGMR"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-6HBW87EGMR');
+            gtag('config', 'G-6HBW87EGMR', {
+              page_path: window.location.pathname,
+            });
           `}
         </Script>
         <ThemeProvider

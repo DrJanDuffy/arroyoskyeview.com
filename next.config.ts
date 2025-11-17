@@ -15,6 +15,17 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Optimize for modern browsers - reduce legacy JavaScript polyfills
+  compiler: {
+    // Remove console.log in production
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error', 'warn'],
+    } : false,
+  },
+  // Enable experimental features for better performance
+  experimental: {
+    optimizePackageImports: ['lucide-react', '@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu'],
+  },
 }
 
 export default nextConfig
