@@ -2,6 +2,7 @@ import Script from 'next/script'
 
 export default function ReviewSchema() {
   const businessId = 'https://www.arroyoskyeview.com'
+  const serviceId = `${businessId}#buyer-representation-service`
   
   const reviewSchema = {
     '@context': 'https://schema.org',
@@ -31,10 +32,15 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'RealEstateAgent',
-          '@id': businessId,
-          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
-          url: businessId,
+          '@type': 'Service',
+          '@id': serviceId,
+          name: 'Buyer Representation for New Construction Homes',
+          serviceType: 'Real Estate Buyer Representation',
+          provider: {
+            '@type': 'RealEstateAgent',
+            '@id': businessId,
+            name: 'Dr. Jan Duffy',
+          },
         },
       },
       {
@@ -51,10 +57,15 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'RealEstateAgent',
-          '@id': businessId,
-          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
-          url: businessId,
+          '@type': 'Service',
+          '@id': serviceId,
+          name: 'Buyer Representation for New Construction Homes',
+          serviceType: 'Real Estate Buyer Representation',
+          provider: {
+            '@type': 'RealEstateAgent',
+            '@id': businessId,
+            name: 'Dr. Jan Duffy',
+          },
         },
       },
       {
@@ -71,10 +82,15 @@ export default function ReviewSchema() {
           bestRating: '5',
         },
         itemReviewed: {
-          '@type': 'RealEstateAgent',
-          '@id': businessId,
-          name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
-          url: businessId,
+          '@type': 'Service',
+          '@id': serviceId,
+          name: 'Buyer Representation for New Construction Homes',
+          serviceType: 'Real Estate Buyer Representation',
+          provider: {
+            '@type': 'RealEstateAgent',
+            '@id': businessId,
+            name: 'Dr. Jan Duffy',
+          },
         },
       },
     ],
