@@ -18,6 +18,7 @@ export default function Footer() {
     { name: 'Summerlin', href: '/neighborhoods/summerlin-las-vegas', title: 'Summerlin Las Vegas New Homes' },
     { name: 'Henderson', href: '/neighborhoods/henderson-las-vegas', title: 'Henderson Las Vegas New Construction' },
     { name: 'North Las Vegas', href: '/neighborhoods/north-las-vegas', title: 'North Las Vegas New Construction Homes' },
+    { name: 'Centennial Hills', href: '/neighborhoods/centennial-hills', title: 'Centennial Hills Las Vegas New Construction' },
     { name: 'Las Vegas Metro', href: '/find-your-new-home/nevada/las-vegas-metro', title: 'Las Vegas Metro New Homes' },
   ]
 
@@ -30,6 +31,7 @@ export default function Footer() {
   const buyerResources = [
     { name: 'First-Time Homebuyer Guide', href: '/buyers/first-time-homebuyer', title: 'First Time Homebuyer Guide Las Vegas' },
     { name: 'Financing New Construction', href: '/buyers/financing-new-construction', title: 'Financing New Construction Homes Las Vegas' },
+    { name: 'New Construction Inspections', href: '/buyers/inspections-new-construction', title: 'New Construction Home Inspections Guide Las Vegas' },
     { name: 'Builder Incentives Guide', href: '/buyers/builder-incentives-guide', title: 'New Construction Builder Incentives Las Vegas' },
     { name: 'Homebuying Process', href: '/homebuying-process', title: 'New Home Buying Process Las Vegas' },
     { name: 'Online Homebuying', href: '/online-homebuying', title: 'Buy New Home Online Las Vegas' },

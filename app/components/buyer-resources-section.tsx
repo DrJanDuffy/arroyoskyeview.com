@@ -66,6 +66,17 @@ export default function BuyerResourcesSection() {
               Complete guide to the new construction homebuying process from pre-registration to closing. Understand each step and what to expect.
             </p>
           </Link>
+          <Link
+            href="/buyers/inspections-new-construction"
+            className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+          >
+            <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+              New Construction Home Inspections Guide
+            </h3>
+            <p className="text-gray-600">
+              Complete guide to inspections for new construction homes, including construction monitoring, building standards inspection, and what to look for.
+            </p>
+          </Link>
         </div>
       </div>
     </section>

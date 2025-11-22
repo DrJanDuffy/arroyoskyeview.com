@@ -217,6 +217,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/neighborhoods/centennial-hills`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/buyers/inspections-new-construction`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/construction-monitoring`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ]
 }
 
