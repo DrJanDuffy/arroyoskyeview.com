@@ -100,6 +100,9 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', 'G-6HBW87EGMR', {
               page_path: window.location.pathname,
+              send_page_view: true,
+              anonymize_ip: true,
+              cookie_flags: 'SameSite=None;Secure',
             });
           `}
         </Script>
