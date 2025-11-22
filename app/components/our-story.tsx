@@ -10,9 +10,12 @@ export default function OurStory() {
         
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-gray-700 mb-8 text-center">
-            We\'ve been building in sought-after metros from coast to coast for over two decades, with dream homes 
-            that come in all shapes and sizes—from single-family homes to townhomes, paired homes and condos in 
-            16 states and over 45 markets across the country
+            Dr. Jan Duffy brings extensive expertise in new construction homebuying to Las Vegas, specializing in 
+            Arroyo at Skyeview Homes and Skye Canyon communities. With deep knowledge of northwest Las Vegas real estate, 
+            zip code 89166, and the new construction process, Dr. Duffy provides expert buyer representation that protects 
+            your interests throughout every stage of purchasing a new home. Her construction monitoring services, building 
+            standards inspections, and insider knowledge of builder incentives help homebuyers make informed decisions and 
+            secure the best deals on new construction townhomes in Skye Canyon.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
