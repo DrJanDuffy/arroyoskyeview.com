@@ -32,22 +32,7 @@ const nextConfig: NextConfig = {
   },
   // Optimize production builds - disable source maps for smaller bundles
   productionBrowserSourceMaps: false,
-  // Redirects configuration (backup to middleware - Vercel will use this if middleware doesn't catch it)
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'arroyoskyeview.com', // non-www
-          },
-        ],
-        destination: 'https://www.arroyoskyeview.com/:path*',
-        permanent: true, // 301 redirect
-      },
-    ]
-  },
+  // Note: Redirects (HTTP→HTTPS, non-www→www) are handled by middleware.ts
 }
 
 export default nextConfig
