@@ -39,7 +39,7 @@ export default function DrJanContactCard() {
       
       <div className="mt-4 pt-4 border-t border-blue-200">
         <p className="text-xs text-gray-600">
-          <strong>Remember:</strong> Builders pay for buyer representation on Arroyo at Skyeview Homes—you're already funding an agent, so choose the best one.
+          <strong>Remember:</strong> Builders pay for buyer representation on Arroyo at Skyeview Homes—you're already funding an agent, so choose Dr. Jan Duffy who works exclusively for HOME BUYERS, not the builder.
         </p>
       </div>
     </div>

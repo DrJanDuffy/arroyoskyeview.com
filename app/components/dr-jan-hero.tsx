@@ -22,7 +22,7 @@ export default function DrJanHero() {
             <strong>Dr. Jan Duffy represents HOME BUYERS</strong>—not the builder. Expert buyer representation for Arroyo at Skyeview Homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. No extra cost to you.
           </p>
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Builders pay for buyer representation on all new construction homes including Arroyo at Skyeview Homes—which means you're already funding an agent, so you might as well choose the best one. <strong>Dr. Jan Duffy is a New Construction Home Expert</strong> who specializes in Arroyo at Skyeview Homes and brings insider knowledge of Skye Canyon (zip code 89166), northwest Las Vegas communities, real-time construction monitoring every 7-10 days, and a building standards inspection at closing—protecting YOUR interests as a home buyer every step of the way.
+            Builders pay for buyer representation on all new construction homes including Arroyo at Skyeview Homes—which means you're already funding an agent, so choose one who works exclusively for YOU, not the builder. <strong>Dr. Jan Duffy is a New Construction Home Expert</strong> who specializes in Arroyo at Skyeview Homes and brings insider knowledge of Skye Canyon (zip code 89166), northwest Las Vegas communities, real-time construction monitoring every 7-10 days, and a building standards inspection at closing—protecting YOUR interests as a home buyer every step of the way.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">

@@ -46,7 +46,7 @@ export default function WhyWorkWithDrJan() {
               No Extra Cost
             </h3>
             <p className="text-gray-700 mb-4">
-              Builders pay for buyer representation on Arroyo at Skyeview Homes—you're already funding an agent, so choose the best one who works for YOU, not the builder.
+              Builders pay for buyer representation on Arroyo at Skyeview Homes—you're already funding an agent, so choose Dr. Jan Duffy who works exclusively for YOU, not the builder, with construction monitoring every 7-10 days and building standards inspection at closing.
             </p>
           </div>
         </div>
