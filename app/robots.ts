@@ -16,7 +16,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: 'Googlebot-Image',
         allow: '/',
-        disallow: ['/api/', '/_next/', '/admin/'],
+        disallow: ['/api/', '/_next/', '/admin/', '/manifest.webmanifest'],
       },
     ],
     sitemap: 'https://www.arroyoskyeview.com/sitemap.xml',
