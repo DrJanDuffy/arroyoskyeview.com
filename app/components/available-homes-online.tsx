@@ -42,8 +42,8 @@ export default function AvailableHomesOnline() {
           Available Homes for Online Purchase
         </h2>
         <p className="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-          Browse our selection of homes available for purchase online. Click "Buy Now" to start your 
-          online homebuying journey.
+          Browse new construction homes at Arroyo at Skyeview Homes and other Skye Canyon communities available for purchase online. Click "Buy Now" to start your 
+          online homebuying journey with expert buyer representation from Dr. Jan Duffy.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
