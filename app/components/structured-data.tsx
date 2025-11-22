@@ -288,6 +288,12 @@ export default function StructuredData() {
     description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
     url: 'https://www.arroyoskyeview.com',
     telephone: '+1-702-903-4687',
+    email: 'info@arroyoskyeview.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.arroyoskyeview.com/og-image.png',
+    },
+    image: 'https://www.arroyoskyeview.com/og-image.png',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '8912 Vanhoy Crk St',
@@ -295,6 +301,11 @@ export default function StructuredData() {
       addressRegion: 'NV',
       postalCode: '89166',
       addressCountry: 'US',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: '36.2765',
+      longitude: '-115.2832',
     },
     areaServed: [
       {
@@ -322,6 +333,42 @@ export default function StructuredData() {
       'Henderson',
       'First-Time Homebuyers',
       'Builder Incentives',
+      'Construction Monitoring',
+      'Building Standards Inspection',
+      'Buyer Representation',
+    ],
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: '+1-702-903-4687',
+        contactType: 'Customer Service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+        hoursAvailable: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: [
+            'Monday',
+            'Tuesday',
+            'Wednesday',
+            'Thursday',
+            'Friday',
+            'Saturday',
+            'Sunday',
+          ],
+          opens: '09:00',
+          closes: '18:00',
+        },
+      },
+      {
+        '@type': 'ContactPoint',
+        email: 'info@arroyoskyeview.com',
+        contactType: 'Customer Service',
+        areaServed: 'US',
+        availableLanguage: 'English',
+      },
+    ],
+    sameAs: [
+      'https://www.arroyoskyeview.com',
     ],
   }
 

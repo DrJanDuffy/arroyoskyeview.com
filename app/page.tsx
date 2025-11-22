@@ -31,6 +31,7 @@ import AnalyticsTracker from './components/analytics-tracker'
 import ReviewSchema from './components/review-schema'
 import UrgencyBanner from './components/urgency-banner'
 import ConversionFunnel from './components/conversion-funnel'
+import ProductSchemas from './components/product-schemas'
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'homes' | 'plans' | 'map' | 'overview' | 'area' | 'resources'>('homes')
@@ -192,6 +193,107 @@ export default function HomePage() {
       <StickyPhoneCTA />
       <AnalyticsTracker />
       <ReviewSchema />
+      <ProductSchemas
+        floorPlans={[
+          {
+            name: 'Beverly',
+            price: 364990,
+            sqft: 1531,
+            bedrooms: 3,
+            bathrooms: 2.5,
+            parking: 2,
+            description: 'Interior Unit',
+            image: '/images/floor-plans/beverly-model.jpg',
+          },
+          {
+            name: 'Captiva',
+            price: 374990,
+            sqft: 1643,
+            bedrooms: 3,
+            bathrooms: 2.5,
+            parking: 2,
+            description: '3 Bed + Loft',
+            image: '/images/floor-plans/captiva-model.jpg',
+          },
+          {
+            name: 'Delray',
+            price: 384990,
+            sqft: 1729,
+            bedrooms: 3,
+            bathrooms: 2.5,
+            parking: 2,
+            description: 'End Unit',
+            image: '/images/floor-plans/delray-model.jpg',
+          },
+        ]}
+        homes={[
+          {
+            address: '8933 Grabill Spruce St',
+            lot: 'ARR224',
+            floorPlan: 'Delray',
+            price: 424590,
+            sqft: 1729,
+            bedrooms: 4,
+            bathrooms: 2.5,
+            parking: 2,
+            completion: 'Dec. Move In',
+            features: ['Gray cabinets'],
+            image: '/images/homes/homes-1.jpg',
+          },
+          {
+            address: '8925 Grabill Spruce St',
+            lot: 'ARR223',
+            floorPlan: 'Captiva',
+            price: 405720,
+            sqft: 1643,
+            bedrooms: 3,
+            bathrooms: 2.5,
+            parking: 2,
+            completion: 'Dec. Move In',
+            features: ['LVP Flooring', 'White Cabinets'],
+            image: '/images/homes/homes-2.jpg',
+          },
+          {
+            address: '8942 Grabill Spruce St',
+            lot: 'ARR183',
+            floorPlan: 'Delray',
+            price: 416960,
+            sqft: 1729,
+            bedrooms: 3,
+            bathrooms: 2.5,
+            parking: 2,
+            completion: 'Dec. Move In',
+            features: ['End Unit', 'White Cabinets'],
+            image: '/images/homes/homes-3.jpg',
+          },
+          {
+            address: '8917 Grabill Spruce St',
+            lot: 'ARR222',
+            floorPlan: 'Beverly',
+            price: 392640,
+            sqft: 1531,
+            bedrooms: 3,
+            bathrooms: 2.5,
+            parking: 2,
+            completion: 'Dec. Move In',
+            features: ['LG Kitchen Appliances', 'Java Cabinets'],
+            image: '/images/homes/homes-4.jpg',
+          },
+          {
+            address: '8909 Grabill Spruce St',
+            lot: 'ARR221',
+            floorPlan: 'Captiva',
+            price: 411090,
+            sqft: 1643,
+            bedrooms: 3,
+            bathrooms: 2.5,
+            parking: 2,
+            completion: 'Dec. Move In',
+            features: ['End unit', 'Courtyard Entry'],
+            image: '/images/homes/homes-5.jpg',
+          },
+        ]}
+      />
     </div>
   )
 }
