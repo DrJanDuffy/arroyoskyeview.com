@@ -23,6 +23,17 @@ export default function BuyerResourcesSection() {
             </p>
           </Link>
           <Link
+            href="/buyers/financing-new-construction"
+            className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+          >
+            <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+              Financing New Construction Homes
+            </h3>
+            <p className="text-gray-600">
+              Complete guide to financing new construction homes in Las Vegas, Nevada. Learn about loan types, down payment assistance, builder incentives, and financing options.
+            </p>
+          </Link>
+          <Link
             href="/buyers/builder-incentives-guide"
             className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
           >
