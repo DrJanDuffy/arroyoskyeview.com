@@ -21,7 +21,7 @@ export default function HomebuyerResources() {
     {
       id: '3',
       title: 'You Can Buy a Home When You Have Student Loans',
-      description: 'Learn how student loans don\'t have to prevent you from buying your dream home. Get expert advice on managing student debt while purchasing a home.',
+      description: 'Learn how student loans don\'t have to prevent you from buying a new construction home in Las Vegas. Get expert advice on managing student debt while purchasing a home at Arroyo at Skyeview Homes or other Skye Canyon communities.',
       image: '/images/hero/hero-7.jpg',
       category: 'Homebuying Guide',
       url: '/blog/buying-home-with-student-loans',

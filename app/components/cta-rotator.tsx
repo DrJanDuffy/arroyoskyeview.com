@@ -20,7 +20,7 @@ const ctaOptions: CTAOption[] = [
     variant: 'primary',
   },
   {
-    text: "Ready to Build Your Dream Home? Let's Talk",
+    text: "Ready to Build Your New Construction Home? Let's Talk",
     type: 'call',
     variant: 'primary',
   },
@@ -122,7 +122,7 @@ export function getCTAByContext(context: string): { text: string; type: 'call' |
     return ctaOptions[1] // "Lock In Pre-Construction Pricing Today"
   }
   if (contextLower.includes('build') || contextLower.includes('dream')) {
-    return ctaOptions[2] // "Ready to Build Your Dream Home? Let's Talk"
+    return ctaOptions[2] // "Ready to Build Your New Construction Home? Let's Talk"
   }
   if (contextLower.includes('lot') || contextLower.includes('homesite')) {
     return ctaOptions[3] // "Get the Inside Track on Available Lots"

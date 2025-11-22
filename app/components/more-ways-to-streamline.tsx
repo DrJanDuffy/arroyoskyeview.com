@@ -24,10 +24,8 @@ export default function MoreWaysToStreamline() {
           More ways to streamline
         </h2>
         <p className="text-lg text-gray-700 mb-12 text-center max-w-3xl mx-auto">
-          Our affiliate companies allow you to make the process even easier, offering everything from 
-          in-house mortgage financing to title and insurance services. With everything under the same 
-          roof, you\'ll enjoy a more seamless experience that allows you to focus more on the excitement 
-          of buying your dream home.
+          Affiliate companies help streamline your new construction home purchase at Arroyo at Skyeview Homes and other Skye Canyon communities, offering everything from 
+          in-house mortgage financing to title and insurance services. With coordinated services, you\'ll enjoy a more seamless experience that allows you to focus on selecting your new construction home in northwest Las Vegas (zip code 89166).
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

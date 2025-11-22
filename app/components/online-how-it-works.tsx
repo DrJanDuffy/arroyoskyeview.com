@@ -12,7 +12,7 @@ const steps = [
   {
     id: 2,
     title: 'Select',
-    description: 'Choose your dream home and customize it with available options and upgrades',
+    description: 'Choose your new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities and customize it with available options and upgrades',
     icon: (
       <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />

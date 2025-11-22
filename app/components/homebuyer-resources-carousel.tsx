@@ -25,7 +25,7 @@ const resources = [
   {
     id: '4',
     title: 'The Case for Buying a Home Now',
-    description: 'See why now could be the right time to make your move and achieve your dream home.',
+    description: 'See why now could be the right time to make your move and purchase your new construction home in Las Vegas.',
     image: '/images/hero/hero-11.jpg',
   },
 ]

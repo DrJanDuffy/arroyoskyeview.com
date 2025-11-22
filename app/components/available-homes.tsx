@@ -149,8 +149,8 @@ export default function AvailableHomes() {
 
       <div className="bg-blue-50 border-l-4 border-blue-600 p-4 mb-6">
         <p className="text-sm text-blue-800">
-          <strong>Buy online today!</strong> Lock in your dream home through our convenient and completely online{' '}
-          <strong>Buy Now</strong> process.
+          <strong>Buy online today!</strong> Lock in your new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities through the convenient and completely online{' '}
+          <strong>Buy Now</strong> process with expert buyer representation from Dr. Jan Duffy.
         </p>
       </div>
 

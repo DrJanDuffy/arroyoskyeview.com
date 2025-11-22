@@ -4,7 +4,7 @@ const affiliates = [
   {
     name: 'Inspire Home Loans',
     tagline: 'best-in-class homebuying services',
-    description: 'Offering a wide range of financing options, Inspire Home Loans® will help you secure the best mortgage for your dream home.',
+    description: 'Offering a wide range of financing options, Inspire Home Loans® will help you secure the best mortgage for your new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities.',
     logo: '/images/affiliates/inspire.svg',
   },
   {
@@ -16,7 +16,7 @@ const affiliates = [
   {
     name: 'IHL',
     tagline: 'best-in-class homebuying services',
-    description: 'Quick, precise and easy to work with, the full-service team at IHL Home Insurance® will find the best coverage to protect your dream home, at the best price.',
+    description: 'Quick, precise and easy to work with, the full-service team at IHL Home Insurance® will find the best coverage to protect your new construction home in Las Vegas, at the best price.',
     logo: '/images/affiliates/ihl.svg',
   },
 ]
@@ -26,10 +26,10 @@ export default function OurAffiliates() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center">
-          Our Affiliates
+          Trusted Partners for New Construction Homebuying
         </h2>
         <p className="text-xl text-gray-600 mb-12 text-center italic">
-          best-in-class homebuying services
+          Expert services for your Arroyo at Skyeview Homes purchase
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
