@@ -29,6 +29,13 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
   
+  // Block manifest.webmanifest from being indexed
+  if (url.pathname === '/manifest.webmanifest') {
+    const response = NextResponse.next()
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive, nosnippet')
+    return response
+  }
+  
   // Add security headers to all responses
   const response = NextResponse.next()
   
