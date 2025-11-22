@@ -1,8 +1,15 @@
+'use client'
+
 import Link from 'next/link'
+import { trackPhoneClick } from './analytics-tracker'
 
 export default function Logo() {
+  const handleClick = () => {
+    trackPhoneClick('702-903-4687', 'logo_header')
+  }
+
   return (
-    <Link href="tel:7029034687" className="flex items-center space-x-3 group transition-all duration-200">
+    <Link href="tel:7029034687" onClick={handleClick} className="flex items-center space-x-3 group transition-all duration-200">
       {/* Phone Number Display */}
       <div className="relative flex-shrink-0">
         <div className="w-12 h-12 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">

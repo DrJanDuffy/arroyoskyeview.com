@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import CTARotator, { getCTAByContext } from './cta-rotator'
+import { trackPhoneClick, trackCTAClick } from './analytics-tracker'
 
 interface DrJanCTABannerProps {
   context?: string
@@ -13,6 +14,18 @@ export default function DrJanCTABanner({ context = '' }: DrJanCTABannerProps) {
   const phoneNumber = '(702) 903-4687'
   const telLink = `tel:7029034687`
   const smsLink = `sms:7029034687`
+
+  const handlePhoneClick = () => {
+    if (currentCTA.type === 'call') {
+      trackPhoneClick('702-903-4687', 'dr_jan_cta_banner')
+    } else {
+      trackCTAClick(`${currentCTA.text} - Text`, 'dr_jan_cta_banner')
+    }
+  }
+
+  const handleLearnMoreClick = () => {
+    trackCTAClick("Learn More About Dr. Jan's Buyer Representation", 'dr_jan_cta_banner')
+  }
 
   return (
     <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-8">
@@ -29,12 +42,14 @@ export default function DrJanCTABanner({ context = '' }: DrJanCTABannerProps) {
           <div className="flex flex-col sm:flex-row gap-3">
             <a
               href={currentCTA.type === 'call' ? telLink : smsLink}
+              onClick={handlePhoneClick}
               className="bg-white text-blue-600 px-6 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center whitespace-nowrap"
             >
               {currentCTA.text} - {currentCTA.type === 'call' ? 'Call' : 'Text'} Dr. Jan {phoneNumber}
             </a>
             <Link
               href="/work-with-dr-jan"
+              onClick={handleLearnMoreClick}
               className="bg-blue-500 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-400 transition text-center whitespace-nowrap"
             >
               Learn More About Dr. Jan's Buyer Representation

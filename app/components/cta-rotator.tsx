@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { trackPhoneClick, trackCTAClick } from './analytics-tracker'
 
 interface CTAOption {
   text: string
@@ -95,10 +96,19 @@ export default function CTARotator({
 
   const isPrimary = variant === 'primary' || currentCTA.variant === 'primary'
 
+  const handleClick = () => {
+    if (currentCTA.type === 'call') {
+      trackPhoneClick('702-903-4687', 'cta_rotator')
+    } else {
+      trackCTAClick(`${currentCTA.text} - Text`, 'cta_rotator')
+    }
+  }
+
   return (
     <div className={className}>
       <a
         href={currentCTA.type === 'call' ? telLink : smsLink}
+        onClick={handleClick}
         className={`inline-block px-8 py-4 rounded-lg text-lg font-semibold text-center transition-all duration-300 ${
           isPrimary
             ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl transform hover:scale-105'
