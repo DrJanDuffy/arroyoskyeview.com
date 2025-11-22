@@ -2,18 +2,18 @@ export default function OnlineHomebuyingPioneer() {
   const steps = [
     {
       id: 1,
-      title: 'Shop',
-      description: 'Browse available homes online',
+      title: 'Explore',
+      description: 'Browse available homes at Arroyo at Skyeview Homes and other Skye Canyon communities online',
     },
     {
       id: 2,
-      title: 'Purchase',
-      description: 'Complete your purchase entirely online',
+      title: 'Connect',
+      description: 'Work with Dr. Jan Duffy for expert buyer representation throughout your home search',
     },
     {
       id: 3,
-      title: 'Celebrate',
-      description: 'Move into your new dream home',
+      title: 'Purchase',
+      description: 'Complete your purchase with construction monitoring and building standards inspection',
     },
   ]
 
@@ -21,12 +21,16 @@ export default function OnlineHomebuyingPioneer() {
     <section className="py-16 bg-blue-600 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Online Homebuying Pioneer
+          Streamlined New Construction Homebuying Process
         </h2>
+        <p className="text-xl text-blue-100 mb-8 text-center max-w-3xl mx-auto">
+          Dr. Jan Duffy simplifies the new construction homebuying process for Arroyo at Skyeview Homes 
+          and other Skye Canyon communities, providing expert guidance from initial search through closing.
+        </p>
         
         <div className="mt-12">
           <h3 className="text-2xl font-semibold mb-8 text-center">
-            How It Works
+            How Buyer Representation Works
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -46,15 +50,21 @@ export default function OnlineHomebuyingPioneer() {
             ))}
           </div>
           
-          <div className="mt-12 bg-white/10 rounded-lg p-6">
-            <div className="h-48 bg-white/20 rounded-lg flex items-center justify-center">
-              <div className="text-center">
-                <svg className="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z" />
-                  <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z" />
-                </svg>
-                <p className="text-lg">Graphical user interface, text, application, chat or text message.</p>
-              </div>
+          <div className="mt-12 bg-white/10 rounded-lg p-8">
+            <div className="text-center">
+              <h4 className="text-2xl font-bold mb-4">Expert Buyer Representation at No Extra Cost</h4>
+              <p className="text-lg text-blue-100 mb-6 max-w-2xl mx-auto">
+                Builders pay for buyer representation on all new construction homes, including Arroyo at Skyeview Homes. 
+                This means you're already funding an agent—choose Dr. Jan Duffy, who works exclusively for HOME BUYERS, 
+                not the builder. Get construction monitoring, building standards inspection, and insider knowledge of 
+                builder incentives at no additional cost to you.
+              </p>
+              <a
+                href="tel:7029034687"
+                className="inline-block bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition"
+              >
+                Call Dr. Jan Duffy: (702) 903-4687
+              </a>
             </div>
           </div>
         </div>

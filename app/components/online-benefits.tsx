@@ -37,8 +37,8 @@ const benefits = [
     ),
   },
   {
-    title: 'Support',
-    description: 'Get help from our team whenever you need it, with live chat and phone support available.',
+    title: 'Expert Support',
+    description: 'Get expert guidance from Dr. Jan Duffy whenever you need it, with phone and text support available. She represents HOME BUYERS, not the builder.',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
