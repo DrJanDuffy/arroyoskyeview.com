@@ -16,7 +16,7 @@ export default function OurPreferredBuyersAgent() {
               Expert Buyer Representation - Dr. Jan Duffy Represents YOU
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              We recommend working with Dr. Jan Duffy for expert buyer representation on all new construction homes in Las Vegas, Nevada. She represents YOU, not the builder.
+              Dr. Jan Duffy provides expert buyer representation on all new construction homes in Las Vegas, Nevada, including Arroyo at Skyeview Homes and other Skye Canyon communities (zip code 89166). She represents YOU, not the builder.
             </p>
           </div>
 

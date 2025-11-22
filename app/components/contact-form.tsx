@@ -63,7 +63,7 @@ export default function ContactForm() {
               Get Started with Your Home Search
             </h2>
             <p className="text-lg text-gray-600">
-              Tell us about your new construction home search and we'll get back to you within 24 hours
+              Tell Dr. Jan Duffy about your new construction home search at Arroyo at Skyeview Homes or other Skye Canyon communities, and she'll get back to you within 24 hours
             </p>
           </div>
 
@@ -73,8 +73,8 @@ export default function ContactForm() {
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <div>
-                <p className="font-semibold">Thank you for contacting us!</p>
-                <p className="text-sm mt-1">We'll get back to you soon, typically within 24 hours.</p>
+                <p className="font-semibold">Thank you for contacting Dr. Jan Duffy!</p>
+                <p className="text-sm mt-1">Dr. Jan Duffy will get back to you soon, typically within 24 hours.</p>
               </div>
             </div>
           )}
@@ -203,7 +203,7 @@ export default function ContactForm() {
                 value={formData.message}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition-colors resize-none"
-                placeholder="Tell us about your new home search, questions about communities, financing, or how we can help..."
+                placeholder="Tell Dr. Jan Duffy about your new construction home search at Arroyo at Skyeview Homes or other Skye Canyon communities, questions about financing, or how she can help with buyer representation..."
               />
             </div>
 

@@ -166,7 +166,7 @@ export default function RequestInfo() {
                 onChange={handleChange}
                 rows={3}
                 className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Let us know your preferred dates and times..."
+                placeholder="Tell Dr. Jan Duffy your preferred dates and times for a consultation or home tour..."
               />
             </div>
           )}
