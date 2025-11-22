@@ -34,6 +34,7 @@ export default function Footer() {
     { name: 'Financing New Construction', href: '/buyers/financing-new-construction', title: 'Financing New Construction Homes Las Vegas' },
     { name: 'New Construction Inspections', href: '/buyers/inspections-new-construction', title: 'New Construction Home Inspections Guide Las Vegas' },
     { name: 'Closing Process Guide', href: '/buyers/closing-process-guide', title: 'Closing Process Guide for New Construction Homes Las Vegas' },
+    { name: 'New Construction vs Resale', href: '/buyers/new-construction-vs-resale', title: 'New Construction vs Resale Homes Comparison Las Vegas' },
     { name: 'Builder Incentives Guide', href: '/buyers/builder-incentives-guide', title: 'New Construction Builder Incentives Las Vegas' },
     { name: 'Homebuying Process', href: '/homebuying-process', title: 'New Home Buying Process Las Vegas' },
     { name: 'Online Homebuying', href: '/online-homebuying', title: 'Buy New Home Online Las Vegas' },
