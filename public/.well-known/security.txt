@@ -1,0 +1,14 @@
+Contact: mailto:info@arroyoskyeview.com
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://www.arroyoskyeview.com/.well-known/security.txt
+
+# Security Policy for Arroyo at Skyeview | Homes by Dr. Jan Duffy
+# 
+# If you discover a security vulnerability, please email us at info@arroyoskyeview.com
+# We appreciate responsible disclosure and will respond within 48 hours.
+#
+# Scope: https://www.arroyoskyeview.com and all subdomains
+#
+# We do not offer bug bounties at this time, but we appreciate your help in keeping our site secure.
+
