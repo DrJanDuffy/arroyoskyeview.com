@@ -98,7 +98,7 @@ export default function HomebuyerResources() {
             <a href="/homebuying-process" className="text-blue-600 hover:text-blue-700 font-medium">
               Homebuying Process
             </a>
-            <p className="text-sm text-gray-600 mt-1">Learn about our step-by-step process for buying your new home</p>
+            <p className="text-sm text-gray-600 mt-1">Learn about Dr. Jan Duffy's step-by-step process for buying your new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities</p>
           </li>
           <li>
             <a href="/faq" className="text-blue-600 hover:text-blue-700 font-medium">
@@ -116,7 +116,7 @@ export default function HomebuyerResources() {
             <a href="/online-homebuying" className="text-blue-600 hover:text-blue-700 font-medium">
               Online Homebuying
             </a>
-            <p className="text-sm text-gray-600 mt-1">Purchase your home entirely online with our convenient platform</p>
+            <p className="text-sm text-gray-600 mt-1">Purchase your new construction home at Arroyo at Skyeview Homes entirely online with expert buyer representation from Dr. Jan Duffy</p>
           </li>
         </ul>
       </div>

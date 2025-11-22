@@ -8,15 +8,15 @@ export default function GetInTouch() {
           GET IN TOUCH
         </h2>
         <p className="text-xl mb-8 text-blue-100">
-          Our New Home Specialists are standing by to help you with everything from prequalification 
-          to finding the right home in your area of interest.
+          Dr. Jan Duffy, New Construction Home Expert, is available to help you with everything from prequalification 
+          to finding the right new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities in northwest Las Vegas (zip code 89166).
         </p>
         <Button
           asChild
           className="bg-white text-blue-600 hover:bg-gray-100"
           size="lg"
         >
-          <a href="#contact">Contact us</a>
+          <a href="tel:7029034687">Call Dr. Jan Duffy: (702) 903-4687</a>
         </Button>
       </div>
     </section>

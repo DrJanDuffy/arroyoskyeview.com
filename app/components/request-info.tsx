@@ -27,7 +27,7 @@ export default function RequestInfo() {
     e.preventDefault()
     // Handle form submission
     console.log('Form submitted:', formData)
-    alert('Thank you for your interest! We will contact you soon.')
+    alert('Thank you for your interest! Dr. Jan Duffy will contact you soon.')
   }
 
   return (
@@ -173,7 +173,7 @@ export default function RequestInfo() {
 
           <div className="text-xs text-gray-500 mb-6">
             <p>
-              Our privacy policy can be found at{' '}
+              The privacy policy can be found at{' '}
               <a 
                 href="/privacy-policy" 
                 className="text-blue-600 hover:underline"
@@ -181,7 +181,7 @@ export default function RequestInfo() {
               >
                 /privacy-policy
               </a>.
-              You understand that by providing your information to us, we will reach out to you via the information you provide us.
+              You understand that by providing your information, Dr. Jan Duffy will reach out to you via the information you provide.
               Standard text message rates apply. Users can opt out of text messages at any time by texting STOP.
             </p>
           </div>

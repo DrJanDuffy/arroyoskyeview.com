@@ -6,9 +6,9 @@ export default function HomebuyingProcessHero() {
           Explore the homebuying process
         </h1>
         <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-          Whether it\'s your first time buying a new home or you\'re in need of a refresher for the 
-          next home purchase, we\'re here to walk you through the process—ensuring that you\'ll be 
-          prepared and informed every step of the way.
+          Whether it\'s your first time buying a new construction home at Arroyo at Skyeview Homes or you\'re in need of a refresher for the 
+          next home purchase, Dr. Jan Duffy walks you through the process—ensuring that you\'ll be 
+          prepared and informed every step of the way with expert buyer representation.
         </p>
       </div>
     </section>

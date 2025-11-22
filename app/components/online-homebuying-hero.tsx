@@ -6,7 +6,7 @@ export default function OnlineHomebuyingHero() {
           Online Homebuying
         </h1>
         <p className="text-xl md:text-2xl text-blue-100 mb-8">
-          Purchase your new home completely online with our industry-first "Buy Now" option
+          Purchase your new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities completely online with the industry-first "Buy Now" option
         </p>
         <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mt-8">
           <p className="text-lg">

@@ -7,13 +7,13 @@ const resources = [
   {
     id: '1',
     title: 'Homeowner Approved',
-    description: 'Discover why we\'re homeowner approved, with genuine reviews from real homeowners!',
+    description: 'Discover why Dr. Jan Duffy is homeowner approved, with genuine reviews from real homeowners who purchased new construction homes in Las Vegas!',
     image: '/images/hero/hero-8.jpg',
   },
   {
     id: '2',
     title: 'New Construction Homes: Arroyo at Skyeview Homes',
-    description: 'Dive into the differences between our two brands and discover which might be your best fit!',
+    description: 'Learn about Arroyo at Skyeview Homes and other Skye Canyon communities to discover which new construction development fits your needs in northwest Las Vegas (zip code 89166).',
     image: '/images/hero/hero-9.jpg',
   },
   {
