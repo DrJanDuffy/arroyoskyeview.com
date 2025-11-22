@@ -5,21 +5,28 @@ export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone()
   const hostname = request.headers.get('host') || ''
   
-  // Define the canonical domain (www version)
+  // Define the canonical domain (www version with HTTPS)
   const canonicalDomain = 'www.arroyoskyeview.com'
+  const canonicalProtocol = 'https:'
   
   // Skip redirects for localhost (development)
-  if (hostname.includes('localhost')) {
+  if (hostname.includes('localhost') || hostname.includes('127.0.0.1')) {
     return NextResponse.next()
   }
   
-  // Redirect non-www to www (Vercel handles HTTP to HTTPS automatically)
-  if (hostname !== canonicalDomain) {
+  // Check if redirect is needed
+  const needsRedirect = 
+    url.protocol !== canonicalProtocol || // HTTP to HTTPS
+    hostname !== canonicalDomain // non-www to www
+  
+  if (needsRedirect) {
+    // Build canonical URL
     url.hostname = canonicalDomain
-    url.protocol = 'https:'
-    
+    url.protocol = canonicalProtocol
     // Preserve pathname and search params
-    return NextResponse.redirect(url, 301) // Permanent redirect for SEO
+    
+    // Use 301 (permanent redirect) for SEO
+    return NextResponse.redirect(url, 301)
   }
   
   return NextResponse.next()
