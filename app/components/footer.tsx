@@ -17,6 +17,7 @@ export default function Footer() {
     { name: 'Skye Canyon', href: '/areas/zip-89166', title: 'Skye Canyon Las Vegas Neighborhood' },
     { name: 'Summerlin', href: '/neighborhoods/summerlin-las-vegas', title: 'Summerlin Las Vegas New Homes' },
     { name: 'Henderson', href: '/neighborhoods/henderson-las-vegas', title: 'Henderson Las Vegas New Construction' },
+    { name: 'North Las Vegas', href: '/neighborhoods/north-las-vegas', title: 'North Las Vegas New Construction Homes' },
     { name: 'Las Vegas Metro', href: '/find-your-new-home/nevada/las-vegas-metro', title: 'Las Vegas Metro New Homes' },
   ]
 
@@ -28,12 +29,15 @@ export default function Footer() {
 
   const buyerResources = [
     { name: 'First-Time Homebuyer Guide', href: '/buyers/first-time-homebuyer', title: 'First Time Homebuyer Guide Las Vegas' },
+    { name: 'Financing New Construction', href: '/buyers/financing-new-construction', title: 'Financing New Construction Homes Las Vegas' },
     { name: 'Builder Incentives Guide', href: '/buyers/builder-incentives-guide', title: 'New Construction Builder Incentives Las Vegas' },
     { name: 'Homebuying Process', href: '/homebuying-process', title: 'New Home Buying Process Las Vegas' },
     { name: 'Online Homebuying', href: '/online-homebuying', title: 'Buy New Home Online Las Vegas' },
   ]
 
   const resources = [
+    { name: 'Resources', href: '/resources', title: 'Free Resources for New Construction Homebuyers' },
+    { name: 'Testimonials', href: '/testimonials', title: 'Client Testimonials and Reviews Dr. Jan Duffy' },
     { name: 'FAQ', href: '/faq', title: 'Frequently Asked Questions New Construction Homes Las Vegas' },
     { name: 'Las Vegas Neighborhood Q&A', href: '/faq/las-vegas-hyperlocal', title: 'Las Vegas Real Estate Questions Answers' },
   ]
