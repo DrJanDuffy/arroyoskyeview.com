@@ -6,7 +6,7 @@
 
 ---
 
-## ✅ Pages Created (Total: 9 Pages)
+## ✅ Pages Created (Total: 11 Pages)
 
 ### Phase 1: Quick Wins (4 Pages)
 
@@ -156,6 +156,40 @@
 
 ---
 
+### Phase 3: Service & Comparison Pages (2 Pages)
+
+### 10. **Building Standards Inspection Service** (`/services/building-standards-inspection`) ⭐⭐⭐⭐⭐
+**Purpose**: Service-specific page, complement to Construction Monitoring
+
+**Features**:
+- ✅ Detailed explanation of building standards inspection
+- ✅ What's inspected during the process
+- ✅ Why it matters
+- ✅ How it works step-by-step
+- ✅ Comparison with standard home inspection
+- ✅ Complete schema markup
+
+**SEO Value**: High - Targets "building standards inspection", "new construction inspection" searches  
+**User Intent**: Strong - Service-specific searches
+
+---
+
+### 11. **New Construction vs Resale Comparison** (`/buyers/new-construction-vs-resale`) ⭐⭐⭐⭐⭐
+**Purpose**: Educational comparison, capture comparison searches
+
+**Features**:
+- ✅ Comprehensive comparison table
+- ✅ Advantages of each option
+- ✅ Which option is right for you guide
+- ✅ Expert guidance section
+- ✅ Complete schema markup
+- ✅ Links to related guides
+
+**SEO Value**: High - Targets "new construction vs resale", "should I buy new construction" searches  
+**User Intent**: Strong - Comparison searches, decision-making content
+
+---
+
 ## 📊 Site Growth
 
 ### Before:
@@ -166,11 +200,11 @@
 - **Service Pages**: 0
 
 ### After:
-- **Total Pages**: 37 pages (+9 pages, +32% growth)
+- **Total Pages**: 39 pages (+11 pages, +39% growth)
 - **Neighborhood Pages**: 6 (+3, +100% growth)
-- **Buyer Education Pages**: 5 (+3, +150% growth)
+- **Buyer Education Pages**: 6 (+4, +200% growth)
 - **Resource Pages**: 2 (+2, new category)
-- **Service Pages**: 1 (+1, new category)
+- **Service Pages**: 2 (+2, new category)
 
 ---
 
@@ -194,7 +228,7 @@
 ## 📈 Expected SEO Impact
 
 ### Immediate (Week 1-2):
-- ✅ More indexed pages (28 → 37)
+- ✅ More indexed pages (28 → 39)
 - ✅ Better keyword coverage
 - ✅ More internal linking opportunities
 
@@ -249,6 +283,10 @@
 - [x] Closing Process guide created
 - [x] Southwest Las Vegas neighborhood page created
 
+### Phase 3:
+- [x] Building Standards Inspection service page created
+- [x] New Construction vs Resale comparison page created
+
 ### All Phases:
 - [x] All pages added to sitemap
 - [x] Footer navigation updated
@@ -262,7 +300,7 @@
 
 ## 🚀 Summary
 
-**9 new high-priority pages** have been successfully created and deployed:
+**11 new high-priority pages** have been successfully created and deployed:
 
 **Phase 1 (Quick Wins):**
 1. ✅ **Testimonials** - Social proof and trust signals
@@ -277,17 +315,22 @@
 8. ✅ **Closing Process Guide** - Educational content
 9. ✅ **Southwest Las Vegas** - Hyper-local SEO
 
+**Phase 3 (Service & Comparison):**
+10. ✅ **Building Standards Inspection** - Service-specific page
+11. ✅ **New Construction vs Resale** - Comparison page
+
 **Impact**:
-- Site growth: 28 → 37 pages (+32% growth)
-- Better keyword coverage across neighborhoods and buyer education
+- Site growth: 28 → 39 pages (+39% growth)
+- Better keyword coverage across neighborhoods, buyer education, and services
 - More internal linking opportunities
-- Improved user experience with comprehensive guides
+- Improved user experience with comprehensive guides and comparisons
 - Better conversion opportunities with targeted landing pages
 - Stronger local SEO with 6 neighborhood pages
+- Complete service coverage with 2 service-specific pages
 
-**Next**: Continue with more pages as needed (additional neighborhoods, comparison pages, etc.)
+**Next**: Continue with more pages as needed (additional neighborhoods, more comparison pages, etc.)
 
 ---
 
-**The site now has 37 pages with comprehensive coverage of user intent and search queries!**
+**The site now has 39 pages with comprehensive coverage of user intent and search queries!**
 
