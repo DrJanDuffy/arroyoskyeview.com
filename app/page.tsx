@@ -32,6 +32,7 @@ import ReviewSchema from './components/review-schema'
 import UrgencyBanner from './components/urgency-banner'
 import ConversionFunnel from './components/conversion-funnel'
 import ProductSchemas from './components/product-schemas'
+import ExitIntentPopup from './components/exit-intent-popup'
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'homes' | 'plans' | 'map' | 'overview' | 'area' | 'resources'>('homes')
@@ -68,6 +69,7 @@ export default function HomePage() {
       <UrgencyBanner />
       <Header />
       <TrustBadges />
+      <SocialProofBanner />
       <main>
         {/* Always render SEO-critical content first for Google indexing */}
         <HomepageContentSection />
@@ -193,6 +195,7 @@ export default function HomePage() {
       <StickyPhoneCTA />
       <AnalyticsTracker />
       <ReviewSchema />
+      <ExitIntentPopup />
       <ProductSchemas
         floorPlans={[
           {
