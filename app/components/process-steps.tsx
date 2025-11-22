@@ -20,7 +20,7 @@ const steps = [
     id: 2,
     title: 'House Hunt',
     subtitle: 'Search on-site or online',
-    description: 'Once you\'ve prequalified and know your price range, you\'re ready to go shopping. Depending on what\'s most convenient for you, you could browse online, tour communities in person, or a combination of both! This is the time to put together your wish list of everything you\'d want in your dream home.',
+    description: 'Once you\'ve prequalified and know your price range, you\'re ready to search for new construction homes. Browse Arroyo at Skyeview Homes and other Skye Canyon communities online, tour communities in person, or a combination of both. Dr. Jan Duffy helps you identify which communities in northwest Las Vegas (zip code 89166) fit your needs and budget.',
     cta: 'Start your search',
     ctaLink: '/',
     wishList: [

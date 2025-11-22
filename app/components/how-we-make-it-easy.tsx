@@ -3,10 +3,10 @@ export default function HowWeMakeItEasy() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-          How we make it easy
+          Expert Buyer Representation Makes New Construction Homebuying Easy
         </h2>
         <p className="text-lg text-gray-700 mb-12 text-center max-w-3xl mx-auto">
-          We\'ve got your homebuying needs covered with new construction homes in Las Vegas, Nevada. Your buyer\'s agent, Dr. Jan Duffy, helps you navigate all options.
+          Dr. Jan Duffy provides expert buyer representation for new construction homes in Las Vegas, Nevada, including Arroyo at Skyeview Homes and other Skye Canyon communities (zip code 89166). Her construction monitoring, building standards inspection, and insider knowledge help you navigate all options and secure the best deal.
         </p>
 
         {/* Comparison Table */}
