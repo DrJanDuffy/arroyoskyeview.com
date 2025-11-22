@@ -43,7 +43,7 @@ export default function ConversionFunnel() {
         </svg>
       ),
       cta: {
-        text: 'Learn More',
+        text: 'Learn More About Working with Dr. Jan Duffy',
         href: '/work-with-dr-jan',
         type: 'link',
       },
