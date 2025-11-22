@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Overview() {
   return (
     <div>
@@ -5,7 +7,7 @@ export default function Overview() {
       
       <div className="prose max-w-none mb-8">
         <p className="text-lg text-gray-700 mb-6">
-          Arroyo at Skyeview Homes offers new construction townhomes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). These thoughtfully designed two-story townhomes feature quartz countertops, open layouts, 2 to 4 bedrooms, 2.5 baths, and 2-bay garages. As part of the 1,700-acre Skye Canyon master-planned community, Arroyo at Skyeview Homes residents enjoy resort-style pool, fitness center, parks, trails, and top-rated schools including Roger Bryan Elementary (9/10 rating). Located near US-95 and the 215 Beltway, this northwest Las Vegas community provides easy access to employment centers, shopping, and outdoor recreation. When buying Arroyo at Skyeview Homes, work with Dr. Jan Duffy—your buyer's agent who represents HOME BUYERS, not the builder.
+          Arroyo at Skyeview Homes offers new construction townhomes in <Link href="/areas/zip-89166" className="text-blue-600 hover:text-blue-700 underline font-medium">Skye Canyon, northwest Las Vegas, Nevada (zip code 89166)</Link>. These thoughtfully designed two-story townhomes feature quartz countertops, open layouts, 2 to 4 bedrooms, 2.5 baths, and 2-bay garages. As part of the 1,700-acre Skye Canyon master-planned community, Arroyo at Skyeview Homes residents enjoy resort-style pool, fitness center, parks, trails, and top-rated schools including Roger Bryan Elementary (9/10 rating). Located near US-95 and the 215 Beltway, this northwest Las Vegas community provides easy access to employment centers, shopping, and outdoor recreation. When buying Arroyo at Skyeview Homes, work with <Link href="/work-with-dr-jan" className="text-blue-600 hover:text-blue-700 underline font-medium">Dr. Jan Duffy—your buyer's agent who represents HOME BUYERS, not the builder</Link>. Explore <Link href="/homes/townhomes-las-vegas" className="text-blue-600 hover:text-blue-700 underline font-medium">new construction townhomes in Las Vegas</Link> and learn about <Link href="/buyers/first-time-homebuyer" className="text-blue-600 hover:text-blue-700 underline font-medium">first-time homebuyer programs</Link> available for Skye Canyon communities.
         </p>
       </div>
 

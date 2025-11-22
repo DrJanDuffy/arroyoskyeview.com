@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function AreaInformation() {
   const schools = [
     { name: 'Roger Bryan Elementary School', address: 'Skye Canyon, Las Vegas, NV 89166', rating: '9/10' },
@@ -24,7 +26,7 @@ export default function AreaInformation() {
 
   return (
     <div>
-      <h2 className="text-3xl font-bold text-gray-900 mb-8">Area Information for Arroyo at Skyeview, Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)</h2>
+      <h2 className="text-3xl font-bold text-gray-900 mb-8">Area Information for Arroyo at Skyeview, <Link href="/areas/zip-89166" className="text-blue-600 hover:text-blue-700 underline">Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)</Link></h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Schools */}

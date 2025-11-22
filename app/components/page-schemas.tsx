@@ -38,6 +38,10 @@ export default function PageSchemas({
   const baseUrl = 'https://www.arroyoskyeview.com'
   const fullUrl = url.startsWith('http') ? url : `${baseUrl}${url}`
 
+  // Auto-set dateModified if not provided (signals freshness to Google)
+  const currentDateModified = dateModified || new Date().toISOString().split('T')[0]
+  const currentDatePublished = datePublished || currentDateModified
+
   // WebPage Schema (for all pages)
   const webPageSchema = {
     '@context': 'https://schema.org',
@@ -47,6 +51,8 @@ export default function PageSchemas({
     name: title,
     description: description,
     inLanguage: 'en-US',
+    datePublished: currentDatePublished,
+    dateModified: currentDateModified,
     isPartOf: {
       '@type': 'WebSite',
       name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
@@ -63,8 +69,6 @@ export default function PageSchemas({
         url: image.startsWith('http') ? image : `${baseUrl}${image}`,
       },
     }),
-    ...(datePublished && { datePublished }),
-    ...(dateModified && { dateModified }),
   }
 
   // BreadcrumbList Schema
