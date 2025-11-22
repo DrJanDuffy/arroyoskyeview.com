@@ -8,9 +8,9 @@ export default function WhyChooseDrJan() {
         </svg>
       ),
       points: [
-        'New construction homes are strategically positioned in amenity-rich master-planned communities like Skye Canyon, plus neighborhoods across Las Vegas, Nevada',
+        'New construction homes are strategically positioned in amenity-rich master-planned communities like Skye Canyon (zip code 89166) in northwest Las Vegas, Nevada, plus neighborhoods in Summerlin, Henderson, and throughout the Las Vegas metro area',
         'Dr. Jan Duffy, your buyer\'s agent, knows which communities fit YOUR lifestyle and budget',
-        'Real-time inventory tracking across all new construction communities in Las Vegas, Nevada and Skye Canyon',
+        'Real-time inventory tracking across all new construction communities in northwest Las Vegas, Nevada (zip code 89166), Skye Canyon, Summerlin, Henderson, and throughout the Las Vegas metro area',
       ],
     },
     {

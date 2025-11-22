@@ -1,7 +1,7 @@
 const benefits = [
   {
     title: 'Convenience',
-    description: 'Browse and purchase Arroyo at Skyeview Homes and other Skye Canyon communities online from anywhere in the Las Vegas metro area. No need to visit sales offices during business hours—Dr. Jan Duffy handles buyer representation remotely when needed.',
+    description: 'Browse and purchase Arroyo at Skyeview Homes and other Skye Canyon communities (zip code 89166) in northwest Las Vegas, Nevada online from anywhere in the Las Vegas metro area, including Summerlin, Henderson, and surrounding areas. No need to visit sales offices during business hours—Dr. Jan Duffy handles buyer representation remotely when needed, with construction monitoring every 7-10 days during your home\'s build.',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />

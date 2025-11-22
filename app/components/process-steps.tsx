@@ -47,7 +47,7 @@ const steps = [
     id: 4,
     title: 'Close',
     subtitle: 'Put a bow on it and grab the keys… you\'re a new homeowner!',
-    description: 'This is your big day to sign final paperwork and breathe a sigh of satisfaction, because you\'ve officially bought a home. And whether it\'s your first house, or one of several, the feeling never gets old. You\'ll also love the peace of mind that comes with a new home warranty, providing coverage on major items and repairs.',
+    description: 'This is your big day to sign final paperwork and breathe a sigh of satisfaction, because you\'ve officially bought your Arroyo at Skyeview Home in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). Whether this is your first home purchase or you\'re upgrading to a new construction townhome, closing on your Arroyo at Skyeview Home is a milestone. You\'ll also love the peace of mind that comes with a new home warranty, providing coverage on major items and repairs. Dr. Jan Duffy\'s complimentary building standards inspection ensures everything is built to code before you move in.',
     considerations: [
       'Down Payment',
       'Closing costs',

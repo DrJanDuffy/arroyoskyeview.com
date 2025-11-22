@@ -71,7 +71,7 @@ export default function CrossCommunityLinks({ currentCommunity, location }: Cros
             Similar New Homes in Las Vegas
           </h2>
           <p className="text-lg text-gray-700 mb-6">
-            Other new homes starting at $392K across Las Vegas Metro.
+            Other new construction homes starting at $392K in northwest Las Vegas, Nevada (zip code 89166) and throughout the Las Vegas metro area, including Skye Canyon, Summerlin, Henderson, and other master-planned communities.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {similarPriceCommunities.map((community) => (
@@ -96,7 +96,7 @@ export default function CrossCommunityLinks({ currentCommunity, location }: Cros
             Explore All Las Vegas Metro Communities
           </h3>
           <p className="text-gray-700 mb-4">
-            Browse all Arroyo at Skyeview Homes and new construction homes across Las Vegas, Henderson, and Summerlin.
+            Browse all Arroyo at Skyeview Homes and new construction homes in northwest Las Vegas (zip code 89166), Skye Canyon, Summerlin, Henderson, and throughout the Las Vegas metro area. Dr. Jan Duffy provides expert buyer representation for all new construction communities in Las Vegas, Nevada.
           </p>
           <Link
             href="/find-your-new-home/nevada/las-vegas-metro"

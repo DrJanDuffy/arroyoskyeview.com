@@ -8,7 +8,7 @@ export default function BuyerResourcesSection() {
           Resources for New Construction Buyers
         </h2>
         <p className="text-lg text-gray-700 mb-8">
-          Buying a new construction home is different from buying a resale. These guides will help you navigate the process and maximize your value.
+          Buying a new construction home at Arroyo at Skyeview Homes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166) is different from buying a resale. These guides will help you navigate the new construction process, understand builder incentives, and maximize your value with expert buyer representation from Dr. Jan Duffy.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link

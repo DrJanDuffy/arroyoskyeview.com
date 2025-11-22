@@ -59,28 +59,28 @@ export default function HomepageContentSection() {
           Welcome to Arroyo at Skyeview Homes in Skye Canyon, Northwest Las Vegas, Nevada (Zip Code 89166)
         </h2>
         <p className="text-lg text-gray-700 mb-4">
-          Arroyo at Skyeview Homes represents the perfect blend of modern living and community amenities in one of Las Vegas's most desirable master-planned communities. Located in <Link href="/areas/zip-89166" className="text-blue-600 hover:text-blue-700 underline font-medium">Skye Canyon, northwest Las Vegas, Nevada (zip code 89166)</Link>, near the intersection of US-95 and the 215 Beltway, this new construction development offers two-story townhomes designed for contemporary lifestyles with premium finishes and energy-efficient features. Arroyo at Skyeview Homes is situated in the heart of Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas. When buying Arroyo at Skyeview Homes, work with <Link href="/work-with-dr-jan" className="text-blue-600 hover:text-blue-700 underline font-medium">Dr. Jan Duffy—your buyer's agent who represents HOME BUYERS, not the builder</Link>. Explore <Link href="/homes/townhomes-las-vegas" className="text-blue-600 hover:text-blue-700 underline font-medium">new construction townhomes in Las Vegas</Link> and learn about <Link href="/buyers/first-time-homebuyer" className="text-blue-600 hover:text-blue-700 underline font-medium">first-time homebuyer programs</Link> available for Skye Canyon communities.
+          Arroyo at Skyeview Homes combines modern living with extensive community amenities in Skye Canyon, a 1,700-acre master-planned community in northwest Las Vegas, Nevada (zip code 89166). Located in <Link href="/areas/zip-89166" className="text-blue-600 hover:text-blue-700 underline font-medium">Skye Canyon, northwest Las Vegas, Nevada (zip code 89166)</Link>, near the intersection of US-95 and the 215 Beltway, this new construction development offers two-story townhomes designed for contemporary lifestyles with premium finishes and energy-efficient features. Arroyo at Skyeview Homes is situated in the heart of Skye Canyon, a premier 1,700-acre master-planned community in northwest Las Vegas. When buying Arroyo at Skyeview Homes, work with <Link href="/work-with-dr-jan" className="text-blue-600 hover:text-blue-700 underline font-medium">Dr. Jan Duffy—your buyer's agent who represents HOME BUYERS, not the builder</Link>. Explore <Link href="/homes/townhomes-las-vegas" className="text-blue-600 hover:text-blue-700 underline font-medium">new construction townhomes in Las Vegas</Link> and learn about <Link href="/buyers/first-time-homebuyer" className="text-blue-600 hover:text-blue-700 underline font-medium">first-time homebuyer programs</Link> available for Skye Canyon communities.
         </p>
         
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
           Prime Location in Northwest Las Vegas, Nevada - Zip Code 89166
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Skye Canyon and Arroyo at Skyeview Homes are strategically positioned in northwest Las Vegas, Nevada (zip code 89166), offering residents the best of both worlds: peaceful suburban living with easy access to the city's amenities. The community is approximately 20-25 minutes northwest of the Las Vegas Strip via US-95, providing convenient access to entertainment, dining, and employment centers including Summerlin (15-20 minutes southeast), Downtown Las Vegas (25 minutes southeast), and the Strip corridor. The 215 Beltway provides easy access to all of northwest Las Vegas and beyond. This northwest Las Vegas location maintains a family-friendly residential atmosphere while being close to major employment centers, shopping at Skye Canyon Marketplace and Durango Square, and outdoor recreation at Red Rock Canyon (15 minutes west) and Mount Charleston (30 minutes northwest).
+          Skye Canyon and Arroyo at Skyeview Homes are located in northwest Las Vegas, Nevada (zip code 89166), offering residents peaceful suburban living with convenient access to city amenities via US-95 and the 215 Beltway. The community is approximately 20-25 minutes northwest of the Las Vegas Strip via US-95, providing convenient access to entertainment, dining, and employment centers including Summerlin (15-20 minutes southeast), Downtown Las Vegas (25 minutes southeast), and the Strip corridor. The 215 Beltway provides easy access to all of northwest Las Vegas and beyond. This northwest Las Vegas location maintains a family-friendly residential atmosphere while being close to major employment centers, shopping at Skye Canyon Marketplace and Durango Square, and outdoor recreation at Red Rock Canyon (15 minutes west) and Mount Charleston (30 minutes northwest).
         </p>
         
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
           Modern Townhome Living
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Arroyo at Skyeview offers three thoughtfully designed floor plans ranging from 1,531 to 1,729 square feet. Each home features modern open-concept layouts, quartz countertops, energy-efficient appliances, and contemporary design elements. With 2-4 bedrooms, 2.5 bathrooms, and 2-bay garages, these townhomes provide the perfect balance of space and convenience for families, professionals, and active adults.
+          Arroyo at Skyeview offers three thoughtfully designed floor plans ranging from 1,531 to 1,729 square feet. Each home features modern open-concept layouts, quartz countertops, energy-efficient appliances, and contemporary design elements. With 2-4 bedrooms, 2.5 bathrooms, and 2-bay garages, these townhomes provide an ideal balance of space and convenience for families, professionals, and active adults in northwest Las Vegas, Nevada (zip code 89166).
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
           Starting Prices and Value
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Homes at Arroyo at Skyeview start from $392,640, representing excellent value for new construction in Las Vegas. When you consider the modern features, energy efficiency, builder warranties, and prime Skye Canyon location, these homes offer exceptional value. With current builder incentives including rate buy-downs and closing cost assistance, now is an excellent time to purchase.
+          Homes at Arroyo at Skyeview start from $392,640, representing strong value for new construction townhomes in northwest Las Vegas, Nevada (zip code 89166). When you consider the modern features, energy efficiency, builder warranties, and prime Skye Canyon location near US-95 and the 215 Beltway, these homes offer competitive value. With current builder incentives including rate buy-downs and closing cost assistance, now is a good time to purchase. Dr. Jan Duffy helps you navigate these incentives to maximize your savings.
         </p>
       </section>
 
@@ -111,7 +111,7 @@ export default function HomepageContentSection() {
           Insider Knowledge of New Construction Homes in Las Vegas, Nevada
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Dr. Jan Duffy is a New Construction Home Expert with insider knowledge of all new construction developments in Las Vegas, Nevada and Skye Canyon, including real-time inventory tracking, current pricing, available incentives, and which communities best fit different lifestyles and budgets. She knows which lots have the best views, which floor plans are most popular, and how to navigate the builder's processes to maximize your value and minimize delays.
+          Dr. Jan Duffy is a New Construction Home Expert with insider knowledge of all new construction developments in northwest Las Vegas, Nevada (zip code 89166), Skye Canyon, Summerlin, Henderson, and throughout the Las Vegas metro area, including real-time inventory tracking, current pricing, available incentives, and which communities fit different lifestyles and budgets. She knows which lots offer mountain views, which floor plans are most popular at Arroyo at Skyeview Homes, and how to navigate the builder's processes to maximize your value and minimize delays.
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
@@ -180,28 +180,28 @@ export default function HomepageContentSection() {
           Top-Rated Schools in Zip Code 89166
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Families choosing Arroyo at Skyeview benefit from excellent schools in the Clark County School District. Roger Bryan Elementary School is highly rated (9/10) and serves the Skye Canyon area. Sig Rogich Middle School and Shadow Ridge High School provide quality education for older students. The proximity to these schools makes Skye Canyon ideal for families prioritizing education.
+          Families choosing Arroyo at Skyeview benefit from strong schools in the Clark County School District. Roger Bryan Elementary School is rated 9/10 and serves the Skye Canyon area in zip code 89166. Sig Rogich Middle School and Shadow Ridge High School provide quality education for older students in northwest Las Vegas, Nevada. The proximity to these schools in zip code 89166 makes Skye Canyon a strong choice for families prioritizing education in northwest Las Vegas.
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
           Local Shopping and Dining
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Skye Canyon residents have convenient access to shopping and dining. The Skye Canyon Marketplace offers grocery stores, restaurants, and retail services. Durango Square provides additional shopping options, and the area is just 15-20 minutes from the Las Vegas Strip for more extensive dining and entertainment. The community is also close to Summerlin, which offers premium shopping and dining experiences.
+          Skye Canyon residents in northwest Las Vegas, Nevada (zip code 89166) have convenient access to shopping and dining. The Skye Canyon Marketplace offers grocery stores including Smith's Food and Drug, restaurants, and retail services. Durango Square (approximately 10 minutes south) provides additional shopping options, and the area is 20-25 minutes from the Las Vegas Strip for more extensive dining and entertainment. The community is also close to Summerlin (15-20 minutes southeast), which offers upscale shopping and dining experiences including Downtown Summerlin.
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
           Outdoor Recreation and Natural Beauty
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Skye Canyon is perfectly positioned for outdoor enthusiasts. Red Rock Canyon National Conservation Area is just 15 minutes away, offering world-class hiking, rock climbing, and scenic drives. Mount Charleston is 30 minutes away, providing skiing in winter and hiking in summer. Lake Mead is 45 minutes away for water recreation. Within Skye Canyon itself, residents enjoy extensive trail systems, parks, and recreational facilities.
+          Skye Canyon in northwest Las Vegas, Nevada (zip code 89166) offers convenient access to outdoor recreation. Red Rock Canyon National Conservation Area is 15 minutes west via US-95, offering hiking, rock climbing, and scenic drives. Mount Charleston is 30 minutes northwest, providing skiing in winter and hiking in summer. Lake Mead National Recreation Area is 45 minutes southeast for water recreation. Within Skye Canyon itself, residents enjoy extensive trail systems connecting throughout the 1,700-acre community, multiple parks including Skye Canyon Park, and recreational facilities.
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
           Commute and Location Benefits
         </h3>
         <p className="text-lg text-gray-700 mb-4">
-          Skye Canyon offers excellent commute times throughout the Las Vegas valley. Downtown Las Vegas is approximately 20-25 minutes away, the Strip is 20-25 minutes, and McCarran International Airport is about 25-30 minutes. The northwest location provides easy access to major employment centers while maintaining a peaceful residential atmosphere away from the hustle of the city center.
+          Skye Canyon in northwest Las Vegas, Nevada (zip code 89166) offers convenient commute times throughout the Las Vegas valley. Downtown Las Vegas is approximately 20-25 minutes southeast via US-95, the Las Vegas Strip is 20-25 minutes southeast, and Harry Reid International Airport is about 25-30 minutes southeast. The northwest location near US-95 and the 215 Beltway provides easy access to major employment centers including Summerlin (15-20 minutes southeast), Downtown Las Vegas, and the Strip corridor, while maintaining a peaceful residential atmosphere in northwest Las Vegas.
         </p>
 
         <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
