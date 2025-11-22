@@ -12,8 +12,8 @@ const steps = [
     ctaLink: '#prequalify',
     myths: [
       'You need a 20% down payment. Actually, most buyers don\'t. Some even qualify for zero-down loans.',
-      'You have to pay for everything. Maybe not. Several home loan types allow you to use a financial gift from family or friends toward your home purchase.',
-      'You need perfect credit. There wouldn\'t be many homebuyers if this were the case. While exceptional credit is ideal, many buyers have no trouble qualifying for a home loan with good credit.',
+      'You have to pay for everything. Maybe not. Home loan types available for Las Vegas new construction purchases allow you to use a financial gift from family or friends toward your home purchase.',
+      'You need perfect credit. There wouldn\'t be many homebuyers if this were the case. While exceptional credit is ideal, buyers with good credit often qualify for home loans for Arroyo at Skyeview Homes and other Skye Canyon communities.',
     ],
   },
   {

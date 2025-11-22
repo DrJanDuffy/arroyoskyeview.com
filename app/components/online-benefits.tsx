@@ -1,7 +1,7 @@
 const benefits = [
   {
     title: 'Convenience',
-    description: 'Shop and purchase from anywhere, anytime. No need to visit sales offices during business hours.',
+    description: 'Browse and purchase Arroyo at Skyeview Homes and other Skye Canyon communities online from your home in Las Vegas or anywhere. No need to visit sales offices during business hours—Dr. Jan Duffy handles buyer representation remotely when needed.',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />

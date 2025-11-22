@@ -76,13 +76,13 @@ export default function HowWeMakeItEasy() {
 
           <div className="px-6 py-4 bg-gray-50 border-t border-gray-200">
             <p className="text-sm text-gray-600 mb-2">
-              <strong>Custom Build Options:</strong> If you\'re looking to pick your homesite and build from the ground up—personalizing your floor plan with structural and design options along the way—new construction homes in Las Vegas, Nevada offer this flexibility. Your buyer\'s agent, Dr. Jan Duffy, can guide you through the process.
+              <strong>Custom Build Options:</strong> At Arroyo at Skyeview Homes and other Skye Canyon communities, you can pick your homesite and build from the ground up—personalizing your floor plan with structural and design options along the way. Dr. Jan Duffy, your buyer's agent, guides you through the process and ensures you get the best deal and quality construction.
             </p>
             <p className="text-sm text-gray-600 mb-2">
-              <strong>Quick Move-In Homes:</strong> If you\'re in need of something on a faster timeline, many builders offer quick move-in homes including streamlined single-family homes, townhomes, and condos. Your buyer\'s agent helps you find the best options for your timeline and budget.
+              <strong>Quick Move-In Homes:</strong> If you need a faster timeline, builders in Skye Canyon (zip code 89166) including Arroyo at Skyeview Homes, Sierra at Skyeview, and Terra at Skyeview offer quick move-in townhomes. Dr. Jan Duffy helps you find the best quick move-in options for your timeline and budget in northwest Las Vegas.
             </p>
             <p className="text-sm text-gray-600">
-              <strong>Buy online:</strong> Many new construction homes in Las Vegas, Nevada offer an industry-first "Buy Now" option—allowing you to purchase your new home completely online!{' '}
+              <strong>Buy online:</strong> New construction homes at Arroyo at Skyeview Homes and other Skye Canyon communities offer online purchase options—allowing you to purchase your new home completely online with expert buyer representation from Dr. Jan Duffy.{' '}
               <a href="/online-homebuying" className="text-blue-600 hover:text-blue-700 underline">
                 Learn more →
               </a>

@@ -20,10 +20,10 @@ const steps = [
   {
     id: 3,
     title: 'Monitor Construction Quality',
-    description: 'Monthly check-ins while your home is built',
+    description: 'Construction monitoring every 7-10 days while your home is built at Arroyo at Skyeview Homes or other Skye Canyon communities',
     details: [
-      'Early issue detection = warranty protection',
-      'Your building standards inspection reveals everything—while fixes are covered',
+      'Dr. Jan Duffy visits your construction site every 7-10 days to catch issues early—before warranty matters',
+      'Complimentary building standards inspection at closing reveals everything—while fixes are still covered under builder warranty',
     ],
   },
   {

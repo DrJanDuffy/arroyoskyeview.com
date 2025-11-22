@@ -5,20 +5,14 @@ export default function Overview() {
       
       <div className="prose max-w-none mb-8">
         <p className="text-lg text-gray-700 mb-6">
-          Discover new townhomes at Skyeview! The Arroyo at Skyeview community offers thoughtfully designed, 
-          two-story townhomes with exciting features like quartz countertops. Each floor plan showcases a 
-          sought-after open layout, 2 to 4 bedrooms, 2.5 baths, and 2-bay garages. As part of the Skye Canyon 
-          planned community, Arroyo at Skyeview features incredible amenities, such as a resort-style pool, 
-          a fitness center, and several parks. Discover your dream townhome at this beautiful neighborhood!
+          Arroyo at Skyeview Homes offers new construction townhomes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). These thoughtfully designed two-story townhomes feature quartz countertops, open layouts, 2 to 4 bedrooms, 2.5 baths, and 2-bay garages. As part of the 1,700-acre Skye Canyon master-planned community, Arroyo at Skyeview Homes residents enjoy resort-style pool, fitness center, parks, trails, and top-rated schools including Roger Bryan Elementary (9/10 rating). Located near US-95 and the 215 Beltway, this northwest Las Vegas community provides easy access to employment centers, shopping, and outdoor recreation. When buying Arroyo at Skyeview Homes, work with Dr. Jan Duffy—your buyer's agent who represents HOME BUYERS, not the builder.
         </p>
       </div>
 
       <div className="bg-blue-50 rounded-lg p-6 mb-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-4">Community Amenities</h3>
         <p className="text-gray-700 mb-4">
-          A recreational playground with inspiring scenery and an emotionally appealing setting, Skye Canyon's 
-          1,700 acres are designed for a more engaged community—where work-life balance, a sense of well-being, 
-          and a vital active life are the norm. Living here, you'll enjoy:
+          Skye Canyon is a 1,700-acre master-planned community in northwest Las Vegas, Nevada (zip code 89166) designed for active lifestyles. Located near the intersection of US-95 and the 215 Beltway, Skye Canyon offers extensive amenities, top-rated schools, and outdoor recreation opportunities. Living at Arroyo at Skyeview Homes in Skye Canyon, you'll enjoy:
         </p>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700">
           <li className="flex items-start">

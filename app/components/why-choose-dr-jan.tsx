@@ -21,10 +21,10 @@ export default function WhyChooseDrJan() {
         </svg>
       ),
       points: [
-        'Dr. Jan Duffy, your buyer\'s agent, monitors your home\'s construction every 7-10 days—the builder\'s team works for the builder, but Dr. Duffy works exclusively for YOU',
+        'Dr. Jan Duffy, your buyer\'s agent, monitors your home\'s construction every 7-10 days at Arroyo at Skyeview Homes and other Skye Canyon communities—the builder\'s team works for the builder, but Dr. Duffy works exclusively for YOU',
         'Complimentary Building Standards Home Inspection at closing (catches issues BEFORE your warranty matters)',
         'Construction quality difference? When the superintendent knows your buyer\'s agent is watching, your home gets built right',
-        'Once the superintendent knows buyer\'s agent monitoring will happen, he takes special care to follow construction standards Homes for Sale Vegas',
+        'Once the superintendent knows buyer\'s agent monitoring will happen, he takes special care to follow construction standards at your Skye Canyon home',
       ],
     },
     {
@@ -35,9 +35,9 @@ export default function WhyChooseDrJan() {
         </svg>
       ),
       points: [
-        'The price you pay doesn\'t change—commission is built into new construction home prices whether you use a buyer\'s agent or not Homes for Sale Vegas',
-        'Current builder incentives include up to $5,000 toward closing costs and competitive financing rates Neighborhoods in Las Vegas',
-        'Dr. Jan Duffy, your buyer\'s agent, navigates incentives, timing, and move-in-ready inventory for maximum savings',
+        'The price you pay doesn\'t change—commission is built into new construction home prices at Arroyo at Skyeview Homes and other Skye Canyon communities whether you use a buyer\'s agent or not',
+        'Current builder incentives in Skye Canyon (zip code 89166) include rate buy-downs, closing cost assistance, and competitive financing rates',
+        'Dr. Jan Duffy, your buyer\'s agent, navigates incentives, timing, and move-in-ready inventory at Arroyo at Skyeview Homes and throughout Skye Canyon for maximum savings',
       ],
     },
   ]
