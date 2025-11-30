@@ -89,7 +89,7 @@ export default function FAQPage() {
         <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Frequently Asked Questions
+              Frequently Asked Questions: New Construction Homes in Skye Canyon, Northwest Las Vegas
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
               Get answers to common questions about buying new construction homes in Las Vegas, Nevada with expert buyer's agent representation.

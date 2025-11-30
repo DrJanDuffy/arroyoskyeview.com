@@ -70,7 +70,7 @@ export default function BuyerRepresentationPage() {
         <section className="bg-gradient-to-b from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Buyer Representation vs Builder's Agent: The Difference
+              Buyer Representation vs Builder's Agent: Skye Canyon, Northwest Las Vegas
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
               Learn why you need a buyer's agent for new construction homes in Skye Canyon (zip code 89166) and northwest Las Vegas, Nevada. Dr. Jan Duffy represents HOME BUYERS, not the builder.

@@ -5,6 +5,7 @@ import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 import InformationalPageContent from '../../components/informational-page-content'
 import PeopleAlsoSearch from '../../components/people-also-search'
+import ZipCodeMap from '../../components/zipcode-map'
 import Link from 'next/link'
 import PageSchemas from '../../components/page-schemas'
 
@@ -47,7 +48,7 @@ export default function Zip89166Page() {
         <DrJanCTABanner context="available lots homesite" />
         <InformationalPageContent
           title="New Homes in Zip Code 89166"
-          h1="New Construction Homes in Zip Code 89166: Skye Canyon, Las Vegas"
+          h1="New Construction Homes in Zip Code 89166: Skye Canyon, Northwest Las Vegas | Buyer's Agent"
           sections={[
             {
               h2: 'Welcome to Zip Code 89166: Skye Canyon, Las Vegas',
@@ -273,6 +274,7 @@ export default function Zip89166Page() {
             </div>
           </div>
         </section>
+        <ZipCodeMap highlightZipCode="89166" />
         <PeopleAlsoSearch />
       </main>
       <Footer />

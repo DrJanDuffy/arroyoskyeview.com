@@ -70,7 +70,7 @@ export default function BuildingStandardsInspectionPage() {
         <section className="bg-gradient-to-b from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Building Standards Inspection Service
+              Building Standards Inspection Service: Skye Canyon, Northwest Las Vegas
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
               Protect your new construction home investment with a comprehensive building standards inspection. Dr. Jan Duffy provides this complimentary inspection at closing to ensure everything is built to code.

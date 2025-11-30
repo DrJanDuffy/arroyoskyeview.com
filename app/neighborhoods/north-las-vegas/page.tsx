@@ -79,7 +79,7 @@ export default function NorthLasVegasPage() {
         <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              New Construction Homes in North Las Vegas, Nevada
+              New Construction Homes in North Las Vegas, Nevada | Buyer's Agent Representation
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
               Discover new construction homes in North Las Vegas, Nevada. Get expert buyer representation with Dr. Jan Duffy—she represents HOME BUYERS, not the builder. Construction monitoring and building standards inspection included at no extra cost.

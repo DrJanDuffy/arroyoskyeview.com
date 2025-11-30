@@ -194,7 +194,7 @@ export default function LasVegasHyperlocalFAQPage() {
         <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Las Vegas New Homes: Neighborhood Questions & Answers
+              Las Vegas New Homes FAQ: Skye Canyon, Northwest Las Vegas | Buyer's Agent
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
               Comprehensive questions and answers about buying new construction homes in Las Vegas, Nevada, especially Arroyo at Skyeview in Skye Canyon, zip code 89166, northwest Las Vegas. Get expert answers about neighborhoods, schools, lifestyle, and new construction homes from your buyer's agent.

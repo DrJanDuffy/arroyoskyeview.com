@@ -86,7 +86,7 @@ export default function AboutUsPage() {
         <BuildCareer />
         <InformationalPageContent
           title="About Arroyo at Skyeview in Las Vegas"
-          h1="About Arroyo at Skyeview Homes: New Construction Townhomes in Skye Canyon, Northwest Las Vegas"
+          h1="About Arroyo at Skyeview Homes: New Construction Townhomes in Skye Canyon, Northwest Las Vegas | Buyer's Agent"
           sections={[
             {
               h2: 'Arroyo at Skyeview Homes: New Construction Townhomes in Skye Canyon',

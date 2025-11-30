@@ -51,7 +51,7 @@ export default function Homes400k500kPage() {
         <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              New Homes $400K-$500K in Las Vegas
+              New Construction Homes $400K-$500K in Las Vegas | Buyer's Agent
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
               Discover mid-range new construction homes $400,000-$500,000 in Las Vegas, Nevada. Perfect for families and move-up buyers seeking quality, space, and modern features with expert buyer's agent representation.

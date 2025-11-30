@@ -10,7 +10,7 @@ export default function ContactHero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Contact Us
+            Contact Buyer's Agent: Skye Canyon, Northwest Las Vegas | Dr. Jan Duffy
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
             Get expert buyer representation for Arroyo at Skyeview Homes and new construction in Las Vegas. 

@@ -7,6 +7,7 @@ import DrJanContactCard from '../../../components/dr-jan-contact-card'
 import LasVegasMetroHero from '../../../components/las-vegas-metro-hero'
 import CommunityListings from '../../../components/community-listings'
 import MapView from '../../../components/map-view'
+import ZipCodeMap from '../../../components/zipcode-map'
 import PageSchemas from '../../../components/page-schemas'
 
 export const metadata: Metadata = {
@@ -72,6 +73,7 @@ export default function LasVegasMetroPage() {
         <LasVegasMetroHero />
         <CommunityListings />
         <MapView />
+        <ZipCodeMap />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="max-w-2xl mx-auto">
             <DrJanContactCard />

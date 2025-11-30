@@ -70,7 +70,7 @@ export default function InspectionsNewConstructionPage() {
         <section className="bg-gradient-to-b from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              New Construction Home Inspections Guide
+              New Construction Home Inspections Guide: Skye Canyon, Northwest Las Vegas
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
               Complete guide to inspections for new construction homes in Las Vegas, Nevada. Learn about construction monitoring, building standards inspection, and what to look for.

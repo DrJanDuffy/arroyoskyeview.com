@@ -22,7 +22,7 @@ export default function CommunityContentExpansion({
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* H1 - Main Title */}
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-        {communityName}: New {homeType} in {location}, Las Vegas
+        {communityName}: New {homeType} in {location}, Las Vegas | Buyer's Agent
       </h1>
 
       {/* Section 1: Community Overview */}

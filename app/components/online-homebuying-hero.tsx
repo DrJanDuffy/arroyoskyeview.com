@@ -3,7 +3,7 @@ export default function OnlineHomebuyingHero() {
     <section className="bg-gradient-to-b from-blue-600 to-blue-800 text-white py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Online Homebuying
+          Online Homebuying: Skye Canyon, Northwest Las Vegas | Buyer's Agent
         </h1>
         <p className="text-xl md:text-2xl text-blue-100 mb-8">
           Purchase your new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities completely online with the industry-first "Buy Now" option

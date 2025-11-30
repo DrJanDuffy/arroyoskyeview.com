@@ -70,7 +70,7 @@ export default function ConstructionMonitoringPage() {
         <section className="bg-gradient-to-b from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Construction Monitoring Service
+              Construction Monitoring Service: Skye Canyon, Northwest Las Vegas
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
               Protect your new construction home investment with expert construction monitoring. Dr. Jan Duffy monitors your home's construction every 7-10 days, catching issues before they become costly problems.

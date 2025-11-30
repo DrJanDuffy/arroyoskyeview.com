@@ -100,7 +100,7 @@ export default function FinancingFAQPage() {
         <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              New Construction Home Financing FAQ
+              New Construction Home Financing FAQ: Skye Canyon, Northwest Las Vegas
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl">
               Get answers to financing questions for new construction homes in Skye Canyon (zip code 89166) and northwest Las Vegas, Nevada. Expert guidance from Dr. Jan Duffy, your buyer's agent.

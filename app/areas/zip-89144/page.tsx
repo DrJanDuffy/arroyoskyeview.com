@@ -47,7 +47,7 @@ export default function Zip89144Page() {
         <DrJanCTABanner context="available homes" />
         <InformationalPageContent
           title="New Homes in Zip Code 89144"
-          h1="New Construction Homes in Zip Code 89144: Southwest Las Vegas"
+          h1="New Construction Homes in Zip Code 89144: Southwest Las Vegas | Buyer's Agent"
           sections={[
             {
               h2: 'Welcome to Zip Code 89144: Southwest Las Vegas',

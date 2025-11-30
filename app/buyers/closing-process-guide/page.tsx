@@ -70,7 +70,7 @@ export default function ClosingProcessGuidePage() {
         <section className="bg-gradient-to-b from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Closing Process Guide for New Construction Homes
+              Closing Process Guide: New Construction Homes in Skye Canyon, Northwest Las Vegas
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
               Complete guide to closing on your new construction home in Las Vegas, Nevada. Learn what to expect, documents needed, and how Dr. Jan Duffy's building standards inspection protects you.

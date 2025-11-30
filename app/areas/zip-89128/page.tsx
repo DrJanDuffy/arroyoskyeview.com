@@ -51,7 +51,7 @@ export default function Zip89128Page() {
         <DrJanCTABanner context="available homes" />
         <InformationalPageContent
           title="New Homes in Zip Code 89128"
-          h1="New Construction Homes in Zip Code 89128: Summerlin Area, Las Vegas"
+          h1="New Construction Homes in Zip Code 89128: Summerlin Area, Las Vegas | Buyer's Agent"
           sections={[
             {
               h2: 'Welcome to Zip Code 89128: Summerlin Area, Las Vegas',
