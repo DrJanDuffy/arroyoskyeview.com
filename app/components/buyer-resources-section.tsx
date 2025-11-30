@@ -77,6 +77,28 @@ export default function BuyerResourcesSection() {
               Complete guide to inspections for new construction homes, including construction monitoring, building standards inspection, and what to look for.
             </p>
           </Link>
+          <Link
+            href="/buyers/moving-to-las-vegas"
+            className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+          >
+            <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+              Moving to Las Vegas: Complete Guide
+            </h3>
+            <p className="text-gray-600">
+              Complete guide for relocating to Las Vegas, including cost of living, neighborhoods, schools, and what to know before buying a new construction home.
+            </p>
+          </Link>
+          <Link
+            href="/services/buyer-representation"
+            className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+          >
+            <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+              Buyer Representation vs Builder's Agent
+            </h3>
+            <p className="text-gray-600">
+              Learn the critical difference between having your own buyer's agent versus using the builder's agent, and why it matters for new construction.
+            </p>
+          </Link>
         </div>
       </div>
     </section>

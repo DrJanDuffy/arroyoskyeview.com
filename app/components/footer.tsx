@@ -15,6 +15,10 @@ export default function Footer() {
 
   const neighborhoods = [
     { name: 'Skye Canyon', href: '/areas/zip-89166', title: 'Skye Canyon Las Vegas Neighborhood' },
+    { name: 'Zip Code 89128', href: '/areas/zip-89128', title: 'New Construction Homes Zip Code 89128 Summerlin Area Las Vegas' },
+    { name: 'Zip Code 89135', href: '/areas/zip-89135', title: 'New Construction Homes Zip Code 89135 Las Vegas' },
+    { name: 'Zip Code 89144', href: '/areas/zip-89144', title: 'New Construction Homes Zip Code 89144 Las Vegas' },
+    { name: 'Zip Code 89117', href: '/areas/zip-89117', title: 'New Construction Homes Zip Code 89117 Las Vegas' },
     { name: 'Summerlin', href: '/neighborhoods/summerlin-las-vegas', title: 'Summerlin Las Vegas New Homes' },
     { name: 'Henderson', href: '/neighborhoods/henderson-las-vegas', title: 'Henderson Las Vegas New Construction' },
     { name: 'North Las Vegas', href: '/neighborhoods/north-las-vegas', title: 'North Las Vegas New Construction Homes' },
@@ -26,11 +30,16 @@ export default function Footer() {
   const propertyTypes = [
     { name: 'Townhomes', href: '/homes/townhomes-las-vegas', title: 'Las Vegas Townhomes for Sale' },
     { name: 'Single Family Homes', href: '/homes/single-family-las-vegas', title: 'Las Vegas Single Family Homes' },
+    { name: 'Homes Under $300k', href: '/homes/under-300k', title: 'Affordable Las Vegas Homes Under $300k' },
     { name: 'Homes Under $400k', href: '/homes/under-400k', title: 'Affordable Las Vegas Homes Under $400k' },
+    { name: 'Homes $400k-$500k', href: '/homes/400k-500k', title: 'Las Vegas Homes $400k to $500k' },
+    { name: 'Homes $500k+', href: '/homes/500k-plus', title: 'Luxury Las Vegas Homes $500k Plus' },
   ]
 
   const buyerResources = [
     { name: 'First-Time Homebuyer Guide', href: '/buyers/first-time-homebuyer', title: 'First Time Homebuyer Guide Las Vegas' },
+    { name: 'Moving to Las Vegas', href: '/buyers/moving-to-las-vegas', title: 'Moving to Las Vegas Complete Guide 2025' },
+    { name: 'Buyer Representation', href: '/services/buyer-representation', title: 'Buyer Representation vs Builders Agent Las Vegas' },
     { name: 'Financing New Construction', href: '/buyers/financing-new-construction', title: 'Financing New Construction Homes Las Vegas' },
     { name: 'New Construction Inspections', href: '/buyers/inspections-new-construction', title: 'New Construction Home Inspections Guide Las Vegas' },
     { name: 'Closing Process Guide', href: '/buyers/closing-process-guide', title: 'Closing Process Guide for New Construction Homes Las Vegas' },
@@ -44,6 +53,8 @@ export default function Footer() {
     { name: 'Resources', href: '/resources', title: 'Free Resources for New Construction Homebuyers' },
     { name: 'Testimonials', href: '/testimonials', title: 'Client Testimonials and Reviews Dr. Jan Duffy' },
     { name: 'FAQ', href: '/faq', title: 'Frequently Asked Questions New Construction Homes Las Vegas' },
+    { name: 'Financing FAQ', href: '/faq/financing', title: 'New Construction Home Financing FAQ Las Vegas' },
+    { name: 'Inspections FAQ', href: '/faq/inspections', title: 'New Construction Home Inspections FAQ Las Vegas' },
     { name: 'Las Vegas Neighborhood Q&A', href: '/faq/las-vegas-hyperlocal', title: 'Las Vegas Real Estate Questions Answers' },
   ]
 
