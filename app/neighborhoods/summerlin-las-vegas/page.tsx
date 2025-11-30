@@ -150,11 +150,22 @@ export default function SummerlinPage() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link
+                href="/areas/zip-89128"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Zip Code 89128: Summerlin Area
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Discover luxury new construction homes in zip code 89128, Summerlin area.
+                </p>
+              </Link>
+              <Link
                 href="/areas/zip-89166"
                 className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
               >
                 <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                  Skye Canyon: Master-planned community in northwest Las Vegas
+                  Zip Code 89166: Skye Canyon
                 </h3>
                 <p className="text-gray-600 text-sm">
                   Discover Arroyo at Skyeview, Sierra at Skyeview, Terra at Skyeview, and Eaglepointe at Skye Canyon.

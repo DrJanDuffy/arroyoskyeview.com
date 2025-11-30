@@ -16,7 +16,7 @@ export default function ReviewSchema() {
       streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
-      postalCode: '89166',
+      postalCode: '89161',
       addressCountry: 'US',
     },
     telephone: '+1-702-903-4687',

@@ -130,7 +130,7 @@ export default function StructuredData() {
       streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
-      postalCode: '89166',
+      postalCode: '89161',
       addressCountry: 'US',
     },
     openingHoursSpecification: [
@@ -299,7 +299,7 @@ export default function StructuredData() {
       streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
-      postalCode: '89166',
+      postalCode: '89161',
       addressCountry: 'US',
     },
     geo: {

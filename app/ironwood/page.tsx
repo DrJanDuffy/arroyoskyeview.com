@@ -13,6 +13,7 @@ import CommunityContentExpansion from '../components/community-content-expansion
 import CrossCommunityLinks from '../components/cross-community-links'
 import BuyerResourcesSection from '../components/buyer-resources-section'
 import NeighborhoodLinksSection from '../components/neighborhood-links-section'
+import PeopleAlsoSearch from '../components/people-also-search'
 import PageSchemas from '../components/page-schemas'
 
 export const metadata: Metadata = {
@@ -134,6 +135,7 @@ export default function IronwoodPage() {
         />
         <NeighborhoodLinksSection location="Las Vegas Metro" />
         <CrossCommunityLinks currentCommunity="Ironwood" location="Las Vegas Metro" />
+        <PeopleAlsoSearch />
         <SimilarCommunities />
       </main>
       <Footer />

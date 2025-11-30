@@ -95,6 +95,7 @@ export default function PageSchemas({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': `${baseUrl}#organization`,
     name: 'Arroyo at Skyeview Homes | Homes by Dr. Jan Duffy',
     alternateName: ['Dr. Jan Duffy Real Estate', 'Dr. Jan Duffy', 'Arroyo at Skyeview Homes'],
     description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, northwest Las Vegas, Nevada (zip code 89166). Dr. Jan Duffy represents HOME BUYERS, not the builder. Specializing in construction monitoring, building standards inspection, and insider knowledge of northwest Las Vegas communities.',
@@ -111,7 +112,7 @@ export default function PageSchemas({
       streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
-      postalCode: '89166',
+      postalCode: '89161',
       addressCountry: 'US',
     },
     geo: {
@@ -191,6 +192,7 @@ export default function PageSchemas({
   const realEstateAgentSchema = {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
+    '@id': `${baseUrl}/work-with-dr-jan#realestateagent`,
     name: 'Dr. Jan Duffy',
     alternateName: 'Dr. Jan Duffy Real Estate',
     description: 'New Construction Home Preferred Buyer\'s Agent specializing in new construction homes in Las Vegas, Nevada. Expert in construction monitoring, building standards inspection, and buyer representation.',
@@ -202,14 +204,16 @@ export default function PageSchemas({
       streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
-      postalCode: '89166',
+      postalCode: '89161',
       addressCountry: 'US',
     },
-    areaServed: {
-      '@type': 'City',
-      name: 'Las Vegas',
-      addressRegion: 'NV',
-    },
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Las Vegas',
+        addressRegion: 'NV',
+      },
+    ],
     serviceType: [
       'Buyer Representation',
       'Construction Monitoring',
@@ -232,6 +236,7 @@ export default function PageSchemas({
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
+    '@id': `${baseUrl}#localbusiness`,
     name: 'Arroyo at Skyeview | Homes by Dr. Jan Duffy',
     alternateName: 'Dr. Jan Duffy Real Estate',
     description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Las Vegas, Nevada. Specializing in construction monitoring, building standards inspection, and insider knowledge of Las Vegas communities.',
@@ -243,7 +248,7 @@ export default function PageSchemas({
       streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
-      postalCode: '89166',
+      postalCode: '89161',
       addressCountry: 'US',
     },
     geo: {
@@ -359,11 +364,13 @@ export default function PageSchemas({
       name: 'Dr. Jan Duffy',
       telephone: '+1-702-903-4687',
     },
-    areaServed: {
-      '@type': 'City',
-      name: 'Las Vegas',
-      addressRegion: 'NV',
-    },
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Las Vegas',
+        addressRegion: 'NV',
+      },
+    ],
     description: 'Expert buyer representation for Arroyo at Skyeview Homes and new construction homes in Skye Canyon, zip code 89166, northwest Las Vegas, Nevada. Dr. Jan Duffy represents HOME BUYERS, not the builder. Services include construction monitoring, building standards inspection, and insider knowledge of available inventory and pricing.',
     offers: {
       '@type': 'Offer',
@@ -391,7 +398,7 @@ export default function PageSchemas({
       streetAddress: '8912 Vanhoy Crk St',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
-      postalCode: '89166',
+      postalCode: '89161',
       addressCountry: 'US',
     },
     knowsAbout: [
@@ -427,10 +434,12 @@ export default function PageSchemas({
     telephone: '+1-702-903-4687',
     email: 'info@arroyoskyeview.com',
     contactType: 'Customer Service',
-    areaServed: {
-      '@type': 'Country',
-      name: 'United States',
-    },
+    areaServed: [
+      {
+        '@type': 'Country',
+        name: 'United States',
+      },
+    ],
     availableLanguage: ['English'],
     hoursAvailable: {
       '@type': 'OpeningHoursSpecification',
@@ -474,11 +483,13 @@ export default function PageSchemas({
       name: 'Dr. Jan Duffy',
       telephone: '+1-702-903-4687',
     },
-    areaServed: {
-      '@type': 'City',
-      name: 'Las Vegas',
-      addressRegion: 'NV',
-    },
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Las Vegas',
+        addressRegion: 'NV',
+      },
+    ],
     ...(priceRange && {
       priceSpecification: {
         '@type': 'PriceSpecification',
@@ -745,16 +756,25 @@ export default function PageSchemas({
   }
 
   // Collect all schemas
+  // For legal/informational pages (about type), use minimal schemas to avoid validation errors
+  // These pages don't need LocalBusiness, RealEstateAgent, Service, Offer schemas
+  // Buyer-guide pages also don't need the full business schema suite
+  const isInformationalPage = pageType === 'about' || pageType === 'contact' || pageType === 'buyer-guide'
+  
   const allSchemas = [
     webPageSchema,
     breadcrumbSchema,
+    // Always include Organization schema (needed for publisher info)
     organizationSchema,
-    realEstateAgentSchema,
-    localBusinessSchema,
-    serviceSchema,
-    personSchema,
-    contactPointSchema,
-    offerSchema,
+    // Only include business-specific schemas for non-informational pages
+    ...(isInformationalPage ? [] : [
+      realEstateAgentSchema,
+      localBusinessSchema,
+      serviceSchema,
+      personSchema,
+      contactPointSchema,
+      offerSchema,
+    ]),
     ...communitySchemas,
     ...(articleSchema ? [articleSchema] : []),
     ...(faqSchema ? [faqSchema] : []),

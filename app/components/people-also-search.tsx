@@ -3,20 +3,26 @@
 import Link from 'next/link'
 
 const searchTerms = [
+  // Google Business Profile "People also search for" terms
+  { term: 'Sierra at Skyview', url: '/sierra-at-skyeview' },
+  { term: 'Skye Canyon homes for sale', url: '/areas/zip-89166' },
+  { term: 'Skye View', url: '/' },
+  { term: 'Skye Canyon new homes', url: '/areas/zip-89166' },
+  { term: 'Tri Pointe Homes Lake Las Vegas', url: '/find-your-new-home/nevada/las-vegas-metro' },
+  { term: 'Century homes Homestead', url: '/homestead-west' },
+  { term: 'Bravado homes', url: '/find-your-new-home/nevada/las-vegas-metro' },
+  { term: 'Ironwood houses', url: '/ironwood' },
+  // Additional related searches
   { term: 'Sierra at Skyeview', url: '/sierra-at-skyeview' },
-  { term: 'Ironwood', url: '/ironwood' },
   { term: 'Terra at Skyeview', url: '/terra-at-skyeview' },
-  { term: 'The Townes at Union Village', url: '/find-your-new-home/nevada/las-vegas-metro' },
   { term: 'Homestead West', url: '/homestead-west' },
   { term: 'Eaglepointe at Skye Canyon', url: '/eaglepointe-skye-canyon' },
-  { term: 'Arroyo at Skyeview reviews', url: '/' },
-  { term: 'Sierra at Skyview', url: '/sierra-at-skyeview' },
-  { term: 'Skyview Mesa', url: '/find-your-new-home/nevada/las-vegas-metro' },
-  { term: 'Skye View', url: '/' },
+  { term: 'Arroyo at Skyeview reviews', url: '/testimonials' },
   { term: 'Skyview Las Vegas', url: '/' },
   { term: 'Arroyo at Skyeview Homes', url: '/' },
   { term: 'Skyeview Homes', url: '/' },
-  { term: 'Terra at Skyeview', url: '/terra-at-skyeview' },
+  { term: 'New construction Skye Canyon', url: '/areas/zip-89166' },
+  { term: 'Townhomes Skye Canyon', url: '/' },
 ]
 
 export default function PeopleAlsoSearch() {

@@ -4,6 +4,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import DrJanCTABanner from '../../components/dr-jan-cta-banner'
 import InformationalPageContent from '../../components/informational-page-content'
+import PeopleAlsoSearch from '../../components/people-also-search'
 import Link from 'next/link'
 import PageSchemas from '../../components/page-schemas'
 
@@ -216,6 +217,63 @@ export default function Zip89166Page() {
             </div>
           </div>
         </section>
+        <section className="bg-gray-50 py-12 mt-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              Explore More Las Vegas Zip Codes
+            </h2>
+            <p className="text-lg text-gray-700 mb-8">
+              Discover new construction homes in other Las Vegas zip codes:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Link
+                href="/areas/zip-89128"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Zip Code 89128: Summerlin Area
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Discover luxury new construction homes in the prestigious Summerlin area.
+                </p>
+              </Link>
+              <Link
+                href="/areas/zip-89135"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Zip Code 89135: West Las Vegas
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Explore new construction homes in west Las Vegas with convenient access to amenities.
+                </p>
+              </Link>
+              <Link
+                href="/areas/zip-89144"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Zip Code 89144: Southwest Las Vegas
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Find new construction homes in southwest Las Vegas with easy access to the Strip.
+                </p>
+              </Link>
+              <Link
+                href="/areas/zip-89117"
+                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
+              >
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  Zip Code 89117: West Las Vegas
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  Discover new construction homes in west Las Vegas near Summerlin and Red Rock.
+                </p>
+              </Link>
+            </div>
+          </div>
+        </section>
+        <PeopleAlsoSearch />
       </main>
       <Footer />
     </div>
