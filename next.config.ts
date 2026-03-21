@@ -17,6 +17,21 @@ const nextConfig: NextConfig = {
         hostname: 'images.ctfassets.net',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'drjanduffy.realscout.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.realscout.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'em.realscout.com',
+        pathname: '/**',
+      },
     ],
   },
   // Optimize for modern browsers - reduce legacy JavaScript polyfills

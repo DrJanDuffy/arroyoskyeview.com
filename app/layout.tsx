@@ -106,6 +106,11 @@ export default function RootLayout({
             });
           `}
         </Script>
+        {/* RealScout widgets (office listings, etc.) — load once site-wide */}
+        <Script
+          src="https://em.realscout.com/dl.js"
+          strategy="afterInteractive"
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
