@@ -225,10 +225,10 @@ export default function PageSchemas({
     priceRange: 'No Cost to Buyer',
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '5.0',
-      reviewCount: '50+',
-      bestRating: '5',
-      worstRating: '1',
+      ratingValue: 5,
+      reviewCount: 50,
+      bestRating: 5,
+      worstRating: 1,
     },
   }
 
@@ -305,10 +305,10 @@ export default function PageSchemas({
     ],
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '5.0',
-      reviewCount: '50+',
-      bestRating: '5',
-      worstRating: '1',
+      ratingValue: 5,
+      reviewCount: 50,
+      bestRating: 5,
+      worstRating: 1,
     },
     contactPoint: [
       {
@@ -535,10 +535,10 @@ export default function PageSchemas({
       ...(rating && {
         aggregateRating: {
           '@type': 'AggregateRating',
-          ratingValue: rating.value,
-          reviewCount: rating.count,
-          bestRating: '5',
-          worstRating: '1',
+          ratingValue: Number(rating.value),
+          reviewCount: Number(rating.count),
+          bestRating: 5,
+          worstRating: 1,
         },
       }),
       developer: {
@@ -746,10 +746,10 @@ export default function PageSchemas({
       ...(rating && {
         aggregateRating: {
           '@type': 'AggregateRating',
-          ratingValue: rating.value,
-          reviewCount: rating.count,
-          bestRating: '5',
-          worstRating: '1',
+          ratingValue: Number(rating.value),
+          reviewCount: Number(rating.count),
+          bestRating: 5,
+          worstRating: 1,
         },
       }),
     }

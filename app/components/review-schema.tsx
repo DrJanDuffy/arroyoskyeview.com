@@ -3,7 +3,14 @@ import Script from 'next/script'
 export default function ReviewSchema() {
   const baseUrl = 'https://www.arroyoskyeview.com'
   const businessId = `${baseUrl}#reviews`
-  
+
+  const itemReviewed = {
+    '@type': 'RealEstateAgent',
+    '@id': businessId,
+    name: 'Dr. Jan Duffy - Buyer\'s Agent for Arroyo at Skyeview Homes',
+    url: baseUrl,
+  }
+
   const reviewSchema = {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
@@ -56,14 +63,15 @@ export default function ReviewSchema() {
     ],
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '5.0',
-      reviewCount: '50',
-      bestRating: '5',
-      worstRating: '1',
+      ratingValue: 5,
+      reviewCount: 50,
+      bestRating: 5,
+      worstRating: 1,
     },
     review: [
       {
         '@type': 'Review',
+        itemReviewed,
         author: {
           '@type': 'Person',
           name: 'Recent Buyer',
@@ -72,13 +80,14 @@ export default function ReviewSchema() {
         reviewBody: 'Dr. Duffy caught structural issues during construction monitoring that would\'ve cost us $3K+ to fix after warranty expired. She represents buyers, not builders—and that made all the difference. Her expertise in Skye Canyon and northwest Las Vegas is unmatched.',
         reviewRating: {
           '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5',
-          worstRating: '1',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
         },
       },
       {
         '@type': 'Review',
+        itemReviewed,
         author: {
           '@type': 'Person',
           name: 'Satisfied Buyer',
@@ -87,13 +96,14 @@ export default function ReviewSchema() {
         reviewBody: 'Having Dr. Duffy monitor our home construction at Arroyo at Skyeview gave us peace of mind. She noticed things we never would have seen, and her building standards inspection was invaluable. Best buyer\'s agent in northwest Las Vegas!',
         reviewRating: {
           '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5',
-          worstRating: '1',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
         },
       },
       {
         '@type': 'Review',
+        itemReviewed,
         author: {
           '@type': 'Person',
           name: 'Happy Home Buyer',
@@ -102,13 +112,14 @@ export default function ReviewSchema() {
         reviewBody: 'Dr. Duffy\'s expertise in Arroyo at Skyeview Homes and Skye Canyon helped us find the perfect home. She represents buyers, not builders—and that made all the difference in getting the best deal. Construction monitoring saved us thousands!',
         reviewRating: {
           '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5',
-          worstRating: '1',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
         },
       },
       {
         '@type': 'Review',
+        itemReviewed,
         author: {
           '@type': 'Person',
           name: 'First-Time Homebuyer',
@@ -117,13 +128,14 @@ export default function ReviewSchema() {
         reviewBody: 'As a first-time buyer, Dr. Duffy made the entire process smooth and stress-free. Her construction monitoring caught issues we never would have noticed. She truly represents buyers and helped us get the best value in Skye Canyon.',
         reviewRating: {
           '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5',
-          worstRating: '1',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
         },
       },
       {
         '@type': 'Review',
+        itemReviewed,
         author: {
           '@type': 'Person',
           name: 'Skye Canyon Homeowner',
@@ -132,9 +144,9 @@ export default function ReviewSchema() {
         reviewBody: 'Dr. Jan Duffy\'s insider knowledge of Skye Canyon and northwest Las Vegas communities is incredible. She knew which lots had the best views and helped us maximize our investment. The building standards inspection at closing was a game-changer.',
         reviewRating: {
           '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5',
-          worstRating: '1',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
         },
       },
     ],

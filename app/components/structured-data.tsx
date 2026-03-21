@@ -75,13 +75,6 @@ export default function StructuredData() {
       },
     ],
     priceRange: '$392,640 - $424,590',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.5',
-      reviewCount: '8866',
-      bestRating: '5',
-      worstRating: '1',
-    },
     dateBuilt: '2024',
     developer: {
       '@type': 'Organization',
