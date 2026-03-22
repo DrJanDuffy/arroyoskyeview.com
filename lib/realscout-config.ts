@@ -61,3 +61,17 @@ export const REALSCOUT_OFFICE_PRICE_BANDS: RealScoutPriceBand[] = [
     priceMax: '35000000',
   },
 ]
+
+/**
+ * Routes that render `RealScoutOfficePriceBands` (multi-band MLS). The footer
+ * omits the default single-band RealScout strip on these paths to avoid duplicate
+ * embeds. Add a path when you place `<RealScoutOfficePriceBands />` on a page.
+ */
+export const REALSCOUT_PRICE_BANDS_ROUTE_PATHS: ReadonlySet<string> = new Set([
+  '/sierra-at-skyeview',
+  '/terra-at-skyeview',
+  '/ironwood',
+  '/homestead-west',
+  '/eaglepointe-skye-canyon',
+  '/homebuying-process',
+])

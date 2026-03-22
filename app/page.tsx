@@ -192,7 +192,7 @@ export default function HomePage() {
           </>
         )}
       </main>
-      <Footer />
+      <Footer suppressRealScout={!showDrJanContent} />
       <StickyPhoneCTA />
       <AnalyticsTracker />
       <ReviewSchema />
