@@ -106,9 +106,11 @@ export default function RootLayout({
             });
           `}
         </Script>
-        {/* RealScout widgets (office listings, etc.) — load once site-wide */}
+        {/* RealScout web components — one script for all widgets (office listings, etc.) */}
         <Script
-          src="https://em.realscout.com/dl.js"
+          id="realscout-web-components"
+          src="https://em.realscout.com/widgets/realscout-web-components.umd.js"
+          type="module"
           strategy="afterInteractive"
         />
         <ThemeProvider

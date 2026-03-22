@@ -1,7 +1,14 @@
 'use client'
 
 import { useId } from 'react'
-import { REALSCOUT_AGENT_ENCODED_ID } from '@/lib/realscout-config'
+import {
+  REALSCOUT_AGENT_ENCODED_ID,
+  REALSCOUT_OFFICE_LISTING_STATUS,
+  REALSCOUT_OFFICE_PRICE_MAX,
+  REALSCOUT_OFFICE_PRICE_MIN,
+  REALSCOUT_OFFICE_PROPERTY_TYPES,
+  REALSCOUT_OFFICE_SORT_ORDER,
+} from '@/lib/realscout-config'
 
 type RealScoutOfficeWidgetProps = {
   /** Extra Tailwind classes for the outer section */
@@ -10,16 +17,19 @@ type RealScoutOfficeWidgetProps = {
 
 /**
  * RealScout office listings (MLS) widget — custom element hydrated by em.realscout.com/dl.js.
- * Load the script once in root layout. Use dangerouslySetInnerHTML per RealScout integration pattern.
+ * Load realscout-web-components.umd.js (type=module) once in root layout.
+ * Use dangerouslySetInnerHTML for the custom element markup per RealScout.
  */
 export default function RealScoutOfficeWidget({ className = '' }: RealScoutOfficeWidgetProps) {
   const headingId = useId().replace(/:/g, '')
 
   const markup = `<realscout-office-listings
       agent-encoded-id="${REALSCOUT_AGENT_ENCODED_ID}"
-      sort-order="NEWEST"
-      listing-status="For Sale"
-      property-types="SFR,TC,CONDO"
+      sort-order="${REALSCOUT_OFFICE_SORT_ORDER}"
+      listing-status="${REALSCOUT_OFFICE_LISTING_STATUS}"
+      property-types="${REALSCOUT_OFFICE_PROPERTY_TYPES}"
+      price-min="${REALSCOUT_OFFICE_PRICE_MIN}"
+      price-max="${REALSCOUT_OFFICE_PRICE_MAX}"
     ></realscout-office-listings>`
 
   return (

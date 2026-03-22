@@ -190,3 +190,10 @@
     flex-direction: column !important;
   }
 }
+
+/* RealScout office listings web component (realscout-web-components.umd.js) */
+realscout-office-listings {
+  --rs-listing-divider-color: #0e64c8;
+  width: 100%;
+  display: block;
+}
