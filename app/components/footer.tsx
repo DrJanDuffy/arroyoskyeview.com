@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { trackPhoneClick } from './analytics-tracker'
+import RealScoutOfficeWidget from './realscout-office-widget'
 
 export default function Footer() {
   const communities = [
@@ -67,7 +68,9 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="bg-gradient-to-b from-gray-900 to-gray-950 text-white" role="contentinfo">
+    <>
+      <RealScoutOfficeWidget />
+      <footer className="bg-gradient-to-b from-gray-900 to-gray-950 text-white" role="contentinfo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12 mb-12">
@@ -333,5 +336,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </>
   )
 }
