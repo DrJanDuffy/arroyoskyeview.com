@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Homes400k500kPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="property-type"
         url="/homes/400k-500k"

@@ -1,48 +1,46 @@
 import Link from 'next/link'
+import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 export default function DrJanContactCard() {
   return (
-    <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-6">
-      <div className="flex items-start mb-4">
-        <div className="flex-shrink-0">
-          <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-xl">DJ</span>
+    <div className="rounded-xl border-2 border-primary/25 bg-primary/5 p-6">
+      <div className="mb-4 flex items-start">
+        <div className="shrink-0">
+          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary">
+            <span className="text-xl font-bold text-primary-foreground">DJ</span>
           </div>
         </div>
         <div className="ml-4 flex-1">
-          <h3 className="text-xl font-bold text-gray-900 mb-1">
-            Dr. Duffy
-          </h3>
-          <p className="text-sm text-blue-600 font-semibold mb-2">
-            New Construction Home Preferred Buyer's Agent
-          </p>
-          <p className="text-sm text-gray-700 mb-4">
+          <h3 className="mb-1 text-xl font-bold text-foreground">Dr. Jan Duffy</h3>
+          <p className="mb-2 text-sm font-semibold text-primary">New Construction Home Preferred Buyer&apos;s Agent</p>
+          <p className="mb-4 text-sm text-muted-foreground">
             Expert representation on new construction with construction monitoring, building standards inspection & insider knowledge.
           </p>
         </div>
       </div>
-      
+
       <div className="space-y-3">
-        <a
-          href="tel:7029034687"
-          className="block w-full bg-blue-600 text-white text-center px-4 py-3 rounded-md font-semibold hover:bg-blue-700 transition"
+        <Button asChild className="min-h-11 w-full font-semibold">
+          <a href="tel:7029034687">Call/Text: (702) 903-4687</a>
+        </Button>
+        <Button
+          asChild
+          variant="outline"
+          className={cn(
+            'min-h-11 w-full border-2 border-primary font-semibold',
+            'bg-background text-primary hover:bg-accent',
+          )}
         >
-          Call/Text: (702) 903-4687
-        </a>
-        <Link
-          href="/work-with-dr-jan"
-          className="block w-full bg-white text-blue-600 border-2 border-blue-600 text-center px-4 py-3 rounded-md font-semibold hover:bg-blue-50 transition"
-        >
-          Learn Why Choose Dr. Duffy
-        </Link>
+          <Link href="/work-with-dr-jan">Learn Why Choose Dr. Jan Duffy</Link>
+        </Button>
       </div>
-      
-      <div className="mt-4 pt-4 border-t border-blue-200">
-        <p className="text-xs text-gray-600">
-          <strong>Remember:</strong> Builders pay for buyer representation on Arroyo at Skyeview Homes—you're already funding an agent, so choose Dr. Jan Duffy who works exclusively for HOME BUYERS, not the builder.
+
+      <div className="mt-4 border-t border-border pt-4">
+        <p className="text-xs text-muted-foreground">
+          <strong>Remember:</strong> Builders pay for buyer representation on Arroyo at Skyeview Homes—you&apos;re already funding an agent, so choose Dr. Jan Duffy who works exclusively for HOME BUYERS, not the builder.
         </p>
       </div>
     </div>
   )
 }
-

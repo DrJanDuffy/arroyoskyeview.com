@@ -51,7 +51,7 @@ export const metadata: Metadata = {
 
 export default function EaglepointeSkyeCanyonPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="community"
         url="/eaglepointe-skye-canyon"

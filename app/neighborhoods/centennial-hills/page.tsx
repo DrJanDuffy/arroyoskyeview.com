@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 
 export default function CentennialHillsPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="neighborhood"
         url="/neighborhoods/centennial-hills"

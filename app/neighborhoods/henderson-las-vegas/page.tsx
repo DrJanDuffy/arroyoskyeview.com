@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function HendersonPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="neighborhood"
         url="/neighborhoods/henderson-las-vegas"

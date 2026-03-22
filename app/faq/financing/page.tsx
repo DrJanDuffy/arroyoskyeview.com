@@ -80,7 +80,7 @@ const financingFAQs = [
 
 export default function FinancingFAQPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="faq"
         url="/faq/financing"

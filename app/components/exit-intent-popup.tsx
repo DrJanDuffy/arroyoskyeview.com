@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 import { trackFormSubmit } from './analytics-tracker'
+import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 export default function ExitIntentPopup() {
   const [showPopup, setShowPopup] = useState(false)
@@ -44,11 +46,11 @@ export default function ExitIntentPopup() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     trackFormSubmit('exit_intent_popup')
-    
+
     // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 500))
+    await new Promise((resolve) => setTimeout(resolve, 500))
     setSubmitted(true)
-    
+
     // Close after 3 seconds
     setTimeout(() => {
       handleClose()
@@ -58,35 +60,56 @@ export default function ExitIntentPopup() {
   if (!showPopup) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
-      <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 relative animate-in fade-in zoom-in duration-300">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 backdrop-blur-[2px]"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="exit-intent-title"
+    >
+      <div className="animate-in fade-in zoom-in relative w-full max-w-md rounded-2xl border border-border bg-card p-8 text-card-foreground shadow-2xl duration-300">
         <button
+          type="button"
           onClick={handleClose}
-          className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors"
+          className={cn(
+            'absolute top-3 right-3 rounded-md p-2 text-muted-foreground transition-colors',
+            'hover:bg-accent hover:text-accent-foreground',
+            'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',
+          )}
           aria-label="Close popup"
         >
-          <X className="w-6 h-6" />
+          <X className="h-6 w-6" aria-hidden />
         </button>
 
         {!submitted ? (
           <>
-            <div className="text-center mb-6">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
-                <svg className="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            <div className="mb-6 text-center">
+              <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-primary/15">
+                <svg
+                  className="h-8 w-8 text-primary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">
+              <h3 id="exit-intent-title" className="mb-2 text-2xl font-bold tracking-tight text-balance">
                 Get Your Free Buyer's Guide
               </h3>
-              <p className="text-gray-600">
-                Download our free guide: "10 Things Every New Construction Home Buyer Should Know"
+              <p className="text-pretty text-muted-foreground">
+                Download our free guide: &quot;10 Things Every New Construction Home Buyer Should Know&quot;
               </p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label htmlFor="popup-email" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="popup-email" className="mb-2 block text-sm font-semibold text-foreground">
                   Email Address
                 </label>
                 <input
@@ -95,45 +118,55 @@ export default function ExitIntentPopup() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600"
+                  className={cn(
+                    'w-full rounded-lg border-2 border-input bg-background px-4 py-3 text-foreground shadow-xs transition-colors',
+                    'placeholder:text-muted-foreground',
+                    'focus-visible:border-ring focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50',
+                  )}
                   placeholder="your.email@example.com"
+                  autoComplete="email"
                 />
               </div>
 
-              <button
-                type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
-              >
+              <Button type="submit" size="lg" className="min-h-11 w-full font-semibold">
                 Get Free Guide
-              </button>
+              </Button>
 
-              <p className="text-xs text-gray-500 text-center">
+              <p className="text-center text-xs text-muted-foreground">
                 By submitting, you agree to receive emails from Dr. Jan Duffy. Unsubscribe anytime.
               </p>
             </form>
 
-            <div className="mt-6 pt-6 border-t border-gray-200">
-              <p className="text-sm text-gray-600 text-center mb-4">
+            <div className="mt-6 border-t border-border pt-6">
+              <p className="mb-4 text-center text-sm text-muted-foreground">
                 Or call Dr. Jan Duffy directly:
               </p>
-              <a
-                href="tel:7029034687"
-                className="block w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors"
+              <Button
+                asChild
+                size="lg"
+                variant="secondary"
+                className="min-h-11 w-full font-semibold"
               >
-                Call (702) 903-4687
-              </a>
+                <a href="tel:7029034687">Call (702) 903-4687</a>
+              </Button>
             </div>
           </>
         ) : (
-          <div className="text-center py-8">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
-              <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="py-8 text-center">
+            <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-emerald-500/15">
+              <svg
+                className="h-8 w-8 text-emerald-600 dark:text-emerald-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                aria-hidden
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Check Your Email!</h3>
-            <p className="text-gray-600">
-              Your free buyer's guide has been sent to {email}
+            <h3 className="mb-2 text-2xl font-bold tracking-tight text-balance">Check Your Email!</h3>
+            <p className="text-muted-foreground">
+              Your free buyer&apos;s guide has been sent to {email}
             </p>
           </div>
         )}
@@ -141,4 +174,3 @@ export default function ExitIntentPopup() {
     </div>
   )
 }
-

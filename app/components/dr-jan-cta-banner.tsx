@@ -4,6 +4,8 @@ import { useState } from 'react'
 import Link from 'next/link'
 import CTARotator, { getCTAByContext } from './cta-rotator'
 import { trackPhoneClick, trackCTAClick } from './analytics-tracker'
+import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 interface DrJanCTABannerProps {
   context?: string
@@ -28,32 +30,45 @@ export default function DrJanCTABanner({ context = '' }: DrJanCTABannerProps) {
   }
 
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+    <section className="bg-linear-to-r from-primary to-primary/88 text-primary-foreground py-8 md:py-10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center justify-between gap-6 md:flex-row md:gap-4">
           <div className="text-center md:text-left">
-            <h3 className="text-xl md:text-2xl font-bold mb-2">
+            <h3 className="mb-2 text-balance text-xl font-bold tracking-tight md:text-2xl">
               Work with Dr. Jan Duffy - Buyer's Agent for Arroyo at Skyeview Homes
             </h3>
-            <p className="text-blue-100 text-sm md:text-base">
+            <p className="text-sm text-primary-foreground/90 md:text-base">
               <strong>Dr. Jan Duffy represents HOME BUYERS, not the builder.</strong> Expert buyer representation for Arroyo at Skyeview Homes in Skye Canyon, zip code 89166—at no extra cost to you. Construction monitoring, building standards inspection & insider knowledge.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <a
-              href={currentCTA.type === 'call' ? telLink : smsLink}
-              onClick={handlePhoneClick}
-              className="bg-white text-blue-600 px-6 py-3 rounded-md font-semibold hover:bg-gray-100 transition text-center whitespace-nowrap"
+          <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:justify-end">
+            <Button
+              asChild
+              size="lg"
+              className={cn(
+                'min-h-11 w-full font-semibold shadow-sm sm:w-auto',
+                'bg-background text-primary hover:bg-background/90',
+              )}
             >
-              {currentCTA.text} - {currentCTA.type === 'call' ? 'Call' : 'Text'} Dr. Jan {phoneNumber}
-            </a>
-            <Link
-              href="/work-with-dr-jan"
-              onClick={handleLearnMoreClick}
-              className="bg-blue-500 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-400 transition text-center whitespace-nowrap"
+              <a
+                href={currentCTA.type === 'call' ? telLink : smsLink}
+                onClick={handlePhoneClick}
+              >
+                {currentCTA.text} - {currentCTA.type === 'call' ? 'Call' : 'Text'} Dr. Jan {phoneNumber}
+              </a>
+            </Button>
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className={cn(
+                'min-h-11 w-full border-primary-foreground/45 bg-transparent font-semibold text-primary-foreground hover:bg-primary-foreground/12 hover:text-primary-foreground sm:w-auto',
+              )}
             >
-              Learn More About Dr. Jan's Buyer Representation
-            </Link>
+              <Link href="/work-with-dr-jan" onClick={handleLearnMoreClick}>
+                Learn More About Dr. Jan's Buyer Representation
+              </Link>
+            </Button>
           </div>
         </div>
       </div>

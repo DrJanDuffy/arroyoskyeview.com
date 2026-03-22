@@ -32,7 +32,7 @@ export default function NewHomeInventoryPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="blog"
         url="/blog/new-home-inventory-2x"

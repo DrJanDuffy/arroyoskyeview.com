@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 interface TakenHome {
   id: string
@@ -63,13 +64,14 @@ export default function AlreadyTaken() {
   return (
     <div>
       <div className="mb-6">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">ALREADY TAKEN</h2>
+        <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground">ALREADY TAKEN</h2>
         <div className="flex flex-wrap items-center gap-4">
-          <span className="text-sm font-medium text-gray-700">Sort By:</span>
+          <span className="text-sm font-medium text-muted-foreground">Sort By:</span>
           <select
+            aria-label="Sort homes already taken"
             value={sortBy}
             onChange={(e) => handleSort(e.target.value as SortOption)}
-            className="border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="rounded-md border border-input bg-background px-4 py-2 text-sm text-foreground shadow-xs focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
           >
             <option value="price-low">Price: Low to High</option>
             <option value="price-high">Price: High to Low</option>
@@ -80,56 +82,59 @@ export default function AlreadyTaken() {
         </div>
       </div>
 
-      <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
-        <p className="text-sm text-yellow-800">
+      <div className="mb-6 rounded-lg border border-amber-500/30 bg-amber-500/10 border-l-4 border-l-amber-500 p-4 dark:bg-amber-500/15">
+        <p className="text-sm text-foreground">
           <strong>Homes reserved or under contract</strong>
           <br />
-          Homes are selling fast! See what's still available at this community above.
+          Homes are selling fast! See what&apos;s still available at this community above.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {sortedHomes.map((home) => (
-          <div key={home.id} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition opacity-75">
-            <div className="h-48 bg-gray-200 relative">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-400">
+          <div
+            key={home.id}
+            className="surface-elevated overflow-hidden opacity-75 transition hover:shadow-md"
+          >
+            <div className="relative h-48 bg-muted">
+              <div className="absolute inset-0 flex items-center justify-center text-muted-foreground" aria-hidden>
                 <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                 </svg>
               </div>
               <div className="absolute top-2 left-2">
-                <span className="bg-orange-500 text-white text-xs px-2 py-1 rounded font-semibold">
+                <span className="rounded bg-amber-600 px-2 py-1 text-xs font-semibold text-white dark:bg-amber-700">
                   {home.status}
                 </span>
               </div>
             </div>
             <div className="p-6">
               <div className="mb-4">
-                <h3 className="text-xl font-bold text-gray-900 mb-1">{home.address}</h3>
-                <p className="text-sm text-gray-600">Lot {home.lot}</p>
-                <p className="text-sm text-gray-600">Est. Completion: {home.completion}</p>
+                <h3 className="mb-1 text-xl font-bold text-foreground">{home.address}</h3>
+                <p className="text-sm text-muted-foreground">Lot {home.lot}</p>
+                <p className="text-sm text-muted-foreground">Est. Completion: {home.completion}</p>
               </div>
               
               <div className="mb-4">
-                <p className="text-lg font-semibold text-blue-600 mb-2">{home.floorPlan}</p>
+                <p className="mb-2 text-lg font-semibold text-primary">{home.floorPlan}</p>
               </div>
 
-              <div className="grid grid-cols-2 gap-2 mb-4 text-sm">
+              <div className="mb-4 grid grid-cols-2 gap-2 text-sm">
                 <div>
-                  <span className="text-gray-600">Square Footage:</span>
-                  <span className="font-semibold ml-1">{home.sqft} sq ft</span>
+                  <span className="text-muted-foreground">Square Footage:</span>
+                  <span className="ml-1 font-semibold text-foreground">{home.sqft} sq ft</span>
                 </div>
                 <div>
-                  <span className="text-gray-600">Bedrooms:</span>
-                  <span className="font-semibold ml-1">{home.bedrooms} br</span>
+                  <span className="text-muted-foreground">Bedrooms:</span>
+                  <span className="ml-1 font-semibold text-foreground">{home.bedrooms} br</span>
                 </div>
                 <div>
-                  <span className="text-gray-600">Bathrooms:</span>
-                  <span className="font-semibold ml-1">{home.bathrooms} ba</span>
+                  <span className="text-muted-foreground">Bathrooms:</span>
+                  <span className="ml-1 font-semibold text-foreground">{home.bathrooms} ba</span>
                 </div>
                 <div>
-                  <span className="text-gray-600">Parking Bays:</span>
-                  <span className="font-semibold ml-1">{home.parking} {home.parking > 1 ? 'bays' : 'bay'}</span>
+                  <span className="text-muted-foreground">Parking Bays:</span>
+                  <span className="ml-1 font-semibold text-foreground">{home.parking} {home.parking > 1 ? 'bays' : 'bay'}</span>
                 </div>
               </div>
 
@@ -137,7 +142,10 @@ export default function AlreadyTaken() {
                 <div className="mb-4">
                   <div className="flex flex-wrap gap-2">
                     {home.features.map((feature, idx) => (
-                      <span key={idx} className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">
+                      <span
+                        key={idx}
+                        className="rounded bg-muted px-2 py-1 text-xs text-muted-foreground"
+                      >
                         {feature}
                       </span>
                     ))}
@@ -145,10 +153,10 @@ export default function AlreadyTaken() {
                 </div>
               )}
 
-              <Button variant="outline" className="w-full">
+              <Button variant="outline" className={cn('min-h-10 w-full')}>
                 Call for Available Homes
               </Button>
-              <Button variant="ghost" className="w-full mt-2">
+              <Button variant="ghost" className="mt-2 min-h-10 w-full">
                 View Details
               </Button>
             </div>

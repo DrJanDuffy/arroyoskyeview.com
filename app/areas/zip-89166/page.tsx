@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function Zip89166Page() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="zip"
         url="/areas/zip-89166"

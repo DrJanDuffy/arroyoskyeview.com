@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import { cn } from '@/lib/utils'
 
 export default function HomebuyerResources() {
   const resources = [
@@ -44,14 +46,19 @@ export default function HomebuyerResources() {
     },
   ]
 
+  const linkClass = cn(
+    'text-sm font-medium text-primary transition-colors hover:text-primary/90',
+    'focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',
+  )
+
   return (
     <div>
-      <h2 className="text-3xl font-bold text-gray-900 mb-8">Homebuyer Resources</h2>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground">Homebuyer Resources</h2>
+
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {resources.map((resource) => (
-          <div key={resource.id} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
-            <div className="h-48 bg-gray-200 relative overflow-hidden">
+          <div key={resource.id} className="surface-elevated overflow-hidden transition hover:shadow-md">
+            <div className="relative h-48 overflow-hidden bg-muted">
               {resource.image ? (
                 <Image
                   src={resource.image}
@@ -65,62 +72,69 @@ export default function HomebuyerResources() {
                   }}
                 />
               ) : (
-                <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                  <svg className="w-16 h-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                <div className="absolute inset-0 flex items-center justify-center text-muted-foreground" aria-hidden>
+                  <svg className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    />
                   </svg>
                 </div>
               )}
               <div className="absolute top-2 right-2 z-10">
-                <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded">
+                <span className="rounded bg-primary px-2 py-1 text-xs font-medium text-primary-foreground">
                   {resource.category}
                 </span>
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">{resource.title}</h3>
-              <p className="text-gray-600 mb-4 line-clamp-3">{resource.description}</p>
-              <a
-                href={resource.url || '#'}
-                className="inline-block text-blue-600 hover:text-blue-700 font-medium text-sm"
-              >
+              <h3 className="mb-2 text-xl font-bold text-foreground">{resource.title}</h3>
+              <p className="mb-4 line-clamp-3 text-muted-foreground">{resource.description}</p>
+              <Link href={resource.url || '#'} className={linkClass}>
                 Read More →
-              </a>
+              </Link>
             </div>
           </div>
         ))}
       </div>
 
-      <div className="mt-8 bg-gray-50 rounded-lg p-6">
-        <h3 className="text-xl font-bold text-gray-900 mb-4">Additional Resources</h3>
+      <div className="mt-8 rounded-xl border border-border bg-muted/50 p-6">
+        <h3 className="mb-4 text-xl font-bold text-foreground">Additional Resources</h3>
         <ul className="space-y-3">
           <li>
-            <a href="/homebuying-process" className="text-blue-600 hover:text-blue-700 font-medium">
+            <Link href="/homebuying-process" className={linkClass}>
               Homebuying Process
-            </a>
-            <p className="text-sm text-gray-600 mt-1">Learn about Dr. Jan Duffy's step-by-step process for buying your new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities</p>
+            </Link>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Learn about Dr. Jan Duffy&apos;s step-by-step process for buying your new construction home at Arroyo at Skyeview Homes or other Skye Canyon communities
+            </p>
           </li>
           <li>
-            <a href="/faq" className="text-blue-600 hover:text-blue-700 font-medium">
+            <Link href="/faq" className={linkClass}>
               Frequently Asked Questions
-            </a>
-            <p className="text-sm text-gray-600 mt-1">Get answers to common questions about buying new construction homes</p>
+            </Link>
+            <p className="mt-1 text-sm text-muted-foreground">Get answers to common questions about buying new construction homes</p>
           </li>
           <li>
-            <a href="/faq/las-vegas-hyperlocal" className="text-blue-600 hover:text-blue-700 font-medium">
+            <Link href="/faq/las-vegas-hyperlocal" className={linkClass}>
               Las Vegas Neighborhood Q&A
-            </a>
-            <p className="text-sm text-gray-600 mt-1">Comprehensive questions and answers about Las Vegas neighborhoods, schools, and lifestyle</p>
+            </Link>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Comprehensive questions and answers about Las Vegas neighborhoods, schools, and lifestyle
+            </p>
           </li>
           <li>
-            <a href="/online-homebuying" className="text-blue-600 hover:text-blue-700 font-medium">
+            <Link href="/online-homebuying" className={linkClass}>
               Online Homebuying
-            </a>
-            <p className="text-sm text-gray-600 mt-1">Purchase your new construction home at Arroyo at Skyeview Homes entirely online with expert buyer representation from Dr. Jan Duffy</p>
+            </Link>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Purchase your new construction home at Arroyo at Skyeview Homes entirely online with expert buyer representation from Dr. Jan Duffy
+            </p>
           </li>
         </ul>
       </div>
     </div>
   )
 }
-

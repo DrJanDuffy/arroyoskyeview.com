@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 
 export default function BuildingStandardsInspectionPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="buyer-guide"
         url="/services/building-standards-inspection"

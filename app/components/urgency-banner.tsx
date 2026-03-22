@@ -17,19 +17,20 @@ export default function UrgencyBanner() {
   if (!isVisible) return null
 
   return (
-    <div className="bg-gradient-to-r from-orange-500 to-red-600 text-white py-3 px-4 relative">
-      <div className="max-w-7xl mx-auto flex items-center justify-center space-x-4">
+    <div className="relative bg-linear-to-r from-orange-500 to-red-600 px-4 py-3 text-white">
+      <div className="mx-auto flex max-w-7xl items-center justify-center space-x-4">
         <div className="flex items-center space-x-2">
-          <svg className="w-5 h-5 animate-pulse" fill="currentColor" viewBox="0 0 20 20">
+          <svg className="h-5 w-5 motion-safe:animate-pulse" fill="currentColor" viewBox="0 0 20 20" aria-hidden>
             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
           </svg>
-          <span className="font-semibold text-sm md:text-base">
+          <span className="text-sm font-semibold md:text-base">
             Limited Inventory Available • Call Now: (702) 903-4687
           </span>
         </div>
         <button
+          type="button"
           onClick={() => setIsVisible(false)}
-          className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-200 transition"
+          className="absolute top-1/2 right-4 -translate-y-1/2 rounded-md p-1.5 text-white transition hover:text-white/85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
           aria-label="Close banner"
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

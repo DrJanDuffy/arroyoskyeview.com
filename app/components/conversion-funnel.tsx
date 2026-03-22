@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 import Link from 'next/link'
 import { trackCTAClick } from './analytics-tracker'
 
@@ -81,38 +80,37 @@ export default function ConversionFunnel() {
   ]
 
   return (
-    <section className="bg-gradient-to-b from-gray-50 to-white py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Your Buyer's Agent Journey to Arroyo at Skyeview Homes
+    <section className="bg-linear-to-b from-muted/50 to-background py-16 sm:py-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-12 text-center">
+          <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+            Your Buyer&apos;s Agent Journey to Arroyo at Skyeview Homes
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="mx-auto max-w-2xl text-pretty text-lg text-muted-foreground">
             Simple 5-step process with expert buyer representation from Dr. Jan Duffy—at no extra cost to you
           </p>
         </div>
 
         <div className="relative">
-          {/* Connection Line */}
-          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-0.5 bg-blue-200 transform -translate-y-1/2 z-0" />
-          
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 relative z-10">
-            {steps.map((step, index) => (
+          <div className="absolute left-0 right-0 top-1/2 z-0 hidden h-0.5 -translate-y-1/2 bg-border md:block" />
+
+          <div className="relative z-10 grid grid-cols-1 gap-8 md:grid-cols-5">
+            {steps.map((step) => (
               <div key={step.id} className="text-center">
-                <div className="bg-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 shadow-lg border-4 border-blue-600 text-blue-600">
+                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full border-4 border-primary bg-card text-primary shadow-lg">
                   {step.icon}
                 </div>
-                <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
-                  <div className="text-blue-600 font-bold text-sm mb-2">Step {step.id}</div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">{step.title}</h3>
-                  <p className="text-sm text-gray-600 mb-4">{step.description}</p>
+                <div className="surface-elevated rounded-xl p-6 transition-shadow hover:shadow-md">
+                  <div className="mb-2 text-sm font-bold text-primary">Step {step.id}</div>
+                  <h3 className="mb-2 text-lg font-bold text-foreground">{step.title}</h3>
+                  <p className="mb-4 text-sm text-muted-foreground">{step.description}</p>
                   {step.cta && (
                     <>
                       {step.cta.type === 'phone' ? (
                         <a
                           href={step.cta.href}
                           onClick={() => trackCTAClick(step.cta!.text, `funnel_step_${step.id}`)}
-                          className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-blue-700 transition"
+                          className="inline-flex min-h-10 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                         >
                           {step.cta.text}
                         </a>
@@ -120,7 +118,7 @@ export default function ConversionFunnel() {
                         <Link
                           href={step.cta.href}
                           onClick={() => trackCTAClick(step.cta!.text, `funnel_step_${step.id}`)}
-                          className="inline-block bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-blue-700 transition"
+                          className="inline-flex min-h-10 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                         >
                           {step.cta.text}
                         </Link>
@@ -133,15 +131,15 @@ export default function ConversionFunnel() {
           </div>
         </div>
 
-        <div className="mt-12 bg-blue-50 border-2 border-blue-200 rounded-lg p-6 text-center">
-          <p className="text-gray-700 mb-4">
-            <strong className="text-gray-900">Remember:</strong> Dr. Jan Duffy represents HOME BUYERS, not the builder. 
-            Builders pay for buyer representation, so there's no extra cost to you.
+        <div className="surface-elevated mt-12 rounded-xl border-2 border-primary/20 bg-accent/30 p-6 text-center">
+          <p className="mb-4 text-muted-foreground">
+            <strong className="text-foreground">Remember:</strong> Dr. Jan Duffy represents HOME BUYERS, not the builder.
+            Builders pay for buyer representation, so there&apos;s no extra cost to you.
           </p>
           <a
             href="tel:7029034687"
             onClick={() => trackCTAClick('Call Now - Funnel', 'funnel_bottom')}
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-700 transition shadow-lg"
+            className="inline-flex min-h-11 items-center justify-center rounded-lg bg-primary px-8 py-3 text-lg font-semibold text-primary-foreground shadow-lg transition hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           >
             Start Your Journey: Call (702) 903-4687
           </a>

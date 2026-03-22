@@ -49,7 +49,7 @@ export default function GoogleMapEmbed({
             href={mapUrl} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-700 text-sm font-medium"
+            className="text-sm font-medium text-primary transition-colors hover:text-primary/90 focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
             Open in Google Maps →
           </a>

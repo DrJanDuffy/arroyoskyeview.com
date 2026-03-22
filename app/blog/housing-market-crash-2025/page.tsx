@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 
 export default function HousingMarketCrashPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="blog"
         url="/blog/housing-market-crash-2025"

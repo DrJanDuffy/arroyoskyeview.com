@@ -45,7 +45,7 @@ export const metadata: Metadata = {
 
 export default function LasVegasMetroPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="neighborhood"
         url="/find-your-new-home/nevada/las-vegas-metro"

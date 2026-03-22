@@ -106,10 +106,7 @@ export default function RenameChatDialog({
 
         <div className="space-y-4">
           <div>
-            <label
-              htmlFor="chat-name"
-              className="block text-sm font-medium text-gray-700 mb-2"
-            >
+            <label htmlFor="chat-name" className="mb-2 block text-sm font-medium text-foreground">
               Chat Name
             </label>
             <input
@@ -119,7 +116,7 @@ export default function RenameChatDialog({
               onChange={(e) => setName(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder="Enter chat name..."
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full rounded-md border border-input bg-background px-3 py-2 text-foreground shadow-xs focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
               disabled={isSubmitting}
               autoFocus
             />

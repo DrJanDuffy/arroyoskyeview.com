@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { trackPhoneClick, trackCTAClick } from './analytics-tracker'
+import { cn } from '@/lib/utils'
 
 interface CTAOption {
   text: string
@@ -109,11 +110,13 @@ export default function CTARotator({
       <a
         href={currentCTA.type === 'call' ? telLink : smsLink}
         onClick={handleClick}
-        className={`inline-block px-8 py-4 rounded-lg text-lg font-semibold text-center transition-all duration-300 ${
+        className={cn(
+          'inline-block min-h-[52px] rounded-lg px-8 py-4 text-center text-lg font-semibold transition-all duration-300',
+          'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
           isPrimary
-            ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl transform hover:scale-105'
-            : 'bg-gray-100 text-gray-900 hover:bg-gray-200 border-2 border-gray-300'
-        }`}
+            ? 'bg-primary text-primary-foreground shadow-lg hover:bg-primary/90 hover:shadow-xl motion-safe:hover:scale-[1.02]'
+            : 'border-2 border-border bg-muted text-foreground hover:bg-muted/80',
+        )}
       >
         {currentCTA.text} - {currentCTA.type === 'call' ? 'Call' : 'Text'} Dr. Jan {phoneNumber}
       </a>

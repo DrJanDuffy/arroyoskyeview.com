@@ -165,7 +165,7 @@ export default function LasVegasHyperlocalFAQPage() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="faq"
         url="/faq/las-vegas-hyperlocal"

@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 
 export default function SingleFamilyHomesPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="property-type"
         url="/homes/single-family-las-vegas"

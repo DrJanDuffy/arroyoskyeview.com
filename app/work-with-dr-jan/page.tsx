@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 
 export default function WorkWithDrJanPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="about"
         url="/work-with-dr-jan"

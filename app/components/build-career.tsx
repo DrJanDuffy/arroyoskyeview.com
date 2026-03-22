@@ -1,14 +1,15 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 export default function BuildCareer() {
   return (
-    <section className="py-16 bg-blue-600 text-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+    <section className="bg-linear-to-r from-primary to-primary/88 py-16 text-primary-foreground">
+      <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+        <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">
           Build Your New Construction Home with Expert Buyer Representation
         </h2>
-        <p className="text-xl text-blue-100 mb-8">
+        <p className="mb-8 text-xl text-primary-foreground/90">
           Dr. Jan Duffy provides expert buyer representation for new construction homes in Las Vegas, 
           including Arroyo at Skyeview Homes in Skye Canyon. With construction monitoring every 7-10 days, 
           building standards inspections, and insider knowledge of builder incentives, she ensures you 
@@ -16,8 +17,11 @@ export default function BuildCareer() {
         </p>
         <Button
           asChild
-          className="bg-white text-blue-600 hover:bg-gray-100 mt-8"
           size="lg"
+          className={cn(
+            'mt-8 min-h-11 font-semibold shadow-sm',
+            'bg-background text-primary hover:bg-background/90',
+          )}
         >
           <Link href="/work-with-dr-jan">Learn More About Buyer Representation →</Link>
         </Button>

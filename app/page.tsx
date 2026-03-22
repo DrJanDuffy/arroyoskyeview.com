@@ -40,7 +40,7 @@ export default function HomePage() {
   const [showDrJanContent, setShowDrJanContent] = useState(true)
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="homepage"
         url="/"
@@ -85,11 +85,12 @@ export default function HomePage() {
             <DrJanTestimonials />
             <BestOpportunities />
             <DrJanFAQ />
-            <div className="py-8 bg-gray-50">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="bg-muted/50 py-8">
+              <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
                 <button
+                  type="button"
                   onClick={() => setShowDrJanContent(false)}
-                  className="text-blue-600 hover:text-blue-700 font-medium underline"
+                  className="min-h-11 rounded-lg font-medium text-primary underline decoration-primary/40 underline-offset-4 transition hover:text-primary/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                 >
                   View Community Details →
                 </button>

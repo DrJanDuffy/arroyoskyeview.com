@@ -2,99 +2,79 @@
 
 import { useState } from 'react'
 import { RefreshCw, ExternalLink, Key } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 export default function ApiKeyError() {
   const [isRetrying, setIsRetrying] = useState(false)
 
   const handleRetry = async () => {
     setIsRetrying(true)
-    // Wait a bit to allow user to set the API key
     setTimeout(() => {
       window.location.reload()
     }, 1000)
   }
 
   return (
-    <div className="min-h-dvh bg-gray-50 flex items-center justify-center p-4">
-      <div className="max-w-md w-full bg-white rounded-2xl shadow-xl border border-gray-200 p-8 text-center">
-        {/* Icon */}
-        <div className="mx-auto w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
-          <Key className="w-8 h-8 text-red-600" />
+    <div className="flex min-h-dvh items-center justify-center bg-background p-4">
+      <div className="w-full max-w-md rounded-2xl border border-border bg-card p-8 text-center text-card-foreground shadow-xl">
+        <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-destructive/15">
+          <Key className="h-8 w-8 text-destructive" aria-hidden />
         </div>
 
-        {/* Title */}
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">
-          API Key Required
-        </h1>
+        <h1 className="mb-4 text-2xl font-bold text-foreground">API Key Required</h1>
 
-        {/* Description */}
-        <p className="text-gray-600 mb-6 leading-relaxed">
-          To use this app, you need to configure your v0 API key. You can get
-          one from v0.dev and set it as an environment variable.
+        <p className="mb-6 leading-relaxed text-muted-foreground">
+          To use this app, you need to configure your v0 API key. You can get one from v0.dev and set it as an environment variable.
         </p>
 
-        {/* Instructions */}
-        <div className="bg-gray-50 rounded-lg p-4 mb-6 text-left">
-          <h3 className="font-semibold text-gray-900 mb-2">
-            Setup Instructions:
-          </h3>
-          <ol className="text-sm text-gray-700 space-y-1">
+        <div className="mb-6 rounded-lg border border-border bg-muted/50 p-4 text-left">
+          <h3 className="mb-2 font-semibold text-foreground">Setup Instructions:</h3>
+          <ol className="space-y-1 text-sm text-muted-foreground">
             <li>
               1. Get your API key from{' '}
-              <span className="font-mono bg-gray-200 px-1 rounded">
-                v0.dev/settings
-              </span>
+              <span className="rounded bg-muted px-1 font-mono text-foreground">v0.dev/settings</span>
             </li>
             <li>
-              2. Create a{' '}
-              <span className="font-mono bg-gray-200 px-1 rounded">
-                .env.local
-              </span>{' '}
-              file
+              2. Create a <span className="rounded bg-muted px-1 font-mono text-foreground">.env.local</span> file
             </li>
             <li>
               3. Add:{' '}
-              <span className="font-mono bg-gray-200 px-1 rounded">
-                V0_API_KEY=your_key_here
-              </span>
+              <span className="rounded bg-muted px-1 font-mono text-foreground">V0_API_KEY=your_key_here</span>
             </li>
             <li>4. Restart the development server</li>
           </ol>
         </div>
 
-        {/* Actions */}
         <div className="space-y-3">
-          <button
+          <Button
+            type="button"
             onClick={handleRetry}
             disabled={isRetrying}
-            className="w-full bg-black text-white py-3 px-4 rounded-lg font-medium hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center gap-2"
+            className={cn('w-full gap-2', isRetrying && 'cursor-not-allowed')}
           >
             {isRetrying ? (
               <>
-                <RefreshCw className="w-4 h-4 animate-spin" />
+                <RefreshCw className="h-4 w-4 animate-spin" aria-hidden />
                 Refreshing...
               </>
             ) : (
               <>
-                <RefreshCw className="w-4 h-4" />
-                I've Added the API Key
+                <RefreshCw className="h-4 w-4" aria-hidden />
+                I&apos;ve Added the API Key
               </>
             )}
-          </button>
+          </Button>
 
-          <a
-            href="https://v0.dev/settings"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full bg-gray-100 text-gray-900 py-3 px-4 rounded-lg font-medium hover:bg-gray-200 transition-all duration-200 flex items-center justify-center gap-2"
-          >
-            <ExternalLink className="w-4 h-4" />
-            Get API Key from v0.dev
-          </a>
+          <Button type="button" variant="secondary" className="w-full gap-2" asChild>
+            <a href="https://v0.dev/settings" target="_blank" rel="noopener noreferrer">
+              <ExternalLink className="h-4 w-4" aria-hidden />
+              Get API Key from v0.dev
+            </a>
+          </Button>
         </div>
 
-        {/* Additional Help */}
-        <p className="text-xs text-gray-500 mt-6">
+        <p className="mt-6 text-xs text-muted-foreground">
           Need help? Check the README.md file for detailed setup instructions.
         </p>
       </div>

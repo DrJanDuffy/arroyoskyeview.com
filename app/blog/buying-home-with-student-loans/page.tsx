@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 
 export default function BuyingHomeWithStudentLoansPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="blog"
         url="/blog/buying-home-with-student-loans"

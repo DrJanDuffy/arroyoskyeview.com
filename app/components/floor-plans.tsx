@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 interface FloorPlan {
   id: string
@@ -96,13 +97,14 @@ export default function FloorPlans() {
   return (
     <div>
       <div className="mb-6">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">Floor Plans</h2>
+        <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground">Floor Plans</h2>
         <div className="flex flex-wrap items-center gap-4">
-          <span className="text-sm font-medium text-gray-700">Sort By:</span>
+          <span className="text-sm font-medium text-muted-foreground">Sort By:</span>
           <select
+            aria-label="Sort floor plans"
             value={sortBy}
             onChange={(e) => handleSort(e.target.value as SortOption)}
-            className="border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="rounded-md border border-input bg-background px-4 py-2 text-sm text-foreground shadow-xs focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
           >
             <option value="price-low">Price: Low to High</option>
             <option value="price-high">Price: High to Low</option>
@@ -112,14 +114,17 @@ export default function FloorPlans() {
         </div>
       </div>
 
-      <p className="text-gray-600 mb-6">
+      <p className="mb-6 text-muted-foreground">
         Check out quality layouts that may be available for purchase at this community today!
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {sortedPlans.map((plan) => (
-          <div key={plan.id} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
-            <div className="h-64 bg-gray-200 relative overflow-hidden">
+          <div
+            key={plan.id}
+            className="surface-elevated overflow-hidden transition hover:shadow-md"
+          >
+            <div className="relative h-64 overflow-hidden bg-muted">
               {plan.image ? (
                 <Image
                   src={plan.image}
@@ -133,7 +138,7 @@ export default function FloorPlans() {
                   }}
                 />
               ) : (
-                <div className="absolute inset-0 flex items-center justify-center text-gray-400">
+                <div className="absolute inset-0 flex items-center justify-center text-muted-foreground" aria-hidden>
                   <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
                   </svg>
@@ -145,38 +150,36 @@ export default function FloorPlans() {
             </div>
             <div className="p-6">
               <div className="mb-4">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
-                <p className="text-sm text-gray-600 mb-2">{plan.description}</p>
-                <p className="text-2xl font-bold text-blue-600 mb-1">From {formatPrice(plan.price)}</p>
-                <p className="text-sm text-gray-600">Contact for monthly payment estimate</p>
+                <h3 className="mb-2 text-2xl font-bold text-foreground">{plan.name}</h3>
+                <p className="mb-2 text-sm text-muted-foreground">{plan.description}</p>
+                <p className="mb-1 text-2xl font-bold text-primary">From {formatPrice(plan.price)}</p>
+                <p className="text-sm text-muted-foreground">Contact for monthly payment estimate</p>
               </div>
 
-              <div className="grid grid-cols-2 gap-2 mb-4 text-sm border-t border-gray-200 pt-4">
+              <div className="mb-4 grid grid-cols-2 gap-2 border-t border-border pt-4 text-sm">
                 <div>
-                  <span className="text-gray-600">Square Footage:</span>
-                  <span className="font-semibold ml-1">{plan.sqft} sq ft</span>
+                  <span className="text-muted-foreground">Square Footage:</span>
+                  <span className="ml-1 font-semibold text-foreground">{plan.sqft} sq ft</span>
                 </div>
                 <div>
-                  <span className="text-gray-600">Bedrooms:</span>
-                  <span className="font-semibold ml-1">{plan.bedrooms} br</span>
+                  <span className="text-muted-foreground">Bedrooms:</span>
+                  <span className="ml-1 font-semibold text-foreground">{plan.bedrooms} br</span>
                 </div>
                 <div>
-                  <span className="text-gray-600">Bathrooms:</span>
-                  <span className="font-semibold ml-1">{plan.bathrooms} ba</span>
+                  <span className="text-muted-foreground">Bathrooms:</span>
+                  <span className="ml-1 font-semibold text-foreground">{plan.bathrooms} ba</span>
                 </div>
                 <div>
-                  <span className="text-gray-600">Parking Bays:</span>
-                  <span className="font-semibold ml-1">{plan.parking} bay</span>
+                  <span className="text-muted-foreground">Parking Bays:</span>
+                  <span className="ml-1 font-semibold text-foreground">{plan.parking} bay</span>
                 </div>
               </div>
 
               <div className="flex gap-2">
-                <Button variant="outline" className="flex-1">
+                <Button variant="outline" className="min-h-10 flex-1">
                   Request Info
                 </Button>
-                <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
-                  View Details
-                </Button>
+                <Button className={cn('min-h-10 flex-1 font-semibold')}>View Details</Button>
               </div>
             </div>
           </div>

@@ -51,7 +51,7 @@ export const metadata: Metadata = {
 
 export default function AboutUsPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="about"
         url="/about-us"

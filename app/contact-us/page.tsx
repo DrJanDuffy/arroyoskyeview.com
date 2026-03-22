@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 
 export default function ContactUsPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <PageSchemas
         pageType="contact"
         url="/contact-us"

@@ -3,6 +3,7 @@
 import { useId } from 'react'
 import { buildRealScoutOfficeListingsMarkup } from '@/lib/realscout-markup'
 import type { RealScoutOfficeListingsOverrides } from '@/lib/realscout-markup'
+import { cn } from '@/lib/utils'
 
 type RealScoutOfficeWidgetProps = {
   /** Extra Tailwind classes for the outer section */
@@ -31,18 +32,21 @@ export default function RealScoutOfficeWidget({
 
   return (
     <section
-      className={`border-t border-gray-200 bg-gray-50 py-12 sm:py-16 ${className}`.trim()}
+      className={cn(
+        'border-t border-border bg-muted/40 py-12 sm:py-16',
+        className,
+      )}
       aria-labelledby={headingId}
       data-realscout-office-section
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2
           id={headingId}
-          className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl"
+          className="mb-2 text-center text-2xl font-bold tracking-tight text-foreground sm:text-3xl"
         >
           {heading}
         </h2>
-        <p className="mx-auto mb-8 max-w-3xl text-center text-sm text-gray-600 sm:text-base">
+        <p className="mx-auto mb-8 max-w-3xl text-center text-sm text-muted-foreground sm:text-base">
           {description}
         </p>
         <div
