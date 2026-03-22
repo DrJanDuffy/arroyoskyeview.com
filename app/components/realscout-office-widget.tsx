@@ -1,36 +1,33 @@
 'use client'
 
 import { useId } from 'react'
-import {
-  REALSCOUT_AGENT_ENCODED_ID,
-  REALSCOUT_OFFICE_LISTING_STATUS,
-  REALSCOUT_OFFICE_PRICE_MAX,
-  REALSCOUT_OFFICE_PRICE_MIN,
-  REALSCOUT_OFFICE_PROPERTY_TYPES,
-  REALSCOUT_OFFICE_SORT_ORDER,
-} from '@/lib/realscout-config'
+import { buildRealScoutOfficeListingsMarkup } from '@/lib/realscout-markup'
+import type { RealScoutOfficeListingsOverrides } from '@/lib/realscout-markup'
 
 type RealScoutOfficeWidgetProps = {
   /** Extra Tailwind classes for the outer section */
   className?: string
+  /** Override heading (default: Browse Las Vegas area listings) */
+  heading?: string
+  /** Override subtext */
+  description?: string
+  /** Override price band for this embed */
+  priceRange?: RealScoutOfficeListingsOverrides
 }
 
 /**
- * RealScout office listings (MLS) widget — custom element hydrated by em.realscout.com/dl.js.
- * Load realscout-web-components.umd.js (type=module) once in root layout.
- * Use dangerouslySetInnerHTML for the custom element markup per RealScout.
+ * RealScout office listings (MLS) — custom element hydrated by realscout-web-components.umd.js.
+ * Load script once in root layout. Use dangerouslySetInnerHTML per RealScout.
  */
-export default function RealScoutOfficeWidget({ className = '' }: RealScoutOfficeWidgetProps) {
+export default function RealScoutOfficeWidget({
+  className = '',
+  heading = 'Browse Las Vegas area listings',
+  description = 'Live MLS search powered by RealScout — Dr. Jan Duffy represents buyers, not the builder.',
+  priceRange,
+}: RealScoutOfficeWidgetProps) {
   const headingId = useId().replace(/:/g, '')
 
-  const markup = `<realscout-office-listings
-      agent-encoded-id="${REALSCOUT_AGENT_ENCODED_ID}"
-      sort-order="${REALSCOUT_OFFICE_SORT_ORDER}"
-      listing-status="${REALSCOUT_OFFICE_LISTING_STATUS}"
-      property-types="${REALSCOUT_OFFICE_PROPERTY_TYPES}"
-      price-min="${REALSCOUT_OFFICE_PRICE_MIN}"
-      price-max="${REALSCOUT_OFFICE_PRICE_MAX}"
-    ></realscout-office-listings>`
+  const markup = buildRealScoutOfficeListingsMarkup(priceRange)
 
   return (
     <section
@@ -43,10 +40,10 @@ export default function RealScoutOfficeWidget({ className = '' }: RealScoutOffic
           id={headingId}
           className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl"
         >
-          Browse Las Vegas area listings
+          {heading}
         </h2>
         <p className="mx-auto mb-8 max-w-3xl text-center text-sm text-gray-600 sm:text-base">
-          Live MLS search powered by RealScout — Dr. Jan Duffy represents buyers, not the builder.
+          {description}
         </p>
         <div
           className="realscout-office-widget min-h-[280px] w-full [&_realscout-office-listings]:min-h-[240px]"

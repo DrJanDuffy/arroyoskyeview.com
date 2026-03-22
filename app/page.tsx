@@ -9,7 +9,7 @@ import BuyerJourney from './components/buyer-journey'
 import DrJanTestimonials from './components/dr-jan-testimonials'
 import BestOpportunities from './components/best-opportunities'
 import DrJanFAQ from './components/dr-jan-faq'
-import HeroCarousel from './components/hero-carousel'
+import RealScoutOfficePriceBands from './components/realscout-office-price-bands'
 import AvailableHomes from './components/available-homes'
 import AlreadyTaken from './components/already-taken'
 import FloorPlans from './components/floor-plans'
@@ -98,7 +98,7 @@ export default function HomePage() {
           </>
         ) : (
           <>
-            <HeroCarousel />
+            <RealScoutOfficePriceBands />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Navigation Tabs */}
