@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
 import StructuredData from './components/structured-data'
 import PreconnectLinks from './components/preconnect-links'
+import RealScoutOfficeWidget from './components/realscout-office-widget'
 import './globals.css'
 
 const geistSans = Geist({
@@ -121,6 +122,8 @@ export default function RootLayout({
           storageKey="theme"
         >
           {children}
+          {/* Office MLS widget: single instance for every route (marketing, projects, not-found) */}
+          <RealScoutOfficeWidget />
         </ThemeProvider>
       </body>
     </html>
