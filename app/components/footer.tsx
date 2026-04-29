@@ -2,22 +2,27 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { REALSCOUT_PRICE_BANDS_ROUTE_PATHS } from '@/lib/realscout-config'
 import { trackPhoneClick } from './analytics-tracker'
 import RealScoutOfficeWidget from './realscout-office-widget'
 
 type FooterProps = {
-  /**
-   * When true, hide the footer MLS strip (e.g. homepage community tab already shows price bands).
-   */
+  /** Reserved for backwards compatibility. */
   suppressRealScout?: boolean
 }
 
+const FOOTER_REALSCOUT_FALLBACK_PATHS = new Set([
+  '/legal',
+  '/privacy-policy',
+  '/terms-of-use',
+  '/accessibility',
+])
+
 export default function Footer({ suppressRealScout = false }: FooterProps) {
   const pathname = usePathname()
-  const hideRealScoutFooter =
-    suppressRealScout ||
-    (pathname != null && REALSCOUT_PRICE_BANDS_ROUTE_PATHS.has(pathname))
+  const showFooterRealScout =
+    !suppressRealScout &&
+    pathname != null &&
+    FOOTER_REALSCOUT_FALLBACK_PATHS.has(pathname)
   const communities = [
     { name: 'Arroyo at Skyeview', href: '/', title: 'Arroyo at Skyeview New Construction Townhomes Las Vegas' },
     { name: 'Sierra at Skyeview', href: '/sierra-at-skyeview', title: 'Sierra at Skyeview Las Vegas New Homes' },
@@ -82,7 +87,7 @@ export default function Footer({ suppressRealScout = false }: FooterProps) {
 
   return (
     <>
-      {!hideRealScoutFooter && <RealScoutOfficeWidget />}
+      {showFooterRealScout && <RealScoutOfficeWidget className="py-10" />}
       <footer
         className="border-t border-zinc-800 bg-linear-to-b from-zinc-950 via-zinc-900 to-zinc-950 text-zinc-100"
         role="contentinfo"

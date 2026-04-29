@@ -37,7 +37,6 @@ import ExitIntentPopup from './components/exit-intent-popup'
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'homes' | 'plans' | 'map' | 'overview' | 'area' | 'resources'>('homes')
-  const [showDrJanContent, setShowDrJanContent] = useState(true)
 
   return (
     <div className="min-h-screen bg-background">
@@ -72,34 +71,18 @@ export default function HomePage() {
       <TrustBadges />
       <SocialProofBanner />
       <main>
-        {/* Always render SEO-critical content first for Google indexing */}
+        <DrJanHero />
+        <RealScoutOfficePriceBands intro="See live MLS listings below the hero to compare options quickly with Dr. Jan Duffy." />
+        <ConversionFunnel />
+        <WhyChooseDrJan />
+        <BuyerJourney />
+        <DrJanTestimonials />
+        <BestOpportunities />
+        <DrJanFAQ />
+
+        {/* SEO-rich supporting content stays on page but no longer blocks inventory discovery */}
         <HomepageContentSection />
         <HomepageFAQPreview />
-        
-        {showDrJanContent ? (
-          <>
-            <DrJanHero />
-            <ConversionFunnel />
-            <WhyChooseDrJan />
-            <BuyerJourney />
-            <DrJanTestimonials />
-            <BestOpportunities />
-            <DrJanFAQ />
-            <div className="bg-muted/50 py-8">
-              <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-                <button
-                  type="button"
-                  onClick={() => setShowDrJanContent(false)}
-                  className="min-h-11 rounded-lg font-medium text-primary underline decoration-primary/40 underline-offset-4 transition hover:text-primary/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                >
-                  View Community Details →
-                </button>
-              </div>
-            </div>
-          </>
-        ) : (
-          <>
-            <RealScoutOfficePriceBands />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Navigation Tabs */}
@@ -190,10 +173,8 @@ export default function HomePage() {
         <PeopleAlsoSearch />
         <HomeownerReviews />
         <RequestInfo />
-          </>
-        )}
       </main>
-      <Footer suppressRealScout={!showDrJanContent} />
+      <Footer suppressRealScout />
       <StickyPhoneCTA />
       <AnalyticsTracker />
       <ReviewSchema />
