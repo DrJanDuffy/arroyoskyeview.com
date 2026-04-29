@@ -231,3 +231,10 @@ realscout-office-listings {
   width: 100%;
   display: block;
 }
+
+/* Keep Calendly floating badge fixed in the lower-right corner */
+.calendly-badge-widget {
+  right: 20px !important;
+  left: auto !important;
+  bottom: 20px !important;
+}
