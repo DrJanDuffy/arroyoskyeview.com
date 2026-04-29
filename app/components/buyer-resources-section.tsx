@@ -67,7 +67,7 @@ export default function BuyerResourcesSection() {
             </p>
           </Link>
           <Link
-            href="/buyers/inspections-new-construction"
+            href="/services/construction-monitoring"
             className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-blue-300 group"
           >
             <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">

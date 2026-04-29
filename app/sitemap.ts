@@ -98,12 +98,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/online-homebuying`,
-      lastModified: now,
-      changeFrequency: 'daily',
-      priority: 1.0,
-    },
-    {
       url: `${baseUrl}/neighborhoods/summerlin-las-vegas`,
       lastModified: now,
       changeFrequency: 'weekly',
@@ -194,18 +188,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/faq/financing`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/faq/inspections`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
       url: `${baseUrl}/blog/housing-market-crash-2025`,
       lastModified: now,
       changeFrequency: 'daily',
@@ -290,19 +272,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/buyers/inspections-new-construction`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
       url: `${baseUrl}/services/construction-monitoring`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/buyers/closing-process-guide`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,

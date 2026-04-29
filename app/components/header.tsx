@@ -35,7 +35,7 @@ export default function Header() {
     { name: 'First-Time Homebuyer Guide', href: '/buyers/first-time-homebuyer' },
     { name: 'Builder Incentives Guide', href: '/buyers/builder-incentives-guide' },
     { name: 'Homebuying Process', href: '/homebuying-process' },
-    { name: 'Online Homebuying', href: '/online-homebuying' },
+    { name: 'Online Homebuying', href: '/homebuying-process' },
   ]
 
   const blogPosts = [

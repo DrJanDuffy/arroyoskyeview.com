@@ -64,7 +64,7 @@ export default function HowWeMakeItEasy() {
             <p className="text-sm text-muted-foreground">
               <strong className="text-foreground">Buy online:</strong> New construction homes at Arroyo at Skyeview Homes and other Skye Canyon communities offer online purchase options—allowing you to purchase your new home completely online with expert buyer representation from Dr. Jan Duffy.{' '}
               <Link
-                href="/online-homebuying"
+                href="/homebuying-process"
                 className={cn(
                   'font-medium text-primary underline underline-offset-2',
                   'hover:text-primary/90 focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',

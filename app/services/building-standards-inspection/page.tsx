@@ -277,7 +277,7 @@ export default function BuildingStandardsInspectionPage() {
                 </p>
               </Link>
               <Link
-                href="/buyers/inspections-new-construction"
+                href="/services/construction-monitoring"
                 className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-600 hover:shadow-lg transition"
               >
                 <h3 className="text-xl font-bold text-gray-900 mb-2">New Construction Inspections Guide</h3>

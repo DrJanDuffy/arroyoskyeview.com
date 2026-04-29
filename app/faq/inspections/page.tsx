@@ -143,7 +143,7 @@ export default function InspectionsFAQPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Related Resources</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <Link
-                    href="/buyers/inspections-new-construction"
+                    href="/services/building-standards-inspection"
                     className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-blue-600 hover:shadow-lg transition"
                   >
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Complete Inspections Guide</h3>

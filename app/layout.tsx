@@ -60,7 +60,12 @@ export const metadata: Metadata = {
     canonical: 'https://www.arroyoskyeview.com',
   },
   verification: {
-    google: 'G-6HBW87EGMR',
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    other: process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION
+      ? {
+          'msvalidate.01': process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION,
+        }
+      : undefined,
   },
   manifest: '/manifest.webmanifest',
 }

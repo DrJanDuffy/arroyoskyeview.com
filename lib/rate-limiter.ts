@@ -12,6 +12,7 @@ const isRateLimitingEnabled =
 
 // Create Redis instance and rate limiter only if credentials are available
 let generationRateLimit: Ratelimit | null = null
+let indexingRateLimit: Ratelimit | null = null
 let redis: Redis | null = null
 
 if (isRateLimitingEnabled) {
@@ -26,6 +27,14 @@ if (isRateLimitingEnabled) {
     limiter: Ratelimit.slidingWindow(3, '43200 s'), // 3 requests per 12 hours
     analytics: true,
     prefix: 'v0_generation_limit',
+  })
+
+  // Indexing endpoint limiter: 20 requests per hour
+  indexingRateLimit = new Ratelimit({
+    redis,
+    limiter: Ratelimit.slidingWindow(20, '3600 s'),
+    analytics: true,
+    prefix: 'indexing_submit_limit',
   })
 }
 
@@ -114,6 +123,42 @@ export async function checkRateLimit(identifier: string) {
       reset: Date.now() + 43200000, // 12 hours from now
       remaining: 3,
       resetTime: new Date(Date.now() + 43200000),
+    }
+  }
+}
+
+export async function checkIndexingRateLimit(identifier: string) {
+  // If rate limiting is not enabled, always allow the request
+  if (!isRateLimitingEnabled || !indexingRateLimit) {
+    return {
+      success: true,
+      limit: 20,
+      reset: Date.now() + 3600000, // 1 hour from now
+      remaining: 20,
+      resetTime: new Date(Date.now() + 3600000),
+    }
+  }
+
+  try {
+    const { success, limit, reset, remaining } =
+      await indexingRateLimit.limit(identifier)
+
+    return {
+      success,
+      limit,
+      reset,
+      remaining,
+      resetTime: new Date(reset),
+    }
+  } catch (error) {
+    console.error('Indexing rate limit check failed:', error)
+    // On error, allow the request (fail open)
+    return {
+      success: true,
+      limit: 20,
+      reset: Date.now() + 3600000, // 1 hour from now
+      remaining: 20,
+      resetTime: new Date(Date.now() + 3600000),
     }
   }
 }

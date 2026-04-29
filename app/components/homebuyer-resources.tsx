@@ -126,7 +126,7 @@ export default function HomebuyerResources() {
             </p>
           </li>
           <li>
-            <Link href="/online-homebuying" className={linkClass}>
+            <Link href="/homebuying-process" className={linkClass}>
               Online Homebuying
             </Link>
             <p className="mt-1 text-sm text-muted-foreground">
